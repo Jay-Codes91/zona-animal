@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-declare var $:any;
+declare var $: any;
 declare var alertify: any;
 
 @Component({
@@ -10,12 +10,21 @@ declare var alertify: any;
 export class AppComponent implements OnInit {
   title = 'Proyecto';
   center = "text-center";
-  ngOnInit(){
-    /*$("h1").text("Titulo");
-    alertify.defaults.theme.ok = "btn btn-primary";
-    alertify.defaults.theme.cancel = "btn btn-danger";
-    alertify.defaults.theme.input = "form-control";*/
-  }
+  ngOnInit() {
 
+    $("#menuAnimales").hide();
+
+    $("#navegacion > li:nth-child(2)").hover(function () {
+
+      $("#menuAnimales").show();
+    }, function () {
+      $("#menuAnimales").hide();
+    }
+
+    );//Hover
   
+  
+  }//ngOnInit
+
+
 }

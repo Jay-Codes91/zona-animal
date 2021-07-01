@@ -1,14 +1,73 @@
-* {
-  padding: 0;
+#contPrincipal {
   margin: 0;
+  padding: 0;
 }
 
-#contPrincipal {
-  background-image: url("assets/Fondo/FondoPrincipal.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+#contPrincipal #encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
-  height: 100%;
+  background-color: #afa16e;
+}
+
+#contPrincipal #encabezado #encabezado-logo {
+  font-family: "Lobster", arial;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 10px;
+  height: auto;
+  border: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contPrincipal #encabezado #encabezado-logo h1 {
+  font-size: 70px;
+  color: #476e25;
+  text-shadow: 3px 7px 3px #585957;
+}
+
+#contPrincipal #encabezado #encabezado-logo h4 {
+  font-size: 40px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  color: #adf270;
+  text-shadow: 3px 7px 3px #585957;
+}
+
+#contPrincipal #encabezado #navegacion {
+  border: 1px solid #000000;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#contPrincipal #encabezado #navegacion li:nth-child(2) #menuAnimales {
+  position: absolute;
+  border: 1px solid #000000;
+  margin-left: 35px;
+  background-color: #afa16e;
+}
+
+#contPrincipal #encabezado #navegacion li:nth-child(2) #menuAnimales a {
+  color: #000000;
+}
+
+#contPrincipal #encabezado #navegacion li:nth-child(2) #menuAnimales a:hover {
+  color: #ffebcd;
+}
+
+#contPrincipal #encabezado #navegacion a {
+  color: #000000;
+}
+
+#contPrincipal #encabezado #navegacion a:hover {
+  color: #ffebcd;
 }
 /*# sourceMappingURL=app.component.css.map */

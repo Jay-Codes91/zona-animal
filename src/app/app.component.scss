@@ -1,3 +1,67 @@
+$fuenteLobster: 'Lobster', arial;
+$sombraLogo: 3px 7px 3px #585957;
+$colorAlmendra: #ffebcd;
+$coloNegro: #000000;
 
+#contPrincipal{
+    margin: 0;
+    padding: 0;
+
+    #encabezado{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #afa16e;
+
+        #encabezado-logo{
+           font-family: $fuenteLobster;
+           max-width: max-content;
+           padding: 10px;
+           height: auto;
+           border: 2px solid $coloNegro;
+           display: flex;
+           
+
+           h1{
+               font-size: 70px;
+               color: #476e25;
+               text-shadow: $sombraLogo;
+           }
+
+           h4{
+               font-size: 40px;
+               align-self: flex-end;
+               color: #adf270;
+               text-shadow: $sombraLogo;
+           }
+        }
+
+        #navegacion{
+            border: 1px solid $coloNegro;
+            align-self: center;
+            li:nth-child(2){
+              #menuAnimales{
+                  position: absolute;
+                  border: 1px solid $coloNegro;
+                  margin-left: 35px;
+                  background-color: #afa16e;
+                  a{
+                      color: $coloNegro;
+                      &:hover{
+                          color: $colorAlmendra;
+                      }
+                  }
+              }
+            }
+
+            a{
+                color: $coloNegro;
+                &:hover{
+                    color: $colorAlmendra;
+                }
+            }
+        }
+    }
+}
 
 
