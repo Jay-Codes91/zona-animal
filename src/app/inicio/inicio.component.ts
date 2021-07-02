@@ -9,8 +9,11 @@ import { DatosAnimalesService } from '../datos-animales.service';
 export class InicioComponent implements OnInit {
 
   mensaje: string = "";
+  mamiferos: any[] = [];
+
   constructor(private servicio: DatosAnimalesService) { 
     this.mensaje = servicio.prueba;
+    this.mamiferos = servicio.listaMamiferos();
   }
 
   ngOnInit(): void {

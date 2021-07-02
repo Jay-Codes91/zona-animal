@@ -1,3 +1,8 @@
 <h1>Componente Inicio</h1>
 <br><br>
 <h3>Mensaje: {{mensaje}}</h3>
+<br>
+<ul class="list-group w-25" *ngFor="let mam of mamiferos">
+    <li class="list-group-item">ID: {{mam.id}} Nombre: {{mam.nombre}}</li>
+    <!--<img src="{{mam.IMG}}" alt="perro" width="200" height="200">-->
+  </ul> 
