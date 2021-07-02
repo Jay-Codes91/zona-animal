@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 const rutas: Routes = [
   
@@ -12,7 +13,8 @@ const rutas: Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule, 

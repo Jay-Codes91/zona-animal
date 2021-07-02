@@ -140,4 +140,14 @@
 #contPrincipal #navOculto #navegacion-2 a {
   margin-left: 20px;
 }
+
+#contPrincipal #Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
 /*# sourceMappingURL=app.component.css.map */
