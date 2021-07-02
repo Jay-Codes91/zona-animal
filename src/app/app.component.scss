@@ -3,6 +3,29 @@ $sombraLogo: 3px 7px 3px #585957;
 $colorAlmendra: #ffebcd;
 $coloNegro: #000000;
 
+
+@mixin cajaLogo {
+  font-family: $fuenteLobster;
+  max-width: max-content;
+  padding: 10px;
+  height: auto;
+  //border: 2px solid $coloNegro;
+  display: flex;
+}
+
+@mixin cajaLogo-h1 {
+  font-size: 70px;
+  color: #476e25;
+  text-shadow: $sombraLogo;
+}
+
+@mixin cajaLogo-h4 {
+    font-size: 40px;
+    align-self: flex-end;
+    color: #adf270;
+    text-shadow: $sombraLogo;
+}
+
 #contPrincipal{
     margin: 0;
     padding: 0;
@@ -14,30 +37,20 @@ $coloNegro: #000000;
         background-color: #afa16e;
 
         #encabezado-logo{
-           font-family: $fuenteLobster;
-           max-width: max-content;
-           padding: 10px;
-           height: auto;
-           border: 2px solid $coloNegro;
-           display: flex;
            
+           @include cajaLogo();
 
            h1{
-               font-size: 70px;
-               color: #476e25;
-               text-shadow: $sombraLogo;
+               @include cajaLogo-h1();
            }
 
            h4{
-               font-size: 40px;
-               align-self: flex-end;
-               color: #adf270;
-               text-shadow: $sombraLogo;
+               @include cajaLogo-h4();
            }
         }
 
         #navegacion{
-            border: 1px solid $coloNegro;
+            //border: 1px solid $coloNegro;
             align-self: center;
             li:nth-child(2){
               #menuAnimales{
@@ -60,6 +73,61 @@ $coloNegro: #000000;
                     color: $colorAlmendra;
                 }
             }
+        }
+
+        #btnMenu{
+            height: min-content;
+            padding: 5px;
+            align-self: center;
+            margin-right: 20px;
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            i{
+                font-size: 30px;
+                &:hover{
+                    color: #0000ff;
+                }
+            }
+        }
+    }
+
+    #navOculto{ 
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -8px;
+        #header2{
+            
+            #encabezado-logo-2{
+                @include cajaLogo();
+                h1{
+                    @include cajaLogo-h1();
+                }
+
+                h4{
+                    @include cajaLogo-h4();
+                }
+            }
+
+            .cerrar2{
+                margin-right: 20px;
+            }
+        }
+
+        #navegacion-2{
+
+            li{
+                border-bottom: 1px solid $coloNegro;
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+            }
+
+            a{
+                margin-left: 20px;
+            }
+
         }
     }
 }

@@ -21,7 +21,6 @@
   max-width: max-content;
   padding: 10px;
   height: auto;
-  border: 2px solid #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +41,6 @@
 }
 
 #contPrincipal #encabezado #navegacion {
-  border: 1px solid #000000;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -69,5 +67,77 @@
 
 #contPrincipal #encabezado #navegacion a:hover {
   color: #ffebcd;
+}
+
+#contPrincipal #encabezado #btnMenu {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 20px;
+}
+
+#contPrincipal #encabezado #btnMenu:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contPrincipal #encabezado #btnMenu i {
+  font-size: 30px;
+}
+
+#contPrincipal #encabezado #btnMenu i:hover {
+  color: #0000ff;
+}
+
+#contPrincipal #navOculto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -8px;
+}
+
+#contPrincipal #navOculto #header2 #encabezado-logo-2 {
+  font-family: "Lobster", arial;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 10px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contPrincipal #navOculto #header2 #encabezado-logo-2 h1 {
+  font-size: 70px;
+  color: #476e25;
+  text-shadow: 3px 7px 3px #585957;
+}
+
+#contPrincipal #navOculto #header2 #encabezado-logo-2 h4 {
+  font-size: 40px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  color: #adf270;
+  text-shadow: 3px 7px 3px #585957;
+}
+
+#contPrincipal #navOculto #header2 .cerrar2 {
+  margin-right: 20px;
+}
+
+#contPrincipal #navOculto #navegacion-2 li {
+  border-bottom: 1px solid #000000;
+}
+
+#contPrincipal #navOculto #navegacion-2 li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#contPrincipal #navOculto #navegacion-2 a {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=app.component.css.map */

@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
 
     $("#menuAnimales").hide();
+    $("#menuAnimales2").hide();
 
     $("#navegacion > li:nth-child(2)").hover(function () {
 
@@ -22,7 +23,33 @@ export class AppComponent implements OnInit {
     }
 
     );//Hover
+
+    $("#navegacion-2 > li:nth-child(2)").hover(function () {
+
+      $("#menuAnimales2").show();
+    }, function () {
+      $("#menuAnimales2").hide();
+    }
+
+    );//Hover
+
+    $("#navOculto").css("left", "-100%");
+
+    $("#encabezado > #btnMenu").click(function () {
+      $("#navOculto").animate({
+          left: "0"
+      })
+
+      $("#navOculto > #header2 > .cerrar2").click(function () {
+        $("#navOculto").animate({
+            left: "-100%"
+        })
+    
+    });
   
+  });
+  
+
   
   }//ngOnInit
 
