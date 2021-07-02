@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 //importado
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { DatosAnimalesService } from './datos-animales.service';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
@@ -43,7 +44,7 @@ const rutas: Routes = [
     HttpClientModule,
     RouterModule.forRoot(rutas)
   ],
-  providers: [],
+  providers: [DatosAnimalesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

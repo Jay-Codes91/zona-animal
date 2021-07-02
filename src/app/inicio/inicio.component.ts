@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatosAnimalesService } from '../datos-animales.service';
 
 @Component({
   selector: 'app-inicio',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioComponent implements OnInit {
 
-  constructor() { }
+  mensaje: string = "";
+  constructor(private servicio: DatosAnimalesService) { 
+    this.mensaje = servicio.prueba;
+  }
 
   ngOnInit(): void {
   }
