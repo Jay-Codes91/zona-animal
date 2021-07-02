@@ -1,5 +1,5 @@
 <div id="contPrincipal">
-  <header id="encabezado" class="fixed-top">
+  <header id="encabezado" class="">
       <div id="encabezado-logo">
           <h1>Zona</h1>
           <h4>Animal</h4>
@@ -7,19 +7,19 @@
 
       <ul id="navegacion" class="nav d-sm-none d-none d-md-flex">
         <li class="nav-item">
-          <a href="#" class="nav-link"><i class="bi bi-house"></i> Home</a>
+          <a routerLink="/" class="nav-link"><i class="bi bi-house"></i> Home</a>
         </li>
-        <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-list"></i> Tipos de Animales</a>
+        <li class="nav-item"><a routerLink="/tipos-animales" class="nav-link"><i class="bi bi-list"></i> Tipos de Animales</a>
             <ul id="menuAnimales" class="nav flex-column">
-                <li class="nav-item"><a href="#" class="nav-link">Mamíferos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Aves</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Reptiles</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Peces</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Insectos</a></li>
+                <li class="nav-item"><a routerLink="/tipos-animales/mamiferos" class="nav-link">Mamíferos</a></li>
+                <li class="nav-item"><a routerLink="/tipos-animales/aves" class="nav-link">Aves</a></li>
+                <li class="nav-item"><a routerLink="/tipos-animales/reptiles" class="nav-link">Reptiles</a></li>
+                <li class="nav-item"><a routerLink="/tipos-animales/peces" class="nav-link">Peces</a></li>
+                <li class="nav-item"><a routerLink="/tipos-animales/insectos" class="nav-link">Insectos</a></li>
             </ul>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link"><i class="bi bi-info-circle"></i> Información</a>
+          <a routerLink="/informacion" class="nav-link"><i class="bi bi-info-circle"></i> Información</a>
         </li>
       </ul>
 
@@ -27,6 +27,8 @@
         <i class="bi bi-list"></i>
     </button>
   </header>
+ 
+<router-outlet></router-outlet>
 
   <!------------------------------------------------------------------------------->
 
@@ -61,8 +63,6 @@
         </li>
       </ul>
   </nav>
-
-  <router-outlet></router-outlet>
 
   <footer id="Footer" class="container-fluid bg-secondary fixed-bottom">
        <h1>Footer</h1>
