@@ -148,13 +148,14 @@ prueba: string = "Prueba del servicio";
     }
   );
 
+  Todo = new Array();
+
   listaMamiferos() {return this.Mamiferos;}
   listaAves() {return this.Aves;}
   listaReptiles() {return this.Reptiles;}
   listaPeces() {return this.Peces;}
   listaInsectos() {return this.Insectos;}
- 
-
+  listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos);}
 
    
 }
