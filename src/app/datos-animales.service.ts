@@ -13,34 +13,34 @@ prueba: string = "Prueba del servicio";
    
   }
 
-  Mamiferos:any = [
-     {
-       id: 1,
-       nombre: "Elefante",
-       nombreCientifico: "Elephantidae",
-       clase: "Mamífero",
-       descripcion: "Es el mamífero terrestre más grande. Pueden llegar a pesar más de 7 mil kilos y aunque en promedio suelen medir tres metros de altura. Algunos elefantes llegan a vivir 90 años. Son capaces de comunicarse a través de vibraciones en el suelo.",
-       IMG: "https://cdn.pixabay.com/photo/2013/05/29/22/25/elephant-114543_960_720.jpg"
-     },
-     {
-       id:2,
-       nombre: "Perro Pastor Alemán",
-       nombreCientifico: "Canis familiaris",
-       clase: "Mamífero",
-       descripcion: "Es una raza canina que proviene de Alemania. La raza es relativamente nueva, ya que su origen se remonta a 1899. Forman parte del grupo de pastoreo, ya que fueron perros desarrollados originalmente para reunir y vigilar ovejas. Desde entonces, sin embargo, gracias a su fuerza, inteligencia, capacidad de entrenamiento y obediencia,​ los pastores alemanes de todo el mundo son a menudo la raza preferida para muchos otros tipos de trabajo, como son: perro policía, perro guardián, guía de ciegos, animal de rescate, y otros, según el uso que le den las fuerzas y cuerpos de seguridad y el ejército. En muchos países incluso cuentan con unidades específicas denominadas K-9",
-       IMG: "https://cdn.pixabay.com/photo/2019/03/23/05/15/schafer-dog-4074699_960_720.jpg"
-     },
-     {
-       id:3,
-       nombre: "Gato Atigrado",
-       nombreCientifico: "Felis silvestris catus",
-       clase: "Mamífero",
-       descripcion: "Es un gato con un distintivo pelaje de rayas y manchas características. Los gatos atigrados a menudo son, erróneamente, confundidos con una raza de gato pero solo son una variedad de color; de hecho, el patrón que posee el atigrado es una característica que ocurre naturalmente y que podría ser la original coloración de los distantes ancestros de los gatos domésticos",
-       IMG: "https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg"
-     }
-  ]
+  Mamiferos = new Array(
+    {
+      id: 1,
+      nombre: "Elefante",
+      nombreCientifico: "Elephantidae",
+      clase: "Mamífero",
+      descripcion: "Es el mamífero terrestre más grande. Pueden llegar a pesar más de 7 mil kilos y aunque en promedio suelen medir tres metros de altura. Algunos elefantes llegan a vivir 90 años. Son capaces de comunicarse a través de vibraciones en el suelo.",
+      IMG: "https://cdn.pixabay.com/photo/2013/05/29/22/25/elephant-114543_960_720.jpg"
+    },
+    {
+      id:2,
+      nombre: "Perro Pastor Alemán",
+      nombreCientifico: "Canis familiaris",
+      clase: "Mamífero",
+      descripcion: "Es una raza canina que proviene de Alemania. La raza es relativamente nueva, ya que su origen se remonta a 1899. Forman parte del grupo de pastoreo, ya que fueron perros desarrollados originalmente para reunir y vigilar ovejas. Desde entonces, sin embargo, gracias a su fuerza, inteligencia, capacidad de entrenamiento y obediencia,​ los pastores alemanes de todo el mundo son a menudo la raza preferida para muchos otros tipos de trabajo, como son: perro policía, perro guardián, guía de ciegos, animal de rescate, y otros, según el uso que le den las fuerzas y cuerpos de seguridad y el ejército. En muchos países incluso cuentan con unidades específicas denominadas K-9",
+      IMG: "https://cdn.pixabay.com/photo/2019/03/23/05/15/schafer-dog-4074699_960_720.jpg"
+    },
+    {
+      id:3,
+      nombre: "Gato Atigrado",
+      nombreCientifico: "Felis silvestris catus",
+      clase: "Mamífero",
+      descripcion: "Es un gato con un distintivo pelaje de rayas y manchas características. Los gatos atigrados a menudo son, erróneamente, confundidos con una raza de gato pero solo son una variedad de color; de hecho, el patrón que posee el atigrado es una característica que ocurre naturalmente y que podría ser la original coloración de los distantes ancestros de los gatos domésticos",
+      IMG: "https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg"
+    }
+  );
 
-  Aves:any = [
+  Aves = new Array(
     {
       id:11,
       nombre: "Lechuza",
@@ -65,9 +65,9 @@ prueba: string = "Prueba del servicio";
       descripcion: "Pato es el nombre común para ciertas aves de la familia Anatidae, principalmente de la subfamilia Anatinae y dentro de ella del género Anas. No son un grupo monofilético, ya que no se incluyen los cisnes ni los gansos.",
       IMG: "https://cdn.pixabay.com/photo/2013/04/22/20/02/ruddy-shelduck-106544_960_720.jpg"
     }
-  ]
+  );
 
-  Reptiles:any = [
+  Reptiles = new Array(
     {
       id:21,
       nombre: "Cobra India",
@@ -92,9 +92,9 @@ prueba: string = "Prueba del servicio";
       descripcion: "La iguana verde (Iguana iguana) es uno de los lagartos más grandes de América; pueden crecer hasta alcanzar los 2 metros de largo y pesan alrededor de 5 kilogramos. Además, también son mascotas bastante comunes en Estados Unidos, a pesar del hecho de que son un poco difíciles de cuidar y mantener.",
       IMG: "https://cdn.pixabay.com/photo/2017/02/05/11/43/iguana-2039719_960_720.jpg"
     }
-  ]
+  );
 
-  Peces:any = [
+  Peces = new Array(
     {
       id:31,
       nombre: "Barbo Rosado",
@@ -119,9 +119,9 @@ prueba: string = "Prueba del servicio";
       descripcion: "",
       IMG: "https://cdn.pixabay.com/photo/2019/08/30/01/24/water-tank-4440191_960_720.jpg"
     }
-  ]
+  );
 
-  Insectos:any = [
+  Insectos = new Array(
     {
       id:11,
       nombre: "Cucaracha",
@@ -146,12 +146,14 @@ prueba: string = "Prueba del servicio";
       descripcion: "Los escorpiones pertenecen a la clase de los arácnidos, y están estrechamente emparentados con las arañas, los caros y las garrapatas. Se los asocia comúnmente con el desierto, pero también están presentes en la selva brasilea, Columbia Britnica, Carolina del Norte e incluso la cordillera del Himalaya. Estos resistentes y adaptables artrópodos existen desde hace cientos de millones de años, y son unos auténticos supervivientes.",
       IMG: "https://cdn.pixabay.com/photo/2015/09/09/14/06/scorpion-931561_960_720.jpg"
     }
-  ]
+  );
 
-  listaMamiferos(){
-    return this.Mamiferos;
-
-  }
+  listaMamiferos() {return this.Mamiferos;}
+  listaAves() {return this.Aves;}
+  listaReptiles() {return this.Reptiles;}
+  listaPeces() {return this.Peces;}
+  listaInsectos() {return this.Insectos;}
+ 
 
 
    

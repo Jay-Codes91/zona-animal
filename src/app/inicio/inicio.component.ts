@@ -13,7 +13,8 @@ export class InicioComponent implements OnInit {
 
   constructor(private servicio: DatosAnimalesService) { 
     this.mensaje = servicio.prueba;
-    this.mamiferos = servicio.listaMamiferos();
+    this.mamiferos = servicio.listaReptiles();
+    
   }
 
   ngOnInit(): void {
