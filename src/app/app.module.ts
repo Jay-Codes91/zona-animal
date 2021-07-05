@@ -14,6 +14,7 @@ import { AvesComponent } from './tipos-animales/aves/aves.component';
 import { ReptilesComponent } from './tipos-animales/reptiles/reptiles.component';
 import { PecesComponent } from './tipos-animales/peces/peces.component';
 import { InsectosComponent } from './tipos-animales/insectos/insectos.component';
+import { Pagina404Component } from './pagina404/pagina404.component';
 
 const rutas: Routes = [
   
@@ -24,7 +25,9 @@ const rutas: Routes = [
   { path: 'tipos-animales/reptiles', component: ReptilesComponent },
   { path: 'tipos-animales/peces', component: PecesComponent },
   { path: 'tipos-animales/insectos', component: InsectosComponent },
-  { path: 'informacion', component: InformacionComponent }
+  { path: 'informacion', component: InformacionComponent },
+  { path: 'pagina404', component: Pagina404Component },
+  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' }
 ]
 
 @NgModule({
@@ -37,7 +40,8 @@ const rutas: Routes = [
     AvesComponent,
     ReptilesComponent,
     PecesComponent,
-    InsectosComponent
+    InsectosComponent,
+    Pagina404Component
   ],
   imports: [
     BrowserModule, 
