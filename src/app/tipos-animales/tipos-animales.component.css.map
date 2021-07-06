@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,UAAU,EAAE,kBAAkB;EAC9B,kBAAkB,EAAE,kBAAkB;EACtC,eAAe,EAAE,kBAAkB;EACnC,cAAc,EAAE,kBAAkB;EAClC,aAAa,EAAE,kBAAkB;CACpC",
     "sources": [
         "tipos-animales.component.scss"
     ],
