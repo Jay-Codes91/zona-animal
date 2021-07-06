@@ -55,6 +55,7 @@ $coloNegro: #000000;
             li:nth-child(2){
               #menuAnimales{
                   position: absolute;
+                  z-index: 999;
                   border: 1px solid $coloNegro;
                   margin-left: 35px;
                   background-color: #afa16e;
