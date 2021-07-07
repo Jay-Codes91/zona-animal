@@ -128,17 +128,17 @@ prueba: string = "Prueba del servicio";
     {
       id:31,
       nombre: "Barbo Rosado",
-      nombreCientifico: "",
+      nombreCientifico: "Pethia conchonius",
       clase: "Peces",
-      descripcion: "",
-      IMG: ""
+      descripcion: "Se trata de un pez que presenta forma ovalada, agradable y muy activo, su coloración es rosácea a anaranjada sobre un fondo base plateado, es característica una pequeña mancha que mantiene en la parte posterior de su cuerpo, un poco anterior al péndulo caudal. Existe dimorfismo sexual, ya que los machos presentan una pequeña coloración oscura en la aleta dorsal y anal, además las hembras poseen colores más apagados. En edad adulta pueden llegar a medir hasta los 14 cm de longitud.",
+      IMG: "https://laguiadelacuario.es/wp-content/uploads/2020/11/pethia_conchoniuspda.jpg"
     },
     {
       id:32,
       nombre: "Gurami Enano",
       nombreCientifico: "Osphronemidae",
       clase: "Peces",
-      descripcion: "",
+      descripcion: "Su tamaño está entre 6 y 15 cm (hasta 30 en el caso de los ejemplares gigantes), donde se destacan sus dos aletas con forma de hilo para hacerlo más llamativo. La forma de su cuerpo es ovalada pero plana a los lados y con su movimiento realizan un auténtico show bajo el agua. También conocido como pez gourami, es una variedad de peces especialmente resistente entre los peces de agua dulce, de ahí que esté tan extendido entre los acuarios de aficionados a esta disciplina.",
       IMG: "https://cdn.pixabay.com/photo/2020/09/25/19/03/fish-5602367_960_720.jpg"
     },
     {
@@ -146,7 +146,7 @@ prueba: string = "Prueba del servicio";
       nombre: "Guppies",
       nombreCientifico: "Poecillia reticulata",
       clase: "Peces",
-      descripcion: "",
+      descripcion: "Los guppies (Poecilia reticulata) pueden medir entre 1,5 y 6 cm. Son peces de agua dulce originarios del noreste de Sudamérica, comunes en acuarios en muchos países del mundo. Los ojos de los guppies son normalmente plateados, pero cuando quiere señalizar que está dispuesto a atacar, sus ojos se vuelven negros.",
       IMG: "https://cdn.pixabay.com/photo/2019/08/30/01/24/water-tank-4440191_960_720.jpg"
     }
   );

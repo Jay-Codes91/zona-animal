@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 @Component({
   selector: 'app-reptiles',
   templateUrl: './reptiles.component.html',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReptilesComponent implements OnInit {
 
-  constructor() { }
+  reptiles: any[] = [];
+
+  constructor(private servicio: DatosAnimalesService) {
+    this.reptiles = servicio.listaReptiles();
+   }
 
   ngOnInit(): void {
   }

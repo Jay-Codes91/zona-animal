@@ -1,1 +1,17 @@
-<h1>Componente mamiferos</h1>
+<h1 class=" text-center text-white text-uppercase">mamíferos</h1>
+<br><br>
+
+<div class="container-fluid p-0 m-0" id="contenedor">
+    <div class="card m-2" *ngFor="let animales of mamiferos">
+        <img class="card-img-top img-fluid" src="{{animales.IMG}}" alt="{{animales.nombre}}">
+        <div class="card-body">
+            <h5 class="card-title">{{animales.nombre}}</h5>
+            <em>{{animales.nombreCientifico}}</em>
+            <p class=" card-text mt-3"><b>Clase: </b>{{animales.clase}}</p>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary">Ver información</a>
+            </div>
+            
+        </div>
+    </div>
+</div>

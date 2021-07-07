@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 @Component({
   selector: 'app-peces',
   templateUrl: './peces.component.html',
@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PecesComponent implements OnInit {
 
-  constructor() { }
+  peces: any[] = [];
+  constructor(private servicio: DatosAnimalesService) { 
+     this.peces = servicio.listaPeces();
+  }
 
   ngOnInit(): void {
   }

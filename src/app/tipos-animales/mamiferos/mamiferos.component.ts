@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 
 @Component({
   selector: 'app-mamiferos',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MamiferosComponent implements OnInit {
 
-  constructor() { }
+  mamiferos: any[] = [];
+  
+  constructor(private servicio: DatosAnimalesService) {
+      this.mamiferos = servicio.listaMamiferos();
+   }
 
   ngOnInit(): void {
   }
