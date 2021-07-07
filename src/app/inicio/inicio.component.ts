@@ -2,7 +2,7 @@ import { Identifiers } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { DatosAnimalesService } from '../datos-animales.service';
 declare var $: any;
-
+declare var AOS: any;
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',
@@ -22,6 +22,13 @@ export class InicioComponent implements OnInit {
   }
 
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    AOS.init({
+      offset: 120,
+	    delay: 300,
+	    duration: 500,
+	    easing: 'ease-in-out'
+    });
+  }
 
 }

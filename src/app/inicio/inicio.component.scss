@@ -1,0 +1,31 @@
+
+
+#contenedor{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+     .cajas{
+         width: 50%;
+         height: auto;
+         display: flex;
+
+         &:nth-child(1){
+             align-self: flex-start;
+         }
+         &:nth-child(2){
+             align-self: flex-end;
+        }
+        &:nth-child(3){
+            align-self: flex-start;
+        }
+        &:nth-child(4){
+            align-self: flex-end;
+        }
+
+        img{
+            align-self: center;
+        }
+     }
+}
