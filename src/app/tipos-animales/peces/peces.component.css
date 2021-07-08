@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=peces.component.css.map */
+#contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: darkgrey;
+}
+
+#contenedor .card {
+  max-width: 300px;
+}
+
+#contenedor .card img {
+  max-width: 100%;
+  min-height: 300px;
+}
+/*# sourceMappingURL=peces.component.css.map */

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,gBAAgB,EAAE,QAAQ;CAU3B;;AAbD,AAOI,WAPO,CAKT,KAAK,CAEH,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,KAAK;CACd",
     "sources": [
-        "aves.component.scss"
+        "aves.component.scss",
+        "../mamiferos/mamiferos.component.scss"
     ],
     "names": [],
     "file": "aves.component.css"

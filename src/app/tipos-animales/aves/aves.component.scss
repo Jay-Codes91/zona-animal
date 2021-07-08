@@ -1,13 +1,2 @@
-#contenedor{
-    display: flex;
-    justify-content: center;
-    background-color: darkgrey;
-    .card{
-    max-width: 300px;
-    img{
-        max-width: 100%;
-        min-height: 300px;
-    }
-    
-}
-}
+
+@import "../mamiferos/mamiferos.component.scss";
