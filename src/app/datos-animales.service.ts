@@ -301,13 +301,19 @@ prueba: string = "Prueba del servicio";
   );
 
   Todo = new Array();
-
+  nombre: any;
   listaDescripcionEspecies() {return this.tiposAnimales}
   listaMamiferos() {return this.Mamiferos;}
   listaAves() {return this.Aves;}
   listaReptiles() {return this.Reptiles;}
   listaPeces() {return this.Peces;}
   listaInsectos() {return this.Insectos;}
+  
+  obtenerNomMamiferos(id:number) 
+  {
+    return this.Mamiferos[id];
+  }
+
   listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos);}
 
    
