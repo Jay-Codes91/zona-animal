@@ -1,15 +1,26 @@
-.cont{
-    transition: all .5 ease-in-out;
-    -webkit-transition: all .5 ease-in-out;
-    -moz-transition: all .5 ease-in-out;
-    -ms-transition: all .5 ease-in-out;
-    -o-transition: all .5 ease-in-out;
+#contenedor {
+  display: flex;
+  justify-content: center;
+
+  .tabanimales {
+    max-width: 80%;
+    padding: 10px;
+
+
+    #fotos {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        max-width: 200px;
+        height: 200px;
+      }
+    }
+
+
+  }
 }
 
 .mat-tab-group {
-    margin-bottom: 48px;
-  }
-  .example-stretched-tabs {
-    max-width: 800px;
-  }
-    
+  margin-bottom: 48px;
+}

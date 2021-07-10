@@ -1,12 +1,20 @@
 <h1>Componente Tipos de animales</h1>
 <br><br>
-<mat-tab-group animationDuration="0ms" mat-stretch-tabs class=" bg-white example-stretched-tabs mat-elevation-z4">
-  <mat-tab label="Mamíferos">Content 1</mat-tab>
-  <mat-tab label="Aves">Content 2</mat-tab>
-  <mat-tab label="Reptiles">Content 3</mat-tab>
-  <mat-tab label="Insectos">Content 4</mat-tab>
-  <mat-tab label="Peces">Content 5</mat-tab>
-</mat-tab-group>
- 
-  
-
+<div id="contenedor">
+  <mat-tab-group animationDuration="0ms" mat-stretch-tabs class="tabanimales bg-white mat-elevation-z4">
+    <mat-tab label="Mamíferos" class="mats-tab">
+      <h1 class="mat-display-1 text-center">Mamíferos</h1>
+      <p>{{animales[0].mamiferos}}</p>
+      <h2 class="mat-display-1">Fotos</h2>
+      <div id="fotos">
+        <img src="{{mamiferos[0].IMG}}" alt="{{mamiferos[0].nombre}}">
+        <img src="{{mamiferos[1].IMG}}" alt="{{mamiferos[1].nombre}}">
+        <img src="{{mamiferos[2].IMG}}" alt="{{mamiferos[2].nombre}}">
+      </div>
+    </mat-tab>
+    <mat-tab label="Aves" class="mats-tab">Content 2</mat-tab>
+    <mat-tab label="Reptiles" class="mats-tab">Content 3</mat-tab>
+    <mat-tab label="Insectos" class="mats-tab">Content 4</mat-tab>
+    <mat-tab label="Peces" class="mats-tab">Content 5</mat-tab>
+  </mat-tab-group>
+</div>

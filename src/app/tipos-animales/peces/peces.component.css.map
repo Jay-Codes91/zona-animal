@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,gBAAgB,EAAE,QAAQ;CAS7B;;AAZD,AAII,WAJO,CAIP,KAAK,CAAA;EACL,SAAS,EAAE,KAAK;CAMnB;;AAXD,AAMI,WANO,CAIP,KAAK,CAEL,GAAG,CAAA;EACC,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,KAAK;CACpB",
+    "mappings": "ACAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;CAStC;;AAXD,AAKI,WALO,CAGT,KAAK,CAEH,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,KAAK;CACd",
     "sources": [
-        "peces.component.scss"
+        "peces.component.scss",
+        "../mamiferos/mamiferos.component.scss"
     ],
     "names": [],
     "file": "peces.component.css"

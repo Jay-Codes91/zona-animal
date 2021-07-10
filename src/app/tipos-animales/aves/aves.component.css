@@ -3,7 +3,6 @@
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  background-color: darkgrey;
 }
 
 #contenedor .card img {

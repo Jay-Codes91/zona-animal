@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
+
 declare var AOS: any;
 @Component({
   selector: 'app-tipos-animales',
@@ -7,16 +9,14 @@ declare var AOS: any;
 })
 export class TiposAnimalesComponent implements OnInit {
 
- 
-  constructor() { }
-
-  ngOnInit(): void {
-    AOS.init({
-      offset: 120,
-	    delay: 300,
-	    duration: 500,
-	    easing: 'ease-in-out'
-    });
+ animales: any[] = [];
+ mamiferos: any[] = [];
+  constructor(private servicio: DatosAnimalesService) { 
+     this.animales = this.servicio.listaDescripcionEspecies();
+     this.mamiferos = this.servicio.listaMamiferos();
   }
+
+
+  ngOnInit(): void {}
 
 }

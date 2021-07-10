@@ -1,19 +1,12 @@
 #contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: darkgrey;
-}
-
-#contenedor .card {
-  max-width: 300px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 #contenedor .card img {
   max-width: 100%;
-  min-height: 300px;
+  height: 300px;
 }
 /*# sourceMappingURL=peces.component.css.map */

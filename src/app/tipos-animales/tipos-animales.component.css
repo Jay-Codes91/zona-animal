@@ -1,8 +1,32 @@
-.cont {
-  transition: all .5 ease-in-out;
-  -webkit-transition: all .5 ease-in-out;
-  -moz-transition: all .5 ease-in-out;
-  -ms-transition: all .5 ease-in-out;
-  -o-transition: all .5 ease-in-out;
+#contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contenedor .tabanimales {
+  max-width: 80%;
+  padding: 10px;
+}
+
+#contenedor .tabanimales #fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contenedor .tabanimales #fotos img {
+  max-width: 200px;
+  height: 200px;
+}
+
+.mat-tab-group {
+  margin-bottom: 48px;
 }
 /*# sourceMappingURL=tipos-animales.component.css.map */

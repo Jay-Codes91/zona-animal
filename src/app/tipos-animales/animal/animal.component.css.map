@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "animal.component.scss"
+    ],
+    "names": [],
+    "file": "animal.component.css"
+}

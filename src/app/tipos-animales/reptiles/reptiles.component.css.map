@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,gBAAgB,EAAE,QAAQ;CAU3B;;AAbD,AAOI,WAPO,CAKT,KAAK,CAEH,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,KAAK;CACd",
+    "mappings": "ACAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;CAStC;;AAXD,AAKI,WALO,CAGT,KAAK,CAEH,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,KAAK;CACd",
     "sources": [
         "reptiles.component.scss",
         "../mamiferos/mamiferos.component.scss"

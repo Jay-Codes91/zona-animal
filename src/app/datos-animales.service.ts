@@ -314,6 +314,8 @@ prueba: string = "Prueba del servicio";
     return this.Mamiferos[id];
   }
 
+ 
+
   listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos);}
 
    
