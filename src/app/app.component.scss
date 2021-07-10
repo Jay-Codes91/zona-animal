@@ -11,6 +11,7 @@ $coloNegro: #000000;
   height: auto;
   //border: 2px solid $coloNegro;
   display: flex;
+  margin-top: 5px;
 }
 
 @mixin cajaLogo-h1 {
@@ -24,6 +25,7 @@ $coloNegro: #000000;
     align-self: flex-end;
     color: #adf270;
     text-shadow: $sombraLogo;
+    margin-top: 20px;
 }
 
 #contPrincipal{
@@ -35,7 +37,7 @@ $coloNegro: #000000;
         justify-content: space-between;
         width: 100%;
         background-color: #afa16e;
-
+       
         #encabezado-logo{
            
            @include cajaLogo();
@@ -61,6 +63,7 @@ $coloNegro: #000000;
                   background-color: #afa16e;
                   a{
                       color: $coloNegro;
+                      font-size: 18px;
                       &:hover{
                           color: $colorAlmendra;
                       }
@@ -70,6 +73,7 @@ $coloNegro: #000000;
 
             a{
                 color: $coloNegro;
+                font-size: 18px;
                 &:hover{
                     color: $colorAlmendra;
                 }
@@ -139,4 +143,10 @@ $coloNegro: #000000;
     }
 }
 
+@import '/node_modules/@angular/material/theming';
+$custom-typography: mat-typography-config(
+  $font-family: 'Lobster'
+);
+
+@include angular-material-typography($custom-typography);
 

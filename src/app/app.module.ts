@@ -16,6 +16,9 @@ import { PecesComponent } from './tipos-animales/peces/peces.component';
 import { InsectosComponent } from './tipos-animales/insectos/insectos.component';
 import { Pagina404Component } from './pagina404/pagina404.component';
 import { AnimalComponent } from './tipos-animales/animal/animal.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatInputModule} from '@angular/material/input'; 
 
 const rutas: Routes = [
   
@@ -44,12 +47,16 @@ const rutas: Routes = [
     PecesComponent,
     InsectosComponent,
     Pagina404Component,
-    AnimalComponent
+    AnimalComponent,
+    
   ],
   imports: [
     BrowserModule, 
     HttpClientModule,
-    RouterModule.forRoot(rutas)
+    RouterModule.forRoot(rutas),
+    BrowserAnimationsModule,
+    MatTabsModule,
+    MatInputModule
   ],
   providers: [DatosAnimalesService],
   bootstrap: [AppComponent]

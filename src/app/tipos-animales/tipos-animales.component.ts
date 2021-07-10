@@ -7,6 +7,7 @@ declare var AOS: any;
 })
 export class TiposAnimalesComponent implements OnInit {
 
+ 
   constructor() { }
 
   ngOnInit(): void {
