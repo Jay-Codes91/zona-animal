@@ -26,6 +26,8 @@
     "bootstrap": "^5.0.2",
     "bootstrap-icons": "^1.5.0",
     "jquery": "^3.6.0",
+    "lightbox2": "^2.11.3",
+    "ngx-lightbox": "^2.4.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"

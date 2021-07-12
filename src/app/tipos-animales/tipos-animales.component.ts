@@ -11,9 +11,18 @@ export class TiposAnimalesComponent implements OnInit {
 
  animales: any[] = [];
  mamiferos: any[] = [];
+ aves: any[] = [];
+ reptiles:any[] = [];
+ insectos:any[] = [];
+ peces:any[] = [];
+
   constructor(private servicio: DatosAnimalesService) { 
      this.animales = this.servicio.listaDescripcionEspecies();
      this.mamiferos = this.servicio.listaMamiferos();
+     this.aves = this.servicio.listaAves();
+     this.reptiles = this.servicio.listaReptiles();
+     this.insectos = this.servicio.listaInsectos();
+     this.peces = this.servicio.listaPeces();
   }
 
 
