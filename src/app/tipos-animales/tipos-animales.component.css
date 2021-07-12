@@ -20,11 +20,43 @@
       justify-content: space-around;
 }
 
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  #contenedor .tabanimales #fotos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  #contenedor .tabanimales #fotos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+
 #contenedor .tabanimales #fotos div {
   overflow: hidden;
   border: 2px solid black;
   -webkit-box-shadow: 8px -4px 8px 0px rgba(0, 0, 0, 0.58);
           box-shadow: 8px -4px 8px 0px rgba(0, 0, 0, 0.58);
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  #contenedor .tabanimales #fotos div {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 #contenedor .tabanimales #fotos div:hover > img {
@@ -36,10 +68,16 @@
 }
 
 #contenedor .tabanimales #fotos div img {
-  max-width: 300px;
+  width: 300px;
   height: 300px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1200px) {
+  #contenedor .tabanimales #fotos div img {
+    width: 100%;
+  }
 }
 
 .mat-tab-group {
@@ -53,6 +91,39 @@
       grid-template-columns: repeat(5, 1fr);
   -ms-grid-row: 10;
   grid-row: 10px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  #contenedor2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-row: 10;
+    grid-row: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #contenedor2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-row: 10;
+    grid-row: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #contenedor2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-row: 10;
+    grid-row: 10px;
+  }
 }
 
 #contenedor2 .card img {
