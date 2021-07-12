@@ -1,58 +1,69 @@
-<h1>Componente Tipos de animales</h1>
+<br>
+<h1 class="mat-display-2 text-white">Tipos de animales</h1>
 <br><br>
 <div id="contenedor">
   <mat-tab-group animationDuration="0ms" mat-stretch-tabs class="tabanimales bg-white mat-elevation-z4">
+    
     <mat-tab label="Mamíferos" class="mats-tab">
       <h1 class="mat-display-1 text-center">Mamíferos</h1>
       <p>{{animales[0].mamiferos}}</p>
       <h2 class="mat-display-1">Fotos</h2>
       <div id="fotos">
-        <img src="{{mamiferos[0].IMG}}" alt="{{mamiferos[0].nombre}}">
-        <img src="{{mamiferos[1].IMG}}" alt="{{mamiferos[1].nombre}}">
-        <img src="{{mamiferos[2].IMG}}" alt="{{mamiferos[2].nombre}}">
+        <div><img src="{{mamiferos[0].IMG}}" alt="{{mamiferos[0].nombre}}"></div>
+        <div><img src="{{mamiferos[1].IMG}}" alt="{{mamiferos[1].nombre}}"></div>
+        <div><img src="{{mamiferos[2].IMG}}" alt="{{mamiferos[2].nombre}}"></div>
+        
       </div>
     </mat-tab>
+
     <mat-tab label="Aves" class="mats-tab">
       <h1 class="mat-display-1 text-center">Aves</h1>
       <p>{{animales[1].aves}}</p>
       <h2 class="mat-display-1">Fotos</h2>
       <div id="fotos">
-        <img src="{{aves[0].IMG}}" alt="{{aves[0].nombre}}">
-        <img src="{{aves[1].IMG}}" alt="{{aves[1].nombre}}">
-        <img src="{{aves[2].IMG}}" alt="{{aves[2].nombre}}">
+        <div><img src="{{aves[0].IMG}}" alt="{{aves[0].nombre}}"></div>
+        <div><img src="{{aves[1].IMG}}" alt="{{aves[1].nombre}}"></div>
+        <div><img src="{{aves[2].IMG}}" alt="{{aves[2].nombre}}"></div>
       </div>
     </mat-tab>
+
     <mat-tab label="Reptiles" class="mats-tab">
       <h1 class="mat-display-1 text-center">Reptiles</h1>
       <p>{{animales[2].reptiles}}</p>
       <h2 class="mat-display-1">Fotos</h2>
       <div id="fotos">
-        <img src="{{reptiles[0].IMG}}" alt="{{reptiles[0].nombre}}">
-        <img src="{{reptiles[1].IMG}}" alt="{{reptiles[1].nombre}}">
-        <img src="{{reptiles[2].IMG}}" alt="{{reptiles[2].nombre}}">
+        <div><img src="{{reptiles[0].IMG}}" alt="{{reptiles[0].nombre}}"></div>
+        <div><img src="{{reptiles[1].IMG}}" alt="{{reptiles[1].nombre}}"></div>
+        <div><img src="{{reptiles[2].IMG}}" alt="{{reptiles[2].nombre}}"></div>
       </div>
     </mat-tab>
+
     <mat-tab label="Insectos" class="mats-tab">
       <h1 class="mat-display-1 text-center">Insectos</h1>
       <p>{{animales[4].insectos}}</p>
       <h2 class="mat-display-1">Fotos</h2>
       <div id="fotos">
-        <img src="{{insectos[0].IMG}}" alt="{{insectos[0].nombre}}">
-        <img src="{{insectos[1].IMG}}" alt="{{insectos[1].nombre}}">
-        <img src="{{insectos[2].IMG}}" alt="{{insectos[2].nombre}}">
+        <div><img src="{{insectos[0].IMG}}" alt="{{insectos[0].nombre}}"></div>
+        <div><img src="{{insectos[1].IMG}}" alt="{{insectos[1].nombre}}"></div>
+        <div><img src="{{insectos[2].IMG}}" alt="{{insectos[2].nombre}}"></div>
       </div>
     </mat-tab>
+
     <mat-tab label="Peces" class="mats-tab">
       <h1 class="mat-display-1 text-center">Peces</h1>
       <p>{{animales[3].peces}}</p>
       <h2 class="mat-display-1">Fotos</h2>
       <div id="fotos">
-        <img src="{{peces[0].IMG}}" alt="{{peces[0].nombre}}">
-        <img src="{{peces[1].IMG}}" alt="{{peces[1].nombre}}">
-        <img src="{{peces[2].IMG}}" alt="{{peces[2].nombre}}">
+        <div><img src="{{peces[0].IMG}}" alt="{{peces[0].nombre}}"></div>
+        <div><img src="{{peces[1].IMG}}" alt="{{peces[1].nombre}}"></div>
+        <div><img src="{{peces[2].IMG}}" alt="{{peces[2].nombre}}"></div>
       </div>
     </mat-tab>
+
   </mat-tab-group>
 </div>
 <br>
 
+<div class="text-center">
+  <button class="btn btn-info" type="button">Mostrar todos los animales</button>
+</div>

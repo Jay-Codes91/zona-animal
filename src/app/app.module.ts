@@ -20,6 +20,7 @@ import { AnimalComponent } from './tipos-animales/animal/animal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatInputModule} from '@angular/material/input'; 
+import {MatButtonModule} from '@angular/material/button';
 
 const rutas: Routes = [
   
@@ -58,7 +59,8 @@ const rutas: Routes = [
     BrowserAnimationsModule,
     LightboxModule,
     MatTabsModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [DatosAnimalesService],
   bootstrap: [AppComponent]

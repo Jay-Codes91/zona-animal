@@ -15,6 +15,7 @@ export class TiposAnimalesComponent implements OnInit {
  reptiles:any[] = [];
  insectos:any[] = [];
  peces:any[] = [];
+ todosAnimales: any[] = [];
 
   constructor(private servicio: DatosAnimalesService) { 
      this.animales = this.servicio.listaDescripcionEspecies();
@@ -23,6 +24,7 @@ export class TiposAnimalesComponent implements OnInit {
      this.reptiles = this.servicio.listaReptiles();
      this.insectos = this.servicio.listaInsectos();
      this.peces = this.servicio.listaPeces();
+     this.todosAnimales = this.servicio.listaTodosAnimales();
   }
 
 
