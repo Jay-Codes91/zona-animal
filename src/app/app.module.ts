@@ -22,6 +22,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatInputModule} from '@angular/material/input'; 
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 const rutas: Routes = [
   
@@ -62,7 +63,8 @@ const rutas: Routes = [
     MatTabsModule,
     MatInputModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatTooltipModule
   ],
   providers: [DatosAnimalesService],
   bootstrap: [AppComponent]
