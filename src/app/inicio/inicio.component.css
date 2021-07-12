@@ -62,4 +62,45 @@
 #contenedor .cajas div {
   margin-left: 10px;
 }
+
+@media screen and (max-width: 540px) {
+  #contenedor .cajas {
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  #contenedor .cajas:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 767px) {
+  #contenedor .cajas {
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  #contenedor .cajas:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #contenedor .cajas {
+    width: 70%;
+  }
+  #contenedor .cajas:nth-child(even) {
+    margin-right: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #contenedor .cajas:nth-child(odd) {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
 /*# sourceMappingURL=inicio.component.css.map */
