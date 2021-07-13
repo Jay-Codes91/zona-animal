@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { DatosAnimalesService } from './datos-animales.service';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
@@ -22,6 +23,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { BuscarPipe } from './buscar.pipe';
 
 const rutas: Routes = [
   
@@ -51,6 +53,7 @@ const rutas: Routes = [
     InsectosComponent,
     Pagina404Component,
     AnimalComponent,
+    BuscarPipe,
     
   ],
   imports: [
@@ -58,6 +61,7 @@ const rutas: Routes = [
     HttpClientModule,
     RouterModule.forRoot(rutas),
     BrowserAnimationsModule,
+    FormsModule,
     MatTabsModule,
     MatInputModule,
     MatButtonModule,

@@ -16,7 +16,7 @@ export class TiposAnimalesComponent implements OnInit {
  insectos:any[] = [];
  peces:any[] = [];
  todosAnimales: any[] = [];
-
+ buscar = '';
  mostrarContenido: boolean = false;
  
   constructor(private servicio: DatosAnimalesService) { 

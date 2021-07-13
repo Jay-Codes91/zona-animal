@@ -70,9 +70,17 @@
 </div>
 <br>
 
+<div *ngIf="mostrarContenido" class="contenedorB text-center">
+  <mat-form-field class="buscador w-50 mx-auto bg-light" appearance="fill">
+  <mat-label>Buscar animal</mat-label>
+  <input name="buscar" matInput placeholder="Ej, Elefante, cucaracha..." [(ngModel)]="buscar">
+</mat-form-field>
+</div>
+
+
 <div *ngIf="mostrarContenido" id="contenedor2" class="container-fluid p-0 m-0">
  
-  <div class="card m-2" *ngFor="let animales of todosAnimales">
+  <div class="card m-2" *ngFor="let animales of todosAnimales | buscar: buscar">
     <div class="card-header bg-success">
       <div class="d-flex">
          <img class="rounded-circle img-fluid" src="{{animales.IMG}}" alt="{{animales.nombre}}" style="width: 50px; height: 50px;">
