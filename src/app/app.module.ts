@@ -24,6 +24,10 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { BuscarPipe } from './buscar.pipe';
+import { AveComponent } from './tipos-animales/aves/ave/ave.component';
+import { InsectoComponent } from './tipos-animales/insectos/insecto/insecto.component';
+import { PezComponent } from './tipos-animales/peces/pez/pez.component';
+import { ReptilComponent } from './tipos-animales/reptiles/reptil/reptil.component';
 
 const rutas: Routes = [
   
@@ -31,11 +35,15 @@ const rutas: Routes = [
   { path: 'tipos-animales', component: TiposAnimalesComponent },
   { path: 'tipos-animales/mamiferos', component: MamiferosComponent },
   { path: 'tipos-animales/aves', component: AvesComponent },
+  { path: 'tipos-animales/aves/ave/:id/:nombre', component: AveComponent },
   { path: 'tipos-animales/reptiles', component: ReptilesComponent },
+  { path: 'tipos-animales/reptiles/reptil/:id/:nombre', component: ReptilComponent },
   { path: 'tipos-animales/peces', component: PecesComponent },
+  { path: 'tipos-animales/peces/pez/:id/:nombre', component: PezComponent },
   { path: 'tipos-animales/insectos', component: InsectosComponent },
+  { path: 'tipos-animales/insectos/insecto/:id/:nombre', component: InsectoComponent },
   { path: 'informacion', component: InformacionComponent },
-  { path: 'tipos-animales/mamiferos/animal/:nombre', component: AnimalComponent },
+  { path: 'tipos-animales/mamiferos/animal/:id/:nombre', component: AnimalComponent },
   { path: 'pagina404', component: Pagina404Component },
   { path: '**', redirectTo: 'pagina404', pathMatch: 'full' }
 ]
@@ -54,6 +62,10 @@ const rutas: Routes = [
     Pagina404Component,
     AnimalComponent,
     BuscarPipe,
+    AveComponent,
+    InsectoComponent,
+    PezComponent,
+    ReptilComponent
     
   ],
   imports: [

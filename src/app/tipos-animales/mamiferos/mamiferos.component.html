@@ -3,14 +3,14 @@
 
 
 <div class="container-fluid p-0 m-0" id="contenedor">
-    <div class="card m-2" *ngFor="let animales of mamiferos">
+    <div class="card m-2" *ngFor="let animales of mamiferos, index as i">
         <img class="card-img-top img-fluid" src="{{animales.IMG}}" alt="{{animales.nombre}}">
         <div class="card-body">
             <h1 class="card-title">{{animales.nombre}}</h1>
             <em>{{animales.nombreCientifico}}</em>
             <p class=" card-text mt-3"><b>Clase: </b>{{animales.clase}}</p>
             <div class="text-center">
-                <a routerLink="/tipos-animales/mamiferos/animal/{{animales.nombre}}" class="btn btn-primary">Ver información</a>
+                <a routerLink="/tipos-animales/mamiferos/animal/{{i}}/{{animales.nombre}}" class="btn btn-primary">Ver información</a>
             </div>
             
         </div>

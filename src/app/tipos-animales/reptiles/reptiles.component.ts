@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DatosAnimalesService } from 'src/app/datos-animales.service';
+declare var $:any;
 @Component({
   selector: 'app-reptiles',
   templateUrl: './reptiles.component.html',
@@ -8,12 +9,16 @@ import { DatosAnimalesService } from 'src/app/datos-animales.service';
 export class ReptilesComponent implements OnInit {
 
   reptiles: any[] = [];
-
+  mostrarInfo: boolean = true;
+  
   constructor(private servicio: DatosAnimalesService) {
     this.reptiles = servicio.listaReptiles();
    }
 
   ngOnInit(): void {
+    
   }
+
+  
 
 }

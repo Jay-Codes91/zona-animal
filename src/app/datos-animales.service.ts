@@ -309,9 +309,25 @@ prueba: string = "Prueba del servicio";
   listaPeces() {return this.Peces;}
   listaInsectos() {return this.Insectos;}
   
-  obtenerNomMamiferos(id:number) 
-  {
+ 
+  obtenerMamifero(id:number){
     return this.Mamiferos[id];
+  }
+
+  obtenerAve(id:number){
+     return this.Aves[id];
+  }
+
+  obtenerReptile(id:number){
+    return this.Reptiles[id];
+  }
+
+  obtenerInsecto(id:number){
+    return this.Insectos[id];
+  }
+
+  obtenerPez(id:number){
+    return this.Peces[id];
   }
 
  
