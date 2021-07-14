@@ -1,1 +1,22 @@
-<p>reptil works!</p>
+<div class="card bg-success">
+    <div class="card-header">
+      <img src="{{reptiles.IMG}}" class="rounded-circle" alt="{{reptiles.nombre}}">
+      <h1 class="text-light">{{reptiles.nombre}}</h1>
+    </div>
+  
+    <div>
+      <img src="{{reptiles.IMG}}" alt="{{reptiles.nombre}}">
+    </div>
+    
+    <div class="card-body">
+      <h2 class="card-title"><b class="text-light">Nombre Científico:  </b>{{reptiles.nombreCientifico}}</h2>
+      <h2 class="card-title"><b class="text-light">Clase:  </b>{{reptiles.clase}}</h2>
+      <h2 class="card-title"><b class="text-light">Descripcion</b> </h2>
+      <p class="card-text">{{reptiles.descripcion}}</p>
+    </div>
+  </div>
+  <br>
+<div class=" text-center">
+    <a routerLink="/tipos-animales/reptiles" class=" btn btn-success">Regresar a la lista</a>
+</div>
+<br>

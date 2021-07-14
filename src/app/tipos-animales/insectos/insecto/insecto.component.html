@@ -1,1 +1,22 @@
-<p>insecto works!</p>
+<div class="card bg-success">
+    <div class="card-header">
+      <img src="{{insectos.IMG}}" class="rounded-circle" alt="{{insectos.nombre}}">
+      <h1 class="text-light">{{insectos.nombre}}</h1>
+    </div>
+  
+    <div>
+      <img src="{{insectos.IMG}}" alt="{{insectos.nombre}}">
+    </div>
+    
+    <div class="card-body">
+      <h2 class="card-title"><b class="text-light">Nombre Científico:  </b>{{insectos.nombreCientifico}}</h2>
+      <h2 class="card-title"><b class="text-light">Clase:  </b>{{insectos.clase}}</h2>
+      <h2 class="card-title"><b class="text-light">Descripcion</b> </h2>
+      <p class="card-text">{{insectos.descripcion}}</p>
+    </div>
+  </div>
+  <br>
+<div class=" text-center">
+    <a routerLink="/tipos-animales/insectos" class=" btn btn-success">Regresar a la lista</a>
+</div>
+<br>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 
 @Component({
   selector: 'app-reptil',
@@ -7,7 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReptilComponent implements OnInit {
 
-  constructor() { }
+  reptiles: any = [];
+  constructor(private servicio: DatosAnimalesService, private ruta: ActivatedRoute) { 
+    this.ruta.params.subscribe(pars => {
+      this.reptiles = this.servicio.obtenerReptile(pars['id']);
+    })
+  }
 
   ngOnInit(): void {
   }

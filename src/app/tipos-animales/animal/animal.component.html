@@ -1,13 +1,23 @@
-<div class=" container bg-light" id="mamiferos">
-  <h1 class="text-center mat-display-3 border-bottom border-dark">{{mamiferos.nombre}}</h1>
-  <div class=" d-flex">
-     <h1>Nombre Científico: </h1>
-     <h1 id="noC">{{mamiferos.nombreCientifico}}</h1>
+<div class="card bg-success">
+  <div class="card-header">
+    <img src="{{mamiferos.IMG}}" class="rounded-circle" alt="{{mamiferos.nombre}}">
+    <h1 class="text-light">{{mamiferos.nombre}}</h1>
+  </div>
+
+  <div>
+    <img src="{{mamiferos.IMG}}" alt="{{mamiferos.nombre}}">
   </div>
   
-  <div class="d-flex">
-      <h1>Descipción: </h1>
-      <p>{{mamiferos.descripcion}}</p>
+  <div class="card-body">
+    <h2 class="card-title"><b class="text-light">Nombre Científico:  </b>{{mamiferos.nombreCientifico}}</h2>
+    <h2 class="card-title"><b class="text-light">Clase:  </b>{{mamiferos.clase}}</h2>
+    <h2 class="card-title"><b class="text-light">Descripcion</b> </h2>
+    <p class="card-text">{{mamiferos.descripcion}}</p>
   </div>
 </div>
+<br>
+<div class=" text-center">
+    <a routerLink="/tipos-animales/mamiferos" class=" btn btn-success">Regresar a la lista</a>
+</div>
+<br>
 

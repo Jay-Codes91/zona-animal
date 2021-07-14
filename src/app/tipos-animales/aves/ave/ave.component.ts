@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 
 @Component({
   selector: 'app-ave',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AveComponent implements OnInit {
 
-  constructor() { }
+  aves: any = [];
+
+  constructor(private servicio: DatosAnimalesService, private ruta: ActivatedRoute) { 
+    this.ruta.params.subscribe(pars => {
+      this.aves = this.servicio.obtenerAve(pars['id']);
+    })
+  }
 
   ngOnInit(): void {
   }

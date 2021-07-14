@@ -1,1 +1,22 @@
-<p>pez works!</p>
+<div class="card bg-success">
+    <div class="card-header">
+      <img src="{{peces.IMG}}" class="rounded-circle" alt="{{peces.nombre}}">
+      <h1 class="text-light">{{peces.nombre}}</h1>
+    </div>
+  
+    <div>
+      <img src="{{peces.IMG}}" alt="{{peces.nombre}}">
+    </div>
+    
+    <div class="card-body">
+      <h2 class="card-title"><b class="text-light">Nombre Científico:  </b>{{peces.nombreCientifico}}</h2>
+      <h2 class="card-title"><b class="text-light">Clase:  </b>{{peces.clase}}</h2>
+      <h2 class="card-title"><b class="text-light">Descripcion</b> </h2>
+      <p class="card-text">{{peces.descripcion}}</p>
+    </div>
+  </div>
+  <br>
+  <div class=" text-center">
+      <a routerLink="/tipos-animales/peces" class=" btn btn-success">Regresar a la lista</a>
+  </div>
+  <br>
