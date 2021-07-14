@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=pagina404.component.css.map */
+#cont {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#cont img {
+  max-width: 500px;
+  height: 500px;
+}
+/*# sourceMappingURL=pagina404.component.css.map */
