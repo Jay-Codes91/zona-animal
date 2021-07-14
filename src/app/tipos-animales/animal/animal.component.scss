@@ -3,7 +3,13 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-
+  @media screen and (max-width: 540px) {
+    width: 100%;  
+}
+@media screen and (min-width: 541px) and (max-width: 767px) {
+  width: 75%;
+  
+}
   .card-header {
     display: flex;
     justify-content: center;

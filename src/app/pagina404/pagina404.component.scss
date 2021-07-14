@@ -4,7 +4,19 @@
     margin-top: 20px;
     margin-bottom: 20px;
     img{
-        max-width: 500px;
+        width: 500px;
         height: 500px;
     }
+}
+
+@media screen and (max-width: 540px) {
+     #cont{
+         width: 100%;
+     }   
+}
+
+@media screen and (min-width: 541px) and (max-width: 767px) {
+    #cont{
+        width: 100%;
+    }   
 }
