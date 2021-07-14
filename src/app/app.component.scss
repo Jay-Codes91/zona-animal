@@ -124,11 +124,15 @@ $coloNegro: #000000;
                 border-bottom: 1px solid $coloNegro;
                 &:hover{
                     background-color: rgba(0, 0, 0, 0.2);
+                    
                 }
             }
 
             a{
                 margin-left: 20px;
+                &:hover{
+                    color: #ffffff;
+                }
             }
 
         }
