@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=informacion.component.css.map */
+.titulo {
+  text-align: center;
+  font-family: "lobster";
+  color: #ffffff;
+  font-size: 40px;
+  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  border: 4px dashed #2583b9;
+  background-color: #ffffff;
+  padding: 10px;
+}
+/*# sourceMappingURL=informacion.component.css.map */

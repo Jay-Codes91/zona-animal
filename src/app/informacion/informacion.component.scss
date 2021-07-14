@@ -1,0 +1,31 @@
+$tipoLetra: 'lobster';
+$colorh1: #ffffff;
+$tamañoh1: 40px;
+$sombraTitulo: 0px 0px 0 rgb(173, 198, 170),
+1px 1px 0 rgb(157, 182, 154),
+2px 2px 0 rgb(142, 167, 139),
+3px 3px 0 rgb(126, 151, 123),
+4px 4px 0 rgb(110, 135, 107),
+5px 5px 0 rgb(94, 119, 91),
+6px 6px 5px rgba(0, 0, 0, 0.52),
+6px 6px 1px rgba(0, 0, 0, 0.5),
+0px 0px 5px rgba(0, 0, 0, .2);
+$colorBordeContenedor:#2583b9;
+$fondoContainer: #ffffff;
+
+.titulo{
+   text-align: center;
+   font-family: $tipoLetra;
+   color: $colorh1;
+   font-size: $tamañoh1;
+   text-shadow: $sombraTitulo;
+   margin-top: 10px;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    border: 4px dashed $colorBordeContenedor;
+    background-color: $fondoContainer;
+    padding: 10px;
+}

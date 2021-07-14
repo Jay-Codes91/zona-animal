@@ -5,7 +5,7 @@ $extraGrande: 1140px;
 
 
 .tit{
-    color: #bdd6ba;
+    font-family: lobster;
     text-shadow: 0px 0px 0 rgb(173, 198, 170),
     1px 1px 0 rgb(157, 182, 154),
     2px 2px 0 rgb(142, 167, 139),
@@ -107,9 +107,3 @@ $extraGrande: 1140px;
     
 }
 
-@import '/node_modules/@angular/material/theming';
-$custom-typography: mat-typography-config(
-  $font-family: 'Lobster'
-);
-
-@include angular-material-typography($custom-typography);

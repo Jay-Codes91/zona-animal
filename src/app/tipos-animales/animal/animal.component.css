@@ -5,6 +5,18 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 540px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 767px) {
+  .card {
+    width: 75%;
+  }
+}
+
 .card .card-header {
   display: -webkit-box;
   display: -ms-flexbox;
