@@ -6,3 +6,29 @@
     <h1>efe</h1>
     <h1>fwefe</h1>
 </div>
+
+
+<div class=" d-flex w-75">
+<form class="example-form w-50 bg-light">
+    <mat-form-field class="example-full-width w-100" appearance="fill">
+      <mat-label>Number</mat-label>
+      <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl"
+        [matAutocomplete]="auto" #inp>
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let option of animales" [value]="option.nombre">
+          {{option.nombre}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    
+  </form>
+<button class="btn btn-info" (click)="obtenerDato(inp.value)" type="button"></button>
+</div>
+
+<br>
+
+<h1>dato: {{input}}</h1>
+
+  <!--
+    routerLink="/{{inp.value}}"
+  -->

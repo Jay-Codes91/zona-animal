@@ -333,6 +333,6 @@ prueba: string = "Prueba del servicio";
  
 
   listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos);}
-
+  
    
 }

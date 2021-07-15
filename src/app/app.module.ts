@@ -5,6 +5,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { DatosAnimalesService } from './datos-animales.service';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
@@ -78,7 +80,9 @@ const rutas: Routes = [
     MatInputModule,
     MatButtonModule,
     MatCardModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatAutocompleteModule,
+    ReactiveFormsModule
   ],
   providers: [DatosAnimalesService],
   bootstrap: [AppComponent]
