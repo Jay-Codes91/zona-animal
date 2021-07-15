@@ -25,17 +25,30 @@
 
   .card {
 
-    img {
-      max-width: 100%;
-      height: 300px;
+    div {
+      overflow: hidden;
+
+      &:hover > img{
+        filter: grayscale(80%);
+        -webkit-filter: grayscale(80%);
+}
+      img {
+        width: 100%;
+        height: 300px;
+        transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+}
     }
+
 
   }
 }
 
 @import '/node_modules/@angular/material/theming';
-$custom-typography: mat-typography-config(
-  $font-family: 'Lobster'
+$custom-typography: mat-typography-config($font-family: 'Lobster'
 );
 
 @include angular-material-typography($custom-typography);

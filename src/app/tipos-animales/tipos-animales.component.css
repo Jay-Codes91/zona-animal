@@ -90,6 +90,10 @@
   margin-bottom: 48px;
 }
 
+.btnOcultar:hover {
+  color: #ffffff;
+}
+
 #contenedor2 {
   display: -ms-grid;
   display: grid;
@@ -132,8 +136,25 @@
   }
 }
 
-#contenedor2 .card img {
-  max-width: 100%;
+#contenedor2 .card div {
+  overflow: hidden;
+}
+
+#contenedor2 .card div:hover > img {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+#contenedor2 .card div img {
+  width: 100%;
   height: 300px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
 }
 /*# sourceMappingURL=tipos-animales.component.css.map */
