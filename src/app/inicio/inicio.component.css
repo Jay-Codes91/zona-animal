@@ -29,6 +29,24 @@
   opacity: 90%;
   -webkit-box-shadow: 7px 7px 4px 1px;
           box-shadow: 7px 7px 4px 1px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+#contenedor .cajas:hover {
+  border: 3px solid #ffffff;
+}
+
+#contenedor .cajas:hover > div > h1 {
+  color: #ffffff;
+}
+
+#contenedor .cajas:hover > img {
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
 }
 
 #contenedor .cajas:nth-child(1) {
@@ -62,10 +80,23 @@
       align-self: center;
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
           box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
 #contenedor .cajas div {
   margin-left: 10px;
+}
+
+#contenedor .cajas div h1 {
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
 @media screen and (max-width: 540px) {
