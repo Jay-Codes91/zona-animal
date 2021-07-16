@@ -93,6 +93,38 @@ prueba: string = "Prueba del servicio";
       clase: "Mamifero",
       descripcion: "Dentro de el orden de los cetáceos y concretamente del de los cetaceos misticetos se encuentran las ballenas, las cuales conforman la familia de los balaénidos o de las ballenas barbadas. Estas están clasificados en tan solo cuatro especies divididas en dos géneros, Balaena y Eubalaena. Estos animales pueden llegar a medir entre 25 y 32 metros y los ejemplares más grandes pueden llegar a pesar hasta 180 toneladas. De hecho, una de estas especies de balaenidos, la ballena azul, es el animal más grande del mundo en la actualidad.",
       IMG: "https://cdn.pixabay.com/photo/2014/09/05/03/38/humpback-whale-436120_960_720.jpg"
+    },
+    {
+      id: 7,
+      nombre: "Jirafa",
+      nombreCientifico: "Giraffa camelopardalis",
+      clase: "Mamifero",
+      descripcion: "Las jirafas son los mamíferos más altos del mundo, gracias a sus enormes patas y largos cuellos. Las patas de una jirafa son más altas que muchos humanos, alrededor de 180 centímetros, y les permiten correr a más de 55 kilómetros por hora en distancias cortas y a más de 15 kilómetros por hora en distancias más largas. Estos fascinantes animales vagan por las praderas abiertas en pequeños grupos, que suelen ser de aproximadamente media docena. Los machos a veces luchan entre sí golpeando sus largos cuellos y las cabezas. Estos combates no suelen ser peligrosos y terminan cuando uno de los animales se rinde y se va. Las jirafas aprovechan su altura para alcanzar de las copas de los árboles las hojas y los brotes inaccesibles para otros animales, siendo las acacias sus favoritas. ¡Incluso la lengua de la jirafa es larga! La lengua de 50 centímetros les ayuda a arrancar sabrosos bocados de las ramas. Las jirafas pasan la mayor parte del tiempo comiendo y, al igual que las vacas, regurgitan la comida y la mastican como bolo alimenticio. Una jirafa come decenas de kilos de hojas cada semana y debe viajar millas para encontrar suficiente comida.",
+      IMG: "https://cdn.pixabay.com/photo/2019/07/02/10/25/giraffe-4312090_960_720.jpg"
+    },
+    {
+      id: 8,
+      nombre: "Cerdo",
+      nombreCientifico: "Sus scrofa domesticus",
+      clase: "Mamifero",
+      descripcion: "El cerdo es un animal mamífero que puede encontrarse en estado salvaje o doméstico. El nombre científico de la especie en estado natural es Sus scrofa y coloquialmente se lo conoce como jabalí o cerdo silvestre; mientras que aquéllos ejemplares que han sido domesticados reciben el nombre de Sus scrofa domestica. Se trata de un cuadrúpedo con patas cortas y pezuñas, un cuerpo pesado, hocico flexible y cola corta. Cabe señalar que el término cerdo proviene de cerda, lo que hace referencia a su pelo grueso. En libertad, estos animales pueden vivir hasta quince años, sin embargo dado que el ser humano se apropia de sus vidas y los explota para el consumo de su carne, en cautiverio no llegan a los 5 o 6 años de vida, con suerte, porque muchos de ellos son asesinados antes de cumplir el año de vida.",
+      IMG: "https://cdn.pixabay.com/photo/2018/11/23/23/10/pig-3834738_960_720.jpg"
+    },
+    {
+      id: 9,
+      nombre: "Tigre",
+      nombreCientifico: "Panthera Tigris",
+      clase: "Mamifero",
+      descripcion: "Existen dos subespecies reconocidas de tigre*: el continental (Panthera tigris tigris) y el Sunda (Panthera tigris sondaica). El tigre, el más grandes de todos los grandes felinos asiáticos, depende principalmente de la vista y el oído en lugar del olfato para cazar. Por lo general caza solo y acecha a sus presas. Un tigre puede consumir más de 80 libras (36 kg) de carne a la vez. En promedio, los tigres dan a luz de dos a cuatro cachorros cada dos años. Si todos los cachorros de una camada mueren, se puede generar una segunda camada en cinco meses. El tigre generalmente se hace independiente alrededor de los dos años de edad y alcanza la madurez sexual a los tres o cuatro años en las hembras y a los cuatro o cinco años en los machos. Sin embargo, la mortalidad juvenil es alta: aproximadamente la mitad de todos los cachorros no sobreviven más de dos años. Se sabe que el tigre puede llegar a vivir hasta 20 años en la naturaleza.",
+      IMG: "https://cdn.pixabay.com/photo/2014/10/23/18/56/tiger-500118_960_720.jpg"
+    },
+    {
+      id: 10,
+      nombre: "Caballo",
+      nombreCientifico: "Equus Caballus",
+      clase: "Mamifero",
+      descripcion: "La coloración del cuerpo es muy variable, ya que puede haber ejemplares de un tono uniforme y otros de tonos mezclados que son mejor conocidos como “pintos”. Sobre el cuello presenta una crin larga. Se trata de un animal no territorial y hay 2 tipos de grupos. Uno de machos solamente y otro formado de varias hembras y un macho dominante. Cuando coinciden en una zona dos harenes los machos luchan por la obtención de más hembras. En los grupos de solteros, también hay un macho dominante absoluto y se comporta como si fuera su harén. Las hembras entran en celo varias veces al año o hasta que quedan preñadas. En la actualidad existe cerca de 200 razas de caballos en las que figuran el ponny, los percherones y los pura sangre. Algunos datos curiosos sobre los caballos es que gustan revolcarse en la arena para espantar los insectos que los molestan o bien, usan su cola como abanico para el mismo fin. Es común que algunos caballos se les ponga anteojeras, sobre todo los que se encuentran en ciudades o villas muy transitadas, para evitar que se espanten. Además, el caballo a desempeñado un papel muy importante en la historia de la humanidad pues ha sido empleado como medio de transporte o en guerras o ha sido tema para escritores o poetas.",
+      IMG: "https://cdn.pixabay.com/photo/2016/02/15/13/26/horse-1201143_960_720.jpg"
     }
   );
 
@@ -144,6 +176,38 @@ prueba: string = "Prueba del servicio";
       clase: "Aves",
       descripcion: "Los pavos reales, pertenecientes a la familia de las Phaisanidae, son aves grandes y muy coloridas (sobre todo azules y verdes) conocidas por su iridiscente cola. Esta llamativa cola, que es el 60 por ciento del cuerpo del animal, luce un ocelo (“ojo”) con variedades de azul, dorado, rojo y otras tonalidades. Los pavos reales utilizan su cola en los rituales de apareamiento y cortejo. Pueden abrirla en un espectacular abanico que se extiende desde la parte dorsal del animal hasta tocar el suelo en cada lado. Se dice que las hembras eligen a sus compañeros en función del tamaño, color y calidad de estas extravagantes colas.",
       IMG: "https://cdn.pixabay.com/photo/2013/03/04/18/49/peacock-90051_960_720.jpg"
+    },
+    {
+      id: 17,
+      nombre: "Loro",
+      nombreCientifico: "Psittacoidea",
+      clase: "Aves",
+      descripcion: "Los loros conforman una orden muy amplia que incluye a más de 350 aves, como guacamayos, amazonas, loriquitos, agapornis y cacatúas. A pesar de la gran variedad de aves de esta familia, existen similitudes entre ellos. Todos tienen un pico curvo y patas cigodáctilas, es decir, tienen cuatro dedos en cada pata: dos están dirigidos hacia delante y dos hacia atrás. La mayoría de los loros comen frutas, flores, brotes, frutos secos, semillas y algunos animales pequeños como insectos. Los loros viven en regiones de clima cálido y se encuentran por todo el mundo. En Australasia, América Central y Sudamérica se encuentra la mayor diversidad.",
+      IMG: "https://cdn.pixabay.com/photo/2010/12/23/13/36/bird-4078_960_720.jpg"
+    },
+    {
+      id: 18,
+      nombre: "Gaviota",
+      nombreCientifico: "Laridae",
+      clase: "Aves",
+      descripcion: "Las gaviotas son aves voladoras de la familia Laridae. Se relacionan estrechamente con los gaviotines de la familia Sternidae, y tienen más a distancia con las aves zancudas. La mayoría de las gaviotas pertenece al género Larus. Son en general pájaros grandes, en su mayoría de plumaje gris o blanco, a menudo con señales negras en la cabeza o las alas. Tienen picos robustos, bastante largos. Las gaviotas adultas tienen la cabeza, el cuello, la cola y la parte inferior del cuerpo de un color blanco puro, mientras que la espalda y el dorso de las alas son de color gris pálido, lo que le da el nombre español de gaviota argéntea. En Catalunya se la conoce como “gavià argentat”, “gavota” en Galicia o “kaio” en Euskadi. En inglés se la conoce como “herring gull”.",
+      IMG: "https://cdn.pixabay.com/photo/2013/02/09/10/57/seagull-79658_960_720.jpg"
+    },
+    {
+      id: 19,
+      nombre: "Colibri",
+      nombreCientifico: "Trochiladae",
+      clase: "Aves",
+      descripcion: "Es el ave más pequeño del mundo, su peso es de dos gramos, tiene el pico largo y estrecho, y una lengua en forma de trompa. El colibrí tiene las patas débiles y cortas, la cola adopta formas extrañas y está forrada de varios adornos. El pico es muy largo, puntiagudo y guarda en su interior una lengua en forma de trompa, que usa para absorber el néctar de las flores que proporcionan su alimento. Su forma de volar es parecida a la de un insecto y se sostiene en un punto exacto del espacio gracias a la rápida vibración de sus alas. Cuando vuela, es muy difícil distinguirla, y parece como si su cuerpo estuviera suspendido en el vacío mientras recoge el néctar. Esta rápida vibración, provoca un ruido tipo susurro. ",
+      IMG: "https://cdn.pixabay.com/photo/2017/03/13/10/25/hummingbird-2139279_960_720.jpg"
+    },
+    {
+      id: 20,
+      nombre: "Tucan",
+      nombreCientifico: "Ramphastidae",
+      clase: "Aves",
+      descripcion: "El toco tucán presenta un plumaje con una coloración negro mate en casi todo el cuerpo, a excepción de una parte de su pecho, garganta y lados de la cabeza, siendo de color blanco. Una característica bastante llamativa es el pico que posee un vivo color amarillo, y en la punta de la mandíbula superior presenta una parte en color negro, lo mismo que en su base; dentro del grupo de los tucanes es el ave con el pico más grande pues llega a medir hasta 20 cm., de largo y está constituido por una red de fibras óseas lo que le proporciona fuerza y ligereza a la vez. En cuanto a su lengua, ésta es delgada y notablemente larga, puede llegar a medir hasta 15 cm. El macho es más grande que la hembra; sin embargo, ambos sexos poseen la misma coloración en su plumaje. El toco tucán es un ave que gusta de permanecer en las copas altas de los árboles, donde salta de rama en rama. Por lo que respecta a su nido, éste es construido regularmente en los agujeros de los árboles muertos; dichos agujeros llegan a tener hasta 2 m. de profundidad, y pueden ser usados durante varios años. Tanto el macho como la hembra participan en el proceso de incubación.",
+      IMG: "https://cdn.pixabay.com/photo/2015/11/03/16/00/keel-billed-toucan-1021048_960_720.jpg"
     }
   );
 
@@ -196,6 +260,38 @@ prueba: string = "Prueba del servicio";
       descripcion: "Las serpientes de cascabel son venenosa. Todas las especies menos una, C. catalinensis, son fácilmente reconocibles por el característico sonido de su cascabel el cual se encuentra en la punta de la cola. Algunas especies de serpiente de cascabel pueden alcanzar hasta 2,5 metros de largo, y los 4 kg de peso. Su piel con círculos amarillos, está marcada en el centro por colores negros (parecidos a diamantes) hace que este tipo de reptil sea el mejor adornado de todo Norteamérica."+
       "Como su nombre lo dice, el cascabel lo forman unos estuches córneos en el extremo de la cola que en caso de peligro les permiten emitir un sonido de aviso de que es peligrosa y quizá proteja la serpiente de ser pisada por los grandes mamíferos.",
       IMG: "https://cdn.pixabay.com/photo/2015/05/03/21/41/snake-751722_960_720.jpg"
+    },
+    {
+      id: 27,
+      nombre: "Dragon de Komodo",
+      nombreCientifico: "Varanus komodoensis",
+      clase: "Reptiles",
+      descripcion: "El dragón de Komodo, (Varanus komodoensis), la especie de lagarto existente más grande del planeta, es un lagarto de la familia Varanidae. También llamado monstruo de Komodo y varano de Komodo, puede encontrarse en la isla de Komodo y algunas islas vecinas de las islas de la Sonda de Indonesia central. El interés popular en el gran tamaño y los hábitos depredadores de este particular lagarto han permitido que esta especie en peligro de extinción se convierta en una atracción ecoturística, lo que ha alentado -afortunadamente- su protección. Eso sí, según la Unión Internacional para la Conservación de la Naturaleza, UICN (organismo dedicado a la conservación de recursos naturales), el dragón de Komodo se encuentra actualmente en estado de conservación “vulnerable”. Este lagarto crece hasta 3 metros de longitud total y puede alcanzar un peso máximo de aproximadamente 135 kg (el promedio son 2 metros de largo y 70 kg de peso). Excava una madriguera de hasta 9 metros y pone huevos que eclosionan en abril o mayo. Las crías recién nacidas, de unos 45 centímetros de largo, viven en árboles durante varios meses.",
+      IMG: "https://cdn.pixabay.com/photo/2016/08/12/16/59/monitor-1589200_960_720.jpg"
+    },
+    {
+      id: 28,
+      nombre: "Lagartija",
+      nombreCientifico: "Lacertilia",
+      clase: "Reptiles",
+      descripcion: "Con el nombre de lagartija se conoce de manera genérica a un conjunto de especies de reptiles con características similares. El número de especies que engloba este apelativo es muy grande, por eso nos referiremos, en esta oportunidad a la lagartija común, también denominada lagartija roquera por su agilidad para trepar muros, rocas y árboles. Estos animales pertenecen a la familia de los Lacértidos y ha sido bautizada científicamente como Podarcis muralis. Es un animal pequeño y que cuenta con una gran velocidad de desplazamiento. Son animalitos pequeños, sus medidas no llegan a alcanzar un máximo de 6 centímetros, sin incluir su cola que, generalmente, es mucho más larga que todo su cuerpo. Pese a ser un reptil, la lagartija se desplaza por medio de sus 4 patas, colocadas a los costados y provistas de dedos prensiles que convierten a estos animales en excelentes trepadores. Esta especia de reptiles presenta escamas en su cuerpo, más abundantes en el dorso que en el vientre, también poseen escamas en sus patas. La cantidad de escamas varías, según se trate de machos o de hembras, siendo los ejemplares masculinos, los que cuentan con la mayor cantidad.",
+      IMG: "https://cdn.pixabay.com/photo/2016/03/04/19/07/gecko-1236523_960_720.jpg"
+    },
+    {
+      id: 29,
+      nombre: "Tuatara",
+      nombreCientifico: "Sphenodon",
+      clase: "Reptiles",
+      descripcion: "Pertenece a la familia Sphenodontidae. Es de color gris o verde oliva con algunos detalles en color rojo. Se caracteriza por tener 2 fosas temporales o fenestras a cada lado del cráneo detrás de la órbita ocular. Tiene un tercer ojo u ojo pineal que aún no ha sido reconocida su función específica. Los machos tienen una cresta en la región posterior del cuello y en el dorso. Tiene dientes especializados grandes y filosos. Es de hábitos nocturnos, es territorialista y los machos al verse amenazados inflan su cuerpo y levantan la cresta. Su reproducción es sexual. Como el macho carece de órganos de copulación la fecundación ocurre con el acercamiento de las regiones de la cloaca de ambos progenitores. La época reproductiva comienza a mediados de la primavera. La hembra deposita entre 5 a 18 huevos. El periodo de incubación es de 12 a 15 meses.",
+      IMG: "https://cdn.pixabay.com/photo/2017/03/31/10/06/tuatara-2190866_960_720.jpg"
+    },
+    {
+      id: 30,
+      nombre: "Aligator",
+      nombreCientifico: "Alligator",
+      clase: "Reptiles",
+      descripcion: "Alligator es un género de saurópsidos (reptiles), conocidos popularmente como lagartos o aligátores. Ocasionalmente y de manera coloquial, se los denomina indistintamente, como caimanes, pese a que caimanes y lagartos pertenecen a géneros distintos; ya que taxonómicamente divergen a nivel de subfamilia. Actualmente incluye dos especies vivas, el aligátor chino y el lagarto americano. Tanto el nombre español actual como el latino usado en la clasificación científica proceden del inglés alligator, que a su vez es una deformación del español «el lagarto», con el que los conquistadores españoles de Florida bautizaron inicialmente a este animal. Los aligátores se encuentran casi siempre en aguas dulces, muy raramente se les ve en lagunas salobres y nunca se adentran en el mar. Esto se debe a que carecen de las glándulas secretoras de sal de las que disponen los cocodrilos, por ejemplo, y como resultado de ello no se han expandido hacia las islas del Caribe como sí han hecho varias especies de cocodrilos. Se diferencian fácilmente de los cocodrilos por la forma de su cabeza y morro, más anchos y cortos. Los dientes no sobresalen cuando mantienen la boca cerrada, cosa que sí sucede en los cocodrilos. Los ojos se sitúan en una posición muy atrasada respecto a otros géneros de Crocodilia. El color de la gruesa piel es normalmente oscuro (más en el caso de la especie china) acercándose a veces al negro, aunque no son raros los ejemplares más claros e incluso hay algún caso leucístico.",
+      IMG: "https://cdn.pixabay.com/photo/2019/05/22/03/54/aligator-4220630_960_720.jpg"
     }
   );
 
@@ -210,7 +306,7 @@ prueba: string = "Prueba del servicio";
     },
     {
       id:32,
-      nombre: "Pez Gurami Enano",
+      nombre: "Gurami Enano",
       nombreCientifico: "Osphronemidae",
       clase: "Peces",
       descripcion: "Su tamaño está entre 6 y 15 cm (hasta 30 en el caso de los ejemplares gigantes), donde se destacan sus dos aletas con forma de hilo para hacerlo más llamativo. La forma de su cuerpo es ovalada pero plana a los lados y con su movimiento realizan un auténtico show bajo el agua. También conocido como pez gourami, es una variedad de peces especialmente resistente entre los peces de agua dulce, de ahí que esté tan extendido entre los acuarios de aficionados a esta disciplina.",
@@ -218,7 +314,7 @@ prueba: string = "Prueba del servicio";
     },
     {
       id:33,
-      nombre: "Pez Guppy",
+      nombre: "Guppy",
       nombreCientifico: "Poecillia reticulata",
       clase: "Peces",
       descripcion: "Los guppies (Poecilia reticulata) pueden medir entre 1,5 y 6 cm. Son peces de agua dulce originarios del noreste de Sudamérica, comunes en acuarios en muchos países del mundo. Los ojos de los guppies son normalmente plateados, pero cuando quiere señalizar que está dispuesto a atacar, sus ojos se vuelven negros.",
@@ -226,7 +322,7 @@ prueba: string = "Prueba del servicio";
     },
     {
       id: 34,
-      nombre: "Pez Telescopio",
+      nombre: "Telescopio",
       nombreCientifico: "Gigantura",
       clase: "Peces",
       descripcion: "Dentro de la familia de los carácidos , existe una variedad de peces, bastante peculiar y curiosa, que tiene ojos modificados denominada como telescopios o Demekin. Esta variedad, se originó en China a principios del siglo XVIII, y su característica principal son sus ojos, los cuales parece que brotaran de su cabeza, es decir sobresalen de tal manera que se proyectan hacia fuera. Sin embargo, aunque adquieren el nombre de peces telescopio, su visión es muy limitada. Estos peces se encuentran en infinidad de acuarios y peceras de todo el mundo. Este pez ha sido domesticado por el ser humano criado con fines ornamentales. Cada vez, con el paso de los años, las crías se han ido volviendo más selectiva, dando las variedades que tenemos hoy día.",
@@ -234,7 +330,7 @@ prueba: string = "Prueba del servicio";
     },
     {
       id: 35,
-      nombre: "Pez Oscar",
+      nombre: "Oscar",
       nombreCientifico: "Astronotus ocellatus",
       clase: "Peces",
       descripcion: "El pez oscar, astronotus ocellatus, es un pez de la familia de los cíclidos, de la que sólo hay otra variedad el astronotus crassipinnis. Se suele conocer con otros nombre vulgares, como cíclido de terciopelo, óscar rojo, pez óscar tigre o cíclido de mármol. Se trata de un pez muy original, que va cambiando de aspecto a medida que envejece, siendo en su estado juvenil muy atrayentes, con colores amarillos y marrón claro, mientras que cuando envejecen resultan menos vistosos. Son fáciles de reproducir en cautividad, siempre que tengan suficiente espacio y estén bien alimentados.",
@@ -242,11 +338,43 @@ prueba: string = "Prueba del servicio";
     },
     {
       id: 36,
-      nombre: "Pez Koi",
+      nombre: "Koi",
       nombreCientifico: "Cyprinus rubrofuscus",
       clase: "Peces",
       descripcion: "El grandioso koi es un pez de colores muy atrayentes originario de Japón y China. También se le llama carpa, ya que proviene de la familia de peces Carpa. Llega a alcanzar un tamaño de unos 50 a casi 90 centímetros. Es adaptable a la variación de temperaturas, bien sean bajas o altas, lo que los hace idóneos para tenerlos en un acuario. Estos peces son muy longevos debido a que llegan a alcanzar gran tamaño. Si tienen el cuidado apropiado, pueden llegar a vivir unos 30 a 40 años aproximadamente, incluso corre el rumor de que estos han llegado a vivir hasta los 65 años. Llegan a pesar desde 9 hasta 40 kilos. Esto no debe de sorprender ya que si bien mencionamos anteriormente pueden llegar a alcanzar gran tamaño.",
       IMG: "https://cdn.pixabay.com/photo/2016/11/05/11/27/koi-1799988_960_720.jpg"
+    },
+    {
+      id: 37,
+      nombre: "Beta",
+      nombreCientifico: "Betta splendens",
+      clase: "Peces",
+      descripcion: "El pez Betta es uno de los moradores favoritos de las peceras de los amantes de la acuariofilia por su increíble colorido y su particular personalidad. Sin duda, es difícil resistirse a la espectacularidad de su avance y a ese carácter fuerte que hace que se le denomine Guerrero de Siam. Y es que tanto su nombre como su sobrenombre proceden precisamente de un antiguo clan de guerreros existente en el país de origen de estos peces, Tailandia.",
+      IMG: "https://cdn.pixabay.com/photo/2018/05/23/17/25/beta-3424566_960_720.jpg"
+    },
+    {
+      id: 38,
+      nombre: "Payaso",
+      nombreCientifico: "Amphiprioninae",
+      clase: "Peces",
+      descripcion: "El pez payaso es uno de los peces más populares del mundo debido a una cinta de animación, sin embargo, en la vida real, esta especie posee fascinantes cualidades que sorprenden a los expertos, ¿quieres saber cuáles son? No te despegues de este artículo. El pez payaso destaca gracias a sus colores, como el naranja, entremezclados con franjas blancas y bordes negros. En la etapa adulta llega a medir hasta 11 centímetros, desarrolla una cola redonda y once espinas en la aleta dorsal. El pez payaso nace como macho y conforme va creciendo, se integra con otros de su especie en pequeños bandos para residir en una anémona. Cuando llega a la etapa adulta, es momento de reproducirse, por lo que el ejemplar de mayor tamaño y líder de la manada se transforma en hembra para asegurar la continuidad de los peces.",
+      IMG: "https://cdn.pixabay.com/photo/2014/08/24/19/10/clownfish-426567_960_720.jpg"
+    },
+    {
+      id: 39,
+      nombre: "Globo",
+      nombreCientifico: "Tetraodontinae",
+      clase: "Peces",
+      descripcion: "Los biólogos creen que el pez globo desarrolló su famosa habilidad para inflarse debido a que su estilo para nadar es lento y torpe. Eso los hace vulnerables frente a los depredadores. En lugar de escapar, el pez globo utilizar su elástico estómago muy elástica y su capacidad de ingerir rápidamente grandes cantidades de agua (e incluso de aire si es necesario) para que se convierta en una bola prácticamente increíble que dobla varias veces su tamaño normal. Algunas especies también tienen espinas en la piel para evitar ser comidas. Un depredador que logra atrapar a un pez globo antes de que se infle, no se sentirá afortunado por mucho tiempo. Casi todos los peces globo contienen tetrodo toxina, una sustancia que hace que el pez globo tenga un sabor muy desagradable, a menudo letal para los peces. Para los humanos, el tetrodo toxina es mortal, hasta 1.200 veces más venenosa que el cianuro. En pez globo contiene suficiente tetrodo toxina para matar a 30 seres humanos adultos, y no hay antídoto conocido.",
+      IMG: "https://cdn.pixabay.com/photo/2019/03/20/15/05/puffer-fish-4068750_960_720.jpg"
+    },
+    {
+      id: 40,
+      nombre: "Piraña",
+      nombreCientifico: "Pygocentrus nattereri",
+      clase: "Peces",
+      descripcion: "La piraña o serrasalmus, son peces de agua dulce que forman parte de la familia de los carácidos. Es uno de los peces con peor reputación que existen, por su agresivo temperamento y sus dientes increíblemente afilados que cortan todo lo que muerden. La piraña es un pez grande que puede llegar a medir entre 25 y 30 centímetros. En libertad, algunos ejemplares pueden llegar hasta los 40 o 50 centímetros. Se caracteriza por su gruesa cabeza, dotada de una mandíbula inferior prominente y unos dientes triangulares, muy afilados que le otorgan una imagen aterradora y peligrosa.",
+      IMG: "https://cdn.pixabay.com/photo/2021/01/14/22/42/piranha-5918098_960_720.jpg"
     }
   );
 
@@ -298,6 +426,38 @@ prueba: string = "Prueba del servicio";
       clase: "Insecto",
       descripcion: "El mosquito común se caracteriza por ser un insecto volador y por poseer un cuerpo delgado, patas largas y finas. Los adultos pueden llegar a medir hasta 15 milímetros, y es importante saber que las larvas se desarrollan siempre en el agua, por esta razón es que cuando existe epidemia por alguna enfermedad transmitida por los mosquitos, se pide que se elimine de los hogares todo tipo de contenedores de agua que favorezca la reproducción veloz de los mosquitos. ",
       IMG: "https://cdn.pixabay.com/photo/2012/05/18/21/45/mosquito-49141_960_720.jpg"
+    },
+    {
+      id: 47,
+      nombre: "Lombriz",
+      nombreCientifico: "Lumbricidae",
+      clase: "Insecto",
+      descripcion: "La lombriz de tierra, de color gris rojizo, es un animal familiar para todo aquel que tenga un jardín o una caña de pescar. Es oriunda de Europa, pero en la actualidad abunda también en Norteamérica y en Asia occidental. Aunque por lo general apenas mide 7 u 8 centímetros, se sabe que algunos miembros de la especie alcanzan hasta 35 centímetros de longitud con el cuerpo enrollado. El cuerpo de la lombriz de tierra está formado por segmentos llamados anillos o metámeros. Estos segmentos están recubiertos de sedas, o pequeñas cerdas, que la lombriz usa para remover y escarbar la tierra. La lombriz tiene la boca en el primer segmento del cuerpo. A medida que cava la tierra la va ingiriendo, extrayendo de ella nutrientes que provienen de la descomposición de materia orgánica, como hojas o raíces. La lombriz de tierra es vital para la salud del suelo, ya que transporta nutrientes y minerales hasta la superficie mediante sus deshechos y los túneles que excava oxigenan la tierra. Una lombriz puede comer en un día el equivalente a un tercio de su peso corporal.",
+      IMG: "https://cdn.pixabay.com/photo/2020/01/13/18/56/worm-4763219_960_720.jpg"
+    },
+    {
+      id: 48,
+      nombre: "Avispa",
+      nombreCientifico: "Vespula vulgaris",
+      clase: "Insecto",
+      descripcion: "Estamos familiarizados con las avispas de colores vivos y zumbidos furiosos que vuelan a nuestro alrededor y nos amedrentan con sus dolorosas picaduras. Pero la verdad es que la gran mayoría de las avispas son insectos solitarios e inofensivos para el ser humano. Por el contrario, en lugar de ser dañinas, son sumamente beneficiosas para el hombre ya que controlan las plagas. Las avispas se distinguen de las abejas por su abdomen inferior puntiagudo y su estrecha «cintura» que se denomina pecíolo y separa el abdomen del tórax. Estos insectos ostentan todos los colores que podamos imaginar, desde el amarillo al que ya estamos acostumbrados, al marrón, el azul metálico o el rojo vivo. Generalmente, las especies de colores más brillantes pertenecen a la familia de las Vespidae, es decir, las avispas que pican.",
+      IMG: "https://cdn.pixabay.com/photo/2018/04/25/18/41/hornet-3350248_960_720.jpg"
+    },
+    {
+      id: 49,
+      nombre: "Polilla",
+      nombreCientifico: "Tinea pellionella",
+      clase: "Insecto",
+      descripcion: "Las polillas son lepidópteros de pequeño tamaño que se han adaptado a convivir con nosotros en el interior de los edificios, convirtiéndose a veces en una plaga que devora alimentos, ropas, papel y otros bienes materiales que atesoramos los humanos. Los expertos en conservación del patrimonio en museos y casa antiguas del English Heritage saben bien cómo mantenerlas a raya de los materiales textiles y nos dan sus mejores consejos para prevenir su presencia en casa. En la naturaleza, las polillas se consideran unas excelentes recicladoras de la materia orgánica. Al alimentarse, sus larvas contribuyen a la transformación de la materia orgánica en los procesos de degradación que se llevan a cabo durante el compostaje, realizando una valiosa tarea de limpieza de desechos orgánicos y aprovechamiento de nutrientes dentro de la cadena trófica.",
+      IMG: "https://cdn.pixabay.com/photo/2017/06/22/20/22/moth-2432376_960_720.jpg"
+    },
+    {
+      id: 50,
+      nombre: "Araña",
+      nombreCientifico: "Araneae",
+      clase: "Insecto",
+      descripcion: "Las arañas son un conjunto de animales artrópodos muy abundante en todo el mundo y del que se conocen aproximadamente unas 45.000 especies diferentes. Son el orden más numeroso de la clase Arachnida y están lejanamente emparentadas con otros grupos de artrópodos, como los insectos. Se trata además de uno de los grupos más diversos, colocándose en cuanto al resto de organismos en el séptimo lugar respecto a su diversidad. Las arañas tienen el cuerpo dividido en dos partes denominadas tagmas, y cuentan con cuatro pares de patas. Se sabe que durante la prehistoria existieron algunas arañas que podían llegar a medir 50 centímetros, pero actualmente la más grande que existe tiene un tamaño de 30 centímetros. Por regla general son animales solitarios y depredadores de pequeños insectos a los cuales pueden dar caza a través de técnicas muy variadas. Algunas, de hecho, poseen potentes venenos los cuales un pequeña cantidad, puede acabar con la vida de un ser humano.",
+      IMG: "https://cdn.pixabay.com/photo/2017/10/24/12/45/spider-2884460_960_720.jpg"
     }
   );
 
