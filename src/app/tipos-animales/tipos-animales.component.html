@@ -91,9 +91,8 @@
       <img class="card-img img-fluid" src="{{animales.IMG}}" alt="{{animales.nombre}}">
     </div>
     
-    <div class="card-body">
-        <h1 class="card-title mat-typography" style="font-family: lobster;">{{animales.nombre}}</h1>
-        <em>{{animales.nombreCientifico}}</em>
+    <div class="card-body bg-success">
+        <h3 style="font-style: italic; font-weight: lighter; color: #ffffff;" >{{animales.nombreCientifico}}</h3>
         <h3 class=" card-text mt-3"><b>Clase: </b>{{animales.clase}}</h3> 
         <div class="text-center">
           <button class="btn btn-info" type="button" (click)="descripcion(animales.nombre, animales.descripcion)">Descripcion</button>
