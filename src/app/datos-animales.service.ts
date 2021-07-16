@@ -9,8 +9,9 @@ export class DatosAnimalesService {
 
 prueba: string = "Prueba del servicio";
 
+
   constructor() { 
-   
+      
   }
 
   tiposAnimales = new Array(
@@ -301,6 +302,7 @@ prueba: string = "Prueba del servicio";
   );
 
   Todo = new Array();
+  
   nombre: any;
   listaDescripcionEspecies() {return this.tiposAnimales}
   listaMamiferos() {return this.Mamiferos;}
@@ -330,9 +332,9 @@ prueba: string = "Prueba del servicio";
     return this.Peces[id];
   }
 
- 
-
   listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos);}
+
+  
   
    
 }

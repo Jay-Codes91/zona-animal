@@ -31,6 +31,7 @@ import { InsectoComponent } from './tipos-animales/insectos/insecto/insecto.comp
 import { PezComponent } from './tipos-animales/peces/pez/pez.component';
 import { ReptilComponent } from './tipos-animales/reptiles/reptil/reptil.component';
 
+
 const rutas: Routes = [
   
   { path: '', component: InicioComponent, pathMatch: 'full' },
@@ -47,7 +48,9 @@ const rutas: Routes = [
   { path: 'informacion', component: InformacionComponent },
   { path: 'tipos-animales/mamiferos/animal/:id/:nombre', component: AnimalComponent },
   { path: 'pagina404', component: Pagina404Component },
-  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' }
+  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' },
+  
+  
 ]
 
 @NgModule({

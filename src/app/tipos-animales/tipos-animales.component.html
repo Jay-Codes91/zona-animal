@@ -80,7 +80,7 @@
 
 <div *ngIf="mostrarContenido" id="contenedor2" class="container-fluid p-0 m-0">
  
-  <div class="card m-2" *ngFor="let animales of todosAnimales | buscar: buscar">
+  <div class="card m-2" *ngFor="let animales of todosAnimales | buscar: buscar; index as i">
     <div class="card-header bg-success">
       <div class="d-flex">
          <img class="rounded-circle img-fluid" src="{{animales.IMG}}" alt="{{animales.nombre}}" style="width: 50px; height: 50px;">
@@ -94,7 +94,7 @@
     <div class="card-body">
         <h1 class="card-title mat-typography" style="font-family: lobster;">{{animales.nombre}}</h1>
         <em>{{animales.nombreCientifico}}</em>
-        <h3 class=" card-text mt-3"><b>Clase: </b>{{animales.clase}}</h3>      
+        <h3 class=" card-text mt-3"><b>Clase: </b>{{animales.clase}}</h3>  
     </div>
 </div>
   
