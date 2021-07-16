@@ -25,6 +25,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatDialogModule} from '@angular/material/dialog';
 import { BuscarPipe } from './buscar.pipe';
 import { AveComponent } from './tipos-animales/aves/ave/ave.component';
 import { InsectoComponent } from './tipos-animales/insectos/insecto/insecto.component';
@@ -85,6 +86,7 @@ const rutas: Routes = [
     MatCardModule,
     MatTooltipModule,
     MatAutocompleteModule,
+    MatDialogModule,
     ReactiveFormsModule
   ],
   providers: [DatosAnimalesService],

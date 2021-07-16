@@ -26,7 +26,11 @@ export class AppComponent implements OnInit {
     this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + " del " + this.fecha.getFullYear();
   }
   ngOnInit() {
-
+    alertify.defaults.transition = "slide";
+    alertify.defaults.theme.ok = "btn btn-primary";
+    alertify.defaults.theme.cancel = "btn btn-danger";
+    alertify.defaults.theme.input = "form-control";
+    
     $("#menuAnimales").hide();
     $("#menuAnimales2").hide();
 

@@ -94,7 +94,10 @@
     <div class="card-body">
         <h1 class="card-title mat-typography" style="font-family: lobster;">{{animales.nombre}}</h1>
         <em>{{animales.nombreCientifico}}</em>
-        <h3 class=" card-text mt-3"><b>Clase: </b>{{animales.clase}}</h3>  
+        <h3 class=" card-text mt-3"><b>Clase: </b>{{animales.clase}}</h3> 
+        <div class="text-center">
+          <button class="btn btn-info" type="button" (click)="descripcion(animales.nombre, animales.descripcion)">Descripcion</button>
+        </div>
     </div>
 </div>
   

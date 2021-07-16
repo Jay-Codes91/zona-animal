@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { DatosAnimalesService } from 'src/app/datos-animales.service';
 
 declare var AOS: any;
+declare var alertify: any;
+
 @Component({
   selector: 'app-tipos-animales',
   templateUrl: './tipos-animales.component.html',
@@ -27,9 +29,23 @@ export class TiposAnimalesComponent implements OnInit {
      this.insectos = this.servicio.listaInsectos();
      this.peces = this.servicio.listaPeces();
      this.todosAnimales = this.servicio.listaTodosAnimales();
+
+     
   }
 
 
-  ngOnInit(): void {}
+
+
+  ngOnInit(): void {
+    //override defaults
+    alertify.defaults.transition = "zoom";
+
+
+  }
+
+  descripcion(titulo: string, desc:string){
+
+    alertify.alert(titulo, desc)
+  }
 
 }
