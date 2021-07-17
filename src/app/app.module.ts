@@ -2,12 +2,18 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 //importado
 import { RouterModule, Routes } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http';
-import { DatosAnimalesService } from './datos-animales.service';
+import { DatosAnimalesService } from './datos-animales.service';//Servicio
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+//Angular material
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
-
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatInputModule} from '@angular/material/input'; 
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatDialogModule} from '@angular/material/dialog';
+//Componentes
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TiposAnimalesComponent } from './tipos-animales/tipos-animales.component';
@@ -20,18 +26,13 @@ import { InsectosComponent } from './tipos-animales/insectos/insectos.component'
 import { Pagina404Component } from './pagina404/pagina404.component';
 import { AnimalComponent } from './tipos-animales/animal/animal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatTabsModule} from '@angular/material/tabs';
-import {MatInputModule} from '@angular/material/input'; 
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
-import {MatTooltipModule} from '@angular/material/tooltip';
-import {MatDialogModule} from '@angular/material/dialog';
-import { BuscarPipe } from './buscar.pipe';
+
 import { AveComponent } from './tipos-animales/aves/ave/ave.component';
 import { InsectoComponent } from './tipos-animales/insectos/insecto/insecto.component';
 import { PezComponent } from './tipos-animales/peces/pez/pez.component';
 import { ReptilComponent } from './tipos-animales/reptiles/reptil/reptil.component';
-
+//Pipe
+import { BuscarPipe } from './buscar.pipe';
 
 const rutas: Routes = [
   
@@ -49,9 +50,7 @@ const rutas: Routes = [
   { path: 'informacion', component: InformacionComponent },
   { path: 'tipos-animales/mamiferos/animal/:id/:nombre', component: AnimalComponent },
   { path: 'pagina404', component: Pagina404Component },
-  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' },
-  
-  
+  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' }
 ]
 
 @NgModule({
@@ -76,7 +75,6 @@ const rutas: Routes = [
   ],
   imports: [
     BrowserModule, 
-    HttpClientModule,
     RouterModule.forRoot(rutas),
     BrowserAnimationsModule,
     FormsModule,

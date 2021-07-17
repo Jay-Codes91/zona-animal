@@ -1,4 +1,3 @@
-import { isFakeTouchstartFromScreenReader } from '@angular/cdk/a11y';
 import { Component, OnInit } from '@angular/core';
 declare var $: any;
 declare var alertify: any;
@@ -15,12 +14,12 @@ export class AppComponent implements OnInit {
   fecha = new Date();
   diaSemana = new Array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado");
   meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre",
-"Octubre", "Noviembre", "Diciembre");
+    "Octubre", "Noviembre", "Diciembre");
   dia;
   mes;
   fechaCompleta;
 
-  constructor(){
+  constructor() {
     this.dia = this.fecha.getDay();
     this.mes = this.fecha.getMonth();
     this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + " del " + this.fecha.getFullYear();
@@ -30,7 +29,7 @@ export class AppComponent implements OnInit {
     alertify.defaults.theme.ok = "btn btn-primary";
     alertify.defaults.theme.cancel = "btn btn-danger";
     alertify.defaults.theme.input = "form-control";
-    
+
     $("#menuAnimales").hide();
     $("#menuAnimales2").hide();
 
@@ -56,20 +55,20 @@ export class AppComponent implements OnInit {
 
     $("#encabezado > #btnMenu").click(function () {
       $("#navOculto").animate({
-          left: "0"
+        left: "0"
       })
 
       $("#navOculto > #header2 > .cerrar2").click(function () {
         $("#navOculto").animate({
-            left: "-100%"
+          left: "-100%"
         })
-    
-    });
-  
-  });
-  
 
-  
+      });
+
+    });
+
+
+
   }//ngOnInit
 
 

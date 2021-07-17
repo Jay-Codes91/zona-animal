@@ -11,40 +11,31 @@ declare var alertify: any;
 })
 export class TiposAnimalesComponent implements OnInit {
 
- animales: any[] = [];
- mamiferos: any[] = [];
- aves: any[] = [];
- reptiles:any[] = [];
- insectos:any[] = [];
- peces:any[] = [];
- todosAnimales: any[] = [];
- buscar = '';
- mostrarContenido: boolean = false;
- 
-  constructor(private servicio: DatosAnimalesService) { 
-     this.animales = this.servicio.listaDescripcionEspecies();
-     this.mamiferos = this.servicio.listaMamiferos();
-     this.aves = this.servicio.listaAves();
-     this.reptiles = this.servicio.listaReptiles();
-     this.insectos = this.servicio.listaInsectos();
-     this.peces = this.servicio.listaPeces();
-     this.todosAnimales = this.servicio.listaTodosAnimales();
+  animales: any[] = [];
+  mamiferos: any[] = [];
+  aves: any[] = [];
+  reptiles: any[] = [];
+  insectos: any[] = [];
+  peces: any[] = [];
+  todosAnimales: any[] = [];
+  buscar = '';
+  mostrarContenido: boolean = false;
 
-     
+  constructor(private servicio: DatosAnimalesService) {
+    this.animales = this.servicio.listaDescripcionEspecies();
+    this.mamiferos = this.servicio.listaMamiferos();
+    this.aves = this.servicio.listaAves();
+    this.reptiles = this.servicio.listaReptiles();
+    this.insectos = this.servicio.listaInsectos();
+    this.peces = this.servicio.listaPeces();
+    this.todosAnimales = this.servicio.listaTodosAnimales();
   }
-
-
-
 
   ngOnInit(): void {
-    //override defaults
     alertify.defaults.transition = "zoom";
-
-
   }
 
-  descripcion(titulo: string, desc:string){
-
+  descripcion(titulo: string, desc: string) {
     alertify.alert(titulo, desc)
   }
 
