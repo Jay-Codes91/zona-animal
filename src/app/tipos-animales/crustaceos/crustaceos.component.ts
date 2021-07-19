@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 
 @Component({
   selector: 'app-crustaceos',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrustaceosComponent implements OnInit {
 
-  constructor() { }
+  crustaceos: any[] = [];
+
+  constructor(private servicio: DatosAnimalesService) { 
+    this.crustaceos = servicio.listaCrustaceos();
+  }
 
   ngOnInit(): void {
   }

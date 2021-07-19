@@ -60,6 +60,28 @@
       </div>
     </mat-tab>
 
+    <mat-tab label="Anfibios" class="mats-tab">
+      <h1 class="mat-display-1 text-center mat-typography" style="font-family: lobster;">Anfibios</h1>
+      <p>{{animales[5].anfibios}}</p>
+      <h2 class="mat-display-1 mat-typography" style="font-family: lobster;">Fotos</h2>
+      <div id="fotos">
+        <div><img src="{{anfibios[0].IMG}}" alt="{{anfibios[0].nombre}}" matTooltip="{{anfibios[0].nombre}}"></div>
+        <div><img src="{{anfibios[1].IMG}}" alt="{{anfibios[1].nombre}}" matTooltip="{{anfibios[1].nombre}}"></div>
+        <div><img src="{{anfibios[2].IMG}}" alt="{{anfibios[2].nombre}}" matTooltip="{{anfibios[2].nombre}}"></div>
+      </div>
+    </mat-tab>
+
+    <mat-tab label="Crustaceos" class="mats-tab">
+      <h1 class="mat-display-1 text-center mat-typography" style="font-family: lobster;">Crustáceos</h1>
+      <p>{{animales[6].crustaceos}}</p>
+      <h2 class="mat-display-1 mat-typography" style="font-family: lobster;">Fotos</h2>
+      <div id="fotos">
+        <div><img src="{{crustaceos[0].IMG}}" alt="{{crustaceos[0].nombre}}" matTooltip="{{crustaceos[0].nombre}}"></div>
+        <div><img src="{{crustaceos[1].IMG}}" alt="{{crustaceos[1].nombre}}" matTooltip="{{crustaceos[1].nombre}}"></div>
+        <div><img src="{{crustaceos[2].IMG}}" alt="{{crustaceos[2].nombre}}" matTooltip="{{crustaceos[2].nombre}}"></div>
+      </div>
+    </mat-tab>
+
   </mat-tab-group>
 </div>
 <br>

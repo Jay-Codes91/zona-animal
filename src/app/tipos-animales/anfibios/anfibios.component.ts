@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 
 @Component({
   selector: 'app-anfibios',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnfibiosComponent implements OnInit {
 
-  constructor() { }
+  anfibios: any[] = [];
+
+  constructor(private servicio: DatosAnimalesService) {
+     this.anfibios = servicio.listaAnfibios();
+   }
 
   ngOnInit(): void {
   }

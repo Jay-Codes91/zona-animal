@@ -1,1 +1,22 @@
-<p>anfibio works!</p>
+<div class="card bg-success">
+    <div class="card-header">
+      <img src="{{anfibios.IMG}}" class="rounded-circle" alt="{{anfibios.nombre}}">
+      <h1 class="text-light">{{anfibios.nombre}}</h1>
+    </div>
+  
+    <div>
+      <img src="{{anfibios.IMG}}" alt="{{anfibios.nombre}}">
+    </div>
+    
+    <div class="card-body">
+      <h2 class="card-title"><b class="text-light">Nombre Científico:  </b>{{anfibios.nombreCientifico}}</h2>
+      <h2 class="card-title"><b class="text-light">Clase:  </b>{{anfibios.clase}}</h2>
+      <h2 class="card-title"><b class="text-light">Descripcion</b> </h2>
+      <p class="card-text">{{anfibios.descripcion}}</p>
+    </div>
+  </div>
+  <br>
+  <div class=" text-center">
+      <a routerLink="/tipos-animales/anfibios" class=" btn btn-success">Regresar a la lista</a>
+  </div>
+  <br>

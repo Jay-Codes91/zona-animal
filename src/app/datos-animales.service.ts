@@ -41,6 +41,16 @@ prueba: string = "Prueba del servicio";
       insectos:
         "Los insectos son animales invertebrados del filo de los artrópodos. Comprenden el grupo de animales más diverso de la Tierra de los que se conocen aproximadamente un millón de especies diferentes, cada una de ellas con una cantidad de miembros muy abundante. También se cree que aún quedan por describir unos 30 millones de especies más. Pueden encontrarse en casi todos los lugares del planeta, aunque solo un pequeño número de especies ha conseguido adaptarse a la vida en los océanos.  Los insectos no solo presentan una gran diversidad, sino que también son increíblemente abundantes. Algunas estimaciones hablan que existen 200 millones de insectos por cada ser humano." +
         "Se caracterizan por tener dos antenas, seis patas y dos alas, a pesar de que en ocasiones no les sirven para volar. Tienen el cuerpo dividido en tres partes: cabeza, tórax y abdomen y en algún momento de su vida, por lo general cuando pasan a la etapa adulta, experimentan un cambio drástico llamado metamorfosis. Aquí tienes una galería fotográfica con cientos de imágenes de insectos: "
+    },
+
+    {
+      anfibios:
+      "Su nombre proviene del griego y significa 'ambos medios', pues su vida transcurre entre el medio acuático y el terrestre. Se tratan los ancestros de los anfibios del primer grupo de vertebrados que colonizó el continente y se adaptó a una vida semiterrestre. Se encuentran prácticamente en todas las regiones del mundo excepto en aquellas donde las condiciones climáticas son más duras como el Ártico, la Antártida y los desiertos más extremos.  Los anfibios se caracterizan a diferencia del resto de vertebrados de pasar por diversos cambios y estadios morfológicos a lo largo de sus ciclos de vida. Transformaciones que de producirse de forma brusca reciben el nombre de metamorfosis."
+    },
+
+    {
+      crustaceos:
+      "Los crustáceos son animales marinos que se caracterizan por la presencia de un exoesqueleto de quitina articulado. Los crustáceos están divididos en seis clases siendo la más conocida la clase Malacostrata que reune a los cangrejos, camarones, galeras y langostas. El nombre científico del grupo, procede del griego, y significa “concha blanda”, haciendo alusión a su exoesqueleto de quitina. Los diferentes segmentos en los que se divide el cuerpo articulado de estos animales, se agrupan en tres grandes regiones: Céfala, Torax y Pleon. La región Céfala agrupa a los segmentos de la cabeza, apéndices de la cabeza y aparato bucal. La región del Torax está formada por ocho segmentos, algunos fusionados con la cabeza, y las patas marchadoras. La región del Pleon integra el abdomen y los cinco pares de apéndices traseros."
     }
   );
 
@@ -521,7 +531,7 @@ prueba: string = "Prueba del servicio";
         nombreCientifico: "Anura",
         nomRuta: "rana",
         clase: "Anfibio",
-        descripcion: "Pendiente",
+        descripcion: "Son un tipo de anfibios caracterizados principalmente por su gran capacidad de salto gracias a la morfología de sus extremidades posteriores, potentes y muy desarrolladas. Los ejemplares más pequeños miden aproximadamente 8 centímetros, mientras que los más grandes pueden alcanzar los 30 centímetros. Se han descrito unas 6.600 especies, la mayoría de las cuales reparte su vida entre el medio acuático y el terrestre. Se reproducen mediante huevos y se alimentan de pequeños invertebrados. Su hábitat se distribuye sobretodo en los bosques de las regiones tropicales, pero se pueden encontrar algunas hasta en las regiones subárticas. Las ranas se distinguen de los sapos básicamente por su piel, que en el caso de los sapos presenta algunas verrugas.",
         IMG: "https://cdn.pixabay.com/photo/2017/07/21/08/49/animal-2525109_960_720.jpg"
     },
     {
@@ -530,7 +540,7 @@ prueba: string = "Prueba del servicio";
         nombreCientifico: "Bufonidae",
         nomRuta: "sapo",
         clase: "Anfibio",
-        descripcion: "Pendiente",
+        descripcion: "Los bufónidos son una familia del orden Anura, un grupo de los anfibios conocidos. Muchas de sus especies se conocen con el nombre común de sapos; no obstante, numerosas especies pertenecientes a otras familias también son comúnmente denominados sapos. Esto es así porque las características que popularmente se utilizan para distinguir a las ranas de los sapos no son las mismas que se utilizan en la clasificación científica. Según la cultura popular, se diferencian en que las ranas tienen la piel lisa y húmeda, mientras que los sapos tienen la piel áspera y seca y son más caminadores que saltadores, de ahí que sus patas sean más cortas.",
         IMG: "https://cdn.pixabay.com/photo/2014/07/30/09/20/toad-405121_960_720.jpg"
     },
     {
@@ -539,7 +549,7 @@ prueba: string = "Prueba del servicio";
         nombreCientifico: "Caudata",
         nomRuta: "salamandra",
         clase: "Anfibio",
-        descripcion: "Pendiente",
+        descripcion: "La salamandra es una especie de anfibio urodelo de la familia Salamandridae. Es el más común de los urodelos en Europa. De hábitos terrestres, únicamente entra en el agua para parir, y muchas subespecies lo hacen en tierra. Es un urodelo inconfundible, de fondo negro y manchas variadas amarillas muy intensas que pueden llegar a cubrir la casi totalidad del cuerpo. A veces también se aprecian manchas de color rojizo. ",
         IMG: "https://cdn.pixabay.com/photo/2014/03/23/15/14/fire-salamander-293324_960_720.jpg"
     },
     {
@@ -548,7 +558,7 @@ prueba: string = "Prueba del servicio";
         nombreCientifico: "Triturus",
         nomRuta: "triton",
         clase: "Anfibio",
-        descripcion: "Pendiente",
+        descripcion: "Triturus es un género de anfibios caudados de la familia Salamandridae, compuesto por una serie de especies de Europa y Asia que se encuentran en cuerpos de agua, como estanques poco profundos, lagunas, arroyos y aguas profundas tranquilas; y terrestres, como páramos, pantanos y bosques. Este género se ha usado como especie indicadora debido a que su presencia o ausencia puede indicar la salud del ambiente, por ejemplo el pH del agua y otros contaminantes. Es considerado por la IUCN como una especie de preocupación menor; sin embargo, las poblaciones de las distintas especies han ido decreciendo y en otras se encuentran estables",
         IMG: "https://cdn.pixabay.com/photo/2018/05/16/21/03/newt-3407060_960_720.jpg"
     },
     {
@@ -557,7 +567,7 @@ prueba: string = "Prueba del servicio";
         nombreCientifico: "Pleurodeles waltl",
         nomRuta: "gallipato",
         clase: "Anfibio",
-        descripcion: "Pendiente",
+        descripcion: "Es la especie de anfibio urodelo más grande que existe en Europa. En cuanto a la familia del gallipato, este anfibio es el representante más grande de la familia de Salamandridae, es decir, que es de la misma familia que las salamandras. Se trata de una especie de anfibio muy grande, con un tamaño que puede alcanza los 31 centímetros de longitud para los machos y unos 29 centímetros para las hembras, aunque los ejemplares criados en cautividad solo alcanzan entre 15 y 25 centímetros.",
         IMG: "https://www.brutal.org.es/wp-content/uploads/2018/10/gallipato-Ra%C3%BAl.jpg"
     }
 );
@@ -569,7 +579,7 @@ Crustaceos = new Array(
         nombreCientifico: "Palinurus elephas",
         nomRuta: "langosta",
         clase: "Crustáceo",
-        descripcion: "Pendiente",
+        descripcion: "La langosta es un invertebrado crustáceo de color, en general, rojizo con algunas franjas amarillas o marrones. Los individuos más jóvenes tienen una franja roja en la parte superior del cuerpo. Los dos pares de antenas son de color amarillo. El segundo par de antenas es más largo que el cuerpo y puede llegar a medir 80 cm. Igual que el resto de decápodos tiene 5 pares de patas marchadoras, pero sin pinzas. Su tamaño máximo es de 50 cm. Los adultos pueden llegar a pesar hasta 8 kg. Es un animal de hábitos nocturnos y durante el día se esconde en cuevas o grietas, y sólo deja fuera las antenas, que pueden llegar a medir hasta 80 cm. Se alimenta de bivalvos y caracoles, a los que puede romper la concha aunque no tenga pinzas, y también carroña. La langosta es ovípara. Se ha observado hembras con huevos en septiembre y octubre.",
         IMG: "https://cdn.pixabay.com/photo/2016/10/09/19/23/lobster-1726627_960_720.jpg"
     },
     {
@@ -578,7 +588,7 @@ Crustaceos = new Array(
         nombreCientifico: "Caridea",
         nomRuta: "camaron",
         clase: "Crustáceo",
-        descripcion: "Pendiente",
+        descripcion: "El camarón, llamado realmente carídeo (Caridea), es un crústaceo marino al que podemos encontrar en todos los fondos marinos del mundo. Son muy pequeños y algunas especies son realmente pequeños, tanto que muchos animales son incapaces de detectarlos. Hay más de 2.000 especies diferentes de camarones, siendo todos ellos animales invertebrados, es decir ninguna de esas especies posee de espina dorsal. Sin embargo, posee un exoesqueleto duro (cáscara) que suele ser transparentes e incoloro, lo que hace difíciles de ver en el agua.",
         IMG: "https://cdn.pixabay.com/photo/2017/06/11/22/55/shrimp-2393818_960_720.jpg"
     },
     {
@@ -587,17 +597,17 @@ Crustaceos = new Array(
         nombreCientifico: "Brachyura",
         nomRuta: "cangrejo",
         clase: "Crustáceo",
-        descripcion: "Pendiente",
+        descripcion: "Los cangrejos son los crustáceos más populares de este planeta. Ya sea por su divertida forma de caminar de lado o por sus curiosas pinzas con las que se defienden, son uno de los animales que más simpatía despiertan. En este artículo le ofrecemos toda la información sobre estos decápodos con diez patas. Los cangrejos, como todos los crustáceos, se caracterizan por tener un exoesqueleto compuesto de quitina que actúa como un verdadero caparazón que les protege. Poseen cinco pares de patas, de las cuales, una de cada lado, han evolucionado hasta convertirse en pinzas que utilizan para alimentarse, para el cortejo y para defenderse de sus depredadores.",
         IMG: "https://cdn.pixabay.com/photo/2017/03/03/12/59/crab-2113971_960_720.jpg"
     },
     {
         id: 59,
-        nombre: "Cochinillas",
-        nombreCientifico: "Dactylopius coccus",
-        nomRuta: "cochinillas",
+        nombre: "Cangrejo Ermitaño",
+        nombreCientifico: "Paguroidea",
+        nomRuta: "cangrejo-ermitano",
         clase: "Crustáceo",
-        descripcion: "Pendiente",
-        IMG: "https://cdn.pixabay.com/photo/2013/07/26/01/59/woodlice-167261_960_720.jpg"
+        descripcion: "Los paguroideos (Paguroidea) son una superfamilia de crustáceos decápodos, conocidos popularmente como cangrejos ermitaños o paguros. Estos crustáceos tienen en común el uso de conchas de caracol para cubrir su abdomen, que es más blando que el de otros cangrejos. Este tipo de relación interespecífica que mantiene con las conchas de los moluscos muertos se denomina tanatocresis, y es uno de los pocos animales que la realiza. Existen alrededor de 500 especies de cangrejos ermitaños alrededor del mundo, siendo la mayoría acuáticos, pero existiendo algunos terrestres. Solo la parte delantera está cubierta por un exoesqueleto rígido. Para protegerse se refugia dentro de conchas vacías de moluscos. Su abdomen está enroscado para que pueda caber dentro de la concha; además, sus patas y pinzas le permiten bloquear la entrada. A medida que el cangrejo crece, debe cambiar de casa. Empieza por inspeccionar detenidamente con sus pinzas las conchas vacías y cuando encuentra la adecuada, se muda rápidamente. Para los cangrejos ermitaños encontrar una concha vacía es cuestión de vida o muerte, por lo que son frecuentes las luchas entre ellos cuando hay pocas disponibles.",
+        IMG: "https://cdn.pixabay.com/photo/2019/02/17/16/11/hermit-crab-4002529_960_720.jpg"
     },
     {
         id: 60,
@@ -605,7 +615,7 @@ Crustaceos = new Array(
         nombreCientifico: "Pollicipes pollicipes",
         nomRuta: "percebes",
         clase: "Crustáceo",
-        descripcion: "Pendiente",
+        descripcion: "Es un crustáceo cirrópodo, es decir, son crustáceos marinos, hermafroditas, que viven fijos al fondo o como parásitos, con el cuerpo cubierto por un caparazón, y sus patas torácicas, en forma de cirros, actúan como filtros en la captura de las partículas alimenticias. Viven en zonas de fuertes resacas donde el mar rompe violentamente. Forma grupos o piñas que están fijadas al sustrato por unas glándulas cementantes segregadas por unas glándulas situadas tras la cabeza. Mantiene competencia con el mejillón por estos enclaves. Se alimenta del fitoplancton de las aguas que baten las olas, por medio de una especie de pluma filamentosa que emerge de su uña en cada recogida de la ola, conocida como cirro, el cual puede moverse unas 140 veces por minuto.",
         IMG: "https://cdn.pixabay.com/photo/2014/08/15/21/52/mussels-419050_960_720.jpg"
     }
 );
@@ -651,7 +661,7 @@ Crustaceos = new Array(
     return this.Crustaceos[id];
   }
 
-  listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos);}
+  listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos, this.Anfibios, this.Crustaceos);}
 
   
   

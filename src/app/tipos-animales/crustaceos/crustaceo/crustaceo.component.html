@@ -1,1 +1,22 @@
-<p>crustaceo works!</p>
+<div class="card bg-success">
+    <div class="card-header">
+      <img src="{{crustaceos.IMG}}" class="rounded-circle" alt="{{crustaceos.nombre}}">
+      <h1 class="text-light">{{crustaceos.nombre}}</h1>
+    </div>
+  
+    <div>
+      <img src="{{crustaceos.IMG}}" alt="{{crustaceos.nombre}}">
+    </div>
+    
+    <div class="card-body">
+      <h2 class="card-title"><b class="text-light">Nombre Científico:  </b>{{crustaceos.nombreCientifico}}</h2>
+      <h2 class="card-title"><b class="text-light">Clase:  </b>{{crustaceos.clase}}</h2>
+      <h2 class="card-title"><b class="text-light">Descripcion</b> </h2>
+      <p class="card-text">{{crustaceos.descripcion}}</p>
+    </div>
+  </div>
+  <br>
+  <div class=" text-center">
+      <a routerLink="/tipos-animales/crustaceos" class=" btn btn-success">Regresar a la lista</a>
+  </div>
+  <br>

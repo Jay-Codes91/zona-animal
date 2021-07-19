@@ -17,6 +17,8 @@ export class TiposAnimalesComponent implements OnInit {
   reptiles: any[] = [];
   insectos: any[] = [];
   peces: any[] = [];
+  anfibios: any[] = [];
+  crustaceos: any[] = [];
   todosAnimales: any[] = [];
   buscar = '';
   mostrarContenido: boolean = false;
@@ -28,6 +30,8 @@ export class TiposAnimalesComponent implements OnInit {
     this.reptiles = this.servicio.listaReptiles();
     this.insectos = this.servicio.listaInsectos();
     this.peces = this.servicio.listaPeces();
+    this.anfibios = this.servicio.listaAnfibios();
+    this.crustaceos = this.servicio.listaCrustaceos();
     this.todosAnimales = this.servicio.listaTodosAnimales();
   }
 

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { DatosAnimalesService } from 'src/app/datos-animales.service';
 
 @Component({
   selector: 'app-anfibio',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnfibioComponent implements OnInit {
 
-  constructor() { }
+  anfibios: any = [];
+
+  constructor(private servicio: DatosAnimalesService, private ruta: ActivatedRoute) { 
+    this.ruta.params.subscribe(pars => {
+      this.anfibios = this.servicio.obtenerAnfibio(pars['id']);
+    })
+  }
 
   ngOnInit(): void {
   }
