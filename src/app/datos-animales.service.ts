@@ -513,6 +513,104 @@ prueba: string = "Prueba del servicio";
     }
   );
 
+  Anfibios = new Array(
+
+    {
+        id: 51,
+        nombre: "Rana",
+        nombreCientifico: "Anura",
+        nomRuta: "rana",
+        clase: "Anfibio",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2017/07/21/08/49/animal-2525109_960_720.jpg"
+    },
+    {
+        id: 52,
+        nombre: "Sapo",
+        nombreCientifico: "Bufonidae",
+        nomRuta: "sapo",
+        clase: "Anfibio",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2014/07/30/09/20/toad-405121_960_720.jpg"
+    },
+    {
+        id: 53,
+        nombre: "Salamandra",
+        nombreCientifico: "Caudata",
+        nomRuta: "salamandra",
+        clase: "Anfibio",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2014/03/23/15/14/fire-salamander-293324_960_720.jpg"
+    },
+    {
+        id: 54,
+        nombre: "Triton",
+        nombreCientifico: "Triturus",
+        nomRuta: "triton",
+        clase: "Anfibio",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2018/05/16/21/03/newt-3407060_960_720.jpg"
+    },
+    {
+        id: 55,
+        nombre: "Gallipato",
+        nombreCientifico: "Pleurodeles waltl",
+        nomRuta: "gallipato",
+        clase: "Anfibio",
+        descripcion: "Pendiente",
+        IMG: "https://www.brutal.org.es/wp-content/uploads/2018/10/gallipato-Ra%C3%BAl.jpg"
+    }
+);
+
+Crustaceos = new Array(
+    {
+        id: 56,
+        nombre: "Langosta",
+        nombreCientifico: "Palinurus elephas",
+        nomRuta: "langosta",
+        clase: "Crustáceo",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2016/10/09/19/23/lobster-1726627_960_720.jpg"
+    },
+    {
+        id: 57,
+        nombre: "Camaron",
+        nombreCientifico: "Caridea",
+        nomRuta: "camaron",
+        clase: "Crustáceo",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2017/06/11/22/55/shrimp-2393818_960_720.jpg"
+    },
+    {
+        id: 58,
+        nombre: "Cangrejo",
+        nombreCientifico: "Brachyura",
+        nomRuta: "cangrejo",
+        clase: "Crustáceo",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2017/03/03/12/59/crab-2113971_960_720.jpg"
+    },
+    {
+        id: 59,
+        nombre: "Cochinillas",
+        nombreCientifico: "Dactylopius coccus",
+        nomRuta: "cochinillas",
+        clase: "Crustáceo",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2013/07/26/01/59/woodlice-167261_960_720.jpg"
+    },
+    {
+        id: 60,
+        nombre: "Percebes",
+        nombreCientifico: "Pollicipes pollicipes",
+        nomRuta: "percebes",
+        clase: "Crustáceo",
+        descripcion: "Pendiente",
+        IMG: "https://cdn.pixabay.com/photo/2014/08/15/21/52/mussels-419050_960_720.jpg"
+    }
+);
+
+
   Todo = new Array();
   
   nombre: any;
@@ -522,7 +620,8 @@ prueba: string = "Prueba del servicio";
   listaReptiles() {return this.Reptiles;}
   listaPeces() {return this.Peces;}
   listaInsectos() {return this.Insectos;}
-  
+  listaAnfibios() {return this.Anfibios;}
+  listaCrustaceos() {return this.Crustaceos;}
  
   obtenerMamifero(id:number){
     return this.Mamiferos[id];
@@ -542,6 +641,14 @@ prueba: string = "Prueba del servicio";
 
   obtenerPez(id:number){
     return this.Peces[id];
+  }
+
+  obtenerAnfibio(id:number){
+    return this.Anfibios[id];
+  }
+
+  obtenerCrustaceo(id:number){
+    return this.Crustaceos[id];
   }
 
   listaTodosAnimales() {return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos);}

@@ -33,6 +33,10 @@ import { PezComponent } from './tipos-animales/peces/pez/pez.component';
 import { ReptilComponent } from './tipos-animales/reptiles/reptil/reptil.component';
 //Pipe
 import { BuscarPipe } from './buscar.pipe';
+import { AnfibiosComponent } from './tipos-animales/anfibios/anfibios.component';
+import { AnfibioComponent } from './tipos-animales/anfibios/anfibio/anfibio.component';
+import { CrustaceosComponent } from './tipos-animales/crustaceos/crustaceos.component';
+import { CrustaceoComponent } from './tipos-animales/crustaceos/crustaceo/crustaceo.component';
 
 const rutas: Routes = [
   
@@ -49,8 +53,13 @@ const rutas: Routes = [
   { path: 'tipos-animales/insectos/insecto/:id/:nombre', component: InsectoComponent },
   { path: 'informacion', component: InformacionComponent },
   { path: 'tipos-animales/mamiferos/animal/:id/:nombre', component: AnimalComponent },
+  { path: 'tipos-animales/anfibios', component: AnfibiosComponent },
+  { path: 'tipos-animales/anfibios/anfibio/:id/:nombre', component: AnfibioComponent },
+  { path: 'tipos-animales/crustaceos', component: CrustaceosComponent },
+  { path: 'tipos-animales/crustaceos/crustaceo/:id/:nombre', component: CrustaceoComponent },
   { path: 'pagina404', component: Pagina404Component },
-  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' }
+  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' },
+  
 ]
 
 @NgModule({
@@ -70,7 +79,11 @@ const rutas: Routes = [
     AveComponent,
     InsectoComponent,
     PezComponent,
-    ReptilComponent
+    ReptilComponent,
+    AnfibiosComponent,
+    AnfibioComponent,
+    CrustaceosComponent,
+    CrustaceoComponent
     
   ],
   imports: [
