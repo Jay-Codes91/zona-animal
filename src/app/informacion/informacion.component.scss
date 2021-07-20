@@ -23,9 +23,17 @@ $fondoContainer: #ffffff;
 }
 
 .container{
-    width: 70%;
+    width: 80%;
     margin: auto;
     border: 4px dashed $colorBordeContenedor;
     background-color: $fondoContainer;
     padding: 10px;
+    h1{
+        font-family: $tipoLetra;
+        font-size: 40px;
+    }
+
+    .bibliografia{
+        line-height: 25px;
+    }
 }

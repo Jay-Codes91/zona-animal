@@ -23,6 +23,8 @@ export class AppComponent implements OnInit {
     this.dia = this.fecha.getDay();
     this.mes = this.fecha.getMonth();
     this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + " del " + this.fecha.getFullYear();
+
+    
   }
   ngOnInit() {
     alertify.defaults.transition = "slide";
@@ -67,6 +69,7 @@ export class AppComponent implements OnInit {
 
     });
 
+   
 
 
   }//ngOnInit

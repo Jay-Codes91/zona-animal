@@ -88,7 +88,7 @@ const rutas: Routes = [
   ],
   imports: [
     BrowserModule, 
-    RouterModule.forRoot(rutas),
+    RouterModule.forRoot(rutas, {scrollPositionRestoration: 'top'}),
     BrowserAnimationsModule,
     FormsModule,
     MatTabsModule,
