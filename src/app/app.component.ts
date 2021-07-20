@@ -69,7 +69,12 @@ export class AppComponent implements OnInit {
 
     });
 
-   
+    $("#navOculto > #navegacion-2 > li").click(function () {
+      $("#navOculto").animate({
+        left: "-100%"
+      })
+
+    });
 
 
   }//ngOnInit

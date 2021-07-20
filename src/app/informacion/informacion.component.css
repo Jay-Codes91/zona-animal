@@ -7,12 +7,51 @@
   margin-top: 10px;
 }
 
+.tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  margin: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 540px) {
+  .tarjeta {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 863px) {
+  .tarjeta {
+    max-width: 100%;
+  }
+}
+
+.tarjeta img {
+  height: 200px;
+}
+
+.tarjeta .cont {
+  height: 200px;
+  padding: 10px;
+  background-color: #ffffff;
+  word-wrap: break-word;
+  height: auto;
+}
+
+.tarjeta .cont h1 {
+  font-family: "lobster";
+  font-size: 25px;
+}
+
 .container {
   width: 80%;
   margin: auto;
   border: 4px dashed #2583b9;
   background-color: #ffffff;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .container h1 {

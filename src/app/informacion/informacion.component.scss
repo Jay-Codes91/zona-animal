@@ -22,12 +22,44 @@ $fondoContainer: #ffffff;
    margin-top: 10px;
 }
 
+.tarjeta{
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    height: auto;
+    @media screen and (max-width: 540px) {
+        max-width: 100%;
+        
+      }
+
+      @media screen and (min-width: 541px) and (max-width: 863px) {
+        max-width: 100%;
+      }
+
+    img{
+       height: 200px;
+    }
+
+    .cont{
+      height: 200px;
+      padding: 10px;
+      background-color: $fondoContainer;
+      word-wrap: break-word;
+      height: auto;
+      h1{
+          font-family: $tipoLetra;
+          font-size: 25px;
+      }
+    }
+}
+
 .container{
     width: 80%;
     margin: auto;
     border: 4px dashed $colorBordeContenedor;
     background-color: $fondoContainer;
     padding: 10px;
+    margin-bottom: 20px;
     h1{
         font-family: $tipoLetra;
         font-size: 40px;
