@@ -29,7 +29,7 @@ $fondoContainer: #ffffff;
     height: auto;
     @media screen and (max-width: 540px) {
         max-width: 100%;
-        
+        flex-direction: column;
       }
 
       @media screen and (min-width: 541px) and (max-width: 863px) {
@@ -38,6 +38,10 @@ $fondoContainer: #ffffff;
 
     img{
        height: 200px;
+       @media screen and (max-width: 540px) {
+        width: 40%;
+        margin: auto;
+      }
     }
 
     .cont{
@@ -60,6 +64,9 @@ $fondoContainer: #ffffff;
     background-color: $fondoContainer;
     padding: 10px;
     margin-bottom: 20px;
+    @media screen and (max-width: 540px) {
+      width: 100%;
+    }
     h1{
         font-family: $tipoLetra;
         font-size: 40px;

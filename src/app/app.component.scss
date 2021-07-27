@@ -165,13 +165,21 @@ $coloNegro: #000000;
         
 
         .nav{
-            @media screen and (min-width: 541px) and (max-width: 1191px) {
+            border-left: 1px solid #ffffff;
+            border-right: 1px solid #ffffff;
+            @media screen and (max-width: 509px){
                 align-self: center;
+                border: none;
+            }
+
+            @media screen and (min-width: 510px) and (max-width: 1191px) {
+                align-self: center;
+                border: none;
               }
             li{
                 padding: 20px;
                 @media screen and (max-width: 540px) {
-                    padding: 5px;
+                    padding: 0;
                     
                   }
                   @media screen and (min-width: 541px) and (max-width: 1191px) {
@@ -181,7 +189,7 @@ $coloNegro: #000000;
                 &:nth-child(2){
                     .menu{
                         margin-left: 20px;
-                        
+                        border: none;
                         li{
                             padding: 5px;
                            a{
@@ -198,7 +206,7 @@ $coloNegro: #000000;
                     color: black;
                     font-size: 20px;
                     @media screen and (max-width: 540px) {
-                        font-size: 18;
+                        font-size: 14;
                       }
                       @media screen and (min-width: 541px) and (max-width: 1191px) {
                         font-size: 20px;

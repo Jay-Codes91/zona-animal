@@ -108,7 +108,7 @@
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   #contenedor .tabanimales #fotos div img {
     width: 100%;
   }

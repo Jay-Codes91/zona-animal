@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   constructor() {
     this.dia = this.fecha.getDay();
     this.mes = this.fecha.getMonth();
-    this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + " del " + this.fecha.getFullYear();
+    this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + ", " + this.fecha.getFullYear();
 
     
   }

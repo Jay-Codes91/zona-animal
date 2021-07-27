@@ -19,6 +19,10 @@
 @media screen and (max-width: 540px) {
   .tarjeta {
     max-width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -30,6 +34,13 @@
 
 .tarjeta img {
   height: 200px;
+}
+
+@media screen and (max-width: 540px) {
+  .tarjeta img {
+    width: 40%;
+    margin: auto;
+  }
 }
 
 .tarjeta .cont {
@@ -52,6 +63,12 @@
   background-color: #ffffff;
   padding: 10px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    width: 100%;
+  }
 }
 
 .container h1 {
