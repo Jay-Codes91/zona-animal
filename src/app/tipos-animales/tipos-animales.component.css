@@ -26,7 +26,22 @@
       justify-content: space-around;
 }
 
-@media screen and (min-width: 400px) and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+  #contenedor .tabanimales #fotos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
   #contenedor .tabanimales #fotos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -58,7 +73,14 @@
           box-shadow: 8px -4px 8px 0px rgba(0, 0, 0, 0.58);
 }
 
-@media screen and (min-width: 400px) and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+  #contenedor .tabanimales #fotos div {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
   #contenedor .tabanimales #fotos div {
     width: 100%;
     margin-top: 10px;
@@ -80,6 +102,12 @@
   transition: all .5s ease-in-out;
 }
 
+@media screen and (max-width: 480px) {
+  #contenedor .tabanimales #fotos div img {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 400px) and (max-width: 1200px) {
   #contenedor .tabanimales #fotos div img {
     width: 100%;
@@ -94,6 +122,17 @@
   color: #ffffff;
 }
 
+.contenedorB .buscador {
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .contenedorB .buscador {
+    width: 100%;
+  }
+}
+
 #contenedor2 {
   display: -ms-grid;
   display: grid;
@@ -103,7 +142,18 @@
   grid-row: 10px;
 }
 
-@media screen and (min-width: 400px) and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+  #contenedor2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-row: 10;
+    grid-row: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
   #contenedor2 {
     display: -ms-grid;
     display: grid;
