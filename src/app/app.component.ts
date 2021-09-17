@@ -53,30 +53,6 @@ export class AppComponent implements OnInit {
 
     );//Hover
 
-    $("#navOculto").css("left", "-100%");
-
-    $("#encabezado > #btnMenu").click(function () {
-      $("#navOculto").animate({
-        left: "0"
-      })
-
-      $("#navOculto > #header2 > .cerrar2").click(function () {
-        $("#navOculto").animate({
-          left: "-100%"
-        })
-
-      });
-
-    });
-
-    $("#navOculto > #navegacion-2 > li").click(function () {
-      $("#navOculto").animate({
-        left: "-100%"
-      })
-
-    });
-
-
   }//ngOnInit
 
 
