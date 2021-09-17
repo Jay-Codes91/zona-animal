@@ -1,4 +1,5 @@
 .titulo {
+  font-family: 'Lobster Two', cursive;
   text-align: center;
   text-shadow: 0px 0px 0 rgb(173, 198, 170),
     1px 1px 0 rgb(157, 182, 154),
@@ -47,8 +48,8 @@
   }
 }
 
-@import '/node_modules/@angular/material/theming';
+/*@import '/node_modules/@angular/material/theming';
 $custom-typography: mat-typography-config($font-family: 'Lobster'
 );
 
-@include angular-material-typography($custom-typography);
+@include angular-material-typography($custom-typography);*/

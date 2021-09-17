@@ -1,3 +1,7 @@
+.lobs {
+  font-family: 'Lobster Two', cursive;
+}
+
 #contPrincipal {
   margin: 0;
   padding: 0;
@@ -15,7 +19,6 @@
 }
 
 #contPrincipal #encabezado #encabezado-logo {
-  font-family: "Lobster", arial;
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
@@ -24,6 +27,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 5px;
 }
 
 #contPrincipal #encabezado #encabezado-logo h1 {
@@ -38,6 +42,7 @@
       align-self: flex-end;
   color: #adf270;
   text-shadow: 3px 7px 3px #585957;
+  margin-top: 20px;
 }
 
 #contPrincipal #encabezado #navegacion {
@@ -56,6 +61,7 @@
 
 #contPrincipal #encabezado #navegacion li:nth-child(2) #menuAnimales a {
   color: #000000;
+  font-size: 18px;
 }
 
 #contPrincipal #encabezado #navegacion li:nth-child(2) #menuAnimales a:hover {
@@ -64,6 +70,7 @@
 
 #contPrincipal #encabezado #navegacion a {
   color: #000000;
+  font-size: 18px;
 }
 
 #contPrincipal #encabezado #navegacion a:hover {
@@ -81,16 +88,12 @@
   margin-right: 20px;
 }
 
-#contPrincipal #encabezado #btnMenu:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 #contPrincipal #encabezado #btnMenu i {
   font-size: 30px;
 }
 
 #contPrincipal #encabezado #btnMenu i:hover {
-  color: #0000ff;
+  color: #ffffff;
 }
 
 #contPrincipal #navOculto {
@@ -98,10 +101,10 @@
   top: 0;
   left: 0;
   margin-top: -8px;
+  z-index: 999;
 }
 
 #contPrincipal #navOculto #header2 #encabezado-logo-2 {
-  font-family: "Lobster", arial;
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
@@ -110,6 +113,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 5px;
 }
 
 #contPrincipal #navOculto #header2 #encabezado-logo-2 h1 {
@@ -124,6 +128,7 @@
       align-self: flex-end;
   color: #adf270;
   text-shadow: 3px 7px 3px #585957;
+  margin-top: 20px;
 }
 
 #contPrincipal #navOculto #header2 .cerrar2 {
@@ -142,13 +147,170 @@
   margin-left: 20px;
 }
 
+#contPrincipal #navOculto #navegacion-2 a:hover {
+  color: #ffffff;
+}
+
 #contPrincipal #Footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto;
+  padding: 10px;
+}
+
+@media screen and (max-width: 540px) {
+  #contPrincipal #Footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1191px) {
+  #contPrincipal #Footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#contPrincipal #Footer #contEncabezado {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#contPrincipal #Footer #contEncabezado #encabezado-logo-3 {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 10px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+
+#contPrincipal #Footer #contEncabezado #encabezado-logo-3 h1 {
+  font-size: 70px;
+  color: #476e25;
+  text-shadow: 3px 7px 3px #585957;
+}
+
+#contPrincipal #Footer #contEncabezado #encabezado-logo-3 h4 {
+  font-size: 40px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  color: #adf270;
+  text-shadow: 3px 7px 3px #585957;
+  margin-top: 20px;
+}
+
+#contPrincipal #Footer .nav {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 509px) {
+  #contPrincipal #Footer .nav {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 510px) and (max-width: 1191px) {
+  #contPrincipal #Footer .nav {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border: none;
+  }
+}
+
+#contPrincipal #Footer .nav li {
+  padding: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  #contPrincipal #Footer .nav li {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1191px) {
+  #contPrincipal #Footer .nav li {
+    padding: 10px;
+  }
+}
+
+#contPrincipal #Footer .nav li:nth-child(2) .menu {
+  margin-left: 20px;
+  border: none;
+}
+
+#contPrincipal #Footer .nav li:nth-child(2) .menu li {
+  padding: 5px;
+}
+
+#contPrincipal #Footer .nav li:nth-child(2) .menu li a {
+  color: black;
+  font-size: 18px;
+}
+
+#contPrincipal #Footer .nav li:nth-child(2) .menu li a:hover {
+  color: #ffffff;
+}
+
+#contPrincipal #Footer .nav li a {
+  color: black;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  #contPrincipal #Footer .nav li a {
+    font-size: 14;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1191px) {
+  #contPrincipal #Footer .nav li a {
+    font-size: 20px;
+  }
+}
+
+#contPrincipal #Footer .nav li a:hover {
+  color: #ffffff;
+}
+
+#contPrincipal #Footer #fecha {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media screen and (max-width: 540px) {
+  #contPrincipal #Footer #fecha {
+    margin-top: 30px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1191px) {
+  #contPrincipal #Footer #fecha {
+    margin-top: 30px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 /*# sourceMappingURL=app.component.css.map */

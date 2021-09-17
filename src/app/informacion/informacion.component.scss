@@ -1,4 +1,3 @@
-$tipoLetra: 'lobster';
 $colorh1: #ffffff;
 $tamañoh1: 40px;
 $sombraTitulo: 0px 0px 0 rgb(173, 198, 170),
@@ -13,9 +12,12 @@ $sombraTitulo: 0px 0px 0 rgb(173, 198, 170),
 $colorBordeContenedor:#2583b9;
 $fondoContainer: #ffffff;
 
-.titulo{
+.lobs{
+  font-family: 'Lobster Two', cursive;
+}
+
+#titulo{
    text-align: center;
-   font-family: $tipoLetra;
    color: $colorh1;
    font-size: $tamañoh1;
    text-shadow: $sombraTitulo;
@@ -51,7 +53,6 @@ $fondoContainer: #ffffff;
       word-wrap: break-word;
       height: auto;
       h1{
-          font-family: $tipoLetra;
           font-size: 25px;
       }
     }
@@ -68,7 +69,6 @@ $fondoContainer: #ffffff;
       width: 100%;
     }
     h1{
-        font-family: $tipoLetra;
         font-size: 40px;
     }
 

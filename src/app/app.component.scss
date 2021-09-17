@@ -1,11 +1,12 @@
-$fuenteLobster: 'Lobster', arial;
 $sombraLogo: 3px 7px 3px #585957;
 $colorAlmendra: #ffebcd;
 $coloNegro: #000000;
 
+.lobs{
+    font-family: 'Lobster Two', cursive;
+}
 
 @mixin cajaLogo {
-  font-family: $fuenteLobster;
   max-width: max-content;
   padding: 10px;
   height: auto;
@@ -233,10 +234,5 @@ $coloNegro: #000000;
     }
 }
 
-@import '/node_modules/@angular/material/theming';
-$custom-typography: mat-typography-config(
-  $font-family: 'Lobster'
-);
 
-@include angular-material-typography($custom-typography);
 

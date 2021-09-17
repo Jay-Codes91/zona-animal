@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -22,7 +23,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-/*
-"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
-*/
+.lobs {
+  font-family: 'Lobster Two', cursive;
+}
 /*# sourceMappingURL=styles.css.map */

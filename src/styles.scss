@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 *{padding: 0; margin: 0;}
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 body{
     background-image: url("assets/Fondo/FondoPrincipal.jpg");
     background-size: cover;
@@ -12,9 +12,9 @@ body{
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-/*
-"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
-*/
+.lobs{
+    font-family: 'Lobster Two', cursive;
+}
 
 
 
