@@ -102,6 +102,7 @@
   left: 0;
   margin-top: -8px;
   z-index: 999;
+  height: 100vh;
 }
 
 #contPrincipal #navOculto #header2 #encabezado-logo-2 {
