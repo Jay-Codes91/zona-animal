@@ -144,12 +144,15 @@ $coloNegro: #000000;
         justify-content: space-between;
         height: auto;
         padding: 10px;
-        @media screen and (max-width: 540px) {
+       
+        @media screen and (max-width: 480px){
             flex-direction: column;
-          }
-          @media screen and (min-width: 541px) and (max-width: 1191px) {
+         }
+
+         @media screen and (min-width: 481px) and (max-width: 1024px){
             flex-direction: column;
-          }
+         }
+
         #contEncabezado{
             align-self: center;
            #encabezado-logo-3{
