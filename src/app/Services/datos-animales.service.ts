@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { animales } from '../Interface/animales';
 
 @Injectable({
   providedIn: 'root'
@@ -7,12 +8,7 @@ import { Injectable } from '@angular/core';
 
 export class DatosAnimalesService {
 
-prueba: string = "Prueba del servicio";
-
-
-  constructor() { 
-      
-  }
+  constructor() { }
 
   tiposAnimales = new Array(
     {
@@ -54,7 +50,7 @@ prueba: string = "Prueba del servicio";
     }
   );
 
-  Mamiferos = new Array(
+  Mamiferos = new Array<animales>(
     {
       id: 1,
       nombre: "Elefante",
@@ -150,7 +146,7 @@ prueba: string = "Prueba del servicio";
     }
   );
 
-  Aves = new Array(
+  Aves = new Array<animales>(
     {
       id:11,
       nombre: "Lechuza",
@@ -243,7 +239,7 @@ prueba: string = "Prueba del servicio";
     }
   );
 
-  Reptiles = new Array(
+  Reptiles = new Array<animales>(
     {
       id:21,
       nombre: "Cobra India",
@@ -337,7 +333,7 @@ prueba: string = "Prueba del servicio";
     }
   );
 
-  Peces = new Array(
+  Peces = new Array<animales>(
     {
       id:31,
       nombre: "Barbo Rosado",
@@ -430,7 +426,7 @@ prueba: string = "Prueba del servicio";
     }
   );
 
-  Insectos = new Array(
+  Insectos = new Array<animales>(
     {
       id:41,
       nombre: "Cucaracha",
@@ -523,7 +519,7 @@ prueba: string = "Prueba del servicio";
     }
   );
 
-  Anfibios = new Array(
+  Anfibios = new Array<animales>(
 
     {
         id: 51,
@@ -572,7 +568,7 @@ prueba: string = "Prueba del servicio";
     }
 );
 
-Crustaceos = new Array(
+Crustaceos = new Array<animales>(
     {
         id: 56,
         nombre: "Langosta",

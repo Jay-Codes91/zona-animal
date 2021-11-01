@@ -12,12 +12,10 @@ declare var AOS: any;
 })
 export class InicioComponent implements OnInit {
 
-  mensaje: string = "";
   mamiferos: any[] = [];
   todosAnimales: any[] = [];
 
   constructor(private servicio: DatosAnimalesService) { 
-    this.mensaje = servicio.prueba;
     this.mamiferos = servicio.listaMamiferos();
     this.todosAnimales = servicio.listaTodosAnimales();
 
