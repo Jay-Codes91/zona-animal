@@ -96,16 +96,11 @@
   color: #ffffff;
 }
 
-#contPrincipal #navOculto {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: -8px;
-  z-index: 999;
-  height: 100vh;
+#contPrincipal #slideNav #header2 {
+  background-color: #afa16e;
 }
 
-#contPrincipal #navOculto #header2 #encabezado-logo-2 {
+#contPrincipal #slideNav #header2 #encabezado-logo-2 {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
@@ -117,13 +112,13 @@
   margin-top: 5px;
 }
 
-#contPrincipal #navOculto #header2 #encabezado-logo-2 h1 {
+#contPrincipal #slideNav #header2 #encabezado-logo-2 h1 {
   font-size: 70px;
   color: #476e25;
   text-shadow: 3px 7px 3px #585957;
 }
 
-#contPrincipal #navOculto #header2 #encabezado-logo-2 h4 {
+#contPrincipal #slideNav #header2 #encabezado-logo-2 h4 {
   font-size: 40px;
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -132,23 +127,20 @@
   margin-top: 20px;
 }
 
-#contPrincipal #navOculto #header2 .cerrar2 {
-  margin-right: 20px;
-}
-
-#contPrincipal #navOculto #navegacion-2 li {
+#contPrincipal #slideNav #nav #navegacion-2 li {
   border-bottom: 1px solid #000000;
 }
 
-#contPrincipal #navOculto #navegacion-2 li:hover {
+#contPrincipal #slideNav #nav #navegacion-2 li:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-#contPrincipal #navOculto #navegacion-2 a {
+#contPrincipal #slideNav #nav #navegacion-2 a {
+  color: #000000;
   margin-left: 20px;
 }
 
-#contPrincipal #navOculto #navegacion-2 a:hover {
+#contPrincipal #slideNav #nav #navegacion-2 a:hover {
   color: #ffffff;
 }
 

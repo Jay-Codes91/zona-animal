@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "menu-lateral.component.scss"
+    ],
+    "names": [],
+    "file": "menu-lateral.component.css"
+}

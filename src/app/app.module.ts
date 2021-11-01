@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 //importado
 import { RouterModule, Routes } from '@angular/router';
-import { DatosAnimalesService } from './datos-animales.service';//Servicio
+import { DatosAnimalesService } from './Services/datos-animales.service';//Servicio
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 //Angular material
@@ -15,28 +15,31 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatDialogModule} from '@angular/material/dialog';
 //Componentes
 import { AppComponent } from './app.component';
-import { InicioComponent } from './inicio/inicio.component';
-import { TiposAnimalesComponent } from './tipos-animales/tipos-animales.component';
-import { InformacionComponent } from './informacion/informacion.component';
-import { MamiferosComponent } from './tipos-animales/mamiferos/mamiferos.component';
-import { AvesComponent } from './tipos-animales/aves/aves.component';
-import { ReptilesComponent } from './tipos-animales/reptiles/reptiles.component';
-import { PecesComponent } from './tipos-animales/peces/peces.component';
-import { InsectosComponent } from './tipos-animales/insectos/insectos.component';
-import { Pagina404Component } from './pagina404/pagina404.component';
-import { AnimalComponent } from './tipos-animales/animal/animal.component';
+import { InicioComponent } from './Components/inicio/inicio.component';
+import { TiposAnimalesComponent } from './Components/tipos-animales/tipos-animales.component';
+import { InformacionComponent } from './Components/informacion/informacion.component';
+import { MamiferosComponent } from './Components/tipos-animales/mamiferos/mamiferos.component';
+import { AvesComponent } from './Components/tipos-animales/aves/aves.component';
+import { ReptilesComponent } from './Components/tipos-animales/reptiles/reptiles.component';
+import { PecesComponent } from './Components/tipos-animales/peces/peces.component';
+import { InsectosComponent } from './Components/tipos-animales/insectos/insectos.component';
+import { Pagina404Component } from './Components/pagina404/pagina404.component';
+import { AnimalComponent } from './Components/tipos-animales/animal/animal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { AveComponent } from './tipos-animales/aves/ave/ave.component';
-import { InsectoComponent } from './tipos-animales/insectos/insecto/insecto.component';
-import { PezComponent } from './tipos-animales/peces/pez/pez.component';
-import { ReptilComponent } from './tipos-animales/reptiles/reptil/reptil.component';
+import { AveComponent } from './Components/tipos-animales/aves/ave/ave.component';
+import { InsectoComponent } from './Components/tipos-animales/insectos/insecto/insecto.component';
+import { PezComponent } from './Components/tipos-animales/peces/pez/pez.component';
+import { ReptilComponent } from './Components/tipos-animales/reptiles/reptil/reptil.component';
 //Pipe
 import { BuscarPipe } from './buscar.pipe';
-import { AnfibiosComponent } from './tipos-animales/anfibios/anfibios.component';
-import { AnfibioComponent } from './tipos-animales/anfibios/anfibio/anfibio.component';
-import { CrustaceosComponent } from './tipos-animales/crustaceos/crustaceos.component';
-import { CrustaceoComponent } from './tipos-animales/crustaceos/crustaceo/crustaceo.component';
+import { AnfibiosComponent } from './Components/tipos-animales/anfibios/anfibios.component';
+import { AnfibioComponent } from './Components/tipos-animales/anfibios/anfibio/anfibio.component';
+import { CrustaceosComponent } from './Components/tipos-animales/crustaceos/crustaceos.component';
+import { CrustaceoComponent } from './Components/tipos-animales/crustaceos/crustaceo/crustaceo.component';
+import { HeaderComponent } from './Components/root/header/header.component';
+import { MenuLateralComponent } from './Components/root/menu-lateral/menu-lateral.component';
+import { FooterComponent } from './Components/root/footer/footer.component';
 
 const rutas: Routes = [
   
@@ -83,7 +86,10 @@ const rutas: Routes = [
     AnfibiosComponent,
     AnfibioComponent,
     CrustaceosComponent,
-    CrustaceoComponent
+    CrustaceoComponent,
+    HeaderComponent,
+    MenuLateralComponent,
+    FooterComponent
     
   ],
   imports: [

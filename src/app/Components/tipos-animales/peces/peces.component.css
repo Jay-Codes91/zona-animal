@@ -1,0 +1,52 @@
+.titulo {
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 575px) {
+  #contenedor {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #contenedor {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#contenedor .card div {
+  overflow: hidden;
+}
+
+#contenedor .card div:hover > img {
+  filter: grayscale(80%);
+  -webkit-filter: grayscale(80%);
+}
+
+#contenedor .card div img {
+  width: 100%;
+  height: 300px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+/*@import '/node_modules/@angular/material/theming';
+$custom-typography: mat-typography-config($font-family: 'Lobster'
+);
+
+@include angular-material-typography($custom-typography);*/
+/*# sourceMappingURL=peces.component.css.map */
