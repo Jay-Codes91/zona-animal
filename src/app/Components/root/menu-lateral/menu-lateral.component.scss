@@ -1,0 +1,40 @@
+@import "/src/app/app.component.scss";
+
+#slideNav{ 
+    #header2{
+        background-color: #afa16e;
+        #encabezado-logo-2{
+            @include cajaLogo();
+            h1{
+                @include cajaLogo-h1();
+            }
+
+            h4{
+                @include cajaLogo-h4();
+            }
+        }
+    }
+    
+    #nav{
+       #navegacion-2{
+
+        li{
+            border-bottom: 1px solid $coloNegro;
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.2);
+                
+            }
+        }
+
+        a{
+            color: #000000;
+            margin-left: 20px;
+            &:hover{
+                color: #ffffff;
+            }
+        }
+
+    } 
+    }
+    
+}

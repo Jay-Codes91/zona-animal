@@ -1,0 +1,98 @@
+@import "/src/app/app.component.scss";
+
+#Footer{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 10px;
+   
+    @media screen and (max-width: 480px){
+        flex-direction: column;
+     }
+
+     @media screen and (min-width: 481px) and (max-width: 1024px){
+        flex-direction: column;
+     }
+
+    #contEncabezado{
+        align-self: center;
+       #encabezado-logo-3{
+        @include cajaLogo();
+        h1{
+            @include cajaLogo-h1();
+        }
+
+        h4{
+            @include cajaLogo-h4();
+        }
+    } 
+    }
+    
+
+    .nav{
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+        @media screen and (max-width: 509px){
+            align-self: center;
+            border: none;
+        }
+
+        @media screen and (min-width: 510px) and (max-width: 1191px) {
+            align-self: center;
+            border: none;
+          }
+        li{
+            padding: 20px;
+            @media screen and (max-width: 540px) {
+                padding: 0;
+                
+              }
+              @media screen and (min-width: 541px) and (max-width: 1191px) {
+                padding: 10px;
+              }
+              
+            &:nth-child(2){
+                .menu{
+                    margin-left: 20px;
+                    border: none;
+                    li{
+                        padding: 5px;
+                       a{
+                           color: black;
+                           font-size: 18px;
+                           &:hover{
+                               color: #ffffff;
+                           }
+                       }
+                    }
+                }
+            }
+            a{
+                color: black;
+                font-size: 20px;
+                @media screen and (max-width: 540px) {
+                    font-size: 14;
+                  }
+                  @media screen and (min-width: 541px) and (max-width: 1191px) {
+                    font-size: 20px;
+                  }
+                &:hover{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    #fecha{
+        align-self: flex-end;
+        @media screen and (max-width: 540px) {
+            margin-top: 30px;
+            align-self: center;
+          }
+          @media screen and (min-width: 541px) and (max-width: 1191px) {
+            margin-top: 30px;
+            align-self: center;
+          }
+        
+    }
+}

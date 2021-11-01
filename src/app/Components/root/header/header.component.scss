@@ -1,0 +1,63 @@
+@import "/src/app/app.component.scss";
+
+#encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #afa16e;
+   
+    #encabezado-logo{
+       
+       @include cajaLogo();
+
+       h1{
+           @include cajaLogo-h1();
+       }
+
+       h4{
+           @include cajaLogo-h4();
+       }
+    }
+
+    #navegacion{
+        //border: 1px solid $coloNegro;
+        align-self: center;
+        li:nth-child(2){
+          #menuAnimales{
+              position: absolute;
+              z-index: 999;
+              border: 1px solid $coloNegro;
+              margin-left: 35px;
+              background-color: #afa16e;
+              a{
+                  color: $coloNegro;
+                  font-size: 18px;
+                  &:hover{
+                      color: $colorAlmendra;
+                  }
+              }
+          }
+        }
+
+        a{
+            color: $coloNegro;
+            font-size: 18px;
+            &:hover{
+                color: $colorAlmendra;
+            }
+        }
+    }
+
+    #btnMenu{
+        height: min-content;
+        padding: 5px;
+        align-self: center;
+        margin-right: 20px;
+        i{
+            font-size: 30px;
+            &:hover{
+                color: #ffffff;
+            }
+        }
+    }
+}

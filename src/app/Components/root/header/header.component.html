@@ -1,1 +1,31 @@
-<p>header works!</p>
+<header id="encabezado">
+    <div id="encabezado-logo">
+      <h1 class="lobs mat-h1 mat-typography">Zona</h1>
+      <h4 class="lobs mat-subheading-1 mat-typography">Animal</h4>
+    </div>
+
+    <ul id="navegacion" class="nav d-sm-none d-none d-md-flex">
+      <li class="nav-item">
+        <a routerLink="/" class="nav-link"><i class="bi bi-house"></i> Inicio</a>
+      </li>
+      <li class="nav-item"><a routerLink="/tipos-animales" class="nav-link"><i class="bi bi-list"></i> Tipos de
+          Animales</a>
+        <ul id="menuAnimales" class="nav flex-column">
+          <li class="nav-item"><a routerLink="/tipos-animales/mamiferos" class="nav-link">Mamíferos</a></li>
+          <li class="nav-item"><a routerLink="/tipos-animales/aves" class="nav-link">Aves</a></li>
+          <li class="nav-item"><a routerLink="/tipos-animales/reptiles" class="nav-link">Reptiles</a></li>
+          <li class="nav-item"><a routerLink="/tipos-animales/peces" class="nav-link">Peces</a></li>
+          <li class="nav-item"><a routerLink="/tipos-animales/insectos" class="nav-link">Insectos</a></li>
+          <li class="nav-item"><a routerLink="/tipos-animales/anfibios" class="nav-link">Anfibios</a></li>
+          <li class="nav-item"><a routerLink="/tipos-animales/crustaceos" class="nav-link">Crustáceos</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/informacion" class="nav-link"><i class="bi bi-info-circle"></i> Información</a>
+      </li>
+    </ul>
+
+    <button type="button" id="btnMenu" class="btn d-xl-none d-lg-none d-md-none" data-bs-toggle="offcanvas" data-bs-target="#slideNav">
+      <i class="bi bi-list"></i>
+    </button>
+  </header>

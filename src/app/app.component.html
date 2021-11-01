@@ -1,115 +1,11 @@
 <div id="contPrincipal">
 
-  <header id="encabezado">
-    <div id="encabezado-logo">
-      <h1 class="lobs mat-h1 mat-typography">Zona</h1>
-      <h4 class="lobs mat-subheading-1 mat-typography">Animal</h4>
-    </div>
-
-    <ul id="navegacion" class="nav d-sm-none d-none d-md-flex">
-      <li class="nav-item">
-        <a routerLink="/" class="nav-link"><i class="bi bi-house"></i> Inicio</a>
-      </li>
-      <li class="nav-item"><a routerLink="/tipos-animales" class="nav-link"><i class="bi bi-list"></i> Tipos de
-          Animales</a>
-        <ul id="menuAnimales" class="nav flex-column">
-          <li class="nav-item"><a routerLink="/tipos-animales/mamiferos" class="nav-link">Mamíferos</a></li>
-          <li class="nav-item"><a routerLink="/tipos-animales/aves" class="nav-link">Aves</a></li>
-          <li class="nav-item"><a routerLink="/tipos-animales/reptiles" class="nav-link">Reptiles</a></li>
-          <li class="nav-item"><a routerLink="/tipos-animales/peces" class="nav-link">Peces</a></li>
-          <li class="nav-item"><a routerLink="/tipos-animales/insectos" class="nav-link">Insectos</a></li>
-          <li class="nav-item"><a routerLink="/tipos-animales/anfibios" class="nav-link">Anfibios</a></li>
-          <li class="nav-item"><a routerLink="/tipos-animales/crustaceos" class="nav-link">Crustáceos</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a routerLink="/informacion" class="nav-link"><i class="bi bi-info-circle"></i> Información</a>
-      </li>
-    </ul>
-
-    <button type="button" id="btnMenu" class="btn d-xl-none d-lg-none d-md-none" data-bs-toggle="offcanvas" data-bs-target="#slideNav">
-      <i class="bi bi-list"></i>
-    </button>
-  </header>
+  <app-header></app-header>
 
   <router-outlet></router-outlet>
 
-  <!------------------------------------------------------------------------------->
+  <app-menu-lateral></app-menu-lateral>
 
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="slideNav">
-
-    <div class="offcanvas-header" id="header2">
-      <div id="encabezado-logo-2">
-        <h1 class="lobs mat-typography">Zona</h1>
-        <h4 class="lobs mat-typography">Animal</h4>
-      </div>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-
-    <div class="offcanvas-body bg-success" id="nav">
-      <ul id="navegacion-2" class="nav flex-column">
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/" class="nav-link"><i class="bi bi-house"></i> Inicio</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales" class="nav-link"><i class="bi bi-list"></i> Tipos de Animales</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales/mamiferos" class="nav-link"><i class="bi bi-caret-right-fill"></i> Mamíferos</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales/aves" class="nav-link"><i class="bi bi-caret-right-fill"></i>Aves</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales/reptiles" class="nav-link"><i class="bi bi-caret-right-fill"></i> Reptiles</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales/peces" class="nav-link"><i class="bi bi-caret-right-fill"></i>Peces</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales/insectos" class="nav-link"><i class="bi bi-caret-right-fill"></i> Insectos</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales/anfibios" class="nav-link"><i class="bi bi-caret-right-fill"></i> Anfibios</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/tipos-animales/crustaceos" class="nav-link"><i class="bi bi-caret-right-fill"></i> Crustáceos</a></li>
-        <li class="nav-item" data-bs-dismiss="offcanvas"><a routerLink="/informacion" class="nav-link"><i class="bi bi-info-circle"></i> Información</a></li>
-  
-      </ul>
-    </div>
-  </div>
-
-  <footer id="Footer" class="container-fluid bg-secondary">
-
-    <div id="contEncabezado">
-      <div id="encabezado-logo-3">
-        <h1 class="lobs mat-typography">Zona</h1>
-        <h4 class="lobs mat-typography">Animal</h4>
-      </div>
-    </div>
-
-    <nav class="nav">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/"><i class="bi bi-house"></i> Inicio</a>
-      </li>
-      <li class="nav-item"><a class="nav-link" routerLink="/tipos-animales"><i
-            class="bi bi-list"></i> Tipos de animales</a>
-        <ul class="menu nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tipos-animales/mamiferos">Mamiferos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tipos-animales/aves">Aves</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tipos-animales/reptiles">Reptiles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tipos-animales/peces">Peces</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tipos-animales/insectos">Insectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tipos-animales/anfibios">Anfibios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tipos-animales/crustaceos">Crustáceos</a>
-          </li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/informacion"><i class="bi bi-info-circle"></i>
-          Información</a>
-      </li>
-    </nav>
-
-    <h1 id="fecha">{{fechaCompleta}}</h1>
-
-  </footer>
+  <app-footer></app-footer>
 
 </div>

@@ -1,1 +1,48 @@
-<p>footer works!</p>
+<footer id="Footer" class="container-fluid bg-secondary">
+
+    <div id="contEncabezado">
+      <div id="encabezado-logo-3">
+        <h1 class="lobs mat-typography">Zona</h1>
+        <h4 class="lobs mat-typography">Animal</h4>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/"><i class="bi bi-house"></i> Inicio</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" routerLink="/tipos-animales"><i
+            class="bi bi-list"></i> Tipos de animales</a>
+        <ul class="menu nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-animales/mamiferos">Mamiferos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-animales/aves">Aves</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-animales/reptiles">Reptiles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-animales/peces">Peces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-animales/insectos">Insectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-animales/anfibios">Anfibios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tipos-animales/crustaceos">Crustáceos</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/informacion"><i class="bi bi-info-circle"></i>
+          Información</a>
+      </li>
+    </nav>
+
+    <h1 id="fecha">{{fechaCompleta}}</h1>
+
+  </footer>

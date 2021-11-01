@@ -7,7 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  fecha = new Date();
+  diaSemana = new Array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado");
+  meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre",
+    "Octubre", "Noviembre", "Diciembre");
+  dia;
+  mes;
+  fechaCompleta;
+
+  constructor() { 
+    this.dia = this.fecha.getDay();
+    this.mes = this.fecha.getMonth();
+    this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + ", " + this.fecha.getFullYear();
+  }
 
   ngOnInit(): void {
   }
