@@ -5,7 +5,7 @@ export class anfibios{
     Anfibios = new Array<animales>(
 
         {
-            id: 51,
+            id: 53,
             nombre: "Rana",
             nombreCientifico: "Anura",
             nomRuta: "rana",
@@ -14,7 +14,7 @@ export class anfibios{
             IMG: "https://cdn.pixabay.com/photo/2017/07/21/08/49/animal-2525109_960_720.jpg"
         },
         {
-            id: 52,
+            id: 54,
             nombre: "Sapo",
             nombreCientifico: "Bufonidae",
             nomRuta: "sapo",
@@ -23,7 +23,7 @@ export class anfibios{
             IMG: "https://cdn.pixabay.com/photo/2014/07/30/09/20/toad-405121_960_720.jpg"
         },
         {
-            id: 53,
+            id: 55,
             nombre: "Salamandra",
             nombreCientifico: "Caudata",
             nomRuta: "salamandra",
@@ -32,7 +32,7 @@ export class anfibios{
             IMG: "https://cdn.pixabay.com/photo/2014/03/23/15/14/fire-salamander-293324_960_720.jpg"
         },
         {
-            id: 54,
+            id: 56,
             nombre: "Triton",
             nombreCientifico: "Triturus",
             nomRuta: "triton",
@@ -41,7 +41,7 @@ export class anfibios{
             IMG: "https://cdn.pixabay.com/photo/2018/05/16/21/03/newt-3407060_960_720.jpg"
         },
         {
-            id: 55,
+            id: 57,
             nombre: "Gallipato",
             nombreCientifico: "Pleurodeles waltl",
             nomRuta: "gallipato",

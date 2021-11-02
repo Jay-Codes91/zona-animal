@@ -4,7 +4,7 @@ export class crustaceos{
 
     Crustaceos = new Array<animales>(
         {
-            id: 56,
+            id: 58,
             nombre: "Langosta",
             nombreCientifico: "Palinurus elephas",
             nomRuta: "langosta",
@@ -13,7 +13,7 @@ export class crustaceos{
             IMG: "https://cdn.pixabay.com/photo/2016/10/09/19/23/lobster-1726627_960_720.jpg"
         },
         {
-            id: 57,
+            id: 59,
             nombre: "Camaron",
             nombreCientifico: "Caridea",
             nomRuta: "camaron",
@@ -22,7 +22,7 @@ export class crustaceos{
             IMG: "https://cdn.pixabay.com/photo/2017/06/11/22/55/shrimp-2393818_960_720.jpg"
         },
         {
-            id: 58,
+            id: 60,
             nombre: "Cangrejo",
             nombreCientifico: "Brachyura",
             nomRuta: "cangrejo",
@@ -31,7 +31,7 @@ export class crustaceos{
             IMG: "https://cdn.pixabay.com/photo/2017/03/03/12/59/crab-2113971_960_720.jpg"
         },
         {
-            id: 59,
+            id: 61,
             nombre: "Cangrejo Ermitaño",
             nombreCientifico: "Paguroidea",
             nomRuta: "cangrejo-ermitano",
@@ -40,7 +40,7 @@ export class crustaceos{
             IMG: "https://cdn.pixabay.com/photo/2019/02/17/16/11/hermit-crab-4002529_960_720.jpg"
         },
         {
-            id: 60,
+            id: 62,
             nombre: "Percebes",
             nombreCientifico: "Pollicipes pollicipes",
             nomRuta: "percebes",

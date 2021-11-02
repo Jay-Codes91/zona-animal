@@ -95,6 +95,24 @@ export class mamiferos{
           clase: "Mamifero",
           descripcion: "La coloración del cuerpo es muy variable, ya que puede haber ejemplares de un tono uniforme y otros de tonos mezclados que son mejor conocidos como “pintos”. Sobre el cuello presenta una crin larga. Se trata de un animal no territorial y hay 2 tipos de grupos. Uno de machos solamente y otro formado de varias hembras y un macho dominante. Cuando coinciden en una zona dos harenes los machos luchan por la obtención de más hembras. En los grupos de solteros, también hay un macho dominante absoluto y se comporta como si fuera su harén. Las hembras entran en celo varias veces al año o hasta que quedan preñadas. En la actualidad existe cerca de 200 razas de caballos en las que figuran el ponny, los percherones y los pura sangre. Algunos datos curiosos sobre los caballos es que gustan revolcarse en la arena para espantar los insectos que los molestan o bien, usan su cola como abanico para el mismo fin. Es común que algunos caballos se les ponga anteojeras, sobre todo los que se encuentran en ciudades o villas muy transitadas, para evitar que se espanten. Además, el caballo a desempeñado un papel muy importante en la historia de la humanidad pues ha sido empleado como medio de transporte o en guerras o ha sido tema para escritores o poetas.",
           IMG: "https://cdn.pixabay.com/photo/2016/02/15/13/26/horse-1201143_960_720.jpg"
+        },
+        {
+          id: 11,
+          nombre: "Mapache",
+          nombreCientifico: "Procyon",
+          nomRuta: "mapache",
+          clase: "Mamifero",
+          descripcion: "El Mapache es un mamífero de la familia de los Procyonidae y original de América (su distribución va desde Canadá a Panamá). Su hábitat comprende lugares con árboles, cercanos a algún depósito de agua o curso, o manglares costeros; es una especie que se ha adaptado perfectamente a zonas urbanas. Su peso medio es de siete a ocho kilogramos, pero ha llegado a alcanzar los 28 kilogramos. El pelaje es gris tirando a negro, en ocasiones rojizo y marrón, aunque son la cola anillada y el “antifaz” en el rostro sus características físicas más reconocidas. El Mapache posee una ancha cabeza en la parte posterior, hocico puntiagudo y pulgares no oponibles; sus patas están provistas de cinco dedos con garras curvadas, no retráctiles, mientras que las plantas de las patas son desnudas y planas. Las extremidades anteriores, más pequeñas y hábiles, le sirven para agarrar comida (de hecho, está considerado “el rey de los ladrones de basura” en algunas ciudades de Estados Unidos); las posteriores, soportan el peso.",
+          IMG: "https://cdn.pixabay.com/photo/2018/07/14/17/46/raccoon-3538081__480.jpg"
+        },
+        {
+          id: 12,
+          nombre: "Gorila",
+          nombreCientifico: "Gorilla",
+          nomRuta: "gorila",
+          clase: "Mamifero",
+          descripcion: "Los gorilas pertenecientes al género Gorilla son primates herbívoros con composiciones genéticas muy parecidas a las del ser humano. El término Gorila, fue asignado por pobladores africanos cuyo significado es “persona peluda”. El gorila es el más grande de todos los primates. Éstos se desplazan en cuatro patas. Sus extremidades superiores son similares a los brazos humanos que también utilizan para apoyarse al andar. Los machos adultos miden hasta 1.8 metros de altura y pesan más de 135 kilos. Las hembras pesan la mitad que éstos. Algo que los diferencia es la mandíbula protuberante del macho, pues es mayor que el maxilar.",
+          IMG: "https://cdn.pixabay.com/photo/2020/09/12/09/26/gorilla-5565295_960_720.jpg"
         }
       );
 

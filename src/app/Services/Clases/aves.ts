@@ -4,7 +4,7 @@ export class aves{
 
     Aves = new Array<animales>(
         {
-          id:11,
+          id:13,
           nombre: "Lechuza",
           nombreCientifico: "tyto alba",
           nomRuta: "lechuza",
@@ -13,7 +13,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2018/07/09/19/07/eastern-screech-owl-3526934_960_720.jpg"
         },
         {
-          id:12,
+          id:14,
           nombre: "Gallina",
           nombreCientifico: "Gallus gallus domesticus",
           nomRuta: "gallina",
@@ -22,7 +22,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2018/10/05/23/24/chicken-3727097_960_720.jpg"
         },
         {
-          id:13,
+          id:15,
           nombre: "Pato",
           nombreCientifico: "Anas platyrhynchos domesticus",
           nomRuta: "pato",
@@ -31,7 +31,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2013/04/22/20/02/ruddy-shelduck-106544_960_720.jpg"
         },
         {
-          id: 14,
+          id: 16,
           nombre: "Paloma",
           nombreCientifico: "Columba livia",
           nomRuta: "paloma",
@@ -40,7 +40,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2015/09/02/13/02/pigeon-918848_960_720.jpg"
         },
         {
-          id: 15,
+          id: 17,
           nombre: "Aguila",
           nombreCientifico: "Aquila Chrysaetos",
           nomRuta: "aguila",
@@ -49,7 +49,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg"
         },
         {
-          id: 16,
+          id: 18,
           nombre: "Pavo real",
           nombreCientifico: "Pavo Cristatus",
           nomRuta: "pavo-real",
@@ -58,7 +58,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2013/03/04/18/49/peacock-90051_960_720.jpg"
         },
         {
-          id: 17,
+          id: 19,
           nombre: "Loro",
           nombreCientifico: "Psittacoidea",
           nomRuta: "loro",
@@ -67,7 +67,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2010/12/23/13/36/bird-4078_960_720.jpg"
         },
         {
-          id: 18,
+          id: 20,
           nombre: "Gaviota",
           nombreCientifico: "Laridae",
           nomRuta: "gaviota",
@@ -76,7 +76,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2013/02/09/10/57/seagull-79658_960_720.jpg"
         },
         {
-          id: 19,
+          id: 21,
           nombre: "Colibri",
           nombreCientifico: "Trochiladae",
           nomRuta: "colibri",
@@ -85,7 +85,7 @@ export class aves{
           IMG: "https://cdn.pixabay.com/photo/2017/03/13/10/25/hummingbird-2139279_960_720.jpg"
         },
         {
-          id: 20,
+          id: 22,
           nombre: "Tucan",
           nombreCientifico: "Ramphastidae",
           nomRuta: "tucan",

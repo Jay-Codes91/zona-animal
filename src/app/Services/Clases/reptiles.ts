@@ -4,7 +4,7 @@ export class reptiles{
 
     Reptiles = new Array<animales>(
         {
-          id:21,
+          id:23,
           nombre: "Cobra India",
           nombreCientifico: "Naja Naja",
           nomRuta: "cobra-india",
@@ -13,7 +13,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2017/09/14/15/43/snake-2749383_960_720.jpg"
         },
         {
-          id:22,
+          id:24,
           nombre: "Caimán",
           nombreCientifico: "Caiman",
           nomRuta: "caiman",
@@ -22,7 +22,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2016/08/09/05/15/alligator-1579916_960_720.jpg"
         },
         {
-          id:23,
+          id:25,
           nombre: "Iguana",
           nombreCientifico: "Iguanidae",
           nomRuta: "iguana",
@@ -31,7 +31,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2017/02/05/11/43/iguana-2039719_960_720.jpg"
         },
         {
-          id: 24,
+          id: 26,
           nombre: "Tortuga",
           nombreCientifico: "Testudines",
           nomRuta: "tortuga",
@@ -40,7 +40,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2015/07/27/19/47/turtle-863336_960_720.jpg"
         },
         {
-          id: 25,
+          id: 27,
           nombre: "Cocodrilo",
           nombreCientifico: "Crocodylidae",
           nomRuta: "cocodrilo",
@@ -49,7 +49,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2019/01/15/22/40/crocodile-3934974_960_720.jpg"
         },
         {
-          id: 26,
+          id: 28,
           nombre: "Serpiente cascabel",
           nombreCientifico: "Crotalus durissus",
           nomRuta: "serpiente-cascabel",
@@ -59,7 +59,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2015/05/03/21/41/snake-751722_960_720.jpg"
         },
         {
-          id: 27,
+          id: 29,
           nombre: "Dragon de Komodo",
           nombreCientifico: "Varanus komodoensis",
           nomRuta: "dragon-de-comodo",
@@ -68,7 +68,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2016/08/12/16/59/monitor-1589200_960_720.jpg"
         },
         {
-          id: 28,
+          id: 30,
           nombre: "Lagartija",
           nombreCientifico: "Lacertilia",
           nomRuta: "lagartija",
@@ -77,7 +77,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2016/03/04/19/07/gecko-1236523_960_720.jpg"
         },
         {
-          id: 29,
+          id: 31,
           nombre: "Tuatara",
           nombreCientifico: "Sphenodon",
           nomRuta: "tuarara",
@@ -86,7 +86,7 @@ export class reptiles{
           IMG: "https://cdn.pixabay.com/photo/2017/03/31/10/06/tuatara-2190866_960_720.jpg"
         },
         {
-          id: 30,
+          id: 32,
           nombre: "Aligator",
           nombreCientifico: "Alligator",
           nomRuta: "aligator",

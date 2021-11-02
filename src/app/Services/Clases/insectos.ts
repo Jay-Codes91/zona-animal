@@ -4,7 +4,7 @@ export class insectos{
 
     Insectos = new Array<animales>(
         {
-          id:41,
+          id:43,
           nombre: "Cucaracha",
           nombreCientifico: "Blattodea",
           nomRuta: "cucaracha",
@@ -13,7 +13,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2014/12/13/15/38/cockroach-566712_960_720.jpg"
         },
         {
-          id:42,
+          id:44,
           nombre: "Grillo",
           nombreCientifico: "Grylladae",
           nomRuta: "grillo",
@@ -22,7 +22,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2014/03/04/16/07/grasshopper-279532_960_720.jpg"
         },
         {
-          id:43,
+          id:45,
           nombre: "Escorpión",
           nombreCientifico: "Scorpiones",
           nomRuta: "escorpion",
@@ -31,7 +31,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2015/09/09/14/06/scorpion-931561_960_720.jpg"
         },
         {
-          id: 44,
+          id: 46,
           nombre: "Hormiga",
           nombreCientifico: "Formicidae",
           nomRuta: "hormiga",
@@ -40,7 +40,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2014/12/13/10/06/insects-566408_960_720.jpg"
         },
         {
-          id: 45,
+          id: 47,
           nombre: "Mariposa",
           nombreCientifico: "Lepidoptera",
           nomRuta: "mariposa",
@@ -49,7 +49,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2013/06/30/18/56/butterfly-142506_960_720.jpg"
         },
         {
-          id: 46,
+          id: 48,
           nombre: "Mosquito",
           nombreCientifico: "Culicidae",
           nomRuta: "mosquito",
@@ -58,7 +58,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2012/05/18/21/45/mosquito-49141_960_720.jpg"
         },
         {
-          id: 47,
+          id: 49,
           nombre: "Lombriz",
           nombreCientifico: "Lumbricidae",
           nomRuta: "lombriz",
@@ -67,7 +67,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2020/01/13/18/56/worm-4763219_960_720.jpg"
         },
         {
-          id: 48,
+          id: 50,
           nombre: "Avispa",
           nombreCientifico: "Vespula vulgaris",
           nomRuta: "avispa",
@@ -76,7 +76,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2018/04/25/18/41/hornet-3350248_960_720.jpg"
         },
         {
-          id: 49,
+          id: 51,
           nombre: "Polilla",
           nombreCientifico: "Tinea pellionella",
           nomRuta: "polilla",
@@ -85,7 +85,7 @@ export class insectos{
           IMG: "https://cdn.pixabay.com/photo/2017/06/22/20/22/moth-2432376_960_720.jpg"
         },
         {
-          id: 50,
+          id: 52,
           nombre: "Araña",
           nombreCientifico: "Araneae",
           nomRuta: "arana",

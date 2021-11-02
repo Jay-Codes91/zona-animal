@@ -4,7 +4,7 @@ export class peces{
 
     Peces = new Array<animales>(
         {
-          id:31,
+          id:33,
           nombre: "Barbo Rosado",
           nombreCientifico: "Pethia conchonius",
           nomRuta: "barbo-rosado",
@@ -13,7 +13,7 @@ export class peces{
           IMG: "https://laguiadelacuario.es/wp-content/uploads/2020/11/pethia_conchoniuspda.jpg"
         },
         {
-          id:32,
+          id:34,
           nombre: "Gurami Enano",
           nombreCientifico: "Osphronemidae",
           nomRuta: "gurami-enano",
@@ -22,7 +22,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2020/09/25/19/03/fish-5602367_960_720.jpg"
         },
         {
-          id:33,
+          id:35,
           nombre: "Guppy",
           nombreCientifico: "Poecillia reticulata",
           nomRuta: "guppy",
@@ -31,7 +31,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2019/08/30/01/24/water-tank-4440191_960_720.jpg"
         },
         {
-          id: 34,
+          id: 36,
           nombre: "Telescopio",
           nombreCientifico: "Gigantura",
           nomRuta: "telescopio",
@@ -40,7 +40,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2020/10/06/07/35/aquarium-5631495_960_720.jpg"
         },
         {
-          id: 35,
+          id: 37,
           nombre: "Oscar",
           nombreCientifico: "Astronotus ocellatus",
           nomRuta: "oscar",
@@ -49,7 +49,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2018/06/04/03/21/astronotus-3452311_960_720.jpg"
         },
         {
-          id: 36,
+          id: 38,
           nombre: "Koi",
           nombreCientifico: "Cyprinus rubrofuscus",
           nomRuta: "koi",
@@ -58,7 +58,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2016/11/05/11/27/koi-1799988_960_720.jpg"
         },
         {
-          id: 37,
+          id: 39,
           nombre: "Beta",
           nombreCientifico: "Betta splendens",
           nomRuta: "beta",
@@ -67,7 +67,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2018/05/23/17/25/beta-3424566_960_720.jpg"
         },
         {
-          id: 38,
+          id: 40,
           nombre: "Payaso",
           nombreCientifico: "Amphiprioninae",
           nomRuta: "payaso",
@@ -76,7 +76,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2014/08/24/19/10/clownfish-426567_960_720.jpg"
         },
         {
-          id: 39,
+          id: 41,
           nombre: "Pez Globo",
           nombreCientifico: "Tetraodontinae",
           nomRuta: "pez-globo",
@@ -85,7 +85,7 @@ export class peces{
           IMG: "https://cdn.pixabay.com/photo/2019/03/20/15/05/puffer-fish-4068750_960_720.jpg"
         },
         {
-          id: 40,
+          id: 42,
           nombre: "Piraña",
           nombreCientifico: "Pygocentrus nattereri",
           nomRuta: "pirana",
