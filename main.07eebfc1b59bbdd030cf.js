@@ -103966,1128 +103966,10 @@ function toSubscriber(nextOrObserver, error, complete) {
 
 /***/ }),
 
-/***/ 5041:
-/*!**********************************!*\
-  !*** ./src/app/app.component.ts ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AppComponent": () => (/* binding */ AppComponent)
-/* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 9895);
-
-
-let AppComponent = /*#__PURE__*/(() => {
-  class AppComponent {
-    constructor() {
-      this.title = 'Proyecto';
-      this.center = "text-center";
-      this.fecha = new Date();
-      this.diaSemana = new Array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado");
-      this.meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre");
-      this.dia = this.fecha.getDay();
-      this.mes = this.fecha.getMonth();
-      this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + ", " + this.fecha.getFullYear();
-    }
-
-    ngOnInit() {
-      alertify.defaults.transition = "slide";
-      alertify.defaults.theme.ok = "btn btn-primary";
-      alertify.defaults.theme.cancel = "btn btn-danger";
-      alertify.defaults.theme.input = "form-control";
-      $("#menuAnimales").hide();
-      $("#menuAnimales2").hide();
-      $("#navegacion > li:nth-child(2)").hover(function () {
-        $("#menuAnimales").show();
-      }, function () {
-        $("#menuAnimales").hide();
-      }); //Hover
-
-      $("#navegacion-2 > li:nth-child(2)").hover(function () {
-        $("#menuAnimales2").show();
-      }, function () {
-        $("#menuAnimales2").hide();
-      }); //Hover
-    } //ngOnInit
-
-
-  }
-
-  AppComponent.ɵfac = function AppComponent_Factory(t) {
-    return new (t || AppComponent)();
-  };
-
-  AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-    type: AppComponent,
-    selectors: [["app-root"]],
-    decls: 139,
-    vars: 1,
-    consts: [["id", "contPrincipal"], ["id", "encabezado", 1, ""], ["id", "encabezado-logo"], [1, "lobs", "mat-h1", "mat-typography"], [1, "lobs", "mat-subheading-1", "mat-typography"], ["id", "navegacion", 1, "nav", "d-sm-none", "d-none", "d-md-flex"], [1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["id", "menuAnimales", 1, "nav", "flex-column"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"], ["type", "button", "id", "btnMenu", "data-bs-toggle", "offcanvas", "data-bs-target", "#slideNav", 1, "btn", "d-xl-none", "d-lg-none", "d-md-none"], ["tabindex", "-1", "id", "slideNav", 1, "offcanvas", "offcanvas-start"], ["id", "header2", 1, "offcanvas-header"], ["id", "encabezado-logo-2"], [1, "lobs", "mat-typography"], ["type", "button", "data-bs-dismiss", "offcanvas", "aria-label", "Close", 1, "btn-close", "text-reset"], ["id", "nav", 1, "offcanvas-body", "bg-success"], ["id", "navegacion-2", 1, "nav", "flex-column"], ["data-bs-dismiss", "offcanvas", 1, "nav-item"], [1, "bi", "bi-caret-right-fill"], ["id", "Footer", 1, "container-fluid", "bg-secondary"], ["id", "contEncabezado"], ["id", "encabezado-logo-3"], [1, "nav"], [1, "menu", "nav", "flex-column"], ["id", "fecha"]],
-    template: function AppComponent_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "header", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Zona");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h4", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Animal");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "ul", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Inicio");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "i", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Tipos de Animales");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "ul", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Mam\u00EDferos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Aves");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Reptiles");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Peces");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Insectos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Anfibios");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Crust\u00E1ceos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "i", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Informaci\u00F3n");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "button", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "i", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "router-outlet");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h1", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Zona");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "h4", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Animal");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "button", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "ul", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "i", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Inicio");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "i", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, " Tipos de Animales");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](65, "i", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, " Mam\u00EDferos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "i", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Aves");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "i", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, " Reptiles");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "i", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Peces");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](81, "i", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Insectos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](85, "i", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, " Anfibios");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](89, "i", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, " Crust\u00E1ceos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "li", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](93, "i", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, " Informaci\u00F3n");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "footer", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "div", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "h1", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Zona");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "h4", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "Animal");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "nav", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](105, "i", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](106, " Inicio");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](109, "i", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, " Tipos de animales");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "ul", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Mamiferos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "Aves");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Reptiles");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Peces");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Insectos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "Anfibios");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Crust\u00E1ceos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "li", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](135, "i", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, " Informaci\u00F3n");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "h1", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](138);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.fechaCompleta);
-      }
-    },
-    directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref, _angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterOutlet],
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  width: 100%;\n  background-color: #afa16e;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #encabezado-logo[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #encabezado-logo[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #encabezado-logo[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%] {\n  align-self: center;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   #menuAnimales[_ngcontent-%COMP%] {\n  position: absolute;\n  z-index: 999;\n  border: 1px solid #000000;\n  margin-left: 35px;\n  background-color: #afa16e;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   #menuAnimales[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  font-size: 18px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   #menuAnimales[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffebcd;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  font-size: 18px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffebcd;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #btnMenu[_ngcontent-%COMP%] {\n  height: -webkit-min-content;\n  height: min-content;\n  padding: 5px;\n  align-self: center;\n  margin-right: 20px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #btnMenu[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  font-size: 30px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #encabezado[_ngcontent-%COMP%]   #btnMenu[_ngcontent-%COMP%]   i[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%] {\n  background-color: #afa16e;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #000000;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  margin-left: 20px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  height: auto;\n  padding: 10px;\n}\n\n@media screen and (max-width: 480px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 1024px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%] {\n  align-self: center;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%]   #encabezado-logo-3[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%]   #encabezado-logo-3[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%]   #encabezado-logo-3[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%] {\n  border-left: 1px solid #ffffff;\n  border-right: 1px solid #ffffff;\n}\n\n@media screen and (max-width: 509px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%] {\n    align-self: center;\n    border: none;\n  }\n}\n\n@media screen and (min-width: 510px) and (max-width: 1191px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%] {\n    align-self: center;\n    border: none;\n  }\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  padding: 20px;\n}\n\n@media screen and (max-width: 540px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n    padding: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 1191px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n    padding: 10px;\n  }\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%] {\n  margin-left: 20px;\n  border: none;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  padding: 5px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: black;\n  font-size: 18px;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: black;\n  font-size: 20px;\n}\n\n@media screen and (max-width: 540px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n    font-size: 14;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 1191px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n    font-size: 20px;\n  }\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   #fecha[_ngcontent-%COMP%] {\n  align-self: flex-end;\n}\n\n@media screen and (max-width: 540px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   #fecha[_ngcontent-%COMP%] {\n    margin-top: 30px;\n    align-self: center;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 1191px) {\n  #contPrincipal[_ngcontent-%COMP%]   #Footer[_ngcontent-%COMP%]   #fecha[_ngcontent-%COMP%] {\n    margin-top: 30px;\n    align-self: center;\n  }\n}"]
-  });
-  return AppComponent;
-})();
-
-/***/ }),
-
-/***/ 6747:
-/*!*******************************!*\
-  !*** ./src/app/app.module.ts ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AppModule": () => (/* binding */ AppModule)
-/* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/platform-browser */ 9075);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/router */ 9895);
-/* harmony import */ var _datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./datos-animales.service */ 3787);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/forms */ 3679);
-/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/autocomplete */ 1554);
-/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/tabs */ 5939);
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/material/input */ 3166);
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/material/button */ 1095);
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/card */ 3738);
-/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/tooltip */ 1436);
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/dialog */ 2238);
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 5041);
-/* harmony import */ var _inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./inicio/inicio.component */ 2);
-/* harmony import */ var _tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tipos-animales/tipos-animales.component */ 5925);
-/* harmony import */ var _informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./informacion/informacion.component */ 7598);
-/* harmony import */ var _tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./tipos-animales/mamiferos/mamiferos.component */ 1325);
-/* harmony import */ var _tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./tipos-animales/aves/aves.component */ 5950);
-/* harmony import */ var _tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./tipos-animales/reptiles/reptiles.component */ 8138);
-/* harmony import */ var _tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./tipos-animales/peces/peces.component */ 6);
-/* harmony import */ var _tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./tipos-animales/insectos/insectos.component */ 2233);
-/* harmony import */ var _pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pagina404/pagina404.component */ 1024);
-/* harmony import */ var _tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./tipos-animales/animal/animal.component */ 730);
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/platform-browser/animations */ 5835);
-/* harmony import */ var _tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./tipos-animales/aves/ave/ave.component */ 8635);
-/* harmony import */ var _tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./tipos-animales/insectos/insecto/insecto.component */ 2430);
-/* harmony import */ var _tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./tipos-animales/peces/pez/pez.component */ 2133);
-/* harmony import */ var _tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./tipos-animales/reptiles/reptil/reptil.component */ 1005);
-/* harmony import */ var _buscar_pipe__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./buscar.pipe */ 3301);
-/* harmony import */ var _tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./tipos-animales/anfibios/anfibios.component */ 4143);
-/* harmony import */ var _tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./tipos-animales/anfibios/anfibio/anfibio.component */ 1250);
-/* harmony import */ var _tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./tipos-animales/crustaceos/crustaceos.component */ 8515);
-/* harmony import */ var _tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./tipos-animales/crustaceos/crustaceo/crustaceo.component */ 7617);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/core */ 7716);
- //importado
-
-
- //Servicio
-
-
- //Angular material
-
-
-
-
-
-
-
- //Componentes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- //Pipe
-
-
-
-
-
-
-
-
-const rutas = [{
-  path: '',
-  component: _inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__.InicioComponent,
-  pathMatch: 'full'
-}, {
-  path: 'tipos-animales',
-  component: _tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__.TiposAnimalesComponent
-}, {
-  path: 'tipos-animales/mamiferos',
-  component: _tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__.MamiferosComponent
-}, {
-  path: 'tipos-animales/aves',
-  component: _tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__.AvesComponent
-}, {
-  path: 'tipos-animales/aves/ave/:id/:nombre',
-  component: _tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__.AveComponent
-}, {
-  path: 'tipos-animales/reptiles',
-  component: _tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__.ReptilesComponent
-}, {
-  path: 'tipos-animales/reptiles/reptil/:id/:nombre',
-  component: _tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__.ReptilComponent
-}, {
-  path: 'tipos-animales/peces',
-  component: _tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__.PecesComponent
-}, {
-  path: 'tipos-animales/peces/pez/:id/:nombre',
-  component: _tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__.PezComponent
-}, {
-  path: 'tipos-animales/insectos',
-  component: _tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__.InsectosComponent
-}, {
-  path: 'tipos-animales/insectos/insecto/:id/:nombre',
-  component: _tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__.InsectoComponent
-}, {
-  path: 'informacion',
-  component: _informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__.InformacionComponent
-}, {
-  path: 'tipos-animales/mamiferos/animal/:id/:nombre',
-  component: _tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__.AnimalComponent
-}, {
-  path: 'tipos-animales/anfibios',
-  component: _tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__.AnfibiosComponent
-}, {
-  path: 'tipos-animales/anfibios/anfibio/:id/:nombre',
-  component: _tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__.AnfibioComponent
-}, {
-  path: 'tipos-animales/crustaceos',
-  component: _tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__.CrustaceosComponent
-}, {
-  path: 'tipos-animales/crustaceos/crustaceo/:id/:nombre',
-  component: _tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__.CrustaceoComponent
-}, {
-  path: 'pagina404',
-  component: _pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__.Pagina404Component
-}, {
-  path: '**',
-  redirectTo: 'pagina404',
-  pathMatch: 'full'
-}];
-let AppModule = /*#__PURE__*/(() => {
-  class AppModule {}
-
-  AppModule.ɵfac = function AppModule_Factory(t) {
-    return new (t || AppModule)();
-  };
-
-  AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵdefineNgModule"]({
-    type: AppModule,
-    bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent]
-  });
-  AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵdefineInjector"]({
-    providers: [_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService],
-    imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_22__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_23__.RouterModule.forRoot(rutas, {
-      scrollPositionRestoration: 'top'
-    }), _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_24__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_25__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_26__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_27__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_28__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_29__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_30__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_31__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_32__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_25__.ReactiveFormsModule]]
-  });
-  return AppModule;
-})();
-
-(function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵsetNgModuleScope"](AppModule, {
-    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__.InicioComponent, _tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__.TiposAnimalesComponent, _informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__.InformacionComponent, _tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__.MamiferosComponent, _tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__.AvesComponent, _tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__.ReptilesComponent, _tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__.PecesComponent, _tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__.InsectosComponent, _pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__.Pagina404Component, _tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__.AnimalComponent, _buscar_pipe__WEBPACK_IMPORTED_MODULE_16__.BuscarPipe, _tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__.AveComponent, _tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__.InsectoComponent, _tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__.PezComponent, _tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__.ReptilComponent, _tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__.AnfibiosComponent, _tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__.AnfibioComponent, _tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__.CrustaceosComponent, _tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__.CrustaceoComponent],
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_22__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_23__.RouterModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_24__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_25__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_26__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_27__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_28__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_29__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_30__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_31__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_32__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_25__.ReactiveFormsModule]
-  });
-})();
-
-/***/ }),
-
-/***/ 3301:
-/*!********************************!*\
-  !*** ./src/app/buscar.pipe.ts ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "BuscarPipe": () => (/* binding */ BuscarPipe)
-/* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
-
-let BuscarPipe = /*#__PURE__*/(() => {
-  class BuscarPipe {
-    transform(value, args) {
-      const animal = [];
-
-      for (const ani of value) {
-        if (ani.nombre.toLowerCase().indexOf(args.toLowerCase()) > -1) {
-          animal.push(ani);
-        }
-      }
-
-      return animal;
-    }
-
-  }
-
-  BuscarPipe.ɵfac = function BuscarPipe_Factory(t) {
-    return new (t || BuscarPipe)();
-  };
-
-  BuscarPipe.ɵpipe = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-    name: "buscar",
-    type: BuscarPipe,
-    pure: true
-  });
-  return BuscarPipe;
-})();
-
-/***/ }),
-
-/***/ 3787:
-/*!*******************************************!*\
-  !*** ./src/app/datos-animales.service.ts ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "DatosAnimalesService": () => (/* binding */ DatosAnimalesService)
-/* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
-
-let DatosAnimalesService = /*#__PURE__*/(() => {
-  class DatosAnimalesService {
-    constructor() {
-      this.prueba = "Prueba del servicio";
-      this.tiposAnimales = new Array({
-        mamiferos: "Los mamíferos son un grupo de animales que engloba seres muy diversos: desde la enorme ballena azul al murciélago. Aún así, todos ellos comparten una característica común: tienen unas glándulas mamarias productoras de leche mediante las que alimentan a las crías. Todos son vivíparos a excepción del orden de los monotremas en el que se incluyen animales tan excepcionales como el ornitorrinco y los equidnas. Y todos descienden de un antepasado común que probablemente se remonta a finales del Triásico, hace más de 200 millones de años." + "Habitan en la gran mayoría de ecosistemas del planeta excepto algunas tierras heladas de la Antártida– gracias a la capacidad de adaptación que han demostrado a lo largo de toda su historia evolutiva. Se han descrito casi 5.500 especies diferentes, suelen tener grandes capacidades de aprendizaje debido a que su volumen encefálico es mayor que el de otras especies y puede tener dietas muy variadas, algo que también ha contribuido a una mejor adaptación al medio."
-      }, {
-        aves: "Las aves son animales vertebrados generalmente adaptados al vuelo, aunque muchos también pueden correr, saltar, nadar y bucear. Algunos, como los pingüinos, han perdido la capacidad de volar, pero conservaron sus alas como vestigio. Las aves se encuentran en todo el mundo y en todos los hábitats y cuentan con una gran diversidad de tamaños, siendo el ave más grande es el avestruz que puede llegar a a alcanzar los 2,5 metros de altura, y el más pequeño el colibrí, con apenas unos escasos centímetros."
-      }, {
-        reptiles: "La principal característica de estos animales vertebrados es que tienen la piel recubierta de escamas y tienen un origen prehistórico, aparecieron hace 315 millones de años aproximadamente. Han sido capaces de sobrevivir, entre otras cosas, gracias a la capacidad que tienen de controlar su temperatura corporal." + "Todos los animales de esta especie son ovíparos, pero algunos son carnívoros y otros herbívoros. Tienen un metabolismo lento por lo que los grandes ejemplares, como algunos cocodrilos o serpientes, son capaces de vivir durante un largo periodo de tiempo gracias a una comida abundante. Se pueden encontrar reptiles en todos los continentes excepto en la Antártida"
-      }, {
-        peces: "Podemos encontrar más de 27.900 especies de peces, tanto de agua dulce como salada y capaces de habitar en entornos que oscilan entre los 40 y los -2 ºC. Por tanto ¿Qué características unen a un grupo tan diverso de animales?:" + "Todos viven en un medio acuático y tienen un cerebro protegido por una caja craneal y una región bien diferenciada a modo de cabeza donde se albergan los ojos, dientes y otros órganos sensoriales.  La mayoría de los peces son vertebrados cuyas vértebras se disponen protegiendo la médula espinal, respiran principalmente mediante branquias y tienen diversos pares de miembros en un número variable y en forma de aletas mediante los cuales se desplazan. También se trata de organismos incapaces de regular su temperatura corporal interna y cuyo cuerpo se encuentra cubierto de escamas destinadas a protegerles."
-      }, {
-        insectos: "Los insectos son animales invertebrados del filo de los artrópodos. Comprenden el grupo de animales más diverso de la Tierra de los que se conocen aproximadamente un millón de especies diferentes, cada una de ellas con una cantidad de miembros muy abundante. También se cree que aún quedan por describir unos 30 millones de especies más. Pueden encontrarse en casi todos los lugares del planeta, aunque solo un pequeño número de especies ha conseguido adaptarse a la vida en los océanos.  Los insectos no solo presentan una gran diversidad, sino que también son increíblemente abundantes. Algunas estimaciones hablan que existen 200 millones de insectos por cada ser humano." + "Se caracterizan por tener dos antenas, seis patas y dos alas, a pesar de que en ocasiones no les sirven para volar. Tienen el cuerpo dividido en tres partes: cabeza, tórax y abdomen y en algún momento de su vida, por lo general cuando pasan a la etapa adulta, experimentan un cambio drástico llamado metamorfosis. Aquí tienes una galería fotográfica con cientos de imágenes de insectos: "
-      }, {
-        anfibios: "Su nombre proviene del griego y significa 'ambos medios', pues su vida transcurre entre el medio acuático y el terrestre. Se tratan los ancestros de los anfibios del primer grupo de vertebrados que colonizó el continente y se adaptó a una vida semiterrestre. Se encuentran prácticamente en todas las regiones del mundo excepto en aquellas donde las condiciones climáticas son más duras como el Ártico, la Antártida y los desiertos más extremos.  Los anfibios se caracterizan a diferencia del resto de vertebrados de pasar por diversos cambios y estadios morfológicos a lo largo de sus ciclos de vida. Transformaciones que de producirse de forma brusca reciben el nombre de metamorfosis."
-      }, {
-        crustaceos: "Los crustáceos son animales marinos que se caracterizan por la presencia de un exoesqueleto de quitina articulado. Los crustáceos están divididos en seis clases siendo la más conocida la clase Malacostrata que reune a los cangrejos, camarones, galeras y langostas. El nombre científico del grupo, procede del griego, y significa “concha blanda”, haciendo alusión a su exoesqueleto de quitina. Los diferentes segmentos en los que se divide el cuerpo articulado de estos animales, se agrupan en tres grandes regiones: Céfala, Torax y Pleon. La región Céfala agrupa a los segmentos de la cabeza, apéndices de la cabeza y aparato bucal. La región del Torax está formada por ocho segmentos, algunos fusionados con la cabeza, y las patas marchadoras. La región del Pleon integra el abdomen y los cinco pares de apéndices traseros."
-      });
-      this.Mamiferos = new Array({
-        id: 1,
-        nombre: "Elefante",
-        nombreCientifico: "Elephantidae",
-        nomRuta: "elefante",
-        clase: "Mamífero",
-        descripcion: "Es el mamífero terrestre más grande. Pueden llegar a pesar más de 7 mil kilos y aunque en promedio suelen medir tres metros de altura. Algunos elefantes llegan a vivir 90 años. Son capaces de comunicarse a través de vibraciones en el suelo.",
-        IMG: "https://cdn.pixabay.com/photo/2013/05/29/22/25/elephant-114543_960_720.jpg"
-      }, {
-        id: 2,
-        nombre: "Pastor Alemán",
-        nombreCientifico: "Canis familiaris",
-        nomRuta: "pastor-aleman",
-        clase: "Mamífero",
-        descripcion: "Es una raza canina que proviene de Alemania. La raza es relativamente nueva, ya que su origen se remonta a 1899. Forman parte del grupo de pastoreo, ya que fueron perros desarrollados originalmente para reunir y vigilar ovejas. Desde entonces, sin embargo, gracias a su fuerza, inteligencia, capacidad de entrenamiento y obediencia,​ los pastores alemanes de todo el mundo son a menudo la raza preferida para muchos otros tipos de trabajo, como son: perro policía, perro guardián, guía de ciegos, animal de rescate, y otros, según el uso que le den las fuerzas y cuerpos de seguridad y el ejército. En muchos países incluso cuentan con unidades específicas denominadas K-9",
-        IMG: "https://cdn.pixabay.com/photo/2019/03/23/05/15/schafer-dog-4074699_960_720.jpg"
-      }, {
-        id: 3,
-        nombre: "Gato Atigrado",
-        nombreCientifico: "Felis silvestris catus",
-        nomRuta: "gato-atigrado",
-        clase: "Mamífero",
-        descripcion: "Es un gato con un distintivo pelaje de rayas y manchas características. Los gatos atigrados a menudo son, erróneamente, confundidos con una raza de gato pero solo son una variedad de color; de hecho, el patrón que posee el atigrado es una característica que ocurre naturalmente y que podría ser la original coloración de los distantes ancestros de los gatos domésticos",
-        IMG: "https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg"
-      }, {
-        id: 4,
-        nombre: "Leon",
-        nombreCientifico: "Panthera leo",
-        nomRuta: "leon",
-        clase: "Mamifero",
-        descripcion: "El león es uno de los cuatro grandes félidos pertenecientes al género Panthera. El macho adulto es fácilmente reconocible por su gran tamaño y llamativa melena, y tiene un peso aproximado de 150 – 250 kg. Las hembras suelen ser considerablemente más pequeñas, con 110 – 180 kg de peso. Es el segundo félido más grande del mundo, después del tigre. La melena les sirve para proteger su cuello durante las batallas, para protegerse de los matorrales espinosos y es más frondosa cuanto menor sea la temperatura. El color de su pelaje es otra adaptación al medio, pues les sirve de camuflaje para poder cazar, principalmente, ya que no suelen ser presa de otros animales (salvo de hienas en caso de animales enfermos, ancianos o crías). Cazan al acecho (a unos 30 m o menos de su presa) para evitar gastar exceso de energía respecto a la que obtienen de la presa que persiguen, así, nunca corren en exceso (pero pueden alcanzar 56 Km/h).",
-        IMG: "https://cdn.pixabay.com/photo/2014/11/03/11/07/lion-515028_960_720.jpg"
-      }, {
-        id: 5,
-        nombre: "Conejo",
-        nombreCientifico: "Oryctolagus cuniculus",
-        nomRuta: "conejo",
-        clase: "Mamífero",
-        descripcion: "El conejo se caracteriza por tener un cuerpo cubierto de un pelaje espeso y lanudo, de color pardo pálido a gris o rojizo, que permite su camuflaje para evitar a sus depredadores. Pesa entre 1,5 y 2,5 kg en estado salvaje. Tiene orejas largas de hasta 7 cm las cuales le ayudan a regular la temperatura del cuerpo y una cola muy corta. Sus patas anteriores son más cortas que las posteriores." + "Mide de 33 a 50 cm en condiciones afables, incluso más en razas domésticas para carne. Todas estas características que posee esta especie en estado salvaje pueden variar significativamente según la raza.",
-        IMG: "https://cdn.pixabay.com/photo/2020/04/07/20/36/bunny-5014814_960_720.jpg"
-      }, {
-        id: 6,
-        nombre: "Ballena",
-        nombreCientifico: "Balaenidae",
-        nomRuta: "ballena",
-        clase: "Mamifero",
-        descripcion: "Dentro de el orden de los cetáceos y concretamente del de los cetaceos misticetos se encuentran las ballenas, las cuales conforman la familia de los balaénidos o de las ballenas barbadas. Estas están clasificados en tan solo cuatro especies divididas en dos géneros, Balaena y Eubalaena. Estos animales pueden llegar a medir entre 25 y 32 metros y los ejemplares más grandes pueden llegar a pesar hasta 180 toneladas. De hecho, una de estas especies de balaenidos, la ballena azul, es el animal más grande del mundo en la actualidad.",
-        IMG: "https://cdn.pixabay.com/photo/2014/09/05/03/38/humpback-whale-436120_960_720.jpg"
-      }, {
-        id: 7,
-        nombre: "Jirafa",
-        nombreCientifico: "Giraffa camelopardalis",
-        nomRuta: "jirafa",
-        clase: "Mamifero",
-        descripcion: "Las jirafas son los mamíferos más altos del mundo, gracias a sus enormes patas y largos cuellos. Las patas de una jirafa son más altas que muchos humanos, alrededor de 180 centímetros, y les permiten correr a más de 55 kilómetros por hora en distancias cortas y a más de 15 kilómetros por hora en distancias más largas. Estos fascinantes animales vagan por las praderas abiertas en pequeños grupos, que suelen ser de aproximadamente media docena. Los machos a veces luchan entre sí golpeando sus largos cuellos y las cabezas. Estos combates no suelen ser peligrosos y terminan cuando uno de los animales se rinde y se va. Las jirafas aprovechan su altura para alcanzar de las copas de los árboles las hojas y los brotes inaccesibles para otros animales, siendo las acacias sus favoritas. ¡Incluso la lengua de la jirafa es larga! La lengua de 50 centímetros les ayuda a arrancar sabrosos bocados de las ramas. Las jirafas pasan la mayor parte del tiempo comiendo y, al igual que las vacas, regurgitan la comida y la mastican como bolo alimenticio. Una jirafa come decenas de kilos de hojas cada semana y debe viajar millas para encontrar suficiente comida.",
-        IMG: "https://cdn.pixabay.com/photo/2019/07/02/10/25/giraffe-4312090_960_720.jpg"
-      }, {
-        id: 8,
-        nombre: "Cerdo",
-        nombreCientifico: "Sus scrofa domesticus",
-        nomRuta: "cerdo",
-        clase: "Mamifero",
-        descripcion: "El cerdo es un animal mamífero que puede encontrarse en estado salvaje o doméstico. El nombre científico de la especie en estado natural es Sus scrofa y coloquialmente se lo conoce como jabalí o cerdo silvestre; mientras que aquéllos ejemplares que han sido domesticados reciben el nombre de Sus scrofa domestica. Se trata de un cuadrúpedo con patas cortas y pezuñas, un cuerpo pesado, hocico flexible y cola corta. Cabe señalar que el término cerdo proviene de cerda, lo que hace referencia a su pelo grueso. En libertad, estos animales pueden vivir hasta quince años, sin embargo dado que el ser humano se apropia de sus vidas y los explota para el consumo de su carne, en cautiverio no llegan a los 5 o 6 años de vida, con suerte, porque muchos de ellos son asesinados antes de cumplir el año de vida.",
-        IMG: "https://cdn.pixabay.com/photo/2018/11/23/23/10/pig-3834738_960_720.jpg"
-      }, {
-        id: 9,
-        nombre: "Tigre",
-        nombreCientifico: "Panthera Tigris",
-        nomRuta: "tigre",
-        clase: "Mamifero",
-        descripcion: "Existen dos subespecies reconocidas de tigre*: el continental (Panthera tigris tigris) y el Sunda (Panthera tigris sondaica). El tigre, el más grandes de todos los grandes felinos asiáticos, depende principalmente de la vista y el oído en lugar del olfato para cazar. Por lo general caza solo y acecha a sus presas. Un tigre puede consumir más de 80 libras (36 kg) de carne a la vez. En promedio, los tigres dan a luz de dos a cuatro cachorros cada dos años. Si todos los cachorros de una camada mueren, se puede generar una segunda camada en cinco meses. El tigre generalmente se hace independiente alrededor de los dos años de edad y alcanza la madurez sexual a los tres o cuatro años en las hembras y a los cuatro o cinco años en los machos. Sin embargo, la mortalidad juvenil es alta: aproximadamente la mitad de todos los cachorros no sobreviven más de dos años. Se sabe que el tigre puede llegar a vivir hasta 20 años en la naturaleza.",
-        IMG: "https://cdn.pixabay.com/photo/2014/10/23/18/56/tiger-500118_960_720.jpg"
-      }, {
-        id: 10,
-        nombre: "Caballo",
-        nombreCientifico: "Equus Caballus",
-        nomRuta: "caballo",
-        clase: "Mamifero",
-        descripcion: "La coloración del cuerpo es muy variable, ya que puede haber ejemplares de un tono uniforme y otros de tonos mezclados que son mejor conocidos como “pintos”. Sobre el cuello presenta una crin larga. Se trata de un animal no territorial y hay 2 tipos de grupos. Uno de machos solamente y otro formado de varias hembras y un macho dominante. Cuando coinciden en una zona dos harenes los machos luchan por la obtención de más hembras. En los grupos de solteros, también hay un macho dominante absoluto y se comporta como si fuera su harén. Las hembras entran en celo varias veces al año o hasta que quedan preñadas. En la actualidad existe cerca de 200 razas de caballos en las que figuran el ponny, los percherones y los pura sangre. Algunos datos curiosos sobre los caballos es que gustan revolcarse en la arena para espantar los insectos que los molestan o bien, usan su cola como abanico para el mismo fin. Es común que algunos caballos se les ponga anteojeras, sobre todo los que se encuentran en ciudades o villas muy transitadas, para evitar que se espanten. Además, el caballo a desempeñado un papel muy importante en la historia de la humanidad pues ha sido empleado como medio de transporte o en guerras o ha sido tema para escritores o poetas.",
-        IMG: "https://cdn.pixabay.com/photo/2016/02/15/13/26/horse-1201143_960_720.jpg"
-      });
-      this.Aves = new Array({
-        id: 11,
-        nombre: "Lechuza",
-        nombreCientifico: "tyto alba",
-        nomRuta: "lechuza",
-        clase: "Aves",
-        descripcion: "De tamaño mediano, con cuerpo alargado y cabeza voluminosa libre de penachos, luce un acolchado y tupido plumaje de color pardo anaranjado en el dorso, con tonos grises y finamente punteado de blanco y negro. Las partes inferiores son de un blanco puro o anaranjado (dependiendo de la fase) con pecas negras.",
-        IMG: "https://cdn.pixabay.com/photo/2018/07/09/19/07/eastern-screech-owl-3526934_960_720.jpg"
-      }, {
-        id: 12,
-        nombre: "Gallina",
-        nombreCientifico: "Gallus gallus domesticus",
-        nomRuta: "gallina",
-        clase: "Aves",
-        descripcion: "Los nombres comunes son: gallo, para el macho; gallina, para la hembra, y pollo, para los subadultos. Es el ave más numerosa del planeta, pues se calcula que el número de ejemplares supera los dieciséis mil millones. Los gallos y gallinas se crían principalmente por su carne y por sus huevos. También se aprovechan sus plumas y algunas variedades se crían y entrenan para su uso en peleas de gallos y como aves ornamentales.",
-        IMG: "https://cdn.pixabay.com/photo/2018/10/05/23/24/chicken-3727097_960_720.jpg"
-      }, {
-        id: 13,
-        nombre: "Pato",
-        nombreCientifico: "Anas platyrhynchos domesticus",
-        nomRuta: "pato",
-        clase: "Aves",
-        descripcion: "Pato es el nombre común para ciertas aves de la familia Anatidae, principalmente de la subfamilia Anatinae y dentro de ella del género Anas. No son un grupo monofilético, ya que no se incluyen los cisnes ni los gansos.",
-        IMG: "https://cdn.pixabay.com/photo/2013/04/22/20/02/ruddy-shelduck-106544_960_720.jpg"
-      }, {
-        id: 14,
-        nombre: "Paloma",
-        nombreCientifico: "Columba livia",
-        nomRuta: "paloma",
-        clase: "Aves",
-        descripcion: "La Paloma Huilota es una paloma de aspecto elegante, cola larga, y cabeza pequeña, que se encuentra en casi toda Norte América. Suele posarse en los cables del alumbrado público y busca semillas en el suelo; su vuelo es rápido y recto como el de un balazo. Su arrullo suave y largo suena como un lamento. Cuando van a emprender vuelo, sus alas suenan como un silbido fuerte o rechinaran. Las Palomas Huilotas son las aves mas cazadas en Norte América.",
-        IMG: "https://cdn.pixabay.com/photo/2015/09/02/13/02/pigeon-918848_960_720.jpg"
-      }, {
-        id: 15,
-        nombre: "Aguila",
-        nombreCientifico: "Aquila Chrysaetos",
-        nomRuta: "aguila",
-        clase: "Aves",
-        descripcion: "Majestuosas, sigilosas, veloces, inteligentes y hábiles: si el mar es de los tiburones y la sabana de los leones, la hegemonía del reino de los cielos es delas águilas. Pertenecientes a las familia Accipitridae, este tipo de aves sobrevuelan los cielos de todo el mundo excepto los antárticos. Depredadores por excelencia estos pájaros son temibles aves de presa.  Cuentan con un pico fuerte y robusto acabado en punta y hacia abajo que les facilita la tarea de separar los pedazos de carne de sus víctimas. También gozan de un sentido de la vista extraordinario con el que pueden divisar a sus presas a grandes distancias y además, sus potentes y robustas garras les permiten atrapar animales más grandes que ellas y trasladarlos por el aire. ",
-        IMG: "https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg"
-      }, {
-        id: 16,
-        nombre: "Pavo real",
-        nombreCientifico: "Pavo Cristatus",
-        nomRuta: "pavo-real",
-        clase: "Aves",
-        descripcion: "Los pavos reales, pertenecientes a la familia de las Phaisanidae, son aves grandes y muy coloridas (sobre todo azules y verdes) conocidas por su iridiscente cola. Esta llamativa cola, que es el 60 por ciento del cuerpo del animal, luce un ocelo (“ojo”) con variedades de azul, dorado, rojo y otras tonalidades. Los pavos reales utilizan su cola en los rituales de apareamiento y cortejo. Pueden abrirla en un espectacular abanico que se extiende desde la parte dorsal del animal hasta tocar el suelo en cada lado. Se dice que las hembras eligen a sus compañeros en función del tamaño, color y calidad de estas extravagantes colas.",
-        IMG: "https://cdn.pixabay.com/photo/2013/03/04/18/49/peacock-90051_960_720.jpg"
-      }, {
-        id: 17,
-        nombre: "Loro",
-        nombreCientifico: "Psittacoidea",
-        nomRuta: "loro",
-        clase: "Aves",
-        descripcion: "Los loros conforman una orden muy amplia que incluye a más de 350 aves, como guacamayos, amazonas, loriquitos, agapornis y cacatúas. A pesar de la gran variedad de aves de esta familia, existen similitudes entre ellos. Todos tienen un pico curvo y patas cigodáctilas, es decir, tienen cuatro dedos en cada pata: dos están dirigidos hacia delante y dos hacia atrás. La mayoría de los loros comen frutas, flores, brotes, frutos secos, semillas y algunos animales pequeños como insectos. Los loros viven en regiones de clima cálido y se encuentran por todo el mundo. En Australasia, América Central y Sudamérica se encuentra la mayor diversidad.",
-        IMG: "https://cdn.pixabay.com/photo/2010/12/23/13/36/bird-4078_960_720.jpg"
-      }, {
-        id: 18,
-        nombre: "Gaviota",
-        nombreCientifico: "Laridae",
-        nomRuta: "gaviota",
-        clase: "Aves",
-        descripcion: "Las gaviotas son aves voladoras de la familia Laridae. Se relacionan estrechamente con los gaviotines de la familia Sternidae, y tienen más a distancia con las aves zancudas. La mayoría de las gaviotas pertenece al género Larus. Son en general pájaros grandes, en su mayoría de plumaje gris o blanco, a menudo con señales negras en la cabeza o las alas. Tienen picos robustos, bastante largos. Las gaviotas adultas tienen la cabeza, el cuello, la cola y la parte inferior del cuerpo de un color blanco puro, mientras que la espalda y el dorso de las alas son de color gris pálido, lo que le da el nombre español de gaviota argéntea. En Catalunya se la conoce como “gavià argentat”, “gavota” en Galicia o “kaio” en Euskadi. En inglés se la conoce como “herring gull”.",
-        IMG: "https://cdn.pixabay.com/photo/2013/02/09/10/57/seagull-79658_960_720.jpg"
-      }, {
-        id: 19,
-        nombre: "Colibri",
-        nombreCientifico: "Trochiladae",
-        nomRuta: "colibri",
-        clase: "Aves",
-        descripcion: "Es el ave más pequeño del mundo, su peso es de dos gramos, tiene el pico largo y estrecho, y una lengua en forma de trompa. El colibrí tiene las patas débiles y cortas, la cola adopta formas extrañas y está forrada de varios adornos. El pico es muy largo, puntiagudo y guarda en su interior una lengua en forma de trompa, que usa para absorber el néctar de las flores que proporcionan su alimento. Su forma de volar es parecida a la de un insecto y se sostiene en un punto exacto del espacio gracias a la rápida vibración de sus alas. Cuando vuela, es muy difícil distinguirla, y parece como si su cuerpo estuviera suspendido en el vacío mientras recoge el néctar. Esta rápida vibración, provoca un ruido tipo susurro. ",
-        IMG: "https://cdn.pixabay.com/photo/2017/03/13/10/25/hummingbird-2139279_960_720.jpg"
-      }, {
-        id: 20,
-        nombre: "Tucan",
-        nombreCientifico: "Ramphastidae",
-        nomRuta: "tucan",
-        clase: "Aves",
-        descripcion: "El toco tucán presenta un plumaje con una coloración negro mate en casi todo el cuerpo, a excepción de una parte de su pecho, garganta y lados de la cabeza, siendo de color blanco. Una característica bastante llamativa es el pico que posee un vivo color amarillo, y en la punta de la mandíbula superior presenta una parte en color negro, lo mismo que en su base; dentro del grupo de los tucanes es el ave con el pico más grande pues llega a medir hasta 20 cm., de largo y está constituido por una red de fibras óseas lo que le proporciona fuerza y ligereza a la vez. En cuanto a su lengua, ésta es delgada y notablemente larga, puede llegar a medir hasta 15 cm. El macho es más grande que la hembra; sin embargo, ambos sexos poseen la misma coloración en su plumaje. El toco tucán es un ave que gusta de permanecer en las copas altas de los árboles, donde salta de rama en rama. Por lo que respecta a su nido, éste es construido regularmente en los agujeros de los árboles muertos; dichos agujeros llegan a tener hasta 2 m. de profundidad, y pueden ser usados durante varios años. Tanto el macho como la hembra participan en el proceso de incubación.",
-        IMG: "https://cdn.pixabay.com/photo/2015/11/03/16/00/keel-billed-toucan-1021048_960_720.jpg"
-      });
-      this.Reptiles = new Array({
-        id: 21,
-        nombre: "Cobra India",
-        nombreCientifico: "Naja Naja",
-        nomRuta: "cobra-india",
-        clase: "Reptiles",
-        descripcion: "Es una especie de serpiente venenosa originaria del Subcontinente indio. Como otras cobras, la cobra de anteojos es famosa por el capuchón que despliega alrededor de su cabeza cuando se encuentra excitada o amenazada. En la parte de atrás del capuchón tiene dos manchas negras unidas por una línea curva, que da la impresión de ser unos anteojos",
-        IMG: "https://cdn.pixabay.com/photo/2017/09/14/15/43/snake-2749383_960_720.jpg"
-      }, {
-        id: 22,
-        nombre: "Caimán",
-        nombreCientifico: "Caiman",
-        nomRuta: "caiman",
-        clase: "Reptiles",
-        descripcion: "Es un género de cocodrilos de la familia de los aligatóridos, conocidos vulgarmente como caimanes o yacarés. Se distribuyen en las regiones subtropicales y tropicales de América, desde Florida hasta el sur de Sudamérica.",
-        IMG: "https://cdn.pixabay.com/photo/2016/08/09/05/15/alligator-1579916_960_720.jpg"
-      }, {
-        id: 23,
-        nombre: "Iguana",
-        nombreCientifico: "Iguanidae",
-        nomRuta: "iguana",
-        clase: "Reptiles",
-        descripcion: "La iguana verde (Iguana iguana) es uno de los lagartos más grandes de América; pueden crecer hasta alcanzar los 2 metros de largo y pesan alrededor de 5 kilogramos. Además, también son mascotas bastante comunes en Estados Unidos, a pesar del hecho de que son un poco difíciles de cuidar y mantener.",
-        IMG: "https://cdn.pixabay.com/photo/2017/02/05/11/43/iguana-2039719_960_720.jpg"
-      }, {
-        id: 24,
-        nombre: "Tortuga",
-        nombreCientifico: "Testudines",
-        nomRuta: "tortuga",
-        clase: "Reptiles",
-        descripcion: "También conocidos como quelonios, las tortugas son un tipo de reptiles caracterizados por el sólido caparazón que protege sus órganos vitales del que emergen la cabeza, las patas y la cola. Son animales ovíparos que cavan sus nidos en la tierra, donde llevan a cabo la incubación de los huevos. A pesar de que carecen de dientes, cuentan con un fuerte pico que usan para alimentarse. Además de plantas, también comen insectos, caracoles y lombrices. Existen especies marinas y terrestres.  Las tortugas pueden ser animales muy longevos, viven entre 50 y 80 años y en algunos casos llegan a los 100. La tortuga más longeva jamás documentada es Harriet, una tortuga de las Galápagos que alcanzó los 175 años.",
-        IMG: "https://cdn.pixabay.com/photo/2015/07/27/19/47/turtle-863336_960_720.jpg"
-      }, {
-        id: 25,
-        nombre: "Cocodrilo",
-        nombreCientifico: "Crocodylidae",
-        nomRuta: "cocodrilo",
-        clase: "Reptiles",
-        descripcion: "Los cocodrilos están dotados de una piel escamosa, muy dura y seca. Sus fosas nasales y sus ojos se encuentran en la parte superior de la cabeza, lo que le permite ver y respirar mientras permanece en el agua. Suelen pasar la mayor parte del día parados, a la espera de que una presa se acerque lo suficiente como para lanzar un ataque súbito. Tienen además cuerpos pesados y metabolismos generalmente lentos, aunque pueden controlar la velocidad de su digestión según la abundancia de presas y de la temperatura ambiente. ",
-        IMG: "https://cdn.pixabay.com/photo/2019/01/15/22/40/crocodile-3934974_960_720.jpg"
-      }, {
-        id: 26,
-        nombre: "Serpiente cascabel",
-        nombreCientifico: "Crotalus durissus",
-        nomRuta: "serpiente-cascabel",
-        clase: "Reptiles",
-        descripcion: "Las serpientes de cascabel son venenosa. Todas las especies menos una, C. catalinensis, son fácilmente reconocibles por el característico sonido de su cascabel el cual se encuentra en la punta de la cola. Algunas especies de serpiente de cascabel pueden alcanzar hasta 2,5 metros de largo, y los 4 kg de peso. Su piel con círculos amarillos, está marcada en el centro por colores negros (parecidos a diamantes) hace que este tipo de reptil sea el mejor adornado de todo Norteamérica." + "Como su nombre lo dice, el cascabel lo forman unos estuches córneos en el extremo de la cola que en caso de peligro les permiten emitir un sonido de aviso de que es peligrosa y quizá proteja la serpiente de ser pisada por los grandes mamíferos.",
-        IMG: "https://cdn.pixabay.com/photo/2015/05/03/21/41/snake-751722_960_720.jpg"
-      }, {
-        id: 27,
-        nombre: "Dragon de Komodo",
-        nombreCientifico: "Varanus komodoensis",
-        nomRuta: "dragon-de-comodo",
-        clase: "Reptiles",
-        descripcion: "El dragón de Komodo, (Varanus komodoensis), la especie de lagarto existente más grande del planeta, es un lagarto de la familia Varanidae. También llamado monstruo de Komodo y varano de Komodo, puede encontrarse en la isla de Komodo y algunas islas vecinas de las islas de la Sonda de Indonesia central. El interés popular en el gran tamaño y los hábitos depredadores de este particular lagarto han permitido que esta especie en peligro de extinción se convierta en una atracción ecoturística, lo que ha alentado -afortunadamente- su protección. Eso sí, según la Unión Internacional para la Conservación de la Naturaleza, UICN (organismo dedicado a la conservación de recursos naturales), el dragón de Komodo se encuentra actualmente en estado de conservación “vulnerable”. Este lagarto crece hasta 3 metros de longitud total y puede alcanzar un peso máximo de aproximadamente 135 kg (el promedio son 2 metros de largo y 70 kg de peso). Excava una madriguera de hasta 9 metros y pone huevos que eclosionan en abril o mayo. Las crías recién nacidas, de unos 45 centímetros de largo, viven en árboles durante varios meses.",
-        IMG: "https://cdn.pixabay.com/photo/2016/08/12/16/59/monitor-1589200_960_720.jpg"
-      }, {
-        id: 28,
-        nombre: "Lagartija",
-        nombreCientifico: "Lacertilia",
-        nomRuta: "lagartija",
-        clase: "Reptiles",
-        descripcion: "Con el nombre de lagartija se conoce de manera genérica a un conjunto de especies de reptiles con características similares. El número de especies que engloba este apelativo es muy grande, por eso nos referiremos, en esta oportunidad a la lagartija común, también denominada lagartija roquera por su agilidad para trepar muros, rocas y árboles. Estos animales pertenecen a la familia de los Lacértidos y ha sido bautizada científicamente como Podarcis muralis. Es un animal pequeño y que cuenta con una gran velocidad de desplazamiento. Son animalitos pequeños, sus medidas no llegan a alcanzar un máximo de 6 centímetros, sin incluir su cola que, generalmente, es mucho más larga que todo su cuerpo. Pese a ser un reptil, la lagartija se desplaza por medio de sus 4 patas, colocadas a los costados y provistas de dedos prensiles que convierten a estos animales en excelentes trepadores. Esta especia de reptiles presenta escamas en su cuerpo, más abundantes en el dorso que en el vientre, también poseen escamas en sus patas. La cantidad de escamas varías, según se trate de machos o de hembras, siendo los ejemplares masculinos, los que cuentan con la mayor cantidad.",
-        IMG: "https://cdn.pixabay.com/photo/2016/03/04/19/07/gecko-1236523_960_720.jpg"
-      }, {
-        id: 29,
-        nombre: "Tuatara",
-        nombreCientifico: "Sphenodon",
-        nomRuta: "tuarara",
-        clase: "Reptiles",
-        descripcion: "Pertenece a la familia Sphenodontidae. Es de color gris o verde oliva con algunos detalles en color rojo. Se caracteriza por tener 2 fosas temporales o fenestras a cada lado del cráneo detrás de la órbita ocular. Tiene un tercer ojo u ojo pineal que aún no ha sido reconocida su función específica. Los machos tienen una cresta en la región posterior del cuello y en el dorso. Tiene dientes especializados grandes y filosos. Es de hábitos nocturnos, es territorialista y los machos al verse amenazados inflan su cuerpo y levantan la cresta. Su reproducción es sexual. Como el macho carece de órganos de copulación la fecundación ocurre con el acercamiento de las regiones de la cloaca de ambos progenitores. La época reproductiva comienza a mediados de la primavera. La hembra deposita entre 5 a 18 huevos. El periodo de incubación es de 12 a 15 meses.",
-        IMG: "https://cdn.pixabay.com/photo/2017/03/31/10/06/tuatara-2190866_960_720.jpg"
-      }, {
-        id: 30,
-        nombre: "Aligator",
-        nombreCientifico: "Alligator",
-        nomRuta: "aligator",
-        clase: "Reptiles",
-        descripcion: "Alligator es un género de saurópsidos (reptiles), conocidos popularmente como lagartos o aligátores. Ocasionalmente y de manera coloquial, se los denomina indistintamente, como caimanes, pese a que caimanes y lagartos pertenecen a géneros distintos; ya que taxonómicamente divergen a nivel de subfamilia. Actualmente incluye dos especies vivas, el aligátor chino y el lagarto americano. Tanto el nombre español actual como el latino usado en la clasificación científica proceden del inglés alligator, que a su vez es una deformación del español «el lagarto», con el que los conquistadores españoles de Florida bautizaron inicialmente a este animal. Los aligátores se encuentran casi siempre en aguas dulces, muy raramente se les ve en lagunas salobres y nunca se adentran en el mar. Esto se debe a que carecen de las glándulas secretoras de sal de las que disponen los cocodrilos, por ejemplo, y como resultado de ello no se han expandido hacia las islas del Caribe como sí han hecho varias especies de cocodrilos. Se diferencian fácilmente de los cocodrilos por la forma de su cabeza y morro, más anchos y cortos. Los dientes no sobresalen cuando mantienen la boca cerrada, cosa que sí sucede en los cocodrilos. Los ojos se sitúan en una posición muy atrasada respecto a otros géneros de Crocodilia. El color de la gruesa piel es normalmente oscuro (más en el caso de la especie china) acercándose a veces al negro, aunque no son raros los ejemplares más claros e incluso hay algún caso leucístico.",
-        IMG: "https://cdn.pixabay.com/photo/2019/05/22/03/54/aligator-4220630_960_720.jpg"
-      });
-      this.Peces = new Array({
-        id: 31,
-        nombre: "Barbo Rosado",
-        nombreCientifico: "Pethia conchonius",
-        nomRuta: "barbo-rosado",
-        clase: "Peces",
-        descripcion: "Se trata de un pez que presenta forma ovalada, agradable y muy activo, su coloración es rosácea a anaranjada sobre un fondo base plateado, es característica una pequeña mancha que mantiene en la parte posterior de su cuerpo, un poco anterior al péndulo caudal. Existe dimorfismo sexual, ya que los machos presentan una pequeña coloración oscura en la aleta dorsal y anal, además las hembras poseen colores más apagados. En edad adulta pueden llegar a medir hasta los 14 cm de longitud.",
-        IMG: "https://laguiadelacuario.es/wp-content/uploads/2020/11/pethia_conchoniuspda.jpg"
-      }, {
-        id: 32,
-        nombre: "Gurami Enano",
-        nombreCientifico: "Osphronemidae",
-        nomRuta: "gurami-enano",
-        clase: "Peces",
-        descripcion: "Su tamaño está entre 6 y 15 cm (hasta 30 en el caso de los ejemplares gigantes), donde se destacan sus dos aletas con forma de hilo para hacerlo más llamativo. La forma de su cuerpo es ovalada pero plana a los lados y con su movimiento realizan un auténtico show bajo el agua. También conocido como pez gourami, es una variedad de peces especialmente resistente entre los peces de agua dulce, de ahí que esté tan extendido entre los acuarios de aficionados a esta disciplina.",
-        IMG: "https://cdn.pixabay.com/photo/2020/09/25/19/03/fish-5602367_960_720.jpg"
-      }, {
-        id: 33,
-        nombre: "Guppy",
-        nombreCientifico: "Poecillia reticulata",
-        nomRuta: "guppy",
-        clase: "Peces",
-        descripcion: "Los guppies (Poecilia reticulata) pueden medir entre 1,5 y 6 cm. Son peces de agua dulce originarios del noreste de Sudamérica, comunes en acuarios en muchos países del mundo. Los ojos de los guppies son normalmente plateados, pero cuando quiere señalizar que está dispuesto a atacar, sus ojos se vuelven negros.",
-        IMG: "https://cdn.pixabay.com/photo/2019/08/30/01/24/water-tank-4440191_960_720.jpg"
-      }, {
-        id: 34,
-        nombre: "Telescopio",
-        nombreCientifico: "Gigantura",
-        nomRuta: "telescopio",
-        clase: "Peces",
-        descripcion: "Dentro de la familia de los carácidos , existe una variedad de peces, bastante peculiar y curiosa, que tiene ojos modificados denominada como telescopios o Demekin. Esta variedad, se originó en China a principios del siglo XVIII, y su característica principal son sus ojos, los cuales parece que brotaran de su cabeza, es decir sobresalen de tal manera que se proyectan hacia fuera. Sin embargo, aunque adquieren el nombre de peces telescopio, su visión es muy limitada. Estos peces se encuentran en infinidad de acuarios y peceras de todo el mundo. Este pez ha sido domesticado por el ser humano criado con fines ornamentales. Cada vez, con el paso de los años, las crías se han ido volviendo más selectiva, dando las variedades que tenemos hoy día.",
-        IMG: "https://cdn.pixabay.com/photo/2020/10/06/07/35/aquarium-5631495_960_720.jpg"
-      }, {
-        id: 35,
-        nombre: "Oscar",
-        nombreCientifico: "Astronotus ocellatus",
-        nomRuta: "oscar",
-        clase: "Peces",
-        descripcion: "El pez oscar, astronotus ocellatus, es un pez de la familia de los cíclidos, de la que sólo hay otra variedad el astronotus crassipinnis. Se suele conocer con otros nombre vulgares, como cíclido de terciopelo, óscar rojo, pez óscar tigre o cíclido de mármol. Se trata de un pez muy original, que va cambiando de aspecto a medida que envejece, siendo en su estado juvenil muy atrayentes, con colores amarillos y marrón claro, mientras que cuando envejecen resultan menos vistosos. Son fáciles de reproducir en cautividad, siempre que tengan suficiente espacio y estén bien alimentados.",
-        IMG: "https://cdn.pixabay.com/photo/2018/06/04/03/21/astronotus-3452311_960_720.jpg"
-      }, {
-        id: 36,
-        nombre: "Koi",
-        nombreCientifico: "Cyprinus rubrofuscus",
-        nomRuta: "koi",
-        clase: "Peces",
-        descripcion: "El grandioso koi es un pez de colores muy atrayentes originario de Japón y China. También se le llama carpa, ya que proviene de la familia de peces Carpa. Llega a alcanzar un tamaño de unos 50 a casi 90 centímetros. Es adaptable a la variación de temperaturas, bien sean bajas o altas, lo que los hace idóneos para tenerlos en un acuario. Estos peces son muy longevos debido a que llegan a alcanzar gran tamaño. Si tienen el cuidado apropiado, pueden llegar a vivir unos 30 a 40 años aproximadamente, incluso corre el rumor de que estos han llegado a vivir hasta los 65 años. Llegan a pesar desde 9 hasta 40 kilos. Esto no debe de sorprender ya que si bien mencionamos anteriormente pueden llegar a alcanzar gran tamaño.",
-        IMG: "https://cdn.pixabay.com/photo/2016/11/05/11/27/koi-1799988_960_720.jpg"
-      }, {
-        id: 37,
-        nombre: "Beta",
-        nombreCientifico: "Betta splendens",
-        nomRuta: "beta",
-        clase: "Peces",
-        descripcion: "El pez Betta es uno de los moradores favoritos de las peceras de los amantes de la acuariofilia por su increíble colorido y su particular personalidad. Sin duda, es difícil resistirse a la espectacularidad de su avance y a ese carácter fuerte que hace que se le denomine Guerrero de Siam. Y es que tanto su nombre como su sobrenombre proceden precisamente de un antiguo clan de guerreros existente en el país de origen de estos peces, Tailandia.",
-        IMG: "https://cdn.pixabay.com/photo/2018/05/23/17/25/beta-3424566_960_720.jpg"
-      }, {
-        id: 38,
-        nombre: "Payaso",
-        nombreCientifico: "Amphiprioninae",
-        nomRuta: "payaso",
-        clase: "Peces",
-        descripcion: "El pez payaso es uno de los peces más populares del mundo debido a una cinta de animación, sin embargo, en la vida real, esta especie posee fascinantes cualidades que sorprenden a los expertos, ¿quieres saber cuáles son? No te despegues de este artículo. El pez payaso destaca gracias a sus colores, como el naranja, entremezclados con franjas blancas y bordes negros. En la etapa adulta llega a medir hasta 11 centímetros, desarrolla una cola redonda y once espinas en la aleta dorsal. El pez payaso nace como macho y conforme va creciendo, se integra con otros de su especie en pequeños bandos para residir en una anémona. Cuando llega a la etapa adulta, es momento de reproducirse, por lo que el ejemplar de mayor tamaño y líder de la manada se transforma en hembra para asegurar la continuidad de los peces.",
-        IMG: "https://cdn.pixabay.com/photo/2014/08/24/19/10/clownfish-426567_960_720.jpg"
-      }, {
-        id: 39,
-        nombre: "Pez Globo",
-        nombreCientifico: "Tetraodontinae",
-        nomRuta: "pez-globo",
-        clase: "Peces",
-        descripcion: "Los biólogos creen que el pez globo desarrolló su famosa habilidad para inflarse debido a que su estilo para nadar es lento y torpe. Eso los hace vulnerables frente a los depredadores. En lugar de escapar, el pez globo utilizar su elástico estómago muy elástica y su capacidad de ingerir rápidamente grandes cantidades de agua (e incluso de aire si es necesario) para que se convierta en una bola prácticamente increíble que dobla varias veces su tamaño normal. Algunas especies también tienen espinas en la piel para evitar ser comidas. Un depredador que logra atrapar a un pez globo antes de que se infle, no se sentirá afortunado por mucho tiempo. Casi todos los peces globo contienen tetrodo toxina, una sustancia que hace que el pez globo tenga un sabor muy desagradable, a menudo letal para los peces. Para los humanos, el tetrodo toxina es mortal, hasta 1.200 veces más venenosa que el cianuro. En pez globo contiene suficiente tetrodo toxina para matar a 30 seres humanos adultos, y no hay antídoto conocido.",
-        IMG: "https://cdn.pixabay.com/photo/2019/03/20/15/05/puffer-fish-4068750_960_720.jpg"
-      }, {
-        id: 40,
-        nombre: "Piraña",
-        nombreCientifico: "Pygocentrus nattereri",
-        nomRuta: "pirana",
-        clase: "Peces",
-        descripcion: "La piraña o serrasalmus, son peces de agua dulce que forman parte de la familia de los carácidos. Es uno de los peces con peor reputación que existen, por su agresivo temperamento y sus dientes increíblemente afilados que cortan todo lo que muerden. La piraña es un pez grande que puede llegar a medir entre 25 y 30 centímetros. En libertad, algunos ejemplares pueden llegar hasta los 40 o 50 centímetros. Se caracteriza por su gruesa cabeza, dotada de una mandíbula inferior prominente y unos dientes triangulares, muy afilados que le otorgan una imagen aterradora y peligrosa.",
-        IMG: "https://cdn.pixabay.com/photo/2021/01/14/22/42/piranha-5918098_960_720.jpg"
-      });
-      this.Insectos = new Array({
-        id: 41,
-        nombre: "Cucaracha",
-        nombreCientifico: "Blattodea",
-        nomRuta: "cucaracha",
-        clase: "Insecto",
-        descripcion: "Se conocen más de 4500 especies de cucarachas en cerca de 500 géneros. uelen ser de color castaño, rojo u oscuro y de cuerpo aplanado. Algunas especies tienen colores llamativos.",
-        IMG: "https://cdn.pixabay.com/photo/2014/12/13/15/38/cockroach-566712_960_720.jpg"
-      }, {
-        id: 42,
-        nombre: "Grillo",
-        nombreCientifico: "Grylladae",
-        nomRuta: "grillo",
-        clase: "Insecto",
-        descripcion: "Los grillos están emparentados con las Acrididae (saltamontes). Sus patas están adaptadas al salto, sin embargo saltan menos que los saltamontes, lo que los hace más torpes. En cambio, corren por el suelo con rapidez. Excavan una madriguera en el suelo, que consiste en una galería de más de medio metro, y que termina en una habitación esférica.",
-        IMG: "https://cdn.pixabay.com/photo/2014/03/04/16/07/grasshopper-279532_960_720.jpg"
-      }, {
-        id: 43,
-        nombre: "Escorpión",
-        nombreCientifico: "Scorpiones",
-        nomRuta: "escorpion",
-        clase: "Insecto",
-        descripcion: "Los escorpiones pertenecen a la clase de los arácnidos, y están estrechamente emparentados con las arañas, los caros y las garrapatas. Se los asocia comúnmente con el desierto, pero también están presentes en la selva brasilea, Columbia Britnica, Carolina del Norte e incluso la cordillera del Himalaya. Estos resistentes y adaptables artrópodos existen desde hace cientos de millones de años, y son unos auténticos supervivientes.",
-        IMG: "https://cdn.pixabay.com/photo/2015/09/09/14/06/scorpion-931561_960_720.jpg"
-      }, {
-        id: 44,
-        nombre: "Hormiga",
-        nombreCientifico: "Formicidae",
-        nomRuta: "hormiga",
-        clase: "Insecto",
-        descripcion: "Las hormigas son insectos muy comunes, sin embargo están dotados de algunas cualidades realmente excepcionales y únicas. En raras ocasiones superan los dos centímetros de longitud, sin embargo son uno de los animales más fuertes del mundo, siendo capaces de levantar casi tres veces el peso de su cuerpo. Comparten rasgos muy parecidos con las avispas y las abejas, ya que evolucionaron a partir de un antepasado común. ",
-        IMG: "https://cdn.pixabay.com/photo/2014/12/13/10/06/insects-566408_960_720.jpg"
-      }, {
-        id: 45,
-        nombre: "Mariposa",
-        nombreCientifico: "Lepidoptera",
-        nomRuta: "mariposa",
-        clase: "Insecto",
-        descripcion: "Los lepidópteros, mas conocidos comúnmente como mariposas, son unos insectos pertenecientes al orden de los homometábolos, un grupo de insectos superiores, los cuales, a lo largo de su vida sufren una serie de transformaciones complejas conocida como metamorfosis, y en la que se suceden las fases de embrión, larva, pupa e imago. Las mariposas son un tipo de insecto muy popular por los llamativos colores que tiñen sus alas y por su vuelo vacilante cuando se acerca el buen tiempo. Se han descrito unas 24.000 especies diferentes.",
-        IMG: "https://cdn.pixabay.com/photo/2013/06/30/18/56/butterfly-142506_960_720.jpg"
-      }, {
-        id: 46,
-        nombre: "Mosquito",
-        nombreCientifico: "Culicidae",
-        nomRuta: "mosquito",
-        clase: "Insecto",
-        descripcion: "El mosquito común se caracteriza por ser un insecto volador y por poseer un cuerpo delgado, patas largas y finas. Los adultos pueden llegar a medir hasta 15 milímetros, y es importante saber que las larvas se desarrollan siempre en el agua, por esta razón es que cuando existe epidemia por alguna enfermedad transmitida por los mosquitos, se pide que se elimine de los hogares todo tipo de contenedores de agua que favorezca la reproducción veloz de los mosquitos. ",
-        IMG: "https://cdn.pixabay.com/photo/2012/05/18/21/45/mosquito-49141_960_720.jpg"
-      }, {
-        id: 47,
-        nombre: "Lombriz",
-        nombreCientifico: "Lumbricidae",
-        nomRuta: "lombriz",
-        clase: "Insecto",
-        descripcion: "La lombriz de tierra, de color gris rojizo, es un animal familiar para todo aquel que tenga un jardín o una caña de pescar. Es oriunda de Europa, pero en la actualidad abunda también en Norteamérica y en Asia occidental. Aunque por lo general apenas mide 7 u 8 centímetros, se sabe que algunos miembros de la especie alcanzan hasta 35 centímetros de longitud con el cuerpo enrollado. El cuerpo de la lombriz de tierra está formado por segmentos llamados anillos o metámeros. Estos segmentos están recubiertos de sedas, o pequeñas cerdas, que la lombriz usa para remover y escarbar la tierra. La lombriz tiene la boca en el primer segmento del cuerpo. A medida que cava la tierra la va ingiriendo, extrayendo de ella nutrientes que provienen de la descomposición de materia orgánica, como hojas o raíces. La lombriz de tierra es vital para la salud del suelo, ya que transporta nutrientes y minerales hasta la superficie mediante sus deshechos y los túneles que excava oxigenan la tierra. Una lombriz puede comer en un día el equivalente a un tercio de su peso corporal.",
-        IMG: "https://cdn.pixabay.com/photo/2020/01/13/18/56/worm-4763219_960_720.jpg"
-      }, {
-        id: 48,
-        nombre: "Avispa",
-        nombreCientifico: "Vespula vulgaris",
-        nomRuta: "avispa",
-        clase: "Insecto",
-        descripcion: "Estamos familiarizados con las avispas de colores vivos y zumbidos furiosos que vuelan a nuestro alrededor y nos amedrentan con sus dolorosas picaduras. Pero la verdad es que la gran mayoría de las avispas son insectos solitarios e inofensivos para el ser humano. Por el contrario, en lugar de ser dañinas, son sumamente beneficiosas para el hombre ya que controlan las plagas. Las avispas se distinguen de las abejas por su abdomen inferior puntiagudo y su estrecha «cintura» que se denomina pecíolo y separa el abdomen del tórax. Estos insectos ostentan todos los colores que podamos imaginar, desde el amarillo al que ya estamos acostumbrados, al marrón, el azul metálico o el rojo vivo. Generalmente, las especies de colores más brillantes pertenecen a la familia de las Vespidae, es decir, las avispas que pican.",
-        IMG: "https://cdn.pixabay.com/photo/2018/04/25/18/41/hornet-3350248_960_720.jpg"
-      }, {
-        id: 49,
-        nombre: "Polilla",
-        nombreCientifico: "Tinea pellionella",
-        nomRuta: "polilla",
-        clase: "Insecto",
-        descripcion: "Las polillas son lepidópteros de pequeño tamaño que se han adaptado a convivir con nosotros en el interior de los edificios, convirtiéndose a veces en una plaga que devora alimentos, ropas, papel y otros bienes materiales que atesoramos los humanos. Los expertos en conservación del patrimonio en museos y casa antiguas del English Heritage saben bien cómo mantenerlas a raya de los materiales textiles y nos dan sus mejores consejos para prevenir su presencia en casa. En la naturaleza, las polillas se consideran unas excelentes recicladoras de la materia orgánica. Al alimentarse, sus larvas contribuyen a la transformación de la materia orgánica en los procesos de degradación que se llevan a cabo durante el compostaje, realizando una valiosa tarea de limpieza de desechos orgánicos y aprovechamiento de nutrientes dentro de la cadena trófica.",
-        IMG: "https://cdn.pixabay.com/photo/2017/06/22/20/22/moth-2432376_960_720.jpg"
-      }, {
-        id: 50,
-        nombre: "Araña",
-        nombreCientifico: "Araneae",
-        nomRuta: "arana",
-        clase: "Insecto",
-        descripcion: "Las arañas son un conjunto de animales artrópodos muy abundante en todo el mundo y del que se conocen aproximadamente unas 45.000 especies diferentes. Son el orden más numeroso de la clase Arachnida y están lejanamente emparentadas con otros grupos de artrópodos, como los insectos. Se trata además de uno de los grupos más diversos, colocándose en cuanto al resto de organismos en el séptimo lugar respecto a su diversidad. Las arañas tienen el cuerpo dividido en dos partes denominadas tagmas, y cuentan con cuatro pares de patas. Se sabe que durante la prehistoria existieron algunas arañas que podían llegar a medir 50 centímetros, pero actualmente la más grande que existe tiene un tamaño de 30 centímetros. Por regla general son animales solitarios y depredadores de pequeños insectos a los cuales pueden dar caza a través de técnicas muy variadas. Algunas, de hecho, poseen potentes venenos los cuales un pequeña cantidad, puede acabar con la vida de un ser humano.",
-        IMG: "https://cdn.pixabay.com/photo/2017/10/24/12/45/spider-2884460_960_720.jpg"
-      });
-      this.Anfibios = new Array({
-        id: 51,
-        nombre: "Rana",
-        nombreCientifico: "Anura",
-        nomRuta: "rana",
-        clase: "Anfibio",
-        descripcion: "Son un tipo de anfibios caracterizados principalmente por su gran capacidad de salto gracias a la morfología de sus extremidades posteriores, potentes y muy desarrolladas. Los ejemplares más pequeños miden aproximadamente 8 centímetros, mientras que los más grandes pueden alcanzar los 30 centímetros. Se han descrito unas 6.600 especies, la mayoría de las cuales reparte su vida entre el medio acuático y el terrestre. Se reproducen mediante huevos y se alimentan de pequeños invertebrados. Su hábitat se distribuye sobretodo en los bosques de las regiones tropicales, pero se pueden encontrar algunas hasta en las regiones subárticas. Las ranas se distinguen de los sapos básicamente por su piel, que en el caso de los sapos presenta algunas verrugas.",
-        IMG: "https://cdn.pixabay.com/photo/2017/07/21/08/49/animal-2525109_960_720.jpg"
-      }, {
-        id: 52,
-        nombre: "Sapo",
-        nombreCientifico: "Bufonidae",
-        nomRuta: "sapo",
-        clase: "Anfibio",
-        descripcion: "Los bufónidos son una familia del orden Anura, un grupo de los anfibios conocidos. Muchas de sus especies se conocen con el nombre común de sapos; no obstante, numerosas especies pertenecientes a otras familias también son comúnmente denominados sapos. Esto es así porque las características que popularmente se utilizan para distinguir a las ranas de los sapos no son las mismas que se utilizan en la clasificación científica. Según la cultura popular, se diferencian en que las ranas tienen la piel lisa y húmeda, mientras que los sapos tienen la piel áspera y seca y son más caminadores que saltadores, de ahí que sus patas sean más cortas.",
-        IMG: "https://cdn.pixabay.com/photo/2014/07/30/09/20/toad-405121_960_720.jpg"
-      }, {
-        id: 53,
-        nombre: "Salamandra",
-        nombreCientifico: "Caudata",
-        nomRuta: "salamandra",
-        clase: "Anfibio",
-        descripcion: "La salamandra es una especie de anfibio urodelo de la familia Salamandridae. Es el más común de los urodelos en Europa. De hábitos terrestres, únicamente entra en el agua para parir, y muchas subespecies lo hacen en tierra. Es un urodelo inconfundible, de fondo negro y manchas variadas amarillas muy intensas que pueden llegar a cubrir la casi totalidad del cuerpo. A veces también se aprecian manchas de color rojizo. ",
-        IMG: "https://cdn.pixabay.com/photo/2014/03/23/15/14/fire-salamander-293324_960_720.jpg"
-      }, {
-        id: 54,
-        nombre: "Triton",
-        nombreCientifico: "Triturus",
-        nomRuta: "triton",
-        clase: "Anfibio",
-        descripcion: "Triturus es un género de anfibios caudados de la familia Salamandridae, compuesto por una serie de especies de Europa y Asia que se encuentran en cuerpos de agua, como estanques poco profundos, lagunas, arroyos y aguas profundas tranquilas; y terrestres, como páramos, pantanos y bosques. Este género se ha usado como especie indicadora debido a que su presencia o ausencia puede indicar la salud del ambiente, por ejemplo el pH del agua y otros contaminantes. Es considerado por la IUCN como una especie de preocupación menor; sin embargo, las poblaciones de las distintas especies han ido decreciendo y en otras se encuentran estables",
-        IMG: "https://cdn.pixabay.com/photo/2018/05/16/21/03/newt-3407060_960_720.jpg"
-      }, {
-        id: 55,
-        nombre: "Gallipato",
-        nombreCientifico: "Pleurodeles waltl",
-        nomRuta: "gallipato",
-        clase: "Anfibio",
-        descripcion: "Es la especie de anfibio urodelo más grande que existe en Europa. En cuanto a la familia del gallipato, este anfibio es el representante más grande de la familia de Salamandridae, es decir, que es de la misma familia que las salamandras. Se trata de una especie de anfibio muy grande, con un tamaño que puede alcanza los 31 centímetros de longitud para los machos y unos 29 centímetros para las hembras, aunque los ejemplares criados en cautividad solo alcanzan entre 15 y 25 centímetros.",
-        IMG: "https://www.brutal.org.es/wp-content/uploads/2018/10/gallipato-Ra%C3%BAl.jpg"
-      });
-      this.Crustaceos = new Array({
-        id: 56,
-        nombre: "Langosta",
-        nombreCientifico: "Palinurus elephas",
-        nomRuta: "langosta",
-        clase: "Crustáceo",
-        descripcion: "La langosta es un invertebrado crustáceo de color, en general, rojizo con algunas franjas amarillas o marrones. Los individuos más jóvenes tienen una franja roja en la parte superior del cuerpo. Los dos pares de antenas son de color amarillo. El segundo par de antenas es más largo que el cuerpo y puede llegar a medir 80 cm. Igual que el resto de decápodos tiene 5 pares de patas marchadoras, pero sin pinzas. Su tamaño máximo es de 50 cm. Los adultos pueden llegar a pesar hasta 8 kg. Es un animal de hábitos nocturnos y durante el día se esconde en cuevas o grietas, y sólo deja fuera las antenas, que pueden llegar a medir hasta 80 cm. Se alimenta de bivalvos y caracoles, a los que puede romper la concha aunque no tenga pinzas, y también carroña. La langosta es ovípara. Se ha observado hembras con huevos en septiembre y octubre.",
-        IMG: "https://cdn.pixabay.com/photo/2016/10/09/19/23/lobster-1726627_960_720.jpg"
-      }, {
-        id: 57,
-        nombre: "Camaron",
-        nombreCientifico: "Caridea",
-        nomRuta: "camaron",
-        clase: "Crustáceo",
-        descripcion: "El camarón, llamado realmente carídeo (Caridea), es un crústaceo marino al que podemos encontrar en todos los fondos marinos del mundo. Son muy pequeños y algunas especies son realmente pequeños, tanto que muchos animales son incapaces de detectarlos. Hay más de 2.000 especies diferentes de camarones, siendo todos ellos animales invertebrados, es decir ninguna de esas especies posee de espina dorsal. Sin embargo, posee un exoesqueleto duro (cáscara) que suele ser transparentes e incoloro, lo que hace difíciles de ver en el agua.",
-        IMG: "https://cdn.pixabay.com/photo/2017/06/11/22/55/shrimp-2393818_960_720.jpg"
-      }, {
-        id: 58,
-        nombre: "Cangrejo",
-        nombreCientifico: "Brachyura",
-        nomRuta: "cangrejo",
-        clase: "Crustáceo",
-        descripcion: "Los cangrejos son los crustáceos más populares de este planeta. Ya sea por su divertida forma de caminar de lado o por sus curiosas pinzas con las que se defienden, son uno de los animales que más simpatía despiertan. Los cangrejos, como todos los crustáceos, se caracterizan por tener un exoesqueleto compuesto de quitina que actúa como un verdadero caparazón que les protege. Poseen cinco pares de patas, de las cuales, una de cada lado, han evolucionado hasta convertirse en pinzas que utilizan para alimentarse, para el cortejo y para defenderse de sus depredadores.",
-        IMG: "https://cdn.pixabay.com/photo/2017/03/03/12/59/crab-2113971_960_720.jpg"
-      }, {
-        id: 59,
-        nombre: "Cangrejo Ermitaño",
-        nombreCientifico: "Paguroidea",
-        nomRuta: "cangrejo-ermitano",
-        clase: "Crustáceo",
-        descripcion: "Los paguroideos (Paguroidea) son una superfamilia de crustáceos decápodos, conocidos popularmente como cangrejos ermitaños o paguros. Estos crustáceos tienen en común el uso de conchas de caracol para cubrir su abdomen, que es más blando que el de otros cangrejos. Este tipo de relación interespecífica que mantiene con las conchas de los moluscos muertos se denomina tanatocresis, y es uno de los pocos animales que la realiza. Existen alrededor de 500 especies de cangrejos ermitaños alrededor del mundo, siendo la mayoría acuáticos, pero existiendo algunos terrestres. Solo la parte delantera está cubierta por un exoesqueleto rígido. Para protegerse se refugia dentro de conchas vacías de moluscos. Su abdomen está enroscado para que pueda caber dentro de la concha; además, sus patas y pinzas le permiten bloquear la entrada. A medida que el cangrejo crece, debe cambiar de casa. Empieza por inspeccionar detenidamente con sus pinzas las conchas vacías y cuando encuentra la adecuada, se muda rápidamente. Para los cangrejos ermitaños encontrar una concha vacía es cuestión de vida o muerte, por lo que son frecuentes las luchas entre ellos cuando hay pocas disponibles.",
-        IMG: "https://cdn.pixabay.com/photo/2019/02/17/16/11/hermit-crab-4002529_960_720.jpg"
-      }, {
-        id: 60,
-        nombre: "Percebes",
-        nombreCientifico: "Pollicipes pollicipes",
-        nomRuta: "percebes",
-        clase: "Crustáceo",
-        descripcion: "Es un crustáceo cirrópodo, es decir, son crustáceos marinos, hermafroditas, que viven fijos al fondo o como parásitos, con el cuerpo cubierto por un caparazón, y sus patas torácicas, en forma de cirros, actúan como filtros en la captura de las partículas alimenticias. Viven en zonas de fuertes resacas donde el mar rompe violentamente. Forma grupos o piñas que están fijadas al sustrato por unas glándulas cementantes segregadas por unas glándulas situadas tras la cabeza. Mantiene competencia con el mejillón por estos enclaves. Se alimenta del fitoplancton de las aguas que baten las olas, por medio de una especie de pluma filamentosa que emerge de su uña en cada recogida de la ola, conocida como cirro, el cual puede moverse unas 140 veces por minuto.",
-        IMG: "https://cdn.pixabay.com/photo/2014/08/15/21/52/mussels-419050_960_720.jpg"
-      });
-      this.Todo = new Array();
-    }
-
-    listaDescripcionEspecies() {
-      return this.tiposAnimales;
-    }
-
-    listaMamiferos() {
-      return this.Mamiferos;
-    }
-
-    listaAves() {
-      return this.Aves;
-    }
-
-    listaReptiles() {
-      return this.Reptiles;
-    }
-
-    listaPeces() {
-      return this.Peces;
-    }
-
-    listaInsectos() {
-      return this.Insectos;
-    }
-
-    listaAnfibios() {
-      return this.Anfibios;
-    }
-
-    listaCrustaceos() {
-      return this.Crustaceos;
-    }
-
-    obtenerMamifero(id) {
-      return this.Mamiferos[id];
-    }
-
-    obtenerAve(id) {
-      return this.Aves[id];
-    }
-
-    obtenerReptile(id) {
-      return this.Reptiles[id];
-    }
-
-    obtenerInsecto(id) {
-      return this.Insectos[id];
-    }
-
-    obtenerPez(id) {
-      return this.Peces[id];
-    }
-
-    obtenerAnfibio(id) {
-      return this.Anfibios[id];
-    }
-
-    obtenerCrustaceo(id) {
-      return this.Crustaceos[id];
-    }
-
-    listaTodosAnimales() {
-      return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos, this.Anfibios, this.Crustaceos);
-    }
-
-  }
-
-  DatosAnimalesService.ɵfac = function DatosAnimalesService_Factory(t) {
-    return new (t || DatosAnimalesService)();
-  };
-
-  DatosAnimalesService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-    token: DatosAnimalesService,
-    factory: DatosAnimalesService.ɵfac,
-    providedIn: 'root'
-  });
-  return DatosAnimalesService;
-})();
-
-/***/ }),
-
-/***/ 7598:
-/*!******************************************************!*\
-  !*** ./src/app/informacion/informacion.component.ts ***!
-  \******************************************************/
+/***/ 246:
+/*!*****************************************************************!*\
+  !*** ./src/app/Components/informacion/informacion.component.ts ***!
+  \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -105285,10 +104167,10 @@ let InformacionComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 2:
-/*!********************************************!*\
-  !*** ./src/app/inicio/inicio.component.ts ***!
-  \********************************************/
+/***/ 5192:
+/*!*******************************************************!*\
+  !*** ./src/app/Components/inicio/inicio.component.ts ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -105297,19 +104179,293 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "InicioComponent": () => (/* binding */ InicioComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var _datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../datos-animales.service */ 3787);
+/* harmony import */ var _Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Services/datos-animales.service */ 7285);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 
+
+
+
+function InicioComponent_div_9_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r9 = ctx.$implicit;
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r0.todosAnimales[item_r9].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r0.todosAnimales[item_r9].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.todosAnimales[item_r9].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.todosAnimales[item_r9].descripcion);
+  }
+}
+
+function InicioComponent_div_10_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r10 = ctx.$implicit;
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r1.todosAnimales[item_r10].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r1.todosAnimales[item_r10].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.todosAnimales[item_r10].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.todosAnimales[item_r10].descripcion);
+  }
+}
+
+function InicioComponent_div_11_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r11 = ctx.$implicit;
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r2.todosAnimales[item_r11].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r2.todosAnimales[item_r11].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r2.todosAnimales[item_r11].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r2.todosAnimales[item_r11].descripcion);
+  }
+}
+
+function InicioComponent_div_12_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r12 = ctx.$implicit;
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r3.todosAnimales[item_r12].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r3.todosAnimales[item_r12].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r3.todosAnimales[item_r12].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r3.todosAnimales[item_r12].descripcion);
+  }
+}
+
+function InicioComponent_div_13_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r13 = ctx.$implicit;
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r4.todosAnimales[item_r13].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r4.todosAnimales[item_r13].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r4.todosAnimales[item_r13].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r4.todosAnimales[item_r13].descripcion);
+  }
+}
+
+function InicioComponent_div_29_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r14 = ctx.$implicit;
+    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r5.todosAnimales[item_r14].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r5.todosAnimales[item_r14].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r5.todosAnimales[item_r14].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r5.todosAnimales[item_r14].descripcion);
+  }
+}
+
+function InicioComponent_div_30_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r15 = ctx.$implicit;
+    const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r6.todosAnimales[item_r15].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r6.todosAnimales[item_r15].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r6.todosAnimales[item_r15].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r6.todosAnimales[item_r15].descripcion);
+  }
+}
+
+function InicioComponent_div_31_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r16 = ctx.$implicit;
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r7.todosAnimales[item_r16].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r7.todosAnimales[item_r16].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r7.todosAnimales[item_r16].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r7.todosAnimales[item_r16].descripcion);
+  }
+}
+
+function InicioComponent_div_32_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r17 = ctx.$implicit;
+    const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r8.todosAnimales[item_r17].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r8.todosAnimales[item_r17].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r8.todosAnimales[item_r17].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r8.todosAnimales[item_r17].descripcion);
+  }
+}
 
 let InicioComponent = /*#__PURE__*/(() => {
   class InicioComponent {
     constructor(servicio) {
       this.servicio = servicio;
-      this.mensaje = "";
       this.mamiferos = [];
-      this.todosAnimales = [];
-      this.mensaje = servicio.prueba;
+      this.todosAnimales = []; //Solución temporal de los arreglos
+
+      this.animalesAleatorios = [];
+      this.animalesAleatorios2 = [];
+      this.animalesAleatorios3 = [];
+      this.animalesAleatorios4 = [];
+      this.animalesCarousel = [];
+      this.animalesCarousel2 = [];
+      this.animalesCarousel3 = [];
+      this.animalesCarousel4 = [];
+      this.animalesCarousel5 = [];
       this.mamiferos = servicio.listaMamiferos();
       this.todosAnimales = servicio.listaTodosAnimales();
+      this.min = 1;
+      this.max = this.todosAnimales.length;
+      this.animalesAleatorios.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesAleatorios2.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesAleatorios3.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesAleatorios4.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesCarousel.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesCarousel2.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesCarousel3.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesCarousel4.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
+      this.animalesCarousel5.push(Math.floor(Math.random() * (this.max + 1 - this.min) + this.min));
     }
 
     ngOnInit() {
@@ -105324,15 +104480,15 @@ let InicioComponent = /*#__PURE__*/(() => {
   }
 
   InicioComponent.ɵfac = function InicioComponent_Factory(t) {
-    return new (t || InicioComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || InicioComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   InicioComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: InicioComponent,
     selectors: [["app-inicio"]],
-    decls: 89,
-    vars: 36,
-    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], ["data-bs-interval", "5000", 1, "carousel-item"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], [1, "cajas", "bg-success"], ["width", "150", "height", "150", 1, "rounded-circle", 3, "src", "alt"], [1, "border-bottom", "border-dark"]],
+    decls: 35,
+    vars: 9,
+    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], ["class", "carousel-item active", 4, "ngFor", "ngForOf"], ["class", "carousel-item", "data-bs-interval", "5000", 4, "ngFor", "ngForOf"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "cajas bg-success", 4, "ngFor", "ngForOf"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], ["data-bs-interval", "5000", 1, "carousel-item"], [1, "cajas", "bg-success"], ["width", "150", "height", "150", 1, "rounded-circle", 3, "src", "alt"], [1, "border-bottom", "border-dark"]],
     template: function InicioComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
@@ -105345,210 +104501,76 @@ let InicioComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "h1", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](17, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "h1", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, InicioComponent_div_9_Template, 7, 4, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, InicioComponent_div_10_Template, 7, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, InicioComponent_div_11_Template, 7, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, InicioComponent_div_12_Template, 7, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, InicioComponent_div_13_Template, 7, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "button", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "span", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "span", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "Previous");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](24, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "h1", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](31, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](33, "h1", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](38, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "h1", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "button", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](45, "span", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "span", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](47, "Previous");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "button", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](49, "span", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "span", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](51, "Next");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](19, "span", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "span", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](21, "Next");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](52, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](53, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "h1", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](55, "Algunas especies de animales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](22, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](23, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "h1", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, "Algunas especies de animales");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](56, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](57, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](59, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](60, "img", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](61, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "h1", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](63);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](26, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](27, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](29, InicioComponent_div_29_Template, 7, 4, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](30, InicioComponent_div_30_Template, 7, 4, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](31, InicioComponent_div_31_Template, 7, 4, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](32, InicioComponent_div_32_Template, 7, 4, "div", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](64, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](65);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](66, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](67, "img", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](68, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](69, "h1", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](70);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](71, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](72);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](73, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](74, "img", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](75, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "h1", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](77);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](78, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](79);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](80, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](81, "img", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](82, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "h1", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](84);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](85, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](87, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](88, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](34, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       }
 
       if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[0].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[0].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[0].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[0].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[12].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[12].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[12].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[12].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[23].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[23].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[23].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[23].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[31].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[31].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[31].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[31].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[51].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[51].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[51].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[51].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[2].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[2].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[2].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[2].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[13].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[13].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[13].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[13].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[21].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[21].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[21].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[21].descripcion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.todosAnimales[36].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx.todosAnimales[36].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[36].nombre);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.todosAnimales[36].descripcion);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesCarousel);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesCarousel2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesCarousel3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesCarousel4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesCarousel5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios4);
       }
     },
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n  width: 50%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  opacity: 90%;\n  box-shadow: 7px 7px 4px 1px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover {\n  border: 3px solid #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > div[_ngcontent-%COMP%]    > h1[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  filter: grayscale(80%);\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(1) {\n  align-self: flex-start;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(2) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(3) {\n  align-self: flex-start;\n  margin-top: 30px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(4) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  align-self: center;\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n@media screen and (max-width: 540px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 70%;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n    align-self: center;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(odd) {\n    align-self: center;\n  }\n}"]
+    directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf],
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n  width: 50%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  opacity: 90%;\n  box-shadow: 7px 7px 4px 1px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover {\n  border: 3px solid #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > div[_ngcontent-%COMP%]    > h1[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  filter: grayscale(80%);\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(1) {\n  align-self: flex-start;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(2) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(3) {\n  align-self: flex-start;\n  margin-top: 30px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(4) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  align-self: center;\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n@media screen and (max-width: 540px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 70%;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n    align-self: center;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(odd) {\n    align-self: center;\n  }\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  background-color: #0e0e0e;\n  opacity: 80%;\n}"]
   });
   return InicioComponent;
 })();
 
 /***/ }),
 
-/***/ 1024:
-/*!**************************************************!*\
-  !*** ./src/app/pagina404/pagina404.component.ts ***!
-  \**************************************************/
+/***/ 3865:
+/*!*************************************************************!*\
+  !*** ./src/app/Components/pagina404/pagina404.component.ts ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -105603,10 +104625,376 @@ let Pagina404Component = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 1250:
-/*!**********************************************************************!*\
-  !*** ./src/app/tipos-animales/anfibios/anfibio/anfibio.component.ts ***!
-  \**********************************************************************/
+/***/ 9972:
+/*!************************************************************!*\
+  !*** ./src/app/Components/root/footer/footer.component.ts ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FooterComponent": () => (/* binding */ FooterComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 9895);
+
+
+let FooterComponent = /*#__PURE__*/(() => {
+  class FooterComponent {
+    constructor() {
+      this.fecha = new Date();
+      this.diaSemana = new Array("Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado");
+      this.meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre");
+      this.dia = this.fecha.getDay();
+      this.mes = this.fecha.getMonth();
+      this.fechaCompleta = this.diaSemana[this.dia] + " " + this.fecha.getDate() + " de " + this.meses[this.mes] + ", " + this.fecha.getFullYear();
+    }
+
+    ngOnInit() {}
+
+  }
+
+  FooterComponent.ɵfac = function FooterComponent_Factory(t) {
+    return new (t || FooterComponent)();
+  };
+
+  FooterComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+    type: FooterComponent,
+    selectors: [["app-footer"]],
+    decls: 44,
+    vars: 1,
+    consts: [["id", "Footer", 1, "container-fluid"], ["id", "contEncabezado"], ["id", "encabezado-logo-3"], [1, "lobs", "mat-typography"], [1, "nav"], [1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], [1, "menu", "nav", "flex-column"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"], ["id", "fecha"]],
+    template: function FooterComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Zona");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h4", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Animal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "nav", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Inicio");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Tipos de animales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "ul", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Mamiferos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Aves");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Reptiles");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Peces");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Insectos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Anfibios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Crust\u00E1ceos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "i", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Informaci\u00F3n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h1", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.fechaCompleta);
+      }
+    },
+    directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref],
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#Footer[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  height: auto;\n  padding: 10px;\n  background: #304352;\n  \n  \n  background: linear-gradient(to right, #d7d2cc, #304352);\n  \n}\n\n@media screen and (max-width: 480px) {\n  #Footer[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 1024px) {\n  #Footer[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n}\n\n#Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%] {\n  align-self: center;\n}\n\n#Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%]   #encabezado-logo-3[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%]   #encabezado-logo-3[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#Footer[_ngcontent-%COMP%]   #contEncabezado[_ngcontent-%COMP%]   #encabezado-logo-3[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%] {\n  border-left: 1px solid #ffffff;\n  border-right: 1px solid #ffffff;\n}\n\n@media screen and (max-width: 509px) {\n  #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%] {\n    align-self: center;\n    border: none;\n  }\n}\n\n@media screen and (min-width: 510px) and (max-width: 1191px) {\n  #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%] {\n    align-self: center;\n    border: none;\n  }\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  padding: 20px;\n}\n\n@media screen and (max-width: 540px) {\n  #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n    padding: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 1191px) {\n  #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n    padding: 10px;\n  }\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%] {\n  margin-left: 20px;\n  border: none;\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  padding: 5px;\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: black;\n  font-size: 18px;\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   .menu[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: black;\n  font-size: 20px;\n}\n\n@media screen and (max-width: 540px) {\n  #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n    font-size: 14;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 1191px) {\n  #Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n    font-size: 20px;\n  }\n}\n\n#Footer[_ngcontent-%COMP%]   .nav[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#Footer[_ngcontent-%COMP%]   #fecha[_ngcontent-%COMP%] {\n  align-self: flex-end;\n}\n\n@media screen and (max-width: 540px) {\n  #Footer[_ngcontent-%COMP%]   #fecha[_ngcontent-%COMP%] {\n    margin-top: 30px;\n    align-self: center;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 1191px) {\n  #Footer[_ngcontent-%COMP%]   #fecha[_ngcontent-%COMP%] {\n    margin-top: 30px;\n    align-self: center;\n  }\n}"]
+  });
+  return FooterComponent;
+})();
+
+/***/ }),
+
+/***/ 861:
+/*!************************************************************!*\
+  !*** ./src/app/Components/root/header/header.component.ts ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "HeaderComponent": () => (/* binding */ HeaderComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 9895);
+
+
+let HeaderComponent = /*#__PURE__*/(() => {
+  class HeaderComponent {
+    constructor() {}
+
+    ngOnInit() {}
+
+  }
+
+  HeaderComponent.ɵfac = function HeaderComponent_Factory(t) {
+    return new (t || HeaderComponent)();
+  };
+
+  HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+    type: HeaderComponent,
+    selectors: [["app-header"]],
+    decls: 43,
+    vars: 0,
+    consts: [["id", "encabezado"], ["id", "encabezado-logo"], [1, "lobs", "mat-h1", "mat-typography"], [1, "lobs", "mat-subheading-1", "mat-typography"], ["id", "navegacion", 1, "nav", "d-sm-none", "d-none", "d-md-flex"], [1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["id", "menuAnimales", 1, "nav", "flex-column"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"], ["type", "button", "id", "btnMenu", "data-bs-toggle", "offcanvas", "data-bs-target", "#slideNav", 1, "btn", "d-xl-none", "d-lg-none", "d-md-none"]],
+    template: function HeaderComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Zona");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Animal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "ul", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "i", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Inicio");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Tipos de Animales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "ul", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Mam\u00EDferos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Aves");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Reptiles");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Peces");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Insectos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Anfibios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Crust\u00E1ceos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "i", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " Informaci\u00F3n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "button", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    },
+    directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref],
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#encabezado[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  width: 100%;\n  background: #DAD299;\n  \n  \n  background: linear-gradient(to right, #B0DAB9, #DAD299);\n  \n}\n\n#encabezado[_ngcontent-%COMP%]   #encabezado-logo[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#encabezado[_ngcontent-%COMP%]   #encabezado-logo[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#encabezado[_ngcontent-%COMP%]   #encabezado-logo[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%] {\n  align-self: center;\n}\n\n#encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   #menuAnimales[_ngcontent-%COMP%] {\n  position: absolute;\n  z-index: 999;\n  border: 1px solid #000000;\n  margin-left: 35px;\n  background: #DAD299;\n  \n  \n  background: linear-gradient(to right, #B0DAB9, #DAD299);\n  \n}\n\n#encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   #menuAnimales[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  font-size: 18px;\n}\n\n#encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:nth-child(2)   #menuAnimales[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  font-size: 18px;\n}\n\n#encabezado[_ngcontent-%COMP%]   #navegacion[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n#encabezado[_ngcontent-%COMP%]   #btnMenu[_ngcontent-%COMP%] {\n  height: -webkit-min-content;\n  height: min-content;\n  padding: 5px;\n  align-self: center;\n  margin-right: 20px;\n}\n\n#encabezado[_ngcontent-%COMP%]   #btnMenu[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  font-size: 30px;\n}\n\n#encabezado[_ngcontent-%COMP%]   #btnMenu[_ngcontent-%COMP%]   i[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}"]
+  });
+  return HeaderComponent;
+})();
+
+/***/ }),
+
+/***/ 1465:
+/*!************************************************************************!*\
+  !*** ./src/app/Components/root/menu-lateral/menu-lateral.component.ts ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MenuLateralComponent": () => (/* binding */ MenuLateralComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 9895);
+
+
+let MenuLateralComponent = /*#__PURE__*/(() => {
+  class MenuLateralComponent {
+    constructor() {}
+
+    ngOnInit() {}
+
+  }
+
+  MenuLateralComponent.ɵfac = function MenuLateralComponent_Factory(t) {
+    return new (t || MenuLateralComponent)();
+  };
+
+  MenuLateralComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+    type: MenuLateralComponent,
+    selectors: [["app-menu-lateral"]],
+    decls: 50,
+    vars: 0,
+    consts: [["tabindex", "-1", "id", "slideNav", 1, "offcanvas", "offcanvas-start"], ["id", "header2", 1, "offcanvas-header"], ["id", "encabezado-logo-2"], [1, "lobs", "mat-typography"], ["type", "button", "data-bs-dismiss", "offcanvas", "aria-label", "Close", 1, "btn-close", "text-reset"], ["id", "nav", 1, "offcanvas-body", "bg-success"], ["id", "navegacion-2", 1, "nav", "flex-column"], ["data-bs-dismiss", "offcanvas", 1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link", "me-3"], [1, "bi", "bi-caret-right-fill"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"]],
+    template: function MenuLateralComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Zona");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h4", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Animal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Inicio");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "i", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Tipos de Animales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " Mam\u00EDferos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Aves");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, " Reptiles");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Peces");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " Insectos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Anfibios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, " Crust\u00E1ceos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "i", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " Informaci\u00F3n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    },
+    directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref],
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%] {\n  background: #DAD299;\n  \n  \n  background: linear-gradient(to right, #B0DAB9, #DAD299);\n  \n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #000000;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  margin-left: 20px;\n  font-size: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}"]
+  });
+  return MenuLateralComponent;
+})();
+
+/***/ }),
+
+/***/ 6390:
+/*!*********************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/anfibios/anfibio/anfibio.component.ts ***!
+  \*********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -105615,7 +105003,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AnfibioComponent": () => (/* binding */ AnfibioComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
@@ -105636,7 +105024,7 @@ let AnfibioComponent = /*#__PURE__*/(() => {
   }
 
   AnfibioComponent.ɵfac = function AnfibioComponent_Factory(t) {
-    return new (t || AnfibioComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
+    return new (t || AnfibioComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
   };
 
   AnfibioComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -105714,10 +105102,10 @@ let AnfibioComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 4143:
-/*!***************************************************************!*\
-  !*** ./src/app/tipos-animales/anfibios/anfibios.component.ts ***!
-  \***************************************************************/
+/***/ 3948:
+/*!**************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/anfibios/anfibios.component.ts ***!
+  \**************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -105726,7 +105114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AnfibiosComponent": () => (/* binding */ AnfibiosComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
 
@@ -105789,7 +105177,7 @@ let AnfibiosComponent = /*#__PURE__*/(() => {
   }
 
   AnfibiosComponent.ɵfac = function AnfibiosComponent_Factory(t) {
-    return new (t || AnfibiosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || AnfibiosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   AnfibiosComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -105822,10 +105210,10 @@ let AnfibiosComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 730:
-/*!***********************************************************!*\
-  !*** ./src/app/tipos-animales/animal/animal.component.ts ***!
-  \***********************************************************/
+/***/ 9729:
+/*!**********************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/animal/animal.component.ts ***!
+  \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -105834,7 +105222,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AnimalComponent": () => (/* binding */ AnimalComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
@@ -105855,7 +105243,7 @@ let AnimalComponent = /*#__PURE__*/(() => {
   }
 
   AnimalComponent.ɵfac = function AnimalComponent_Factory(t) {
-    return new (t || AnimalComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
+    return new (t || AnimalComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
   };
 
   AnimalComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -105933,10 +105321,10 @@ let AnimalComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 8635:
-/*!**********************************************************!*\
-  !*** ./src/app/tipos-animales/aves/ave/ave.component.ts ***!
-  \**********************************************************/
+/***/ 9647:
+/*!*********************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/aves/ave/ave.component.ts ***!
+  \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -105945,7 +105333,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AveComponent": () => (/* binding */ AveComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
@@ -105966,7 +105354,7 @@ let AveComponent = /*#__PURE__*/(() => {
   }
 
   AveComponent.ɵfac = function AveComponent_Factory(t) {
-    return new (t || AveComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
+    return new (t || AveComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
   };
 
   AveComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106044,10 +105432,10 @@ let AveComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 5950:
-/*!*******************************************************!*\
-  !*** ./src/app/tipos-animales/aves/aves.component.ts ***!
-  \*******************************************************/
+/***/ 7923:
+/*!******************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/aves/aves.component.ts ***!
+  \******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106056,7 +105444,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AvesComponent": () => (/* binding */ AvesComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
 
@@ -106122,7 +105510,7 @@ let AvesComponent = /*#__PURE__*/(() => {
   }
 
   AvesComponent.ɵfac = function AvesComponent_Factory(t) {
-    return new (t || AvesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || AvesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   AvesComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106155,10 +105543,10 @@ let AvesComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 7617:
-/*!****************************************************************************!*\
-  !*** ./src/app/tipos-animales/crustaceos/crustaceo/crustaceo.component.ts ***!
-  \****************************************************************************/
+/***/ 5898:
+/*!***************************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/crustaceos/crustaceo/crustaceo.component.ts ***!
+  \***************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106167,7 +105555,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "CrustaceoComponent": () => (/* binding */ CrustaceoComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
@@ -106188,7 +105576,7 @@ let CrustaceoComponent = /*#__PURE__*/(() => {
   }
 
   CrustaceoComponent.ɵfac = function CrustaceoComponent_Factory(t) {
-    return new (t || CrustaceoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
+    return new (t || CrustaceoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
   };
 
   CrustaceoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106266,10 +105654,10 @@ let CrustaceoComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 8515:
-/*!*******************************************************************!*\
-  !*** ./src/app/tipos-animales/crustaceos/crustaceos.component.ts ***!
-  \*******************************************************************/
+/***/ 1285:
+/*!******************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/crustaceos/crustaceos.component.ts ***!
+  \******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106278,7 +105666,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "CrustaceosComponent": () => (/* binding */ CrustaceosComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
 
@@ -106341,7 +105729,7 @@ let CrustaceosComponent = /*#__PURE__*/(() => {
   }
 
   CrustaceosComponent.ɵfac = function CrustaceosComponent_Factory(t) {
-    return new (t || CrustaceosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || CrustaceosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   CrustaceosComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106374,10 +105762,10 @@ let CrustaceosComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 2430:
-/*!**********************************************************************!*\
-  !*** ./src/app/tipos-animales/insectos/insecto/insecto.component.ts ***!
-  \**********************************************************************/
+/***/ 8282:
+/*!*********************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/insectos/insecto/insecto.component.ts ***!
+  \*********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106386,7 +105774,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "InsectoComponent": () => (/* binding */ InsectoComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
@@ -106407,7 +105795,7 @@ let InsectoComponent = /*#__PURE__*/(() => {
   }
 
   InsectoComponent.ɵfac = function InsectoComponent_Factory(t) {
-    return new (t || InsectoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
+    return new (t || InsectoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
   };
 
   InsectoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106485,10 +105873,10 @@ let InsectoComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 2233:
-/*!***************************************************************!*\
-  !*** ./src/app/tipos-animales/insectos/insectos.component.ts ***!
-  \***************************************************************/
+/***/ 7367:
+/*!**************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/insectos/insectos.component.ts ***!
+  \**************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106497,7 +105885,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "InsectosComponent": () => (/* binding */ InsectosComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
 
@@ -106563,7 +105951,7 @@ let InsectosComponent = /*#__PURE__*/(() => {
   }
 
   InsectosComponent.ɵfac = function InsectosComponent_Factory(t) {
-    return new (t || InsectosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || InsectosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   InsectosComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106596,10 +105984,10 @@ let InsectosComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 1325:
-/*!*****************************************************************!*\
-  !*** ./src/app/tipos-animales/mamiferos/mamiferos.component.ts ***!
-  \*****************************************************************/
+/***/ 5288:
+/*!****************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/mamiferos/mamiferos.component.ts ***!
+  \****************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106608,7 +105996,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "MamiferosComponent": () => (/* binding */ MamiferosComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
 
@@ -106671,7 +106059,7 @@ let MamiferosComponent = /*#__PURE__*/(() => {
   }
 
   MamiferosComponent.ɵfac = function MamiferosComponent_Factory(t) {
-    return new (t || MamiferosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || MamiferosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   MamiferosComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106704,10 +106092,10 @@ let MamiferosComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 6:
-/*!*********************************************************!*\
-  !*** ./src/app/tipos-animales/peces/peces.component.ts ***!
-  \*********************************************************/
+/***/ 7535:
+/*!********************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/peces/peces.component.ts ***!
+  \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106716,7 +106104,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "PecesComponent": () => (/* binding */ PecesComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
 
@@ -106782,7 +106170,7 @@ let PecesComponent = /*#__PURE__*/(() => {
   }
 
   PecesComponent.ɵfac = function PecesComponent_Factory(t) {
-    return new (t || PecesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || PecesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   PecesComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106815,10 +106203,10 @@ let PecesComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 2133:
-/*!***********************************************************!*\
-  !*** ./src/app/tipos-animales/peces/pez/pez.component.ts ***!
-  \***********************************************************/
+/***/ 2309:
+/*!**********************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/peces/pez/pez.component.ts ***!
+  \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106827,7 +106215,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "PezComponent": () => (/* binding */ PezComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
@@ -106848,7 +106236,7 @@ let PezComponent = /*#__PURE__*/(() => {
   }
 
   PezComponent.ɵfac = function PezComponent_Factory(t) {
-    return new (t || PezComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
+    return new (t || PezComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
   };
 
   PezComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -106926,10 +106314,10 @@ let PezComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 1005:
-/*!********************************************************************!*\
-  !*** ./src/app/tipos-animales/reptiles/reptil/reptil.component.ts ***!
-  \********************************************************************/
+/***/ 7814:
+/*!*******************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/reptiles/reptil/reptil.component.ts ***!
+  \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -106938,7 +106326,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ReptilComponent": () => (/* binding */ ReptilComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
 
 
@@ -106959,7 +106347,7 @@ let ReptilComponent = /*#__PURE__*/(() => {
   }
 
   ReptilComponent.ɵfac = function ReptilComponent_Factory(t) {
-    return new (t || ReptilComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
+    return new (t || ReptilComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.ActivatedRoute));
   };
 
   ReptilComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -107037,10 +106425,10 @@ let ReptilComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 8138:
-/*!***************************************************************!*\
-  !*** ./src/app/tipos-animales/reptiles/reptiles.component.ts ***!
-  \***************************************************************/
+/***/ 1703:
+/*!**************************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/reptiles/reptiles.component.ts ***!
+  \**************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -107049,7 +106437,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ReptilesComponent": () => (/* binding */ ReptilesComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 9895);
 
@@ -107116,7 +106504,7 @@ let ReptilesComponent = /*#__PURE__*/(() => {
   }
 
   ReptilesComponent.ɵfac = function ReptilesComponent_Factory(t) {
-    return new (t || ReptilesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || ReptilesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   ReptilesComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -107149,10 +106537,10 @@ let ReptilesComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 5925:
-/*!************************************************************!*\
-  !*** ./src/app/tipos-animales/tipos-animales.component.ts ***!
-  \************************************************************/
+/***/ 5076:
+/*!***********************************************************************!*\
+  !*** ./src/app/Components/tipos-animales/tipos-animales.component.ts ***!
+  \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -107161,13 +106549,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "TiposAnimalesComponent": () => (/* binding */ TiposAnimalesComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 7716);
-/* harmony import */ var src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/datos-animales.service */ 3787);
+/* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/tabs */ 5939);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 8583);
 /* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/form-field */ 8295);
 /* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/input */ 3166);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 3679);
-/* harmony import */ var _buscar_pipe__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../buscar.pipe */ 3301);
+/* harmony import */ var _buscar_pipe__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../buscar.pipe */ 3301);
 
 
 
@@ -107314,7 +106702,7 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
   }
 
   TiposAnimalesComponent.ɵfac = function TiposAnimalesComponent_Factory(t) {
-    return new (t || TiposAnimalesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](src_app_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
+    return new (t || TiposAnimalesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService));
   };
 
   TiposAnimalesComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
@@ -107594,6 +106982,1142 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
     styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#titulo[_ngcontent-%COMP%] {\n  text-align: center;\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%] {\n  max-width: 90%;\n  padding: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-around;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 1200px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-gap: 5px;\n    gap: 5px;\n  }\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n  border: 2px solid black;\n  box-shadow: 8px -4px 8px 0px rgba(0, 0, 0, 0.58);\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n    width: 100%;\n    margin-top: 10px;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n    width: 100%;\n    margin-top: 10px;\n  }\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 300px;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 1200px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n.mat-tab-group[_ngcontent-%COMP%] {\n  margin-bottom: 48px;\n}\n\n.btnOcultar[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n.contenedorB[_ngcontent-%COMP%]   .buscador[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n}\n\n@media screen and (max-width: 480px) {\n  .contenedorB[_ngcontent-%COMP%]   .buscador[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n#contenedor2[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(5, 1fr);\n  grid-row: 10px;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(1, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 992px) and (max-width: 1199px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    grid-row: 10px;\n  }\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n  -webkit-transition: all 0.5s ease-in-out;\n  -moz-transition: all 0.5s ease-in-out;\n  -ms-transition: all 0.5s ease-in-out;\n  -o-transition: all 0.5s ease-in-out;\n}"]
   });
   return TiposAnimalesComponent;
+})();
+
+/***/ }),
+
+/***/ 2723:
+/*!*********************************************!*\
+  !*** ./src/app/Services/Clases/anfibios.ts ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "anfibios": () => (/* binding */ anfibios)
+/* harmony export */ });
+class anfibios {
+  constructor() {
+    this.Anfibios = new Array({
+      id: 53,
+      nombre: "Rana",
+      nombreCientifico: "Anura",
+      nomRuta: "rana",
+      clase: "Anfibio",
+      descripcion: "Son un tipo de anfibios caracterizados principalmente por su gran capacidad de salto gracias a la morfología de sus extremidades posteriores, potentes y muy desarrolladas. Los ejemplares más pequeños miden aproximadamente 8 centímetros, mientras que los más grandes pueden alcanzar los 30 centímetros. Se han descrito unas 6.600 especies, la mayoría de las cuales reparte su vida entre el medio acuático y el terrestre. Se reproducen mediante huevos y se alimentan de pequeños invertebrados. Su hábitat se distribuye sobretodo en los bosques de las regiones tropicales, pero se pueden encontrar algunas hasta en las regiones subárticas. Las ranas se distinguen de los sapos básicamente por su piel, que en el caso de los sapos presenta algunas verrugas.",
+      IMG: "https://cdn.pixabay.com/photo/2017/07/21/08/49/animal-2525109_960_720.jpg"
+    }, {
+      id: 54,
+      nombre: "Sapo",
+      nombreCientifico: "Bufonidae",
+      nomRuta: "sapo",
+      clase: "Anfibio",
+      descripcion: "Los bufónidos son una familia del orden Anura, un grupo de los anfibios conocidos. Muchas de sus especies se conocen con el nombre común de sapos; no obstante, numerosas especies pertenecientes a otras familias también son comúnmente denominados sapos. Esto es así porque las características que popularmente se utilizan para distinguir a las ranas de los sapos no son las mismas que se utilizan en la clasificación científica. Según la cultura popular, se diferencian en que las ranas tienen la piel lisa y húmeda, mientras que los sapos tienen la piel áspera y seca y son más caminadores que saltadores, de ahí que sus patas sean más cortas.",
+      IMG: "https://cdn.pixabay.com/photo/2014/07/30/09/20/toad-405121_960_720.jpg"
+    }, {
+      id: 55,
+      nombre: "Salamandra",
+      nombreCientifico: "Caudata",
+      nomRuta: "salamandra",
+      clase: "Anfibio",
+      descripcion: "La salamandra es una especie de anfibio urodelo de la familia Salamandridae. Es el más común de los urodelos en Europa. De hábitos terrestres, únicamente entra en el agua para parir, y muchas subespecies lo hacen en tierra. Es un urodelo inconfundible, de fondo negro y manchas variadas amarillas muy intensas que pueden llegar a cubrir la casi totalidad del cuerpo. A veces también se aprecian manchas de color rojizo. ",
+      IMG: "https://cdn.pixabay.com/photo/2014/03/23/15/14/fire-salamander-293324_960_720.jpg"
+    }, {
+      id: 56,
+      nombre: "Triton",
+      nombreCientifico: "Triturus",
+      nomRuta: "triton",
+      clase: "Anfibio",
+      descripcion: "Triturus es un género de anfibios caudados de la familia Salamandridae, compuesto por una serie de especies de Europa y Asia que se encuentran en cuerpos de agua, como estanques poco profundos, lagunas, arroyos y aguas profundas tranquilas; y terrestres, como páramos, pantanos y bosques. Este género se ha usado como especie indicadora debido a que su presencia o ausencia puede indicar la salud del ambiente, por ejemplo el pH del agua y otros contaminantes. Es considerado por la IUCN como una especie de preocupación menor; sin embargo, las poblaciones de las distintas especies han ido decreciendo y en otras se encuentran estables",
+      IMG: "https://cdn.pixabay.com/photo/2018/05/16/21/03/newt-3407060_960_720.jpg"
+    }, {
+      id: 57,
+      nombre: "Gallipato",
+      nombreCientifico: "Pleurodeles waltl",
+      nomRuta: "gallipato",
+      clase: "Anfibio",
+      descripcion: "Es la especie de anfibio urodelo más grande que existe en Europa. En cuanto a la familia del gallipato, este anfibio es el representante más grande de la familia de Salamandridae, es decir, que es de la misma familia que las salamandras. Se trata de una especie de anfibio muy grande, con un tamaño que puede alcanza los 31 centímetros de longitud para los machos y unos 29 centímetros para las hembras, aunque los ejemplares criados en cautividad solo alcanzan entre 15 y 25 centímetros.",
+      IMG: "https://www.brutal.org.es/wp-content/uploads/2018/10/gallipato-Ra%C3%BAl.jpg"
+    });
+  }
+
+  listaDeAnfibios() {
+    return this.Anfibios;
+  }
+
+}
+
+/***/ }),
+
+/***/ 5249:
+/*!*****************************************!*\
+  !*** ./src/app/Services/Clases/aves.ts ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "aves": () => (/* binding */ aves)
+/* harmony export */ });
+class aves {
+  constructor() {
+    this.Aves = new Array({
+      id: 13,
+      nombre: "Lechuza",
+      nombreCientifico: "tyto alba",
+      nomRuta: "lechuza",
+      clase: "Aves",
+      descripcion: "De tamaño mediano, con cuerpo alargado y cabeza voluminosa libre de penachos, luce un acolchado y tupido plumaje de color pardo anaranjado en el dorso, con tonos grises y finamente punteado de blanco y negro. Las partes inferiores son de un blanco puro o anaranjado (dependiendo de la fase) con pecas negras.",
+      IMG: "https://cdn.pixabay.com/photo/2018/07/09/19/07/eastern-screech-owl-3526934_960_720.jpg"
+    }, {
+      id: 14,
+      nombre: "Gallina",
+      nombreCientifico: "Gallus gallus domesticus",
+      nomRuta: "gallina",
+      clase: "Aves",
+      descripcion: "Los nombres comunes son: gallo, para el macho; gallina, para la hembra, y pollo, para los subadultos. Es el ave más numerosa del planeta, pues se calcula que el número de ejemplares supera los dieciséis mil millones. Los gallos y gallinas se crían principalmente por su carne y por sus huevos. También se aprovechan sus plumas y algunas variedades se crían y entrenan para su uso en peleas de gallos y como aves ornamentales.",
+      IMG: "https://cdn.pixabay.com/photo/2018/10/05/23/24/chicken-3727097_960_720.jpg"
+    }, {
+      id: 15,
+      nombre: "Pato",
+      nombreCientifico: "Anas platyrhynchos domesticus",
+      nomRuta: "pato",
+      clase: "Aves",
+      descripcion: "Pato es el nombre común para ciertas aves de la familia Anatidae, principalmente de la subfamilia Anatinae y dentro de ella del género Anas. No son un grupo monofilético, ya que no se incluyen los cisnes ni los gansos.",
+      IMG: "https://cdn.pixabay.com/photo/2013/04/22/20/02/ruddy-shelduck-106544_960_720.jpg"
+    }, {
+      id: 16,
+      nombre: "Paloma",
+      nombreCientifico: "Columba livia",
+      nomRuta: "paloma",
+      clase: "Aves",
+      descripcion: "La Paloma Huilota es una paloma de aspecto elegante, cola larga, y cabeza pequeña, que se encuentra en casi toda Norte América. Suele posarse en los cables del alumbrado público y busca semillas en el suelo; su vuelo es rápido y recto como el de un balazo. Su arrullo suave y largo suena como un lamento. Cuando van a emprender vuelo, sus alas suenan como un silbido fuerte o rechinaran. Las Palomas Huilotas son las aves mas cazadas en Norte América.",
+      IMG: "https://cdn.pixabay.com/photo/2015/09/02/13/02/pigeon-918848_960_720.jpg"
+    }, {
+      id: 17,
+      nombre: "Aguila",
+      nombreCientifico: "Aquila Chrysaetos",
+      nomRuta: "aguila",
+      clase: "Aves",
+      descripcion: "Majestuosas, sigilosas, veloces, inteligentes y hábiles: si el mar es de los tiburones y la sabana de los leones, la hegemonía del reino de los cielos es delas águilas. Pertenecientes a las familia Accipitridae, este tipo de aves sobrevuelan los cielos de todo el mundo excepto los antárticos. Depredadores por excelencia estos pájaros son temibles aves de presa.  Cuentan con un pico fuerte y robusto acabado en punta y hacia abajo que les facilita la tarea de separar los pedazos de carne de sus víctimas. También gozan de un sentido de la vista extraordinario con el que pueden divisar a sus presas a grandes distancias y además, sus potentes y robustas garras les permiten atrapar animales más grandes que ellas y trasladarlos por el aire. ",
+      IMG: "https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg"
+    }, {
+      id: 18,
+      nombre: "Pavo real",
+      nombreCientifico: "Pavo Cristatus",
+      nomRuta: "pavo-real",
+      clase: "Aves",
+      descripcion: "Los pavos reales, pertenecientes a la familia de las Phaisanidae, son aves grandes y muy coloridas (sobre todo azules y verdes) conocidas por su iridiscente cola. Esta llamativa cola, que es el 60 por ciento del cuerpo del animal, luce un ocelo (“ojo”) con variedades de azul, dorado, rojo y otras tonalidades. Los pavos reales utilizan su cola en los rituales de apareamiento y cortejo. Pueden abrirla en un espectacular abanico que se extiende desde la parte dorsal del animal hasta tocar el suelo en cada lado. Se dice que las hembras eligen a sus compañeros en función del tamaño, color y calidad de estas extravagantes colas.",
+      IMG: "https://cdn.pixabay.com/photo/2013/03/04/18/49/peacock-90051_960_720.jpg"
+    }, {
+      id: 19,
+      nombre: "Loro",
+      nombreCientifico: "Psittacoidea",
+      nomRuta: "loro",
+      clase: "Aves",
+      descripcion: "Los loros conforman una orden muy amplia que incluye a más de 350 aves, como guacamayos, amazonas, loriquitos, agapornis y cacatúas. A pesar de la gran variedad de aves de esta familia, existen similitudes entre ellos. Todos tienen un pico curvo y patas cigodáctilas, es decir, tienen cuatro dedos en cada pata: dos están dirigidos hacia delante y dos hacia atrás. La mayoría de los loros comen frutas, flores, brotes, frutos secos, semillas y algunos animales pequeños como insectos. Los loros viven en regiones de clima cálido y se encuentran por todo el mundo. En Australasia, América Central y Sudamérica se encuentra la mayor diversidad.",
+      IMG: "https://cdn.pixabay.com/photo/2010/12/23/13/36/bird-4078_960_720.jpg"
+    }, {
+      id: 20,
+      nombre: "Gaviota",
+      nombreCientifico: "Laridae",
+      nomRuta: "gaviota",
+      clase: "Aves",
+      descripcion: "Las gaviotas son aves voladoras de la familia Laridae. Se relacionan estrechamente con los gaviotines de la familia Sternidae, y tienen más a distancia con las aves zancudas. La mayoría de las gaviotas pertenece al género Larus. Son en general pájaros grandes, en su mayoría de plumaje gris o blanco, a menudo con señales negras en la cabeza o las alas. Tienen picos robustos, bastante largos. Las gaviotas adultas tienen la cabeza, el cuello, la cola y la parte inferior del cuerpo de un color blanco puro, mientras que la espalda y el dorso de las alas son de color gris pálido, lo que le da el nombre español de gaviota argéntea. En Catalunya se la conoce como “gavià argentat”, “gavota” en Galicia o “kaio” en Euskadi. En inglés se la conoce como “herring gull”.",
+      IMG: "https://cdn.pixabay.com/photo/2013/02/09/10/57/seagull-79658_960_720.jpg"
+    }, {
+      id: 21,
+      nombre: "Colibri",
+      nombreCientifico: "Trochiladae",
+      nomRuta: "colibri",
+      clase: "Aves",
+      descripcion: "Es el ave más pequeño del mundo, su peso es de dos gramos, tiene el pico largo y estrecho, y una lengua en forma de trompa. El colibrí tiene las patas débiles y cortas, la cola adopta formas extrañas y está forrada de varios adornos. El pico es muy largo, puntiagudo y guarda en su interior una lengua en forma de trompa, que usa para absorber el néctar de las flores que proporcionan su alimento. Su forma de volar es parecida a la de un insecto y se sostiene en un punto exacto del espacio gracias a la rápida vibración de sus alas. Cuando vuela, es muy difícil distinguirla, y parece como si su cuerpo estuviera suspendido en el vacío mientras recoge el néctar. Esta rápida vibración, provoca un ruido tipo susurro. ",
+      IMG: "https://cdn.pixabay.com/photo/2017/03/13/10/25/hummingbird-2139279_960_720.jpg"
+    }, {
+      id: 22,
+      nombre: "Tucan",
+      nombreCientifico: "Ramphastidae",
+      nomRuta: "tucan",
+      clase: "Aves",
+      descripcion: "El toco tucán presenta un plumaje con una coloración negro mate en casi todo el cuerpo, a excepción de una parte de su pecho, garganta y lados de la cabeza, siendo de color blanco. Una característica bastante llamativa es el pico que posee un vivo color amarillo, y en la punta de la mandíbula superior presenta una parte en color negro, lo mismo que en su base; dentro del grupo de los tucanes es el ave con el pico más grande pues llega a medir hasta 20 cm., de largo y está constituido por una red de fibras óseas lo que le proporciona fuerza y ligereza a la vez. En cuanto a su lengua, ésta es delgada y notablemente larga, puede llegar a medir hasta 15 cm. El macho es más grande que la hembra; sin embargo, ambos sexos poseen la misma coloración en su plumaje. El toco tucán es un ave que gusta de permanecer en las copas altas de los árboles, donde salta de rama en rama. Por lo que respecta a su nido, éste es construido regularmente en los agujeros de los árboles muertos; dichos agujeros llegan a tener hasta 2 m. de profundidad, y pueden ser usados durante varios años. Tanto el macho como la hembra participan en el proceso de incubación.",
+      IMG: "https://cdn.pixabay.com/photo/2015/11/03/16/00/keel-billed-toucan-1021048_960_720.jpg"
+    });
+  }
+
+  listaDeAves() {
+    return this.Aves;
+  }
+
+}
+
+/***/ }),
+
+/***/ 9730:
+/*!***********************************************!*\
+  !*** ./src/app/Services/Clases/crustaceos.ts ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "crustaceos": () => (/* binding */ crustaceos)
+/* harmony export */ });
+class crustaceos {
+  constructor() {
+    this.Crustaceos = new Array({
+      id: 58,
+      nombre: "Langosta",
+      nombreCientifico: "Palinurus elephas",
+      nomRuta: "langosta",
+      clase: "Crustáceo",
+      descripcion: "La langosta es un invertebrado crustáceo de color, en general, rojizo con algunas franjas amarillas o marrones. Los individuos más jóvenes tienen una franja roja en la parte superior del cuerpo. Los dos pares de antenas son de color amarillo. El segundo par de antenas es más largo que el cuerpo y puede llegar a medir 80 cm. Igual que el resto de decápodos tiene 5 pares de patas marchadoras, pero sin pinzas. Su tamaño máximo es de 50 cm. Los adultos pueden llegar a pesar hasta 8 kg. Es un animal de hábitos nocturnos y durante el día se esconde en cuevas o grietas, y sólo deja fuera las antenas, que pueden llegar a medir hasta 80 cm. Se alimenta de bivalvos y caracoles, a los que puede romper la concha aunque no tenga pinzas, y también carroña. La langosta es ovípara. Se ha observado hembras con huevos en septiembre y octubre.",
+      IMG: "https://cdn.pixabay.com/photo/2016/10/09/19/23/lobster-1726627_960_720.jpg"
+    }, {
+      id: 59,
+      nombre: "Camaron",
+      nombreCientifico: "Caridea",
+      nomRuta: "camaron",
+      clase: "Crustáceo",
+      descripcion: "El camarón, llamado realmente carídeo (Caridea), es un crústaceo marino al que podemos encontrar en todos los fondos marinos del mundo. Son muy pequeños y algunas especies son realmente pequeños, tanto que muchos animales son incapaces de detectarlos. Hay más de 2.000 especies diferentes de camarones, siendo todos ellos animales invertebrados, es decir ninguna de esas especies posee de espina dorsal. Sin embargo, posee un exoesqueleto duro (cáscara) que suele ser transparentes e incoloro, lo que hace difíciles de ver en el agua.",
+      IMG: "https://cdn.pixabay.com/photo/2017/06/11/22/55/shrimp-2393818_960_720.jpg"
+    }, {
+      id: 60,
+      nombre: "Cangrejo",
+      nombreCientifico: "Brachyura",
+      nomRuta: "cangrejo",
+      clase: "Crustáceo",
+      descripcion: "Los cangrejos son los crustáceos más populares de este planeta. Ya sea por su divertida forma de caminar de lado o por sus curiosas pinzas con las que se defienden, son uno de los animales que más simpatía despiertan. Los cangrejos, como todos los crustáceos, se caracterizan por tener un exoesqueleto compuesto de quitina que actúa como un verdadero caparazón que les protege. Poseen cinco pares de patas, de las cuales, una de cada lado, han evolucionado hasta convertirse en pinzas que utilizan para alimentarse, para el cortejo y para defenderse de sus depredadores.",
+      IMG: "https://cdn.pixabay.com/photo/2017/03/03/12/59/crab-2113971_960_720.jpg"
+    }, {
+      id: 61,
+      nombre: "Cangrejo Ermitaño",
+      nombreCientifico: "Paguroidea",
+      nomRuta: "cangrejo-ermitano",
+      clase: "Crustáceo",
+      descripcion: "Los paguroideos (Paguroidea) son una superfamilia de crustáceos decápodos, conocidos popularmente como cangrejos ermitaños o paguros. Estos crustáceos tienen en común el uso de conchas de caracol para cubrir su abdomen, que es más blando que el de otros cangrejos. Este tipo de relación interespecífica que mantiene con las conchas de los moluscos muertos se denomina tanatocresis, y es uno de los pocos animales que la realiza. Existen alrededor de 500 especies de cangrejos ermitaños alrededor del mundo, siendo la mayoría acuáticos, pero existiendo algunos terrestres. Solo la parte delantera está cubierta por un exoesqueleto rígido. Para protegerse se refugia dentro de conchas vacías de moluscos. Su abdomen está enroscado para que pueda caber dentro de la concha; además, sus patas y pinzas le permiten bloquear la entrada. A medida que el cangrejo crece, debe cambiar de casa. Empieza por inspeccionar detenidamente con sus pinzas las conchas vacías y cuando encuentra la adecuada, se muda rápidamente. Para los cangrejos ermitaños encontrar una concha vacía es cuestión de vida o muerte, por lo que son frecuentes las luchas entre ellos cuando hay pocas disponibles.",
+      IMG: "https://cdn.pixabay.com/photo/2019/02/17/16/11/hermit-crab-4002529_960_720.jpg"
+    }, {
+      id: 62,
+      nombre: "Percebes",
+      nombreCientifico: "Pollicipes pollicipes",
+      nomRuta: "percebes",
+      clase: "Crustáceo",
+      descripcion: "Es un crustáceo cirrópodo, es decir, son crustáceos marinos, hermafroditas, que viven fijos al fondo o como parásitos, con el cuerpo cubierto por un caparazón, y sus patas torácicas, en forma de cirros, actúan como filtros en la captura de las partículas alimenticias. Viven en zonas de fuertes resacas donde el mar rompe violentamente. Forma grupos o piñas que están fijadas al sustrato por unas glándulas cementantes segregadas por unas glándulas situadas tras la cabeza. Mantiene competencia con el mejillón por estos enclaves. Se alimenta del fitoplancton de las aguas que baten las olas, por medio de una especie de pluma filamentosa que emerge de su uña en cada recogida de la ola, conocida como cirro, el cual puede moverse unas 140 veces por minuto.",
+      IMG: "https://cdn.pixabay.com/photo/2014/08/15/21/52/mussels-419050_960_720.jpg"
+    });
+  }
+
+  listaDeCrustaceos() {
+    return this.Crustaceos;
+  }
+
+}
+
+/***/ }),
+
+/***/ 591:
+/*!******************************************!*\
+  !*** ./src/app/Services/Clases/index.ts ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "mamiferos": () => (/* reexport safe */ _mamiferos__WEBPACK_IMPORTED_MODULE_0__.mamiferos),
+/* harmony export */   "anfibios": () => (/* reexport safe */ _anfibios__WEBPACK_IMPORTED_MODULE_1__.anfibios),
+/* harmony export */   "aves": () => (/* reexport safe */ _aves__WEBPACK_IMPORTED_MODULE_2__.aves),
+/* harmony export */   "crustaceos": () => (/* reexport safe */ _crustaceos__WEBPACK_IMPORTED_MODULE_3__.crustaceos),
+/* harmony export */   "insectos": () => (/* reexport safe */ _insectos__WEBPACK_IMPORTED_MODULE_4__.insectos),
+/* harmony export */   "peces": () => (/* reexport safe */ _peces__WEBPACK_IMPORTED_MODULE_5__.peces),
+/* harmony export */   "reptiles": () => (/* reexport safe */ _reptiles__WEBPACK_IMPORTED_MODULE_6__.reptiles)
+/* harmony export */ });
+/* harmony import */ var _mamiferos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mamiferos */ 5542);
+/* harmony import */ var _anfibios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./anfibios */ 2723);
+/* harmony import */ var _aves__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./aves */ 5249);
+/* harmony import */ var _crustaceos__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./crustaceos */ 9730);
+/* harmony import */ var _insectos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./insectos */ 4138);
+/* harmony import */ var _peces__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./peces */ 1181);
+/* harmony import */ var _reptiles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./reptiles */ 8870);
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ 4138:
+/*!*********************************************!*\
+  !*** ./src/app/Services/Clases/insectos.ts ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "insectos": () => (/* binding */ insectos)
+/* harmony export */ });
+class insectos {
+  constructor() {
+    this.Insectos = new Array({
+      id: 43,
+      nombre: "Cucaracha",
+      nombreCientifico: "Blattodea",
+      nomRuta: "cucaracha",
+      clase: "Insecto",
+      descripcion: "Se conocen más de 4500 especies de cucarachas en cerca de 500 géneros. uelen ser de color castaño, rojo u oscuro y de cuerpo aplanado. Algunas especies tienen colores llamativos.",
+      IMG: "https://cdn.pixabay.com/photo/2014/12/13/15/38/cockroach-566712_960_720.jpg"
+    }, {
+      id: 44,
+      nombre: "Grillo",
+      nombreCientifico: "Grylladae",
+      nomRuta: "grillo",
+      clase: "Insecto",
+      descripcion: "Los grillos están emparentados con las Acrididae (saltamontes). Sus patas están adaptadas al salto, sin embargo saltan menos que los saltamontes, lo que los hace más torpes. En cambio, corren por el suelo con rapidez. Excavan una madriguera en el suelo, que consiste en una galería de más de medio metro, y que termina en una habitación esférica.",
+      IMG: "https://cdn.pixabay.com/photo/2014/03/04/16/07/grasshopper-279532_960_720.jpg"
+    }, {
+      id: 45,
+      nombre: "Escorpión",
+      nombreCientifico: "Scorpiones",
+      nomRuta: "escorpion",
+      clase: "Insecto",
+      descripcion: "Los escorpiones pertenecen a la clase de los arácnidos, y están estrechamente emparentados con las arañas, los caros y las garrapatas. Se los asocia comúnmente con el desierto, pero también están presentes en la selva brasilea, Columbia Britnica, Carolina del Norte e incluso la cordillera del Himalaya. Estos resistentes y adaptables artrópodos existen desde hace cientos de millones de años, y son unos auténticos supervivientes.",
+      IMG: "https://cdn.pixabay.com/photo/2015/09/09/14/06/scorpion-931561_960_720.jpg"
+    }, {
+      id: 46,
+      nombre: "Hormiga",
+      nombreCientifico: "Formicidae",
+      nomRuta: "hormiga",
+      clase: "Insecto",
+      descripcion: "Las hormigas son insectos muy comunes, sin embargo están dotados de algunas cualidades realmente excepcionales y únicas. En raras ocasiones superan los dos centímetros de longitud, sin embargo son uno de los animales más fuertes del mundo, siendo capaces de levantar casi tres veces el peso de su cuerpo. Comparten rasgos muy parecidos con las avispas y las abejas, ya que evolucionaron a partir de un antepasado común. ",
+      IMG: "https://cdn.pixabay.com/photo/2014/12/13/10/06/insects-566408_960_720.jpg"
+    }, {
+      id: 47,
+      nombre: "Mariposa",
+      nombreCientifico: "Lepidoptera",
+      nomRuta: "mariposa",
+      clase: "Insecto",
+      descripcion: "Los lepidópteros, mas conocidos comúnmente como mariposas, son unos insectos pertenecientes al orden de los homometábolos, un grupo de insectos superiores, los cuales, a lo largo de su vida sufren una serie de transformaciones complejas conocida como metamorfosis, y en la que se suceden las fases de embrión, larva, pupa e imago. Las mariposas son un tipo de insecto muy popular por los llamativos colores que tiñen sus alas y por su vuelo vacilante cuando se acerca el buen tiempo. Se han descrito unas 24.000 especies diferentes.",
+      IMG: "https://cdn.pixabay.com/photo/2013/06/30/18/56/butterfly-142506_960_720.jpg"
+    }, {
+      id: 48,
+      nombre: "Mosquito",
+      nombreCientifico: "Culicidae",
+      nomRuta: "mosquito",
+      clase: "Insecto",
+      descripcion: "El mosquito común se caracteriza por ser un insecto volador y por poseer un cuerpo delgado, patas largas y finas. Los adultos pueden llegar a medir hasta 15 milímetros, y es importante saber que las larvas se desarrollan siempre en el agua, por esta razón es que cuando existe epidemia por alguna enfermedad transmitida por los mosquitos, se pide que se elimine de los hogares todo tipo de contenedores de agua que favorezca la reproducción veloz de los mosquitos. ",
+      IMG: "https://cdn.pixabay.com/photo/2012/05/18/21/45/mosquito-49141_960_720.jpg"
+    }, {
+      id: 49,
+      nombre: "Lombriz",
+      nombreCientifico: "Lumbricidae",
+      nomRuta: "lombriz",
+      clase: "Insecto",
+      descripcion: "La lombriz de tierra, de color gris rojizo, es un animal familiar para todo aquel que tenga un jardín o una caña de pescar. Es oriunda de Europa, pero en la actualidad abunda también en Norteamérica y en Asia occidental. Aunque por lo general apenas mide 7 u 8 centímetros, se sabe que algunos miembros de la especie alcanzan hasta 35 centímetros de longitud con el cuerpo enrollado. El cuerpo de la lombriz de tierra está formado por segmentos llamados anillos o metámeros. Estos segmentos están recubiertos de sedas, o pequeñas cerdas, que la lombriz usa para remover y escarbar la tierra. La lombriz tiene la boca en el primer segmento del cuerpo. A medida que cava la tierra la va ingiriendo, extrayendo de ella nutrientes que provienen de la descomposición de materia orgánica, como hojas o raíces. La lombriz de tierra es vital para la salud del suelo, ya que transporta nutrientes y minerales hasta la superficie mediante sus deshechos y los túneles que excava oxigenan la tierra. Una lombriz puede comer en un día el equivalente a un tercio de su peso corporal.",
+      IMG: "https://cdn.pixabay.com/photo/2020/01/13/18/56/worm-4763219_960_720.jpg"
+    }, {
+      id: 50,
+      nombre: "Avispa",
+      nombreCientifico: "Vespula vulgaris",
+      nomRuta: "avispa",
+      clase: "Insecto",
+      descripcion: "Estamos familiarizados con las avispas de colores vivos y zumbidos furiosos que vuelan a nuestro alrededor y nos amedrentan con sus dolorosas picaduras. Pero la verdad es que la gran mayoría de las avispas son insectos solitarios e inofensivos para el ser humano. Por el contrario, en lugar de ser dañinas, son sumamente beneficiosas para el hombre ya que controlan las plagas. Las avispas se distinguen de las abejas por su abdomen inferior puntiagudo y su estrecha «cintura» que se denomina pecíolo y separa el abdomen del tórax. Estos insectos ostentan todos los colores que podamos imaginar, desde el amarillo al que ya estamos acostumbrados, al marrón, el azul metálico o el rojo vivo. Generalmente, las especies de colores más brillantes pertenecen a la familia de las Vespidae, es decir, las avispas que pican.",
+      IMG: "https://cdn.pixabay.com/photo/2018/04/25/18/41/hornet-3350248_960_720.jpg"
+    }, {
+      id: 51,
+      nombre: "Polilla",
+      nombreCientifico: "Tinea pellionella",
+      nomRuta: "polilla",
+      clase: "Insecto",
+      descripcion: "Las polillas son lepidópteros de pequeño tamaño que se han adaptado a convivir con nosotros en el interior de los edificios, convirtiéndose a veces en una plaga que devora alimentos, ropas, papel y otros bienes materiales que atesoramos los humanos. Los expertos en conservación del patrimonio en museos y casa antiguas del English Heritage saben bien cómo mantenerlas a raya de los materiales textiles y nos dan sus mejores consejos para prevenir su presencia en casa. En la naturaleza, las polillas se consideran unas excelentes recicladoras de la materia orgánica. Al alimentarse, sus larvas contribuyen a la transformación de la materia orgánica en los procesos de degradación que se llevan a cabo durante el compostaje, realizando una valiosa tarea de limpieza de desechos orgánicos y aprovechamiento de nutrientes dentro de la cadena trófica.",
+      IMG: "https://cdn.pixabay.com/photo/2017/06/22/20/22/moth-2432376_960_720.jpg"
+    }, {
+      id: 52,
+      nombre: "Araña",
+      nombreCientifico: "Araneae",
+      nomRuta: "arana",
+      clase: "Insecto",
+      descripcion: "Las arañas son un conjunto de animales artrópodos muy abundante en todo el mundo y del que se conocen aproximadamente unas 45.000 especies diferentes. Son el orden más numeroso de la clase Arachnida y están lejanamente emparentadas con otros grupos de artrópodos, como los insectos. Se trata además de uno de los grupos más diversos, colocándose en cuanto al resto de organismos en el séptimo lugar respecto a su diversidad. Las arañas tienen el cuerpo dividido en dos partes denominadas tagmas, y cuentan con cuatro pares de patas. Se sabe que durante la prehistoria existieron algunas arañas que podían llegar a medir 50 centímetros, pero actualmente la más grande que existe tiene un tamaño de 30 centímetros. Por regla general son animales solitarios y depredadores de pequeños insectos a los cuales pueden dar caza a través de técnicas muy variadas. Algunas, de hecho, poseen potentes venenos los cuales un pequeña cantidad, puede acabar con la vida de un ser humano.",
+      IMG: "https://cdn.pixabay.com/photo/2017/10/24/12/45/spider-2884460_960_720.jpg"
+    });
+  }
+
+  listaDeInsectos() {
+    return this.Insectos;
+  }
+
+}
+
+/***/ }),
+
+/***/ 5542:
+/*!**********************************************!*\
+  !*** ./src/app/Services/Clases/mamiferos.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "mamiferos": () => (/* binding */ mamiferos)
+/* harmony export */ });
+class mamiferos {
+  constructor() {
+    this.Mamiferos = new Array({
+      id: 1,
+      nombre: "Elefante",
+      nombreCientifico: "Elephantidae",
+      nomRuta: "elefante",
+      clase: "Mamífero",
+      descripcion: "Es el mamífero terrestre más grande. Pueden llegar a pesar más de 7 mil kilos y aunque en promedio suelen medir tres metros de altura. Algunos elefantes llegan a vivir 90 años. Son capaces de comunicarse a través de vibraciones en el suelo.",
+      IMG: "https://cdn.pixabay.com/photo/2013/05/29/22/25/elephant-114543_960_720.jpg"
+    }, {
+      id: 2,
+      nombre: "Pastor Alemán",
+      nombreCientifico: "Canis familiaris",
+      nomRuta: "pastor-aleman",
+      clase: "Mamífero",
+      descripcion: "Es una raza canina que proviene de Alemania. La raza es relativamente nueva, ya que su origen se remonta a 1899. Forman parte del grupo de pastoreo, ya que fueron perros desarrollados originalmente para reunir y vigilar ovejas. Desde entonces, sin embargo, gracias a su fuerza, inteligencia, capacidad de entrenamiento y obediencia,​ los pastores alemanes de todo el mundo son a menudo la raza preferida para muchos otros tipos de trabajo, como son: perro policía, perro guardián, guía de ciegos, animal de rescate, y otros, según el uso que le den las fuerzas y cuerpos de seguridad y el ejército. En muchos países incluso cuentan con unidades específicas denominadas K-9",
+      IMG: "https://cdn.pixabay.com/photo/2019/03/23/05/15/schafer-dog-4074699_960_720.jpg"
+    }, {
+      id: 3,
+      nombre: "Gato Atigrado",
+      nombreCientifico: "Felis silvestris catus",
+      nomRuta: "gato-atigrado",
+      clase: "Mamífero",
+      descripcion: "Es un gato con un distintivo pelaje de rayas y manchas características. Los gatos atigrados a menudo son, erróneamente, confundidos con una raza de gato pero solo son una variedad de color; de hecho, el patrón que posee el atigrado es una característica que ocurre naturalmente y que podría ser la original coloración de los distantes ancestros de los gatos domésticos",
+      IMG: "https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg"
+    }, {
+      id: 4,
+      nombre: "Leon",
+      nombreCientifico: "Panthera leo",
+      nomRuta: "leon",
+      clase: "Mamifero",
+      descripcion: "El león es uno de los cuatro grandes félidos pertenecientes al género Panthera. El macho adulto es fácilmente reconocible por su gran tamaño y llamativa melena, y tiene un peso aproximado de 150 – 250 kg. Las hembras suelen ser considerablemente más pequeñas, con 110 – 180 kg de peso. Es el segundo félido más grande del mundo, después del tigre. La melena les sirve para proteger su cuello durante las batallas, para protegerse de los matorrales espinosos y es más frondosa cuanto menor sea la temperatura. El color de su pelaje es otra adaptación al medio, pues les sirve de camuflaje para poder cazar, principalmente, ya que no suelen ser presa de otros animales (salvo de hienas en caso de animales enfermos, ancianos o crías). Cazan al acecho (a unos 30 m o menos de su presa) para evitar gastar exceso de energía respecto a la que obtienen de la presa que persiguen, así, nunca corren en exceso (pero pueden alcanzar 56 Km/h).",
+      IMG: "https://cdn.pixabay.com/photo/2014/11/03/11/07/lion-515028_960_720.jpg"
+    }, {
+      id: 5,
+      nombre: "Conejo",
+      nombreCientifico: "Oryctolagus cuniculus",
+      nomRuta: "conejo",
+      clase: "Mamífero",
+      descripcion: "El conejo se caracteriza por tener un cuerpo cubierto de un pelaje espeso y lanudo, de color pardo pálido a gris o rojizo, que permite su camuflaje para evitar a sus depredadores. Pesa entre 1,5 y 2,5 kg en estado salvaje. Tiene orejas largas de hasta 7 cm las cuales le ayudan a regular la temperatura del cuerpo y una cola muy corta. Sus patas anteriores son más cortas que las posteriores." + "Mide de 33 a 50 cm en condiciones afables, incluso más en razas domésticas para carne. Todas estas características que posee esta especie en estado salvaje pueden variar significativamente según la raza.",
+      IMG: "https://cdn.pixabay.com/photo/2020/04/07/20/36/bunny-5014814_960_720.jpg"
+    }, {
+      id: 6,
+      nombre: "Ballena",
+      nombreCientifico: "Balaenidae",
+      nomRuta: "ballena",
+      clase: "Mamifero",
+      descripcion: "Dentro de el orden de los cetáceos y concretamente del de los cetaceos misticetos se encuentran las ballenas, las cuales conforman la familia de los balaénidos o de las ballenas barbadas. Estas están clasificados en tan solo cuatro especies divididas en dos géneros, Balaena y Eubalaena. Estos animales pueden llegar a medir entre 25 y 32 metros y los ejemplares más grandes pueden llegar a pesar hasta 180 toneladas. De hecho, una de estas especies de balaenidos, la ballena azul, es el animal más grande del mundo en la actualidad.",
+      IMG: "https://cdn.pixabay.com/photo/2014/09/05/03/38/humpback-whale-436120_960_720.jpg"
+    }, {
+      id: 7,
+      nombre: "Jirafa",
+      nombreCientifico: "Giraffa camelopardalis",
+      nomRuta: "jirafa",
+      clase: "Mamifero",
+      descripcion: "Las jirafas son los mamíferos más altos del mundo, gracias a sus enormes patas y largos cuellos. Las patas de una jirafa son más altas que muchos humanos, alrededor de 180 centímetros, y les permiten correr a más de 55 kilómetros por hora en distancias cortas y a más de 15 kilómetros por hora en distancias más largas. Estos fascinantes animales vagan por las praderas abiertas en pequeños grupos, que suelen ser de aproximadamente media docena. Los machos a veces luchan entre sí golpeando sus largos cuellos y las cabezas. Estos combates no suelen ser peligrosos y terminan cuando uno de los animales se rinde y se va. Las jirafas aprovechan su altura para alcanzar de las copas de los árboles las hojas y los brotes inaccesibles para otros animales, siendo las acacias sus favoritas. ¡Incluso la lengua de la jirafa es larga! La lengua de 50 centímetros les ayuda a arrancar sabrosos bocados de las ramas. Las jirafas pasan la mayor parte del tiempo comiendo y, al igual que las vacas, regurgitan la comida y la mastican como bolo alimenticio. Una jirafa come decenas de kilos de hojas cada semana y debe viajar millas para encontrar suficiente comida.",
+      IMG: "https://cdn.pixabay.com/photo/2019/07/02/10/25/giraffe-4312090_960_720.jpg"
+    }, {
+      id: 8,
+      nombre: "Cerdo",
+      nombreCientifico: "Sus scrofa domesticus",
+      nomRuta: "cerdo",
+      clase: "Mamifero",
+      descripcion: "El cerdo es un animal mamífero que puede encontrarse en estado salvaje o doméstico. El nombre científico de la especie en estado natural es Sus scrofa y coloquialmente se lo conoce como jabalí o cerdo silvestre; mientras que aquéllos ejemplares que han sido domesticados reciben el nombre de Sus scrofa domestica. Se trata de un cuadrúpedo con patas cortas y pezuñas, un cuerpo pesado, hocico flexible y cola corta. Cabe señalar que el término cerdo proviene de cerda, lo que hace referencia a su pelo grueso. En libertad, estos animales pueden vivir hasta quince años, sin embargo dado que el ser humano se apropia de sus vidas y los explota para el consumo de su carne, en cautiverio no llegan a los 5 o 6 años de vida, con suerte, porque muchos de ellos son asesinados antes de cumplir el año de vida.",
+      IMG: "https://cdn.pixabay.com/photo/2018/11/23/23/10/pig-3834738_960_720.jpg"
+    }, {
+      id: 9,
+      nombre: "Tigre",
+      nombreCientifico: "Panthera Tigris",
+      nomRuta: "tigre",
+      clase: "Mamifero",
+      descripcion: "Existen dos subespecies reconocidas de tigre*: el continental (Panthera tigris tigris) y el Sunda (Panthera tigris sondaica). El tigre, el más grandes de todos los grandes felinos asiáticos, depende principalmente de la vista y el oído en lugar del olfato para cazar. Por lo general caza solo y acecha a sus presas. Un tigre puede consumir más de 80 libras (36 kg) de carne a la vez. En promedio, los tigres dan a luz de dos a cuatro cachorros cada dos años. Si todos los cachorros de una camada mueren, se puede generar una segunda camada en cinco meses. El tigre generalmente se hace independiente alrededor de los dos años de edad y alcanza la madurez sexual a los tres o cuatro años en las hembras y a los cuatro o cinco años en los machos. Sin embargo, la mortalidad juvenil es alta: aproximadamente la mitad de todos los cachorros no sobreviven más de dos años. Se sabe que el tigre puede llegar a vivir hasta 20 años en la naturaleza.",
+      IMG: "https://cdn.pixabay.com/photo/2014/10/23/18/56/tiger-500118_960_720.jpg"
+    }, {
+      id: 10,
+      nombre: "Caballo",
+      nombreCientifico: "Equus Caballus",
+      nomRuta: "caballo",
+      clase: "Mamifero",
+      descripcion: "La coloración del cuerpo es muy variable, ya que puede haber ejemplares de un tono uniforme y otros de tonos mezclados que son mejor conocidos como “pintos”. Sobre el cuello presenta una crin larga. Se trata de un animal no territorial y hay 2 tipos de grupos. Uno de machos solamente y otro formado de varias hembras y un macho dominante. Cuando coinciden en una zona dos harenes los machos luchan por la obtención de más hembras. En los grupos de solteros, también hay un macho dominante absoluto y se comporta como si fuera su harén. Las hembras entran en celo varias veces al año o hasta que quedan preñadas. En la actualidad existe cerca de 200 razas de caballos en las que figuran el ponny, los percherones y los pura sangre. Algunos datos curiosos sobre los caballos es que gustan revolcarse en la arena para espantar los insectos que los molestan o bien, usan su cola como abanico para el mismo fin. Es común que algunos caballos se les ponga anteojeras, sobre todo los que se encuentran en ciudades o villas muy transitadas, para evitar que se espanten. Además, el caballo a desempeñado un papel muy importante en la historia de la humanidad pues ha sido empleado como medio de transporte o en guerras o ha sido tema para escritores o poetas.",
+      IMG: "https://cdn.pixabay.com/photo/2016/02/15/13/26/horse-1201143_960_720.jpg"
+    }, {
+      id: 11,
+      nombre: "Mapache",
+      nombreCientifico: "Procyon",
+      nomRuta: "mapache",
+      clase: "Mamifero",
+      descripcion: "El Mapache es un mamífero de la familia de los Procyonidae y original de América (su distribución va desde Canadá a Panamá). Su hábitat comprende lugares con árboles, cercanos a algún depósito de agua o curso, o manglares costeros; es una especie que se ha adaptado perfectamente a zonas urbanas. Su peso medio es de siete a ocho kilogramos, pero ha llegado a alcanzar los 28 kilogramos. El pelaje es gris tirando a negro, en ocasiones rojizo y marrón, aunque son la cola anillada y el “antifaz” en el rostro sus características físicas más reconocidas. El Mapache posee una ancha cabeza en la parte posterior, hocico puntiagudo y pulgares no oponibles; sus patas están provistas de cinco dedos con garras curvadas, no retráctiles, mientras que las plantas de las patas son desnudas y planas. Las extremidades anteriores, más pequeñas y hábiles, le sirven para agarrar comida (de hecho, está considerado “el rey de los ladrones de basura” en algunas ciudades de Estados Unidos); las posteriores, soportan el peso.",
+      IMG: "https://cdn.pixabay.com/photo/2018/07/14/17/46/raccoon-3538081__480.jpg"
+    }, {
+      id: 12,
+      nombre: "Gorila",
+      nombreCientifico: "Gorilla",
+      nomRuta: "gorila",
+      clase: "Mamifero",
+      descripcion: "Los gorilas pertenecientes al género Gorilla son primates herbívoros con composiciones genéticas muy parecidas a las del ser humano. El término Gorila, fue asignado por pobladores africanos cuyo significado es “persona peluda”. El gorila es el más grande de todos los primates. Éstos se desplazan en cuatro patas. Sus extremidades superiores son similares a los brazos humanos que también utilizan para apoyarse al andar. Los machos adultos miden hasta 1.8 metros de altura y pesan más de 135 kilos. Las hembras pesan la mitad que éstos. Algo que los diferencia es la mandíbula protuberante del macho, pues es mayor que el maxilar.",
+      IMG: "https://cdn.pixabay.com/photo/2020/09/12/09/26/gorilla-5565295_960_720.jpg"
+    });
+  }
+
+  listaDeMamiferos() {
+    return this.Mamiferos;
+  }
+
+}
+
+/***/ }),
+
+/***/ 1181:
+/*!******************************************!*\
+  !*** ./src/app/Services/Clases/peces.ts ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "peces": () => (/* binding */ peces)
+/* harmony export */ });
+class peces {
+  constructor() {
+    this.Peces = new Array({
+      id: 33,
+      nombre: "Barbo Rosado",
+      nombreCientifico: "Pethia conchonius",
+      nomRuta: "barbo-rosado",
+      clase: "Peces",
+      descripcion: "Se trata de un pez que presenta forma ovalada, agradable y muy activo, su coloración es rosácea a anaranjada sobre un fondo base plateado, es característica una pequeña mancha que mantiene en la parte posterior de su cuerpo, un poco anterior al péndulo caudal. Existe dimorfismo sexual, ya que los machos presentan una pequeña coloración oscura en la aleta dorsal y anal, además las hembras poseen colores más apagados. En edad adulta pueden llegar a medir hasta los 14 cm de longitud.",
+      IMG: "https://laguiadelacuario.es/wp-content/uploads/2020/11/pethia_conchoniuspda.jpg"
+    }, {
+      id: 34,
+      nombre: "Gurami Enano",
+      nombreCientifico: "Osphronemidae",
+      nomRuta: "gurami-enano",
+      clase: "Peces",
+      descripcion: "Su tamaño está entre 6 y 15 cm (hasta 30 en el caso de los ejemplares gigantes), donde se destacan sus dos aletas con forma de hilo para hacerlo más llamativo. La forma de su cuerpo es ovalada pero plana a los lados y con su movimiento realizan un auténtico show bajo el agua. También conocido como pez gourami, es una variedad de peces especialmente resistente entre los peces de agua dulce, de ahí que esté tan extendido entre los acuarios de aficionados a esta disciplina.",
+      IMG: "https://cdn.pixabay.com/photo/2020/09/25/19/03/fish-5602367_960_720.jpg"
+    }, {
+      id: 35,
+      nombre: "Guppy",
+      nombreCientifico: "Poecillia reticulata",
+      nomRuta: "guppy",
+      clase: "Peces",
+      descripcion: "Los guppies (Poecilia reticulata) pueden medir entre 1,5 y 6 cm. Son peces de agua dulce originarios del noreste de Sudamérica, comunes en acuarios en muchos países del mundo. Los ojos de los guppies son normalmente plateados, pero cuando quiere señalizar que está dispuesto a atacar, sus ojos se vuelven negros.",
+      IMG: "https://cdn.pixabay.com/photo/2019/08/30/01/24/water-tank-4440191_960_720.jpg"
+    }, {
+      id: 36,
+      nombre: "Telescopio",
+      nombreCientifico: "Gigantura",
+      nomRuta: "telescopio",
+      clase: "Peces",
+      descripcion: "Dentro de la familia de los carácidos , existe una variedad de peces, bastante peculiar y curiosa, que tiene ojos modificados denominada como telescopios o Demekin. Esta variedad, se originó en China a principios del siglo XVIII, y su característica principal son sus ojos, los cuales parece que brotaran de su cabeza, es decir sobresalen de tal manera que se proyectan hacia fuera. Sin embargo, aunque adquieren el nombre de peces telescopio, su visión es muy limitada. Estos peces se encuentran en infinidad de acuarios y peceras de todo el mundo. Este pez ha sido domesticado por el ser humano criado con fines ornamentales. Cada vez, con el paso de los años, las crías se han ido volviendo más selectiva, dando las variedades que tenemos hoy día.",
+      IMG: "https://cdn.pixabay.com/photo/2020/10/06/07/35/aquarium-5631495_960_720.jpg"
+    }, {
+      id: 37,
+      nombre: "Oscar",
+      nombreCientifico: "Astronotus ocellatus",
+      nomRuta: "oscar",
+      clase: "Peces",
+      descripcion: "El pez oscar, astronotus ocellatus, es un pez de la familia de los cíclidos, de la que sólo hay otra variedad el astronotus crassipinnis. Se suele conocer con otros nombre vulgares, como cíclido de terciopelo, óscar rojo, pez óscar tigre o cíclido de mármol. Se trata de un pez muy original, que va cambiando de aspecto a medida que envejece, siendo en su estado juvenil muy atrayentes, con colores amarillos y marrón claro, mientras que cuando envejecen resultan menos vistosos. Son fáciles de reproducir en cautividad, siempre que tengan suficiente espacio y estén bien alimentados.",
+      IMG: "https://cdn.pixabay.com/photo/2018/06/04/03/21/astronotus-3452311_960_720.jpg"
+    }, {
+      id: 38,
+      nombre: "Koi",
+      nombreCientifico: "Cyprinus rubrofuscus",
+      nomRuta: "koi",
+      clase: "Peces",
+      descripcion: "El grandioso koi es un pez de colores muy atrayentes originario de Japón y China. También se le llama carpa, ya que proviene de la familia de peces Carpa. Llega a alcanzar un tamaño de unos 50 a casi 90 centímetros. Es adaptable a la variación de temperaturas, bien sean bajas o altas, lo que los hace idóneos para tenerlos en un acuario. Estos peces son muy longevos debido a que llegan a alcanzar gran tamaño. Si tienen el cuidado apropiado, pueden llegar a vivir unos 30 a 40 años aproximadamente, incluso corre el rumor de que estos han llegado a vivir hasta los 65 años. Llegan a pesar desde 9 hasta 40 kilos. Esto no debe de sorprender ya que si bien mencionamos anteriormente pueden llegar a alcanzar gran tamaño.",
+      IMG: "https://cdn.pixabay.com/photo/2016/11/05/11/27/koi-1799988_960_720.jpg"
+    }, {
+      id: 39,
+      nombre: "Beta",
+      nombreCientifico: "Betta splendens",
+      nomRuta: "beta",
+      clase: "Peces",
+      descripcion: "El pez Betta es uno de los moradores favoritos de las peceras de los amantes de la acuariofilia por su increíble colorido y su particular personalidad. Sin duda, es difícil resistirse a la espectacularidad de su avance y a ese carácter fuerte que hace que se le denomine Guerrero de Siam. Y es que tanto su nombre como su sobrenombre proceden precisamente de un antiguo clan de guerreros existente en el país de origen de estos peces, Tailandia.",
+      IMG: "https://cdn.pixabay.com/photo/2018/05/23/17/25/beta-3424566_960_720.jpg"
+    }, {
+      id: 40,
+      nombre: "Payaso",
+      nombreCientifico: "Amphiprioninae",
+      nomRuta: "payaso",
+      clase: "Peces",
+      descripcion: "El pez payaso es uno de los peces más populares del mundo debido a una cinta de animación, sin embargo, en la vida real, esta especie posee fascinantes cualidades que sorprenden a los expertos, ¿quieres saber cuáles son? No te despegues de este artículo. El pez payaso destaca gracias a sus colores, como el naranja, entremezclados con franjas blancas y bordes negros. En la etapa adulta llega a medir hasta 11 centímetros, desarrolla una cola redonda y once espinas en la aleta dorsal. El pez payaso nace como macho y conforme va creciendo, se integra con otros de su especie en pequeños bandos para residir en una anémona. Cuando llega a la etapa adulta, es momento de reproducirse, por lo que el ejemplar de mayor tamaño y líder de la manada se transforma en hembra para asegurar la continuidad de los peces.",
+      IMG: "https://cdn.pixabay.com/photo/2014/08/24/19/10/clownfish-426567_960_720.jpg"
+    }, {
+      id: 41,
+      nombre: "Pez Globo",
+      nombreCientifico: "Tetraodontinae",
+      nomRuta: "pez-globo",
+      clase: "Peces",
+      descripcion: "Los biólogos creen que el pez globo desarrolló su famosa habilidad para inflarse debido a que su estilo para nadar es lento y torpe. Eso los hace vulnerables frente a los depredadores. En lugar de escapar, el pez globo utilizar su elástico estómago muy elástica y su capacidad de ingerir rápidamente grandes cantidades de agua (e incluso de aire si es necesario) para que se convierta en una bola prácticamente increíble que dobla varias veces su tamaño normal. Algunas especies también tienen espinas en la piel para evitar ser comidas. Un depredador que logra atrapar a un pez globo antes de que se infle, no se sentirá afortunado por mucho tiempo. Casi todos los peces globo contienen tetrodo toxina, una sustancia que hace que el pez globo tenga un sabor muy desagradable, a menudo letal para los peces. Para los humanos, el tetrodo toxina es mortal, hasta 1.200 veces más venenosa que el cianuro. En pez globo contiene suficiente tetrodo toxina para matar a 30 seres humanos adultos, y no hay antídoto conocido.",
+      IMG: "https://cdn.pixabay.com/photo/2019/03/20/15/05/puffer-fish-4068750_960_720.jpg"
+    }, {
+      id: 42,
+      nombre: "Piraña",
+      nombreCientifico: "Pygocentrus nattereri",
+      nomRuta: "pirana",
+      clase: "Peces",
+      descripcion: "La piraña o serrasalmus, son peces de agua dulce que forman parte de la familia de los carácidos. Es uno de los peces con peor reputación que existen, por su agresivo temperamento y sus dientes increíblemente afilados que cortan todo lo que muerden. La piraña es un pez grande que puede llegar a medir entre 25 y 30 centímetros. En libertad, algunos ejemplares pueden llegar hasta los 40 o 50 centímetros. Se caracteriza por su gruesa cabeza, dotada de una mandíbula inferior prominente y unos dientes triangulares, muy afilados que le otorgan una imagen aterradora y peligrosa.",
+      IMG: "https://cdn.pixabay.com/photo/2021/01/14/22/42/piranha-5918098_960_720.jpg"
+    });
+  }
+
+  listaDePeces() {
+    return this.Peces;
+  }
+
+}
+
+/***/ }),
+
+/***/ 8870:
+/*!*********************************************!*\
+  !*** ./src/app/Services/Clases/reptiles.ts ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "reptiles": () => (/* binding */ reptiles)
+/* harmony export */ });
+class reptiles {
+  constructor() {
+    this.Reptiles = new Array({
+      id: 23,
+      nombre: "Cobra India",
+      nombreCientifico: "Naja Naja",
+      nomRuta: "cobra-india",
+      clase: "Reptiles",
+      descripcion: "Es una especie de serpiente venenosa originaria del Subcontinente indio. Como otras cobras, la cobra de anteojos es famosa por el capuchón que despliega alrededor de su cabeza cuando se encuentra excitada o amenazada. En la parte de atrás del capuchón tiene dos manchas negras unidas por una línea curva, que da la impresión de ser unos anteojos",
+      IMG: "https://cdn.pixabay.com/photo/2017/09/14/15/43/snake-2749383_960_720.jpg"
+    }, {
+      id: 24,
+      nombre: "Caimán",
+      nombreCientifico: "Caiman",
+      nomRuta: "caiman",
+      clase: "Reptiles",
+      descripcion: "Es un género de cocodrilos de la familia de los aligatóridos, conocidos vulgarmente como caimanes o yacarés. Se distribuyen en las regiones subtropicales y tropicales de América, desde Florida hasta el sur de Sudamérica.",
+      IMG: "https://cdn.pixabay.com/photo/2016/08/09/05/15/alligator-1579916_960_720.jpg"
+    }, {
+      id: 25,
+      nombre: "Iguana",
+      nombreCientifico: "Iguanidae",
+      nomRuta: "iguana",
+      clase: "Reptiles",
+      descripcion: "La iguana verde (Iguana iguana) es uno de los lagartos más grandes de América; pueden crecer hasta alcanzar los 2 metros de largo y pesan alrededor de 5 kilogramos. Además, también son mascotas bastante comunes en Estados Unidos, a pesar del hecho de que son un poco difíciles de cuidar y mantener.",
+      IMG: "https://cdn.pixabay.com/photo/2017/02/05/11/43/iguana-2039719_960_720.jpg"
+    }, {
+      id: 26,
+      nombre: "Tortuga",
+      nombreCientifico: "Testudines",
+      nomRuta: "tortuga",
+      clase: "Reptiles",
+      descripcion: "También conocidos como quelonios, las tortugas son un tipo de reptiles caracterizados por el sólido caparazón que protege sus órganos vitales del que emergen la cabeza, las patas y la cola. Son animales ovíparos que cavan sus nidos en la tierra, donde llevan a cabo la incubación de los huevos. A pesar de que carecen de dientes, cuentan con un fuerte pico que usan para alimentarse. Además de plantas, también comen insectos, caracoles y lombrices. Existen especies marinas y terrestres.  Las tortugas pueden ser animales muy longevos, viven entre 50 y 80 años y en algunos casos llegan a los 100. La tortuga más longeva jamás documentada es Harriet, una tortuga de las Galápagos que alcanzó los 175 años.",
+      IMG: "https://cdn.pixabay.com/photo/2015/07/27/19/47/turtle-863336_960_720.jpg"
+    }, {
+      id: 27,
+      nombre: "Cocodrilo",
+      nombreCientifico: "Crocodylidae",
+      nomRuta: "cocodrilo",
+      clase: "Reptiles",
+      descripcion: "Los cocodrilos están dotados de una piel escamosa, muy dura y seca. Sus fosas nasales y sus ojos se encuentran en la parte superior de la cabeza, lo que le permite ver y respirar mientras permanece en el agua. Suelen pasar la mayor parte del día parados, a la espera de que una presa se acerque lo suficiente como para lanzar un ataque súbito. Tienen además cuerpos pesados y metabolismos generalmente lentos, aunque pueden controlar la velocidad de su digestión según la abundancia de presas y de la temperatura ambiente. ",
+      IMG: "https://cdn.pixabay.com/photo/2019/01/15/22/40/crocodile-3934974_960_720.jpg"
+    }, {
+      id: 28,
+      nombre: "Serpiente cascabel",
+      nombreCientifico: "Crotalus durissus",
+      nomRuta: "serpiente-cascabel",
+      clase: "Reptiles",
+      descripcion: "Las serpientes de cascabel son venenosa. Todas las especies menos una, C. catalinensis, son fácilmente reconocibles por el característico sonido de su cascabel el cual se encuentra en la punta de la cola. Algunas especies de serpiente de cascabel pueden alcanzar hasta 2,5 metros de largo, y los 4 kg de peso. Su piel con círculos amarillos, está marcada en el centro por colores negros (parecidos a diamantes) hace que este tipo de reptil sea el mejor adornado de todo Norteamérica." + "Como su nombre lo dice, el cascabel lo forman unos estuches córneos en el extremo de la cola que en caso de peligro les permiten emitir un sonido de aviso de que es peligrosa y quizá proteja la serpiente de ser pisada por los grandes mamíferos.",
+      IMG: "https://cdn.pixabay.com/photo/2015/05/03/21/41/snake-751722_960_720.jpg"
+    }, {
+      id: 29,
+      nombre: "Dragon de Komodo",
+      nombreCientifico: "Varanus komodoensis",
+      nomRuta: "dragon-de-comodo",
+      clase: "Reptiles",
+      descripcion: "El dragón de Komodo, (Varanus komodoensis), la especie de lagarto existente más grande del planeta, es un lagarto de la familia Varanidae. También llamado monstruo de Komodo y varano de Komodo, puede encontrarse en la isla de Komodo y algunas islas vecinas de las islas de la Sonda de Indonesia central. El interés popular en el gran tamaño y los hábitos depredadores de este particular lagarto han permitido que esta especie en peligro de extinción se convierta en una atracción ecoturística, lo que ha alentado -afortunadamente- su protección. Eso sí, según la Unión Internacional para la Conservación de la Naturaleza, UICN (organismo dedicado a la conservación de recursos naturales), el dragón de Komodo se encuentra actualmente en estado de conservación “vulnerable”. Este lagarto crece hasta 3 metros de longitud total y puede alcanzar un peso máximo de aproximadamente 135 kg (el promedio son 2 metros de largo y 70 kg de peso). Excava una madriguera de hasta 9 metros y pone huevos que eclosionan en abril o mayo. Las crías recién nacidas, de unos 45 centímetros de largo, viven en árboles durante varios meses.",
+      IMG: "https://cdn.pixabay.com/photo/2016/08/12/16/59/monitor-1589200_960_720.jpg"
+    }, {
+      id: 30,
+      nombre: "Lagartija",
+      nombreCientifico: "Lacertilia",
+      nomRuta: "lagartija",
+      clase: "Reptiles",
+      descripcion: "Con el nombre de lagartija se conoce de manera genérica a un conjunto de especies de reptiles con características similares. El número de especies que engloba este apelativo es muy grande, por eso nos referiremos, en esta oportunidad a la lagartija común, también denominada lagartija roquera por su agilidad para trepar muros, rocas y árboles. Estos animales pertenecen a la familia de los Lacértidos y ha sido bautizada científicamente como Podarcis muralis. Es un animal pequeño y que cuenta con una gran velocidad de desplazamiento. Son animalitos pequeños, sus medidas no llegan a alcanzar un máximo de 6 centímetros, sin incluir su cola que, generalmente, es mucho más larga que todo su cuerpo. Pese a ser un reptil, la lagartija se desplaza por medio de sus 4 patas, colocadas a los costados y provistas de dedos prensiles que convierten a estos animales en excelentes trepadores. Esta especia de reptiles presenta escamas en su cuerpo, más abundantes en el dorso que en el vientre, también poseen escamas en sus patas. La cantidad de escamas varías, según se trate de machos o de hembras, siendo los ejemplares masculinos, los que cuentan con la mayor cantidad.",
+      IMG: "https://cdn.pixabay.com/photo/2016/03/04/19/07/gecko-1236523_960_720.jpg"
+    }, {
+      id: 31,
+      nombre: "Tuatara",
+      nombreCientifico: "Sphenodon",
+      nomRuta: "tuarara",
+      clase: "Reptiles",
+      descripcion: "Pertenece a la familia Sphenodontidae. Es de color gris o verde oliva con algunos detalles en color rojo. Se caracteriza por tener 2 fosas temporales o fenestras a cada lado del cráneo detrás de la órbita ocular. Tiene un tercer ojo u ojo pineal que aún no ha sido reconocida su función específica. Los machos tienen una cresta en la región posterior del cuello y en el dorso. Tiene dientes especializados grandes y filosos. Es de hábitos nocturnos, es territorialista y los machos al verse amenazados inflan su cuerpo y levantan la cresta. Su reproducción es sexual. Como el macho carece de órganos de copulación la fecundación ocurre con el acercamiento de las regiones de la cloaca de ambos progenitores. La época reproductiva comienza a mediados de la primavera. La hembra deposita entre 5 a 18 huevos. El periodo de incubación es de 12 a 15 meses.",
+      IMG: "https://cdn.pixabay.com/photo/2017/03/31/10/06/tuatara-2190866_960_720.jpg"
+    }, {
+      id: 32,
+      nombre: "Aligator",
+      nombreCientifico: "Alligator",
+      nomRuta: "aligator",
+      clase: "Reptiles",
+      descripcion: "Alligator es un género de saurópsidos (reptiles), conocidos popularmente como lagartos o aligátores. Ocasionalmente y de manera coloquial, se los denomina indistintamente, como caimanes, pese a que caimanes y lagartos pertenecen a géneros distintos; ya que taxonómicamente divergen a nivel de subfamilia. Actualmente incluye dos especies vivas, el aligátor chino y el lagarto americano. Tanto el nombre español actual como el latino usado en la clasificación científica proceden del inglés alligator, que a su vez es una deformación del español «el lagarto», con el que los conquistadores españoles de Florida bautizaron inicialmente a este animal. Los aligátores se encuentran casi siempre en aguas dulces, muy raramente se les ve en lagunas salobres y nunca se adentran en el mar. Esto se debe a que carecen de las glándulas secretoras de sal de las que disponen los cocodrilos, por ejemplo, y como resultado de ello no se han expandido hacia las islas del Caribe como sí han hecho varias especies de cocodrilos. Se diferencian fácilmente de los cocodrilos por la forma de su cabeza y morro, más anchos y cortos. Los dientes no sobresalen cuando mantienen la boca cerrada, cosa que sí sucede en los cocodrilos. Los ojos se sitúan en una posición muy atrasada respecto a otros géneros de Crocodilia. El color de la gruesa piel es normalmente oscuro (más en el caso de la especie china) acercándose a veces al negro, aunque no son raros los ejemplares más claros e incluso hay algún caso leucístico.",
+      IMG: "https://cdn.pixabay.com/photo/2019/05/22/03/54/aligator-4220630_960_720.jpg"
+    });
+  }
+
+  listaDeReptiles() {
+    return this.Reptiles;
+  }
+
+}
+
+/***/ }),
+
+/***/ 7285:
+/*!****************************************************!*\
+  !*** ./src/app/Services/datos-animales.service.ts ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "DatosAnimalesService": () => (/* binding */ DatosAnimalesService)
+/* harmony export */ });
+/* harmony import */ var _Clases_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Clases/index */ 591);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7716);
+
+
+let DatosAnimalesService = /*#__PURE__*/(() => {
+  class DatosAnimalesService {
+    constructor() {
+      this.especies1 = new _Clases_index__WEBPACK_IMPORTED_MODULE_0__.mamiferos();
+      this.especies2 = new _Clases_index__WEBPACK_IMPORTED_MODULE_0__.anfibios();
+      this.especies3 = new _Clases_index__WEBPACK_IMPORTED_MODULE_0__.aves();
+      this.especies4 = new _Clases_index__WEBPACK_IMPORTED_MODULE_0__.crustaceos();
+      this.especies5 = new _Clases_index__WEBPACK_IMPORTED_MODULE_0__.insectos();
+      this.especies6 = new _Clases_index__WEBPACK_IMPORTED_MODULE_0__.peces();
+      this.especies7 = new _Clases_index__WEBPACK_IMPORTED_MODULE_0__.reptiles();
+      this.Mamiferos = new Array();
+      this.Aves = new Array();
+      this.Anfibios = new Array();
+      this.Insectos = new Array();
+      this.Crustaceos = new Array();
+      this.Reptiles = new Array();
+      this.Peces = new Array();
+      this.tiposAnimales = new Array({
+        mamiferos: "Los mamíferos son un grupo de animales que engloba seres muy diversos: desde la enorme ballena azul al murciélago. Aún así, todos ellos comparten una característica común: tienen unas glándulas mamarias productoras de leche mediante las que alimentan a las crías. Todos son vivíparos a excepción del orden de los monotremas en el que se incluyen animales tan excepcionales como el ornitorrinco y los equidnas. Y todos descienden de un antepasado común que probablemente se remonta a finales del Triásico, hace más de 200 millones de años." + "Habitan en la gran mayoría de ecosistemas del planeta excepto algunas tierras heladas de la Antártida– gracias a la capacidad de adaptación que han demostrado a lo largo de toda su historia evolutiva. Se han descrito casi 5.500 especies diferentes, suelen tener grandes capacidades de aprendizaje debido a que su volumen encefálico es mayor que el de otras especies y puede tener dietas muy variadas, algo que también ha contribuido a una mejor adaptación al medio."
+      }, {
+        aves: "Las aves son animales vertebrados generalmente adaptados al vuelo, aunque muchos también pueden correr, saltar, nadar y bucear. Algunos, como los pingüinos, han perdido la capacidad de volar, pero conservaron sus alas como vestigio. Las aves se encuentran en todo el mundo y en todos los hábitats y cuentan con una gran diversidad de tamaños, siendo el ave más grande es el avestruz que puede llegar a a alcanzar los 2,5 metros de altura, y el más pequeño el colibrí, con apenas unos escasos centímetros."
+      }, {
+        reptiles: "La principal característica de estos animales vertebrados es que tienen la piel recubierta de escamas y tienen un origen prehistórico, aparecieron hace 315 millones de años aproximadamente. Han sido capaces de sobrevivir, entre otras cosas, gracias a la capacidad que tienen de controlar su temperatura corporal." + "Todos los animales de esta especie son ovíparos, pero algunos son carnívoros y otros herbívoros. Tienen un metabolismo lento por lo que los grandes ejemplares, como algunos cocodrilos o serpientes, son capaces de vivir durante un largo periodo de tiempo gracias a una comida abundante. Se pueden encontrar reptiles en todos los continentes excepto en la Antártida"
+      }, {
+        peces: "Podemos encontrar más de 27.900 especies de peces, tanto de agua dulce como salada y capaces de habitar en entornos que oscilan entre los 40 y los -2 ºC. Por tanto ¿Qué características unen a un grupo tan diverso de animales?:" + "Todos viven en un medio acuático y tienen un cerebro protegido por una caja craneal y una región bien diferenciada a modo de cabeza donde se albergan los ojos, dientes y otros órganos sensoriales.  La mayoría de los peces son vertebrados cuyas vértebras se disponen protegiendo la médula espinal, respiran principalmente mediante branquias y tienen diversos pares de miembros en un número variable y en forma de aletas mediante los cuales se desplazan. También se trata de organismos incapaces de regular su temperatura corporal interna y cuyo cuerpo se encuentra cubierto de escamas destinadas a protegerles."
+      }, {
+        insectos: "Los insectos son animales invertebrados del filo de los artrópodos. Comprenden el grupo de animales más diverso de la Tierra de los que se conocen aproximadamente un millón de especies diferentes, cada una de ellas con una cantidad de miembros muy abundante. También se cree que aún quedan por describir unos 30 millones de especies más. Pueden encontrarse en casi todos los lugares del planeta, aunque solo un pequeño número de especies ha conseguido adaptarse a la vida en los océanos.  Los insectos no solo presentan una gran diversidad, sino que también son increíblemente abundantes. Algunas estimaciones hablan que existen 200 millones de insectos por cada ser humano." + "Se caracterizan por tener dos antenas, seis patas y dos alas, a pesar de que en ocasiones no les sirven para volar. Tienen el cuerpo dividido en tres partes: cabeza, tórax y abdomen y en algún momento de su vida, por lo general cuando pasan a la etapa adulta, experimentan un cambio drástico llamado metamorfosis. Aquí tienes una galería fotográfica con cientos de imágenes de insectos: "
+      }, {
+        anfibios: "Su nombre proviene del griego y significa 'ambos medios', pues su vida transcurre entre el medio acuático y el terrestre. Se tratan los ancestros de los anfibios del primer grupo de vertebrados que colonizó el continente y se adaptó a una vida semiterrestre. Se encuentran prácticamente en todas las regiones del mundo excepto en aquellas donde las condiciones climáticas son más duras como el Ártico, la Antártida y los desiertos más extremos.  Los anfibios se caracterizan a diferencia del resto de vertebrados de pasar por diversos cambios y estadios morfológicos a lo largo de sus ciclos de vida. Transformaciones que de producirse de forma brusca reciben el nombre de metamorfosis."
+      }, {
+        crustaceos: "Los crustáceos son animales marinos que se caracterizan por la presencia de un exoesqueleto de quitina articulado. Los crustáceos están divididos en seis clases siendo la más conocida la clase Malacostrata que reune a los cangrejos, camarones, galeras y langostas. El nombre científico del grupo, procede del griego, y significa “concha blanda”, haciendo alusión a su exoesqueleto de quitina. Los diferentes segmentos en los que se divide el cuerpo articulado de estos animales, se agrupan en tres grandes regiones: Céfala, Torax y Pleon. La región Céfala agrupa a los segmentos de la cabeza, apéndices de la cabeza y aparato bucal. La región del Torax está formada por ocho segmentos, algunos fusionados con la cabeza, y las patas marchadoras. La región del Pleon integra el abdomen y los cinco pares de apéndices traseros."
+      });
+      this.Todo = new Array();
+      this.Mamiferos = this.especies1.listaDeMamiferos();
+      this.Anfibios = this.especies2.listaDeAnfibios();
+      this.Aves = this.especies3.listaDeAves();
+      this.Crustaceos = this.especies4.listaDeCrustaceos();
+      this.Insectos = this.especies5.listaDeInsectos();
+      this.Peces = this.especies6.listaDePeces();
+      this.Reptiles = this.especies7.listaDeReptiles();
+    }
+
+    listaDescripcionEspecies() {
+      return this.tiposAnimales;
+    }
+
+    listaMamiferos() {
+      return this.Mamiferos;
+    }
+
+    listaAves() {
+      return this.Aves;
+    }
+
+    listaReptiles() {
+      return this.Reptiles;
+    }
+
+    listaPeces() {
+      return this.Peces;
+    }
+
+    listaInsectos() {
+      return this.Insectos;
+    }
+
+    listaAnfibios() {
+      return this.Anfibios;
+    }
+
+    listaCrustaceos() {
+      return this.Crustaceos;
+    }
+
+    obtenerMamifero(id) {
+      return this.Mamiferos[id];
+    }
+
+    obtenerAve(id) {
+      return this.Aves[id];
+    }
+
+    obtenerReptile(id) {
+      return this.Reptiles[id];
+    }
+
+    obtenerInsecto(id) {
+      return this.Insectos[id];
+    }
+
+    obtenerPez(id) {
+      return this.Peces[id];
+    }
+
+    obtenerAnfibio(id) {
+      return this.Anfibios[id];
+    }
+
+    obtenerCrustaceo(id) {
+      return this.Crustaceos[id];
+    }
+
+    listaTodosAnimales() {
+      return this.Todo = this.Mamiferos.concat(this.Aves, this.Reptiles, this.Peces, this.Insectos, this.Anfibios, this.Crustaceos);
+    }
+
+  }
+
+  DatosAnimalesService.ɵfac = function DatosAnimalesService_Factory(t) {
+    return new (t || DatosAnimalesService)();
+  };
+
+  DatosAnimalesService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
+    token: DatosAnimalesService,
+    factory: DatosAnimalesService.ɵfac,
+    providedIn: 'root'
+  });
+  return DatosAnimalesService;
+})();
+
+/***/ }),
+
+/***/ 5041:
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppComponent": () => (/* binding */ AppComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Components/root/header/header.component */ 861);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 9895);
+/* harmony import */ var _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Components/root/menu-lateral/menu-lateral.component */ 1465);
+/* harmony import */ var _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Components/root/footer/footer.component */ 9972);
+
+
+
+
+
+let AppComponent = /*#__PURE__*/(() => {
+  class AppComponent {
+    constructor() {
+      this.title = 'Proyecto';
+      this.center = "text-center";
+    }
+
+    ngOnInit() {
+      alertify.defaults.transition = "slide";
+      alertify.defaults.theme.ok = "btn btn-primary";
+      alertify.defaults.theme.cancel = "btn btn-danger";
+      alertify.defaults.theme.input = "form-control";
+      $("#menuAnimales").hide();
+      $("#menuAnimales2").hide();
+      $("#navegacion > li:nth-child(2)").hover(function () {
+        $("#menuAnimales").show();
+      }, function () {
+        $("#menuAnimales").hide();
+      }); //Hover
+
+      $("#navegacion-2 > li:nth-child(2)").hover(function () {
+        $("#menuAnimales2").show();
+      }, function () {
+        $("#menuAnimales2").hide();
+      }); //Hover
+    } //ngOnInit
+
+
+  }
+
+  AppComponent.ɵfac = function AppComponent_Factory(t) {
+    return new (t || AppComponent)();
+  };
+
+  AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
+    type: AppComponent,
+    selectors: [["app-root"]],
+    decls: 5,
+    vars: 0,
+    consts: [["id", "contPrincipal"]],
+    template: function AppComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](2, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](3, "app-menu-lateral");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](4, "app-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+      }
+    },
+    directives: [_Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_0__.HeaderComponent, _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterOutlet, _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_1__.MenuLateralComponent, _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_2__.FooterComponent],
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}"]
+  });
+  return AppComponent;
+})();
+
+/***/ }),
+
+/***/ 6747:
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppModule": () => (/* binding */ AppModule)
+/* harmony export */ });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/platform-browser */ 9075);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/router */ 9895);
+/* harmony import */ var _Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services/datos-animales.service */ 7285);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/forms */ 3679);
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/autocomplete */ 1554);
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/tabs */ 5939);
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/input */ 3166);
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/button */ 1095);
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/card */ 3738);
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/tooltip */ 1436);
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/material/dialog */ 2238);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 5041);
+/* harmony import */ var _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Components/inicio/inicio.component */ 5192);
+/* harmony import */ var _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/tipos-animales/tipos-animales.component */ 5076);
+/* harmony import */ var _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Components/informacion/informacion.component */ 246);
+/* harmony import */ var _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Components/tipos-animales/mamiferos/mamiferos.component */ 5288);
+/* harmony import */ var _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Components/tipos-animales/aves/aves.component */ 7923);
+/* harmony import */ var _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Components/tipos-animales/reptiles/reptiles.component */ 1703);
+/* harmony import */ var _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Components/tipos-animales/peces/peces.component */ 7535);
+/* harmony import */ var _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Components/tipos-animales/insectos/insectos.component */ 7367);
+/* harmony import */ var _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Components/pagina404/pagina404.component */ 3865);
+/* harmony import */ var _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Components/tipos-animales/animal/animal.component */ 9729);
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/platform-browser/animations */ 5835);
+/* harmony import */ var _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Components/tipos-animales/aves/ave/ave.component */ 9647);
+/* harmony import */ var _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Components/tipos-animales/insectos/insecto/insecto.component */ 8282);
+/* harmony import */ var _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Components/tipos-animales/peces/pez/pez.component */ 2309);
+/* harmony import */ var _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Components/tipos-animales/reptiles/reptil/reptil.component */ 7814);
+/* harmony import */ var _buscar_pipe__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./buscar.pipe */ 3301);
+/* harmony import */ var _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Components/tipos-animales/anfibios/anfibios.component */ 3948);
+/* harmony import */ var _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Components/tipos-animales/anfibios/anfibio/anfibio.component */ 6390);
+/* harmony import */ var _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Components/tipos-animales/crustaceos/crustaceos.component */ 1285);
+/* harmony import */ var _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./Components/tipos-animales/crustaceos/crustaceo/crustaceo.component */ 5898);
+/* harmony import */ var _Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./Components/root/header/header.component */ 861);
+/* harmony import */ var _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./Components/root/menu-lateral/menu-lateral.component */ 1465);
+/* harmony import */ var _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./Components/root/footer/footer.component */ 9972);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/core */ 7716);
+ //importado
+
+
+ //Servicio
+
+
+ //Angular material
+
+
+
+
+
+
+
+ //Componentes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ //Pipe
+
+
+
+
+
+
+
+
+
+
+
+const rutas = [{
+  path: '',
+  component: _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__.InicioComponent,
+  pathMatch: 'full'
+}, {
+  path: 'tipos-animales',
+  component: _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__.TiposAnimalesComponent
+}, {
+  path: 'tipos-animales/mamiferos',
+  component: _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__.MamiferosComponent
+}, {
+  path: 'tipos-animales/aves',
+  component: _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__.AvesComponent
+}, {
+  path: 'tipos-animales/aves/ave/:id/:nombre',
+  component: _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__.AveComponent
+}, {
+  path: 'tipos-animales/reptiles',
+  component: _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__.ReptilesComponent
+}, {
+  path: 'tipos-animales/reptiles/reptil/:id/:nombre',
+  component: _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__.ReptilComponent
+}, {
+  path: 'tipos-animales/peces',
+  component: _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__.PecesComponent
+}, {
+  path: 'tipos-animales/peces/pez/:id/:nombre',
+  component: _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__.PezComponent
+}, {
+  path: 'tipos-animales/insectos',
+  component: _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__.InsectosComponent
+}, {
+  path: 'tipos-animales/insectos/insecto/:id/:nombre',
+  component: _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__.InsectoComponent
+}, {
+  path: 'informacion',
+  component: _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__.InformacionComponent
+}, {
+  path: 'tipos-animales/mamiferos/animal/:id/:nombre',
+  component: _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__.AnimalComponent
+}, {
+  path: 'tipos-animales/anfibios',
+  component: _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__.AnfibiosComponent
+}, {
+  path: 'tipos-animales/anfibios/anfibio/:id/:nombre',
+  component: _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__.AnfibioComponent
+}, {
+  path: 'tipos-animales/crustaceos',
+  component: _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__.CrustaceosComponent
+}, {
+  path: 'tipos-animales/crustaceos/crustaceo/:id/:nombre',
+  component: _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__.CrustaceoComponent
+}, {
+  path: 'pagina404',
+  component: _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__.Pagina404Component
+}, {
+  path: '**',
+  redirectTo: 'pagina404',
+  pathMatch: 'full'
+}];
+let AppModule = /*#__PURE__*/(() => {
+  class AppModule {}
+
+  AppModule.ɵfac = function AppModule_Factory(t) {
+    return new (t || AppModule)();
+  };
+
+  AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdefineNgModule"]({
+    type: AppModule,
+    bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent]
+  });
+  AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdefineInjector"]({
+    providers: [_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService],
+    imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_25__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_26__.RouterModule.forRoot(rutas, {
+      scrollPositionRestoration: 'top'
+    }), _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_30__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_31__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_32__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.ReactiveFormsModule]]
+  });
+  return AppModule;
+})();
+
+(function () {
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵsetNgModuleScope"](AppModule, {
+    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__.InicioComponent, _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__.TiposAnimalesComponent, _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__.InformacionComponent, _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__.MamiferosComponent, _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__.AvesComponent, _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__.ReptilesComponent, _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__.PecesComponent, _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__.InsectosComponent, _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__.Pagina404Component, _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__.AnimalComponent, _buscar_pipe__WEBPACK_IMPORTED_MODULE_16__.BuscarPipe, _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__.AveComponent, _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__.InsectoComponent, _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__.PezComponent, _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__.ReptilComponent, _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__.AnfibiosComponent, _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__.AnfibioComponent, _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__.CrustaceosComponent, _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__.CrustaceoComponent, _Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_21__.HeaderComponent, _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_22__.MenuLateralComponent, _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_23__.FooterComponent],
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_25__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_26__.RouterModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_30__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_31__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_32__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.ReactiveFormsModule]
+  });
+})();
+
+/***/ }),
+
+/***/ 3301:
+/*!********************************!*\
+  !*** ./src/app/buscar.pipe.ts ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "BuscarPipe": () => (/* binding */ BuscarPipe)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
+
+let BuscarPipe = /*#__PURE__*/(() => {
+  class BuscarPipe {
+    transform(value, args) {
+      const animal = [];
+
+      for (const ani of value) {
+        if (ani.nombre.toLowerCase().indexOf(args.toLowerCase()) > -1) {
+          animal.push(ani);
+        }
+      }
+
+      return animal;
+    }
+
+  }
+
+  BuscarPipe.ɵfac = function BuscarPipe_Factory(t) {
+    return new (t || BuscarPipe)();
+  };
+
+  BuscarPipe.ɵpipe = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
+    name: "buscar",
+    type: BuscarPipe,
+    pure: true
+  });
+  return BuscarPipe;
 })();
 
 /***/ }),
