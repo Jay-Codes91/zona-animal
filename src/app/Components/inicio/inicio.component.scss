@@ -84,7 +84,6 @@ $extraGrande: 1140px;
 
     div {
       margin-left: 10px;
-
       h1{
         transition:all .3s ease-in-out;
         -webkit-transition:all .3s ease-in-out;
@@ -145,3 +144,8 @@ $extraGrande: 1140px;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+.carousel-caption{
+  background-color: #0e0e0e; 
+  opacity: 80%;
+}

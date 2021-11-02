@@ -2,7 +2,7 @@
 
 #slideNav{ 
     #header2{
-        background-color: #afa16e;
+        @include fondoHeader();
         #encabezado-logo-2{
             @include cajaLogo();
             h1{

@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #afa16e;
-   
+    @include fondoHeader();
+
     #encabezado-logo{
        
        @include cajaLogo();
@@ -28,7 +28,7 @@
               z-index: 999;
               border: 1px solid $coloNegro;
               margin-left: 35px;
-              background-color: #afa16e;
+              @include fondoHeader();
               a{
                   color: $coloNegro;
                   font-size: 18px;
