@@ -142,4 +142,9 @@
         align-self: center;
   }
 }
+
+.carousel-caption {
+  background-color: #0e0e0e;
+  opacity: 80%;
+}
 /*# sourceMappingURL=inicio.component.css.map */
