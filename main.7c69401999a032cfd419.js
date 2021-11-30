@@ -104193,6 +104193,11 @@ function InicioComponent_div_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h1", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "em");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
@@ -104204,17 +104209,24 @@ function InicioComponent_div_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r0.todosAnimales[item_r9].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r0.todosAnimales[item_r9].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r0.todosAnimales[item_r9].nombre, "(", ctx_r0.todosAnimales[item_r9].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.todosAnimales[item_r9].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r0.todosAnimales[item_r9].nombreCientifico, ")");
   }
 }
 
 function InicioComponent_div_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h1", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "em");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104227,17 +104239,24 @@ function InicioComponent_div_10_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r1.todosAnimales[item_r10].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r1.todosAnimales[item_r10].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r1.todosAnimales[item_r10].nombre, "(", ctx_r1.todosAnimales[item_r10].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.todosAnimales[item_r10].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r1.todosAnimales[item_r10].nombreCientifico, ")");
   }
 }
 
 function InicioComponent_div_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h1", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "em");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104250,17 +104269,24 @@ function InicioComponent_div_11_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r2.todosAnimales[item_r11].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r2.todosAnimales[item_r11].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r2.todosAnimales[item_r11].nombre, "(", ctx_r2.todosAnimales[item_r11].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r2.todosAnimales[item_r11].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r2.todosAnimales[item_r11].nombreCientifico, ")");
   }
 }
 
 function InicioComponent_div_12_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h1", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "em");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104273,17 +104299,24 @@ function InicioComponent_div_12_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r3.todosAnimales[item_r12].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r3.todosAnimales[item_r12].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r3.todosAnimales[item_r12].nombre, "(", ctx_r3.todosAnimales[item_r12].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r3.todosAnimales[item_r12].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r3.todosAnimales[item_r12].nombreCientifico, ")");
   }
 }
 
 function InicioComponent_div_13_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h1", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "em");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104296,16 +104329,18 @@ function InicioComponent_div_13_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r4.todosAnimales[item_r13].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r4.todosAnimales[item_r13].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r4.todosAnimales[item_r13].nombre, "(", ctx_r4.todosAnimales[item_r13].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r4.todosAnimales[item_r13].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r4.todosAnimales[item_r13].nombreCientifico, ")");
   }
 }
 
 function InicioComponent_div_29_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
@@ -104330,10 +104365,10 @@ function InicioComponent_div_29_Template(rf, ctx) {
 
 function InicioComponent_div_30_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
@@ -104358,10 +104393,10 @@ function InicioComponent_div_30_Template(rf, ctx) {
 
 function InicioComponent_div_31_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
@@ -104386,10 +104421,10 @@ function InicioComponent_div_31_Template(rf, ctx) {
 
 function InicioComponent_div_32_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
@@ -104463,7 +104498,7 @@ let InicioComponent = /*#__PURE__*/(() => {
     selectors: [["app-inicio"]],
     decls: 35,
     vars: 9,
-    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], ["class", "carousel-item active", 4, "ngFor", "ngForOf"], ["class", "carousel-item", "data-bs-interval", "5000", 4, "ngFor", "ngForOf"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "cajas", 4, "ngFor", "ngForOf"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], ["data-bs-interval", "5000", 1, "carousel-item"], [1, "cajas"], ["width", "150", "height", "150", 1, "rounded-circle", 3, "src", "alt"], [1, "border-bottom", "border-dark"]],
+    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], ["class", "carousel-item active", 4, "ngFor", "ngForOf"], ["class", "carousel-item", "data-bs-interval", "5000", 4, "ngFor", "ngForOf"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "cajas", 4, "ngFor", "ngForOf"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], [1, "lobs", "mat-typography"], ["data-bs-interval", "5000", 1, "carousel-item"], [1, "cajas"], ["width", "150", "height", "150", 1, "rounded-circle", 3, "src", "alt"], [1, "border-bottom", "border-dark"]],
     template: function InicioComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
@@ -104476,11 +104511,11 @@ let InicioComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, InicioComponent_div_9_Template, 5, 4, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, InicioComponent_div_10_Template, 5, 4, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, InicioComponent_div_11_Template, 5, 4, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, InicioComponent_div_12_Template, 5, 4, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, InicioComponent_div_13_Template, 5, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, InicioComponent_div_9_Template, 8, 4, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, InicioComponent_div_10_Template, 8, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, InicioComponent_div_11_Template, 8, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, InicioComponent_div_12_Template, 8, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, InicioComponent_div_13_Template, 8, 4, "div", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "button", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "span", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "span", 12);
@@ -104535,7 +104570,7 @@ let InicioComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf],
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n  width: 50%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  opacity: 90%;\n  background: #DCE35B;\n  \n  \n  background: linear-gradient(to right, #45B649, #DCE35B);\n  \n  box-shadow: 7px 7px 4px 1px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover {\n  border: 3px solid #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > div[_ngcontent-%COMP%]    > h1[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  filter: grayscale(80%);\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(1) {\n  align-self: flex-start;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(2) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(3) {\n  align-self: flex-start;\n  margin-top: 30px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(4) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  align-self: center;\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n@media screen and (max-width: 540px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 70%;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n    align-self: center;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(odd) {\n    align-self: center;\n  }\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  background-color: #0e0e0e;\n  width: -webkit-max-content;\n  width: max-content;\n  margin: auto;\n  padding: 10px;\n  opacity: 80%;\n}"]
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n  width: 50%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  opacity: 90%;\n  background: #DCE35B;\n  \n  \n  background: linear-gradient(to right, #45B649, #DCE35B);\n  \n  box-shadow: 7px 7px 4px 1px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover {\n  border: 3px solid #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > div[_ngcontent-%COMP%]    > h1[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  filter: grayscale(80%);\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(1) {\n  align-self: flex-start;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(2) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(3) {\n  align-self: flex-start;\n  margin-top: 30px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(4) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  align-self: center;\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n@media screen and (max-width: 540px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 70%;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n    align-self: center;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(odd) {\n    align-self: center;\n  }\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  background-color: #0e0e0e;\n  width: 70%;\n  margin: auto;\n  padding: 10px;\n  opacity: 80%;\n}"]
   });
   return InicioComponent;
 })();
@@ -104876,7 +104911,7 @@ let MenuLateralComponent = /*#__PURE__*/(() => {
     selectors: [["app-menu-lateral"]],
     decls: 50,
     vars: 0,
-    consts: [["tabindex", "-1", "id", "slideNav", 1, "offcanvas", "offcanvas-start"], ["id", "header2", 1, "offcanvas-header"], ["id", "encabezado-logo-2"], [1, "lobs", "mat-typography"], ["type", "button", "data-bs-dismiss", "offcanvas", "aria-label", "Close", 1, "btn-close", "text-reset"], ["id", "nav", 1, "offcanvas-body", "bg-success"], ["id", "navegacion-2", 1, "nav", "flex-column"], ["data-bs-dismiss", "offcanvas", 1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link", "me-3"], [1, "bi", "bi-caret-right-fill"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"]],
+    consts: [["tabindex", "-1", "id", "slideNav", 1, "offcanvas", "offcanvas-start", "d-xl-none", "d-lg-none", "d-md-none"], ["id", "header2", 1, "offcanvas-header"], ["id", "encabezado-logo-2"], [1, "lobs", "mat-typography"], ["type", "button", "data-bs-dismiss", "offcanvas", "aria-label", "Close", 1, "btn-close", "text-reset"], ["id", "nav", 1, "offcanvas-body", "bg-success"], ["id", "navegacion-2", 1, "nav", "flex-column"], ["data-bs-dismiss", "offcanvas", 1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link", "me-3"], [1, "bi", "bi-caret-right-fill"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"]],
     template: function MenuLateralComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -104959,7 +104994,7 @@ let MenuLateralComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref],
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%] {\n  background: #DAD299;\n  \n  \n  background: linear-gradient(to right, #B0DAB9, #DAD299);\n  \n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #000000;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  margin-left: 20px;\n  font-size: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}"]
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%] {\n  background: #DAD299;\n  \n  \n  background: linear-gradient(to right, #B0DAB9, #DAD299);\n  \n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #000000;\n  padding: 10px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  margin-left: 20px;\n  font-size: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #FDFEFE;\n}"]
   });
   return MenuLateralComponent;
 })();
