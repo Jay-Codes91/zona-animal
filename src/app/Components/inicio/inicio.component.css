@@ -151,9 +151,7 @@
 
 .carousel-caption {
   background-color: #0e0e0e;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: 70%;
   margin: auto;
   padding: 10px;
   opacity: 80%;

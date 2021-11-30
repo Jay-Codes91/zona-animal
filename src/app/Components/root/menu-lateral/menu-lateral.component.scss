@@ -1,4 +1,4 @@
-@import "/src/app/app.component.scss";
+@import "src/app/app.component.scss";
 
 #slideNav{ 
     #header2{
@@ -20,6 +20,7 @@
 
         li{
             border-bottom: 1px solid $coloNegro;
+            padding: 10px;
             &:hover{
                 background-color: rgba(0, 0, 0, 0.2);
                 
@@ -31,7 +32,7 @@
             margin-left: 20px;
             font-size: 20px;
             &:hover{
-                color: #ffffff;
+                color: #FDFEFE;
             }
            
         }
