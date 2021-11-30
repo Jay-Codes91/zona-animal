@@ -92,11 +92,15 @@
 </div>
 <br>
 
-<div *ngIf="mostrarContenido" class="contenedorB text-center">
-  <mat-form-field class="buscador bg-light " appearance="outline">
-  <mat-label>Buscar animal</mat-label>
-  <input name="buscar" matInput placeholder="Ej, Elefante, cucaracha..." [(ngModel)]="buscar">
-</mat-form-field>
+<div *ngIf="mostrarContenido" class="contenedorB justify-content-center">
+  <!--<mat-form-field class="buscador bg-light " appearance="outline">
+    <mat-label>Buscar animal</mat-label>
+    <input name="buscar" matInput placeholder="Ej, Elefante, cucaracha..." [(ngModel)]="buscar">
+  </mat-form-field>-->
+  <div class="buscador form-floating">
+    <input type="text" name="buscar" id="buscador" class="form-control" placeholder="ex. mapache, cucaracha" [(ngModel)]="buscar">
+    <label for="buscador">Buscar animal</label>
+  </div>
 </div>
 
 
