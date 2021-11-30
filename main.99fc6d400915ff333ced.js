@@ -104193,9 +104193,6 @@ function InicioComponent_div_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
@@ -104207,9 +104204,7 @@ function InicioComponent_div_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r0.todosAnimales[item_r9].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r0.todosAnimales[item_r9].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.todosAnimales[item_r9].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.todosAnimales[item_r9].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r0.todosAnimales[item_r9].nombre, "(", ctx_r0.todosAnimales[item_r9].nombreCientifico, ")");
   }
 }
 
@@ -104220,9 +104215,6 @@ function InicioComponent_div_10_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104235,9 +104227,7 @@ function InicioComponent_div_10_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r1.todosAnimales[item_r10].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r1.todosAnimales[item_r10].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.todosAnimales[item_r10].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.todosAnimales[item_r10].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r1.todosAnimales[item_r10].nombre, "(", ctx_r1.todosAnimales[item_r10].nombreCientifico, ")");
   }
 }
 
@@ -104248,9 +104238,6 @@ function InicioComponent_div_11_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104263,9 +104250,7 @@ function InicioComponent_div_11_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r2.todosAnimales[item_r11].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r2.todosAnimales[item_r11].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r2.todosAnimales[item_r11].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r2.todosAnimales[item_r11].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r2.todosAnimales[item_r11].nombre, "(", ctx_r2.todosAnimales[item_r11].nombreCientifico, ")");
   }
 }
 
@@ -104276,9 +104261,6 @@ function InicioComponent_div_12_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104291,9 +104273,7 @@ function InicioComponent_div_12_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r3.todosAnimales[item_r12].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r3.todosAnimales[item_r12].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r3.todosAnimales[item_r12].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r3.todosAnimales[item_r12].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r3.todosAnimales[item_r12].nombre, "(", ctx_r3.todosAnimales[item_r12].nombreCientifico, ")");
   }
 }
 
@@ -104304,9 +104284,6 @@ function InicioComponent_div_13_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104319,9 +104296,7 @@ function InicioComponent_div_13_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r4.todosAnimales[item_r13].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r4.todosAnimales[item_r13].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r4.todosAnimales[item_r13].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r4.todosAnimales[item_r13].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", ctx_r4.todosAnimales[item_r13].nombre, "(", ctx_r4.todosAnimales[item_r13].nombreCientifico, ")");
   }
 }
 
@@ -104488,7 +104463,7 @@ let InicioComponent = /*#__PURE__*/(() => {
     selectors: [["app-inicio"]],
     decls: 35,
     vars: 9,
-    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], ["class", "carousel-item active", 4, "ngFor", "ngForOf"], ["class", "carousel-item", "data-bs-interval", "5000", 4, "ngFor", "ngForOf"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "cajas bg-success", 4, "ngFor", "ngForOf"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], ["data-bs-interval", "5000", 1, "carousel-item"], [1, "cajas", "bg-success"], ["width", "150", "height", "150", 1, "rounded-circle", 3, "src", "alt"], [1, "border-bottom", "border-dark"]],
+    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], ["class", "carousel-item active", 4, "ngFor", "ngForOf"], ["class", "carousel-item", "data-bs-interval", "5000", 4, "ngFor", "ngForOf"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "cajas", 4, "ngFor", "ngForOf"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], ["data-bs-interval", "5000", 1, "carousel-item"], [1, "cajas"], ["width", "150", "height", "150", 1, "rounded-circle", 3, "src", "alt"], [1, "border-bottom", "border-dark"]],
     template: function InicioComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
@@ -104501,11 +104476,11 @@ let InicioComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "button", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, InicioComponent_div_9_Template, 7, 4, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, InicioComponent_div_10_Template, 7, 4, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, InicioComponent_div_11_Template, 7, 4, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, InicioComponent_div_12_Template, 7, 4, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, InicioComponent_div_13_Template, 7, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, InicioComponent_div_9_Template, 5, 4, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, InicioComponent_div_10_Template, 5, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, InicioComponent_div_11_Template, 5, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, InicioComponent_div_12_Template, 5, 4, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, InicioComponent_div_13_Template, 5, 4, "div", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "button", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "span", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "span", 12);
@@ -104560,7 +104535,7 @@ let InicioComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf],
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n  width: 50%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  opacity: 90%;\n  box-shadow: 7px 7px 4px 1px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover {\n  border: 3px solid #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > div[_ngcontent-%COMP%]    > h1[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  filter: grayscale(80%);\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(1) {\n  align-self: flex-start;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(2) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(3) {\n  align-self: flex-start;\n  margin-top: 30px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(4) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  align-self: center;\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n@media screen and (max-width: 540px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 70%;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n    align-self: center;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(odd) {\n    align-self: center;\n  }\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  background-color: #0e0e0e;\n  opacity: 80%;\n}"]
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n  width: 50%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  opacity: 90%;\n  background: #DCE35B;\n  \n  \n  background: linear-gradient(to right, #45B649, #DCE35B);\n  \n  box-shadow: 7px 7px 4px 1px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover {\n  border: 3px solid #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > div[_ngcontent-%COMP%]    > h1[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  filter: grayscale(80%);\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(1) {\n  align-self: flex-start;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(2) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(3) {\n  align-self: flex-start;\n  margin-top: 30px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(4) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  align-self: center;\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n@media screen and (max-width: 540px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 70%;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n    align-self: center;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(odd) {\n    align-self: center;\n  }\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  background-color: #0e0e0e;\n  width: -webkit-max-content;\n  width: max-content;\n  margin: auto;\n  padding: 10px;\n  opacity: 80%;\n}"]
   });
   return InicioComponent;
 })();
@@ -105032,7 +105007,7 @@ let AnfibioComponent = /*#__PURE__*/(() => {
     selectors: [["app-anfibio"]],
     decls: 26,
     vars: 8,
-    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/anfibios", 1, "btn", "btn-success"]],
+    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/anfibios", 1, "regresar", "btn", "btn-lg"]],
     template: function AnfibioComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -105095,7 +105070,7 @@ let AnfibioComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
   });
   return AnfibioComponent;
 })();
@@ -105251,7 +105226,7 @@ let AnimalComponent = /*#__PURE__*/(() => {
     selectors: [["app-animal"]],
     decls: 26,
     vars: 8,
-    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/mamiferos", 1, "btn", "btn-success"]],
+    consts: [[1, "card"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/mamiferos", 1, "regresar", "btn", "btn-lg"]],
     template: function AnimalComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -105314,7 +105289,7 @@ let AnimalComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
   });
   return AnimalComponent;
 })();
@@ -105362,7 +105337,7 @@ let AveComponent = /*#__PURE__*/(() => {
     selectors: [["app-ave"]],
     decls: 26,
     vars: 8,
-    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/aves", 1, "btn", "btn-success"]],
+    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/aves", 1, "regresar", "btn", "btn-lg"]],
     template: function AveComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -105425,7 +105400,7 @@ let AveComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
   });
   return AveComponent;
 })();
@@ -105584,7 +105559,7 @@ let CrustaceoComponent = /*#__PURE__*/(() => {
     selectors: [["app-crustaceo"]],
     decls: 26,
     vars: 8,
-    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/crustaceos", 1, "btn", "btn-success"]],
+    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/crustaceos", 1, "regresar", "btn", "btn-lg"]],
     template: function CrustaceoComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -105647,7 +105622,7 @@ let CrustaceoComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
   });
   return CrustaceoComponent;
 })();
@@ -105803,7 +105778,7 @@ let InsectoComponent = /*#__PURE__*/(() => {
     selectors: [["app-insecto"]],
     decls: 26,
     vars: 8,
-    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/insectos", 1, "btn", "btn-success"]],
+    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/insectos", 1, "regresar", "btn", "btn-lg"]],
     template: function InsectoComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -105866,7 +105841,7 @@ let InsectoComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
   });
   return InsectoComponent;
 })();
@@ -106244,7 +106219,7 @@ let PezComponent = /*#__PURE__*/(() => {
     selectors: [["app-pez"]],
     decls: 26,
     vars: 8,
-    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/peces", 1, "btn", "btn-success"]],
+    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/peces", 1, "regresar", "btn", "btn-lg"]],
     template: function PezComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -106307,7 +106282,7 @@ let PezComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
   });
   return PezComponent;
 })();
@@ -106355,7 +106330,7 @@ let ReptilComponent = /*#__PURE__*/(() => {
     selectors: [["app-reptil"]],
     decls: 26,
     vars: 8,
-    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/reptiles", 1, "btn", "btn-success"]],
+    consts: [[1, "card", "bg-success"], [1, "card-header"], [1, "rounded-circle", 3, "src", "alt"], [1, "text-light"], [3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text"], [1, "text-center"], ["routerLink", "/tipos-animales/reptiles", 1, "regresar", "btn", "btn-lg"]],
     template: function ReptilComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -106418,7 +106393,7 @@ let ReptilComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
   });
   return ReptilComponent;
 })();
@@ -106552,12 +106527,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_app_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/tabs */ 5939);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 8583);
-/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/form-field */ 8295);
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/input */ 3166);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 3679);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 3679);
 /* harmony import */ var _buscar_pipe__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../buscar.pipe */ 3301);
-
-
 
 
 
@@ -106570,16 +106541,16 @@ function TiposAnimalesComponent_div_110_Template(rf, ctx) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "mat-form-field", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "mat-label");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "Buscar animal");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "input", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngModelChange", function TiposAnimalesComponent_div_110_Template_input_ngModelChange_4_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "input", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngModelChange", function TiposAnimalesComponent_div_110_Template_input_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r3);
       const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
       return ctx_r2.buscar = $event;
     });
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "label", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, "Buscar animal");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -106587,7 +106558,7 @@ function TiposAnimalesComponent_div_110_Template(rf, ctx) {
 
   if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngModel", ctx_r0.buscar);
   }
 }
@@ -106596,30 +106567,30 @@ function TiposAnimalesComponent_div_111_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "div", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "img", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "h2", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "div", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "img", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "h2", 28);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "img", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "img", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 29);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "h3", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "h3", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "h3", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "h3", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "b");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, "Clase: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "button", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "button", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function TiposAnimalesComponent_div_111_div_1_Template_button_click_16_listener() {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r8);
       const animales_r5 = restoredCtx.$implicit;
@@ -106652,8 +106623,8 @@ function TiposAnimalesComponent_div_111_div_1_Template(rf, ctx) {
 
 function TiposAnimalesComponent_div_111_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, TiposAnimalesComponent_div_111_div_1_Template, 18, 7, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, TiposAnimalesComponent_div_111_div_1_Template, 18, 7, "div", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](2, "buscar");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
@@ -106710,7 +106681,7 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
     selectors: [["app-tipos-animales"]],
     decls: 112,
     vars: 52,
-    consts: [["id", "titulo", 1, "lobs", "titulo", "mat-display-2", "text-white", "mat-typography"], ["id", "contenedor"], ["animationDuration", "0ms", "mat-stretch-tabs", "", 1, "tabanimales", "bg-white", "mat-elevation-z4"], ["label", "Mam\u00EDferos", 1, "mats-tab"], [1, "lobs", "mat-display-1", "text-center", "mat-typography"], [1, "lobs", "mat-display-1", "mat-typography"], ["id", "fotos"], [3, "src", "alt"], ["label", "Aves", 1, "mats-tab"], ["label", "Reptiles", 1, "mats-tab"], ["label", "Insectos", 1, "mats-tab"], ["label", "Peces", 1, "mats-tab"], ["label", "Anfibios", 1, "mats-tab"], ["label", "Crustaceos", 1, "mats-tab"], [1, "text-center"], ["type", "button", 1, "btnOcultar", "btn", "btn-info", 3, "click"], ["class", "contenedorB text-center", 4, "ngIf"], ["id", "contenedor2", "class", "container-fluid p-0 m-0", 4, "ngIf"], [1, "contenedorB", "text-center"], ["appearance", "outline", 1, "buscador", "bg-light"], ["name", "buscar", "matInput", "", "placeholder", "Ej, Elefante, cucaracha...", 3, "ngModel", "ngModelChange"], ["id", "contenedor2", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-header", "bg-success"], [1, "d-flex"], [1, "rounded-circle", "img-fluid", 2, "width", "50px", "height", "50px", 3, "src", "alt"], [1, "lobs", "align-self-center", "justify-self-center", "text-white", "mat-typography", 2, "margin-left", "20px"], [1, "card-img", "img-fluid", 3, "src", "alt"], [1, "card-body", "bg-success"], [2, "font-style", "italic", "font-weight", "lighter", "color", "#ffffff"], [1, "card-text", "mt-3"], ["type", "button", 1, "btn", "btn-info", 3, "click"]],
+    consts: [["id", "titulo", 1, "lobs", "titulo", "mat-display-2", "text-white", "mat-typography"], ["id", "contenedor"], ["animationDuration", "0ms", "mat-stretch-tabs", "", 1, "tabanimales", "bg-white", "mat-elevation-z4"], ["label", "Mam\u00EDferos", 1, "mats-tab"], [1, "lobs", "mat-display-1", "text-center", "mat-typography"], [1, "lobs", "mat-display-1", "mat-typography"], ["id", "fotos"], [3, "src", "alt"], ["label", "Aves", 1, "mats-tab"], ["label", "Reptiles", 1, "mats-tab"], ["label", "Insectos", 1, "mats-tab"], ["label", "Peces", 1, "mats-tab"], ["label", "Anfibios", 1, "mats-tab"], ["label", "Crustaceos", 1, "mats-tab"], [1, "text-center"], ["type", "button", 1, "btnOcultar", "btn", "btn-info", 3, "click"], ["class", "contenedorB justify-content-center", 4, "ngIf"], ["id", "contenedor2", "class", "container-fluid p-0 m-0", 4, "ngIf"], [1, "contenedorB", "justify-content-center"], [1, "buscador", "form-floating"], ["type", "text", "name", "buscar", "id", "buscador", "placeholder", "ex. mapache, cucaracha", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "buscador"], ["id", "contenedor2", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-header", "bg-success"], [1, "d-flex"], [1, "rounded-circle", "img-fluid", 2, "width", "50px", "height", "50px", 3, "src", "alt"], [1, "lobs", "align-self-center", "justify-self-center", "text-white", "mat-typography", 2, "margin-left", "20px"], [1, "card-img", "img-fluid", 3, "src", "alt"], [1, "card-body", "bg-success"], [2, "font-style", "italic", "font-weight", "lighter", "color", "#ffffff"], [1, "card-text", "mt-3"], ["type", "button", 1, "btn", "btn-info", 3, "click"]],
     template: function TiposAnimalesComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "br");
@@ -106977,9 +106948,9 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.mostrarContenido);
       }
     },
-    directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__.MatTabGroup, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__.MatTab, _angular_common__WEBPACK_IMPORTED_MODULE_4__.NgIf, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__.MatFormField, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__.MatLabel, _angular_material_input__WEBPACK_IMPORTED_MODULE_6__.MatInput, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgModel, _angular_common__WEBPACK_IMPORTED_MODULE_4__.NgForOf],
+    directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__.MatTabGroup, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__.MatTab, _angular_common__WEBPACK_IMPORTED_MODULE_4__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgModel, _angular_common__WEBPACK_IMPORTED_MODULE_4__.NgForOf],
     pipes: [_buscar_pipe__WEBPACK_IMPORTED_MODULE_1__.BuscarPipe],
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#titulo[_ngcontent-%COMP%] {\n  text-align: center;\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%] {\n  max-width: 90%;\n  padding: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-around;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 1200px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-gap: 5px;\n    gap: 5px;\n  }\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n  border: 2px solid black;\n  box-shadow: 8px -4px 8px 0px rgba(0, 0, 0, 0.58);\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n    width: 100%;\n    margin-top: 10px;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n    width: 100%;\n    margin-top: 10px;\n  }\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 300px;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 1200px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n.mat-tab-group[_ngcontent-%COMP%] {\n  margin-bottom: 48px;\n}\n\n.btnOcultar[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n.contenedorB[_ngcontent-%COMP%]   .buscador[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n}\n\n@media screen and (max-width: 480px) {\n  .contenedorB[_ngcontent-%COMP%]   .buscador[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n#contenedor2[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(5, 1fr);\n  grid-row: 10px;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(1, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 992px) and (max-width: 1199px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    grid-row: 10px;\n  }\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n  -webkit-transition: all 0.5s ease-in-out;\n  -moz-transition: all 0.5s ease-in-out;\n  -ms-transition: all 0.5s ease-in-out;\n  -o-transition: all 0.5s ease-in-out;\n}"]
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#titulo[_ngcontent-%COMP%] {\n  text-align: center;\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%] {\n  max-width: 90%;\n  padding: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-around;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 1200px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-gap: 5px;\n    gap: 5px;\n  }\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n  border: 2px solid black;\n  box-shadow: 8px -4px 8px 0px rgba(0, 0, 0, 0.58);\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n    width: 100%;\n    margin-top: 10px;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n    width: 100%;\n    margin-top: 10px;\n  }\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n\n#contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 300px;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 1200px) {\n  #contenedor[_ngcontent-%COMP%]   .tabanimales[_ngcontent-%COMP%]   #fotos[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n.mat-tab-group[_ngcontent-%COMP%] {\n  margin-bottom: 48px;\n}\n\n.btnOcultar[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n}\n\n.contenedorB[_ngcontent-%COMP%]   .buscador[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n}\n\n@media screen and (max-width: 480px) {\n  .contenedorB[_ngcontent-%COMP%]   .buscador[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 768px) {\n  .contenedorB[_ngcontent-%COMP%]   .buscador[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n#contenedor2[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(5, 1fr);\n  grid-row: 10px;\n}\n\n@media screen and (max-width: 480px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(1, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 481px) and (max-width: 767px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    grid-row: 10px;\n  }\n}\n\n@media screen and (min-width: 992px) and (max-width: 1199px) {\n  #contenedor2[_ngcontent-%COMP%] {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    grid-row: 10px;\n  }\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n\n#contenedor2[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n  -webkit-transition: all 0.5s ease-in-out;\n  -moz-transition: all 0.5s ease-in-out;\n  -ms-transition: all 0.5s ease-in-out;\n  -o-transition: all 0.5s ease-in-out;\n}"]
   });
   return TiposAnimalesComponent;
 })();
