@@ -37,7 +37,7 @@ export class aves{
           nomRuta: "paloma",
           clase: "Aves",
           descripcion: "La Paloma Huilota es una paloma de aspecto elegante, cola larga, y cabeza pequeña, que se encuentra en casi toda Norte América. Suele posarse en los cables del alumbrado público y busca semillas en el suelo; su vuelo es rápido y recto como el de un balazo. Su arrullo suave y largo suena como un lamento. Cuando van a emprender vuelo, sus alas suenan como un silbido fuerte o rechinaran. Las Palomas Huilotas son las aves mas cazadas en Norte América.",
-          IMG: "https://cdn.pixabay.com/photo/2015/09/02/13/02/pigeon-918848_960_720.jpg"
+          IMG: "https://cdn.pixabay.com/photo/2020/09/12/18/18/collared-5566393_960_720.jpg"
         },
         {
           id: 17,

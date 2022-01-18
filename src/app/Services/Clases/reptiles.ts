@@ -37,7 +37,7 @@ export class reptiles{
           nomRuta: "tortuga",
           clase: "Reptiles",
           descripcion: "También conocidos como quelonios, las tortugas son un tipo de reptiles caracterizados por el sólido caparazón que protege sus órganos vitales del que emergen la cabeza, las patas y la cola. Son animales ovíparos que cavan sus nidos en la tierra, donde llevan a cabo la incubación de los huevos. A pesar de que carecen de dientes, cuentan con un fuerte pico que usan para alimentarse. Además de plantas, también comen insectos, caracoles y lombrices. Existen especies marinas y terrestres.  Las tortugas pueden ser animales muy longevos, viven entre 50 y 80 años y en algunos casos llegan a los 100. La tortuga más longeva jamás documentada es Harriet, una tortuga de las Galápagos que alcanzó los 175 años.",
-          IMG: "https://cdn.pixabay.com/photo/2015/07/27/19/47/turtle-863336_960_720.jpg"
+          IMG: "https://cdn.pixabay.com/photo/2016/11/29/07/15/animal-1868046_960_720.jpg"
         },
         {
           id: 27,
