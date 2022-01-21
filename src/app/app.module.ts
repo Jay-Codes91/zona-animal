@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DatosAnimalesService } from './Services/datos-animales.service';//Servicio
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import {AppRoutingModule} from './app-routing.module';
 //Angular material
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatTabsModule} from '@angular/material/tabs';
@@ -41,29 +42,6 @@ import { HeaderComponent } from './Components/root/header/header.component';
 import { MenuLateralComponent } from './Components/root/menu-lateral/menu-lateral.component';
 import { FooterComponent } from './Components/root/footer/footer.component';
 
-const rutas: Routes = [
-  
-  { path: '', component: InicioComponent, pathMatch: 'full' },
-  { path: 'tipos-animales', component: TiposAnimalesComponent },
-  { path: 'tipos-animales/mamiferos', component: MamiferosComponent },
-  { path: 'tipos-animales/aves', component: AvesComponent },
-  { path: 'tipos-animales/aves/ave/:id/:nombre', component: AveComponent },
-  { path: 'tipos-animales/reptiles', component: ReptilesComponent },
-  { path: 'tipos-animales/reptiles/reptil/:id/:nombre', component: ReptilComponent },
-  { path: 'tipos-animales/peces', component: PecesComponent },
-  { path: 'tipos-animales/peces/pez/:id/:nombre', component: PezComponent },
-  { path: 'tipos-animales/insectos', component: InsectosComponent },
-  { path: 'tipos-animales/insectos/insecto/:id/:nombre', component: InsectoComponent },
-  { path: 'informacion', component: InformacionComponent },
-  { path: 'tipos-animales/mamiferos/animal/:id/:nombre', component: AnimalComponent },
-  { path: 'tipos-animales/anfibios', component: AnfibiosComponent },
-  { path: 'tipos-animales/anfibios/anfibio/:id/:nombre', component: AnfibioComponent },
-  { path: 'tipos-animales/crustaceos', component: CrustaceosComponent },
-  { path: 'tipos-animales/crustaceos/crustaceo/:id/:nombre', component: CrustaceoComponent },
-  { path: 'pagina404', component: Pagina404Component },
-  { path: '**', redirectTo: 'pagina404', pathMatch: 'full' },
-  
-]
 
 @NgModule({
   declarations: [
@@ -94,7 +72,6 @@ const rutas: Routes = [
   ],
   imports: [
     BrowserModule, 
-    RouterModule.forRoot(rutas, {scrollPositionRestoration: 'top'}),
     BrowserAnimationsModule,
     FormsModule,
     MatTabsModule,
@@ -104,7 +81,8 @@ const rutas: Routes = [
     MatTooltipModule,
     MatAutocompleteModule,
     MatDialogModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [DatosAnimalesService],
   bootstrap: [AppComponent]
