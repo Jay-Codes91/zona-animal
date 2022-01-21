@@ -104160,7 +104160,7 @@ let InformacionComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
     },
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#titulo[_ngcontent-%COMP%] {\n  text-align: center;\n  color: #ffffff;\n  font-size: 40px;\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n  margin-top: 10px;\n}\n\n.tarjeta[_ngcontent-%COMP%] {\n  display: flex;\n  max-width: 50%;\n  margin: auto;\n  height: auto;\n}\n\n@media screen and (max-width: 540px) {\n  .tarjeta[_ngcontent-%COMP%] {\n    max-width: 100%;\n    flex-direction: column;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 863px) {\n  .tarjeta[_ngcontent-%COMP%] {\n    max-width: 100%;\n  }\n}\n\n.tarjeta[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 200px;\n}\n\n@media screen and (max-width: 540px) {\n  .tarjeta[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 40%;\n    margin: auto;\n  }\n}\n\n.tarjeta[_ngcontent-%COMP%]   .cont[_ngcontent-%COMP%] {\n  height: 200px;\n  padding: 10px;\n  background-color: #ffffff;\n  word-wrap: break-word;\n  height: auto;\n}\n\n.tarjeta[_ngcontent-%COMP%]   .cont[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 25px;\n}\n\n.container[_ngcontent-%COMP%] {\n  width: 80%;\n  margin: auto;\n  border: 4px dashed #2583b9;\n  background-color: #ffffff;\n  padding: 10px;\n  margin-bottom: 20px;\n}\n\n@media screen and (max-width: 540px) {\n  .container[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n.container[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 40px;\n}\n\n.container[_ngcontent-%COMP%]   .bibliografia[_ngcontent-%COMP%] {\n  line-height: 25px;\n}"]
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#titulo[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 48px;\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n  margin-top: 20px;\n}\n\n.tarjeta[_ngcontent-%COMP%] {\n  display: flex;\n  max-width: 50%;\n  margin: auto;\n  height: auto;\n}\n\n@media screen and (max-width: 540px) {\n  .tarjeta[_ngcontent-%COMP%] {\n    max-width: 100%;\n    flex-direction: column;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 863px) {\n  .tarjeta[_ngcontent-%COMP%] {\n    max-width: 100%;\n  }\n}\n\n.tarjeta[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 200px;\n}\n\n@media screen and (max-width: 540px) {\n  .tarjeta[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 40%;\n    margin: auto;\n  }\n}\n\n.tarjeta[_ngcontent-%COMP%]   .cont[_ngcontent-%COMP%] {\n  height: 200px;\n  padding: 10px;\n  background-color: #ffffff;\n  word-wrap: break-word;\n  height: auto;\n}\n\n.tarjeta[_ngcontent-%COMP%]   .cont[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 25px;\n}\n\n.container[_ngcontent-%COMP%] {\n  width: 80%;\n  margin: auto;\n  border: 4px dashed #2583b9;\n  background-color: #ffffff;\n  padding: 10px;\n  margin-bottom: 20px;\n}\n\n@media screen and (max-width: 540px) {\n  .container[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n\n.container[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 40px;\n}\n\n.container[_ngcontent-%COMP%]   .bibliografia[_ngcontent-%COMP%] {\n  line-height: 25px;\n}"]
   });
   return InformacionComponent;
 })();
@@ -104203,15 +104203,15 @@ function InicioComponent_div_9_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const item_r9 = ctx.$implicit;
+    const item_r8 = ctx.$implicit;
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r0.todosAnimales[item_r9].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r0.todosAnimales[item_r9].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r0.todosAnimales[item_r8].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r0.todosAnimales[item_r8].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.todosAnimales[item_r9].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.todosAnimales[item_r8].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r0.todosAnimales[item_r9].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r0.todosAnimales[item_r8].nombreCientifico, ")");
   }
 }
 
@@ -104233,15 +104233,15 @@ function InicioComponent_div_10_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const item_r10 = ctx.$implicit;
+    const item_r9 = ctx.$implicit;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r1.todosAnimales[item_r10].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r1.todosAnimales[item_r10].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r1.todosAnimales[item_r9].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r1.todosAnimales[item_r9].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.todosAnimales[item_r10].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.todosAnimales[item_r9].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r1.todosAnimales[item_r10].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r1.todosAnimales[item_r9].nombreCientifico, ")");
   }
 }
 
@@ -104263,15 +104263,15 @@ function InicioComponent_div_11_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const item_r11 = ctx.$implicit;
+    const item_r10 = ctx.$implicit;
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r2.todosAnimales[item_r11].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r2.todosAnimales[item_r11].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r2.todosAnimales[item_r10].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r2.todosAnimales[item_r10].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r2.todosAnimales[item_r11].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r2.todosAnimales[item_r10].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r2.todosAnimales[item_r11].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r2.todosAnimales[item_r10].nombreCientifico, ")");
   }
 }
 
@@ -104293,15 +104293,15 @@ function InicioComponent_div_12_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const item_r12 = ctx.$implicit;
+    const item_r11 = ctx.$implicit;
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r3.todosAnimales[item_r12].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r3.todosAnimales[item_r12].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r3.todosAnimales[item_r11].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r3.todosAnimales[item_r11].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r3.todosAnimales[item_r12].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r3.todosAnimales[item_r11].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r3.todosAnimales[item_r12].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r3.todosAnimales[item_r11].nombreCientifico, ")");
   }
 }
 
@@ -104323,28 +104323,81 @@ function InicioComponent_div_13_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const item_r13 = ctx.$implicit;
+    const item_r12 = ctx.$implicit;
     const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r4.todosAnimales[item_r13].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r4.todosAnimales[item_r13].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r4.todosAnimales[item_r12].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r4.todosAnimales[item_r12].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r4.todosAnimales[item_r13].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r4.todosAnimales[item_r12].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r4.todosAnimales[item_r13].nombreCientifico, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("(", ctx_r4.todosAnimales[item_r12].nombreCientifico, ")");
   }
 }
 
-function InicioComponent_div_29_Template(rf, ctx) {
+function InicioComponent_div_27_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h2", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "button", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "img", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "img", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "h1");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Descripci\u00F3n: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r13 = ctx.$implicit;
+    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r5.todosAnimales[item_r13].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r5.todosAnimales[item_r13].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" \u00A0\u00A0", ctx_r5.todosAnimales[item_r13].nombre, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r5.todosAnimales[item_r13].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r5.todosAnimales[item_r13].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r5.todosAnimales[item_r13].descripcion);
+  }
+}
+
+function InicioComponent_div_28_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h2", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "button", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "img", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "img", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "h1");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Descripci\u00F3n: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104352,83 +104405,41 @@ function InicioComponent_div_29_Template(rf, ctx) {
 
   if (rf & 2) {
     const item_r14 = ctx.$implicit;
-    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r5.todosAnimales[item_r14].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r5.todosAnimales[item_r14].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r5.todosAnimales[item_r14].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r5.todosAnimales[item_r14].descripcion);
-  }
-}
-
-function InicioComponent_div_30_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-  }
-
-  if (rf & 2) {
-    const item_r15 = ctx.$implicit;
     const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r6.todosAnimales[item_r15].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r6.todosAnimales[item_r15].nombre);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r6.todosAnimales[item_r15].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r6.todosAnimales[item_r15].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r6.todosAnimales[item_r14].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r6.todosAnimales[item_r14].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" \u00A0\u00A0", ctx_r6.todosAnimales[item_r14].nombre, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r6.todosAnimales[item_r14].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r6.todosAnimales[item_r14].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r6.todosAnimales[item_r14].descripcion);
   }
 }
 
-function InicioComponent_div_31_Template(rf, ctx) {
+function InicioComponent_div_29_div_14_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h2", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "button", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "img", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "img", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "h1");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Descripci\u00F3n: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-  }
-
-  if (rf & 2) {
-    const item_r16 = ctx.$implicit;
-    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r7.todosAnimales[item_r16].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r7.todosAnimales[item_r16].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r7.todosAnimales[item_r16].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r7.todosAnimales[item_r16].descripcion);
-  }
-}
-
-function InicioComponent_div_32_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -104436,14 +104447,62 @@ function InicioComponent_div_32_Template(rf, ctx) {
 
   if (rf & 2) {
     const item_r17 = ctx.$implicit;
-    const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r8.todosAnimales[item_r17].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r8.todosAnimales[item_r17].nombre);
+    const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r8.todosAnimales[item_r17].nombre);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r8.todosAnimales[item_r17].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r16.todosAnimales[item_r17].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r16.todosAnimales[item_r17].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" \u00A0\u00A0", ctx_r16.todosAnimales[item_r17].nombre, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r16.todosAnimales[item_r17].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r16.todosAnimales[item_r17].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r16.todosAnimales[item_r17].descripcion);
+  }
+}
+
+function InicioComponent_div_29_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h2", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "button", 36);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "img", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "img", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "h1");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Descripci\u00F3n: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](14, InicioComponent_div_29_div_14_Template, 14, 6, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const item_r15 = ctx.$implicit;
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r7.todosAnimales[item_r15].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r7.todosAnimales[item_r15].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" \u00A0\u00A0", ctx_r7.todosAnimales[item_r15].nombre, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx_r7.todosAnimales[item_r15].IMG, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("alt", ctx_r7.todosAnimales[item_r15].nombre);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r7.todosAnimales[item_r15].descripcion);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx_r7.animalesAleatorios4);
   }
 }
 
@@ -104496,9 +104555,9 @@ let InicioComponent = /*#__PURE__*/(() => {
   InicioComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: InicioComponent,
     selectors: [["app-inicio"]],
-    decls: 35,
-    vars: 9,
-    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], ["class", "carousel-item active", 4, "ngFor", "ngForOf"], ["class", "carousel-item", "data-bs-interval", "5000", 4, "ngFor", "ngForOf"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "cajas", 4, "ngFor", "ngForOf"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], [1, "lobs", "mat-typography"], ["data-bs-interval", "5000", 1, "carousel-item"], [1, "cajas"], ["width", "150", "height", "150", 1, "rounded-circle", 3, "src", "alt"], [1, "border-bottom", "border-dark"]],
+    decls: 32,
+    vars: 8,
+    consts: [["id", "carouselExampleCaptions", "data-bs-ride", "carousel", 1, "carousel", "slide", "carousel-fade"], [1, "carousel-indicators"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "0", "aria-current", "true", "aria-label", "Slide 1", 1, "active"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "1", "aria-label", "Slide 2"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "2", "aria-label", "Slide 3"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "3", "aria-label", "Slide 4"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide-to", "4", "aria-label", "Slide 5"], ["data-bs-interval", "5000", 1, "carousel-inner"], ["class", "carousel-item active", 4, "ngFor", "ngForOf"], ["class", "carousel-item", "data-bs-interval", "5000", 4, "ngFor", "ngForOf"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "prev", "title", "Anterior", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleCaptions", "data-bs-slide", "next", "title", "Siguiente", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "tit", 1, "lobs", "mat-display-3", "text-center", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "animales", 1, "accordion"], ["class", "accordion-item", 4, "ngFor", "ngForOf"], [1, "carousel-item", "active"], [1, "d-block", "w-100", "img-fluid", 2, "height", "500px", 3, "src", "alt"], [1, "carousel-caption"], [1, "lobs", "mat-typography", 2, "font-size", "40px"], [1, "lobs", "mat-typography"], ["data-bs-interval", "5000", 1, "carousel-item"], [1, "accordion-item"], ["id", "panelsStayOpen-headingOne", 1, "accordion-header"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#panelsStayOpen-collapseOne", "aria-expanded", "true", "aria-controls", "panelsStayOpen-collapseOne", 1, "accordion-button"], ["height", "120", "width", "100", 1, "rounded-circle", "img-fluid", 3, "src", "alt"], ["id", "panelsStayOpen-collapseOne", "aria-labelledby", "panelsStayOpen-headingOne", 1, "accordion-collapse", "collapse", "show"], [1, "accordion-body"], [1, "text-center"], ["height", "250", "width", "250", 1, "rounded-circle", "img-fluid", 3, "src", "alt"], ["id", "panelsStayOpen-headingTwo", 1, "accordion-header"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#panelsStayOpen-collapseTwo", "aria-expanded", "false", "aria-controls", "panelsStayOpen-collapseTwo", 1, "accordion-button", "collapsed"], ["id", "panelsStayOpen-collapseTwo", "aria-labelledby", "panelsStayOpen-headingTwo", 1, "accordion-collapse", "collapse"], ["id", "panelsStayOpen-headingThree", 1, "accordion-header"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#panelsStayOpen-collapseThree", "aria-expanded", "false", "aria-controls", "panelsStayOpen-collapseThree", 1, "accordion-button", "collapsed"], ["id", "panelsStayOpen-collapseThree", "aria-labelledby", "panelsStayOpen-headingThree", 1, "accordion-collapse", "collapse"], ["id", "panelsStayOpen-headingfour", 1, "accordion-header"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#panelsStayOpen-collapsefour", "aria-expanded", "false", "aria-controls", "panelsStayOpen-collapseThree", 1, "accordion-button", "collapsed"], ["id", "panelsStayOpen-collapsefour", "aria-labelledby", "panelsStayOpen-headingfour", 1, "accordion-collapse", "collapse"]],
     template: function InicioComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
@@ -104535,16 +104594,13 @@ let InicioComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "h1", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, "Algunas especies de animales");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](26, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](27, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](29, InicioComponent_div_29_Template, 7, 4, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](30, InicioComponent_div_30_Template, 7, 4, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](31, InicioComponent_div_31_Template, 7, 4, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](32, InicioComponent_div_32_Template, 7, 4, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](27, InicioComponent_div_27_Template, 14, 6, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](28, InicioComponent_div_28_Template, 14, 6, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](29, InicioComponent_div_29_Template, 15, 7, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](30, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](31, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](33, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](34, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       }
 
@@ -104559,18 +104615,16 @@ let InicioComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesCarousel4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesCarousel5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](14);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.animalesAleatorios4);
       }
     },
     directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf],
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #9db69a, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #6e876b, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n#contenedor[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n  width: 50%;\n  height: auto;\n  display: flex;\n  padding: 5px;\n  opacity: 90%;\n  background: #DCE35B;\n  \n  \n  background: linear-gradient(to right, #45B649, #DCE35B);\n  \n  box-shadow: 7px 7px 4px 1px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover {\n  border: 3px solid #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > div[_ngcontent-%COMP%]    > h1[_ngcontent-%COMP%] {\n  color: #ffffff;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  filter: grayscale(80%);\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(1) {\n  align-self: flex-start;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(2) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(3) {\n  align-self: flex-start;\n  margin-top: 30px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(4) {\n  align-self: flex-end;\n  margin-top: 30px;\n  margin-right: 50px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  align-self: center;\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  margin-left: 10px;\n}\n\n#contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  transition: all 0.3s ease-in-out;\n  -webkit-transition: all 0.3s ease-in-out;\n  -moz-transition: all 0.3s ease-in-out;\n  -ms-transition: all 0.3s ease-in-out;\n  -o-transition: all 0.3s ease-in-out;\n}\n\n@media screen and (max-width: 540px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 100%;\n    justify-content: start;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n  }\n}\n\n@media screen and (min-width: 768px) and (max-width: 991px) {\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%] {\n    width: 70%;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(even) {\n    margin-right: 0;\n    align-self: center;\n  }\n  #contenedor[_ngcontent-%COMP%]   .cajas[_ngcontent-%COMP%]:nth-child(odd) {\n    align-self: center;\n  }\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  background-color: #0e0e0e;\n  width: 70%;\n  margin: auto;\n  padding: 10px;\n  opacity: 80%;\n}"]
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#tit[_ngcontent-%COMP%] {\n  text-shadow: 0px 0px 0 #adc6aa, 1px 1px 0 #60705e, 2px 2px 0 #8ea78b, 3px 3px 0 #7e977b, 4px 4px 0 #1b2919, 5px 5px 0 #5e775b, 6px 6px 5px rgba(0, 0, 0, 0.52), 6px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.2);\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  background-color: #0e0e0e;\n  width: 70%;\n  margin: auto;\n  padding: 10px;\n  opacity: 80%;\n}\n\n#animales[_ngcontent-%COMP%] {\n  width: 75%;\n  margin: auto;\n}\n\n@media screen and (max-width: 575px) {\n  #animales[_ngcontent-%COMP%] {\n    width: 100%;\n    margin: 0;\n  }\n}\n\n@media screen and (min-width: 576px) and (max-width: 768px) {\n  #animales[_ngcontent-%COMP%] {\n    width: 90%;\n    margin: auto;\n  }\n}"]
   });
   return InicioComponent;
 })();
@@ -104794,79 +104848,81 @@ let HeaderComponent = /*#__PURE__*/(() => {
   HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
     type: HeaderComponent,
     selectors: [["app-header"]],
-    decls: 43,
+    decls: 44,
     vars: 0,
-    consts: [["id", "encabezado"], ["id", "encabezado-logo"], [1, "lobs", "mat-h1", "mat-typography"], [1, "lobs", "mat-subheading-1", "mat-typography"], ["id", "navegacion", 1, "nav", "d-sm-none", "d-none", "d-md-flex"], [1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["id", "menuAnimales", 1, "nav", "flex-column"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"], ["type", "button", "id", "btnMenu", "data-bs-toggle", "offcanvas", "data-bs-target", "#slideNav", 1, "btn", "d-xl-none", "d-lg-none", "d-md-none"]],
+    consts: [["id", "encabezado", 1, "sticky-top"], ["routerLink", "/", 1, "nav-link"], ["id", "encabezado-logo"], [1, "lobs", "mat-h1", "mat-typography"], [1, "lobs", "mat-subheading-1", "mat-typography"], ["id", "navegacion", 1, "nav", "d-sm-none", "d-none", "d-md-flex"], [1, "nav-item"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["id", "menuAnimales", 1, "nav", "flex-column"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"], ["type", "button", "id", "btnMenu", "data-bs-toggle", "offcanvas", "data-bs-target", "#slideNav", 1, "btn", "d-xl-none", "d-lg-none", "d-md-none"]],
     template: function HeaderComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Zona");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Zona");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Animal");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "ul", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "i", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Inicio");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "i", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Tipos de Animales");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "ul", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Mam\u00EDferos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Aves");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Reptiles");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Peces");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Insectos");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Anfibios");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Crust\u00E1ceos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h4", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Animal");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "ul", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Inicio");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " Informaci\u00F3n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Tipos de Animales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "ul", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Mam\u00EDferos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Aves");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Reptiles");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Peces");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Insectos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Anfibios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Crust\u00E1ceos");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "button", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "i", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Informaci\u00F3n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "button", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "i", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -104909,83 +104965,85 @@ let MenuLateralComponent = /*#__PURE__*/(() => {
   MenuLateralComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
     type: MenuLateralComponent,
     selectors: [["app-menu-lateral"]],
-    decls: 50,
+    decls: 51,
     vars: 0,
-    consts: [["tabindex", "-1", "id", "slideNav", 1, "offcanvas", "offcanvas-start", "d-xl-none", "d-lg-none", "d-md-none"], ["id", "header2", 1, "offcanvas-header"], ["id", "encabezado-logo-2"], [1, "lobs", "mat-typography"], ["type", "button", "data-bs-dismiss", "offcanvas", "aria-label", "Close", 1, "btn-close", "text-reset"], ["id", "nav", 1, "offcanvas-body", "bg-success"], ["id", "navegacion-2", 1, "nav", "flex-column"], ["data-bs-dismiss", "offcanvas", 1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link", "me-3"], [1, "bi", "bi-caret-right-fill"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"]],
+    consts: [["tabindex", "-1", "id", "slideNav", 1, "offcanvas", "offcanvas-start", "d-xl-none", "d-lg-none", "d-md-none"], ["id", "header2", 1, "offcanvas-header"], ["routerLink", "/", "data-bs-dismiss", "offcanvas", 1, "nav-link"], ["id", "encabezado-logo-2"], [1, "lobs", "mat-typography"], ["type", "button", "data-bs-dismiss", "offcanvas", "aria-label", "Close", 1, "btn-close", "text-reset"], ["id", "nav", 1, "offcanvas-body"], ["id", "navegacion-2", 1, "nav", "flex-column"], ["data-bs-dismiss", "offcanvas", 1, "nav-item"], ["routerLink", "/", 1, "nav-link"], [1, "bi", "bi-house"], ["routerLink", "/tipos-animales", 1, "nav-link"], [1, "bi", "bi-list"], ["routerLink", "/tipos-animales/mamiferos", 1, "nav-link", "me-3"], [1, "bi", "bi-caret-right-fill"], ["routerLink", "/tipos-animales/aves", 1, "nav-link"], ["routerLink", "/tipos-animales/reptiles", 1, "nav-link"], ["routerLink", "/tipos-animales/peces", 1, "nav-link"], ["routerLink", "/tipos-animales/insectos", 1, "nav-link"], ["routerLink", "/tipos-animales/anfibios", 1, "nav-link"], ["routerLink", "/tipos-animales/crustaceos", 1, "nav-link"], ["routerLink", "/informacion", 1, "nav-link"], [1, "bi", "bi-info-circle"]],
     template: function MenuLateralComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Zona");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h1", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Zona");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h4", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Animal");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "button", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "i", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Inicio");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h4", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Animal");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Tipos de Animales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "ul", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "i", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Inicio");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " Mam\u00EDferos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "i", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Tipos de Animales");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Aves");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " Mam\u00EDferos");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, " Reptiles");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Aves");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Peces");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " Reptiles");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " Insectos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Peces");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Anfibios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " Insectos");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, " Crust\u00E1ceos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " Anfibios");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "i", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " Informaci\u00F3n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, " Crust\u00E1ceos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " Informaci\u00F3n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -104994,7 +105052,7 @@ let MenuLateralComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref],
-    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%] {\n  background: #DAD299;\n  \n  \n  background: linear-gradient(to right, #B0DAB9, #DAD299);\n  \n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #000000;\n  padding: 10px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  margin-left: 20px;\n  font-size: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #FDFEFE;\n}"]
+    styles: [".lobs[_ngcontent-%COMP%] {\n  font-family: \"Lobster Two\", cursive;\n}\n\n#contPrincipal[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%] {\n  background: #DAD299;\n  \n  \n  background: linear-gradient(to right, #B0DAB9, #DAD299);\n  \n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%] {\n  max-width: -webkit-max-content;\n  max-width: max-content;\n  padding: 10px;\n  height: auto;\n  display: flex;\n  margin-top: 5px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 70px;\n  color: #476e25;\n  text-shadow: 3px 7px 3px #585957;\n}\n\n#slideNav[_ngcontent-%COMP%]   #header2[_ngcontent-%COMP%]   #encabezado-logo-2[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  font-size: 40px;\n  align-self: flex-end;\n  color: #adf270;\n  text-shadow: 3px 7px 3px #585957;\n  margin-top: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%] {\n  background: #D3CCE3;\n  \n  \n  background: linear-gradient(to right, #E9E4F0, #D3CCE3);\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #000000;\n  padding: 10px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   li[_ngcontent-%COMP%]:hover {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #000000;\n  margin-left: 20px;\n  font-size: 20px;\n}\n\n#slideNav[_ngcontent-%COMP%]   #nav[_ngcontent-%COMP%]   #navegacion-2[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #FDFEFE;\n}"]
   });
   return MenuLateralComponent;
 })();
@@ -105105,7 +105163,7 @@ let AnfibioComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  color: #FBFCFC;\n}\n.regresar[_ngcontent-%COMP%]:hover {\n  color: #000000;\n}"]
   });
   return AnfibioComponent;
 })();
@@ -105195,7 +105253,7 @@ let AnfibiosComponent = /*#__PURE__*/(() => {
     selectors: [["app-anfibios"]],
     decls: 5,
     vars: 1,
-    consts: [[1, "titulo", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
+    consts: [[1, "titulo", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
     template: function AnfibiosComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
@@ -105324,7 +105382,7 @@ let AnimalComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  color: #FBFCFC;\n}\n.regresar[_ngcontent-%COMP%]:hover {\n  color: #000000;\n}"]
   });
   return AnimalComponent;
 })();
@@ -105435,7 +105493,7 @@ let AveComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  color: #FBFCFC;\n}\n.regresar[_ngcontent-%COMP%]:hover {\n  color: #000000;\n}"]
   });
   return AveComponent;
 })();
@@ -105528,7 +105586,7 @@ let AvesComponent = /*#__PURE__*/(() => {
     selectors: [["app-aves"]],
     decls: 5,
     vars: 1,
-    consts: [[1, "titulo", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
+    consts: [[1, "titulo", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
     template: function AvesComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
@@ -105657,7 +105715,7 @@ let CrustaceoComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  color: #FBFCFC;\n}\n.regresar[_ngcontent-%COMP%]:hover {\n  color: #000000;\n}"]
   });
   return CrustaceoComponent;
 })();
@@ -105747,7 +105805,7 @@ let CrustaceosComponent = /*#__PURE__*/(() => {
     selectors: [["app-crustaceos"]],
     decls: 5,
     vars: 1,
-    consts: [[1, "titulo", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
+    consts: [[1, "titulo", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
     template: function CrustaceosComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
@@ -105876,7 +105934,7 @@ let InsectoComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  color: #FBFCFC;\n}\n.regresar[_ngcontent-%COMP%]:hover {\n  color: #000000;\n}"]
   });
   return InsectoComponent;
 })();
@@ -105969,7 +106027,7 @@ let InsectosComponent = /*#__PURE__*/(() => {
     selectors: [["app-insectos"]],
     decls: 5,
     vars: 1,
-    consts: [[1, "titulo", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
+    consts: [[1, "titulo", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
     template: function InsectosComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
@@ -106077,7 +106135,7 @@ let MamiferosComponent = /*#__PURE__*/(() => {
     selectors: [["app-mamiferos"]],
     decls: 5,
     vars: 1,
-    consts: [[1, "titulo", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
+    consts: [[1, "titulo", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
     template: function MamiferosComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
@@ -106188,7 +106246,7 @@ let PecesComponent = /*#__PURE__*/(() => {
     selectors: [["app-peces"]],
     decls: 5,
     vars: 1,
-    consts: [[1, "titulo", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
+    consts: [[1, "titulo", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], [1, "text-center"], [1, "btn", "btn-primary", 3, "routerLink"]],
     template: function PecesComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
@@ -106317,7 +106375,7 @@ let PezComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  color: #FBFCFC;\n}\n.regresar[_ngcontent-%COMP%]:hover {\n  color: #000000;\n}"]
   });
   return PezComponent;
 })();
@@ -106428,7 +106486,7 @@ let ReptilComponent = /*#__PURE__*/(() => {
       }
     },
     directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkWithHref],
-    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  \n  \n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  \n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #bdc3c7;\n  \n  \n  background: linear-gradient(to right, #2c3e50, #bdc3c7);\n  \n  color: #FBFCFC;\n}"]
+    styles: [".card[_ngcontent-%COMP%] {\n  width: 50%;\n  margin: auto;\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n@media screen and (max-width: 540px) {\n  .card[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n}\n@media screen and (min-width: 541px) and (max-width: 767px) {\n  .card[_ngcontent-%COMP%] {\n    width: 75%;\n  }\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 50px;\n  align-self: flex-start;\n}\n.card[_ngcontent-%COMP%]   .card-header[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  margin-top: -40px;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  overflow: hidden;\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%] {\n  transform: scale(1.3);\n  -webkit-transform: scale(1.3);\n  -moz-transform: scale(1.3);\n  -ms-transform: scale(1.3);\n  -o-transform: scale(1.3);\n}\n.card[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 300px;\n  transition: all 0.5s ease-in-out;\n}\n.regresar[_ngcontent-%COMP%] {\n  background: #7F7FD5;\n  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);\n  color: #FBFCFC;\n}\n.regresar[_ngcontent-%COMP%]:hover {\n  color: #000000;\n}"]
   });
   return ReptilComponent;
 })();
@@ -106522,7 +106580,7 @@ let ReptilesComponent = /*#__PURE__*/(() => {
     selectors: [["app-reptiles"]],
     decls: 5,
     vars: 1,
-    consts: [[1, "titulo", "text-white", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], ["id", "caja", 1, "text-center"], ["id", "btnInfo", 1, "btn", "btn-primary", 3, "routerLink"]],
+    consts: [[1, "titulo", "text-uppercase", "mat-display-3", "mat-typography"], ["id", "contenedor", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-img-top", "img-fluid", 3, "src", "alt"], [1, "card-body"], [1, "card-title"], [1, "card-text", "mt-3"], ["id", "caja", 1, "text-center"], ["id", "btnInfo", 1, "btn", "btn-primary", 3, "routerLink"]],
     template: function ReptilesComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
@@ -106575,16 +106633,16 @@ function TiposAnimalesComponent_div_110_Template(rf, ctx) {
   if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "input", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "input", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngModelChange", function TiposAnimalesComponent_div_110_Template_input_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r3);
       const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
       return ctx_r2.buscar = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "label", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "label", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, "Buscar animal");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -106602,30 +106660,30 @@ function TiposAnimalesComponent_div_111_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "div", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "img", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "h2", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "img", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "h2", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "img", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "img", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "h3", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "h3", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "h3", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "h3", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "b");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, "Clase: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "button", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "button", 34);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function TiposAnimalesComponent_div_111_div_1_Template_button_click_16_listener() {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r8);
       const animales_r5 = restoredCtx.$implicit;
@@ -106658,8 +106716,8 @@ function TiposAnimalesComponent_div_111_div_1_Template(rf, ctx) {
 
 function TiposAnimalesComponent_div_111_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, TiposAnimalesComponent_div_111_div_1_Template, 18, 7, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, TiposAnimalesComponent_div_111_div_1_Template, 18, 7, "div", 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](2, "buscar");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
@@ -106716,7 +106774,7 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
     selectors: [["app-tipos-animales"]],
     decls: 112,
     vars: 52,
-    consts: [["id", "titulo", 1, "lobs", "titulo", "mat-display-2", "text-white", "mat-typography"], ["id", "contenedor"], ["animationDuration", "0ms", "mat-stretch-tabs", "", 1, "tabanimales", "bg-white", "mat-elevation-z4"], ["label", "Mam\u00EDferos", 1, "mats-tab"], [1, "lobs", "mat-display-1", "text-center", "mat-typography"], [1, "lobs", "mat-display-1", "mat-typography"], ["id", "fotos"], [3, "src", "alt"], ["label", "Aves", 1, "mats-tab"], ["label", "Reptiles", 1, "mats-tab"], ["label", "Insectos", 1, "mats-tab"], ["label", "Peces", 1, "mats-tab"], ["label", "Anfibios", 1, "mats-tab"], ["label", "Crustaceos", 1, "mats-tab"], [1, "text-center"], ["type", "button", 1, "btnOcultar", "btn", "btn-info", 3, "click"], ["class", "contenedorB justify-content-center", 4, "ngIf"], ["id", "contenedor2", "class", "container-fluid p-0 m-0", 4, "ngIf"], [1, "contenedorB", "justify-content-center"], [1, "buscador", "form-floating"], ["type", "text", "name", "buscar", "id", "buscador", "placeholder", "ex. mapache, cucaracha", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "buscador"], ["id", "contenedor2", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-header", "bg-success"], [1, "d-flex"], [1, "rounded-circle", "img-fluid", 2, "width", "50px", "height", "50px", 3, "src", "alt"], [1, "lobs", "align-self-center", "justify-self-center", "text-white", "mat-typography", 2, "margin-left", "20px"], [1, "card-img", "img-fluid", 3, "src", "alt"], [1, "card-body", "bg-success"], [2, "font-style", "italic", "font-weight", "lighter", "color", "#ffffff"], [1, "card-text", "mt-3"], ["type", "button", 1, "btn", "btn-info", 3, "click"]],
+    consts: [["id", "titulo", 1, "lobs", "titulo", "mat-display-2", "mat-typography"], ["id", "contenedor"], ["animationDuration", "0ms", "mat-stretch-tabs", "", 1, "tabanimales", "bg-white", "mat-elevation-z4"], ["label", "Mam\u00EDferos", 1, "mats-tab"], [1, "lobs", "mat-display-1", "text-center", "mat-typography"], [1, "lobs", "mat-display-1", "mat-typography"], ["id", "fotos"], [3, "src", "alt"], ["label", "Aves", 1, "mats-tab"], ["loading", "lazy", 3, "src", "alt"], ["label", "Reptiles", 1, "mats-tab"], ["label", "Insectos", 1, "mats-tab"], ["label", "Peces", 1, "mats-tab"], ["label", "Anfibios", 1, "mats-tab"], ["label", "Crustaceos", 1, "mats-tab"], [1, "text-center"], ["type", "button", 1, "btnOcultar", "btn", "btn-info", 3, "click"], ["class", "contenedorB justify-content-center", 4, "ngIf"], ["id", "contenedor2", "class", "container-fluid p-0 m-0", 4, "ngIf"], [1, "contenedorB", "justify-content-center"], [1, "buscador", "form-floating"], ["type", "text", "name", "buscar", "id", "buscador", "placeholder", "ex. mapache, cucaracha", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "buscador"], ["id", "contenedor2", 1, "container-fluid", "p-0", "m-0"], ["class", "card m-2", 4, "ngFor", "ngForOf"], [1, "card", "m-2"], [1, "card-header", "bg-success"], [1, "d-flex"], [1, "rounded-circle", "img-fluid", 2, "width", "50px", "height", "50px", 3, "src", "alt"], [1, "lobs", "align-self-center", "justify-self-center", "text-white", "mat-typography", 2, "margin-left", "20px"], ["loading", "lazy", 1, "card-img", "img-fluid", 3, "src", "alt"], [1, "card-body", "bg-success"], [2, "font-style", "italic", "font-weight", "lighter", "color", "#ffffff"], [1, "card-text", "mt-3"], ["type", "button", 1, "btn", "btn-info", 3, "click"]],
     template: function TiposAnimalesComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "br");
@@ -106761,17 +106819,17 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](28, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](30, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](30, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](32, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](32, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](33, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](34, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](34, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "mat-tab", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "mat-tab", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "h1", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](37, "Reptiles");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -106783,17 +106841,17 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](44, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](44, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](46, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](46, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](47, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](48, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](48, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](49, "mat-tab", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](49, "mat-tab", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "h1", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](51, "Insectos");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -106805,17 +106863,17 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](56, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](57, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](58, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](58, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](59, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](60, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](60, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](61, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](62, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](62, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](63, "mat-tab", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](63, "mat-tab", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](64, "h1", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](65, "Peces");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -106827,17 +106885,17 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](70, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](71, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](72, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](72, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](73, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](74, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](74, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](75, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](76, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](76, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](77, "mat-tab", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](77, "mat-tab", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](78, "h1", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](79, "Anfibios");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -106849,17 +106907,17 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](84, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](85, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](86, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](86, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](87, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](88, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](88, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](89, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](90, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](90, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](91, "mat-tab", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](91, "mat-tab", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](92, "h1", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](93, "Crust\u00E1ceos");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -106871,21 +106929,21 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](98, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](99, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](100, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](100, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](101, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](102, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](102, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](103, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](104, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](104, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](105, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](106, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](107, "button", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](106, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](107, "button", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function TiposAnimalesComponent_Template_button_click_107_listener() {
           return ctx.mostrarContenido = !ctx.mostrarContenido;
         });
@@ -106893,8 +106951,8 @@ let TiposAnimalesComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](109, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](110, TiposAnimalesComponent_div_110_Template, 5, 1, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](111, TiposAnimalesComponent_div_111_Template, 3, 4, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](110, TiposAnimalesComponent_div_110_Template, 5, 1, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](111, TiposAnimalesComponent_div_111_Template, 3, 4, "div", 18);
       }
 
       if (rf & 2) {
@@ -107100,7 +107158,7 @@ class aves {
       nomRuta: "paloma",
       clase: "Aves",
       descripcion: "La Paloma Huilota es una paloma de aspecto elegante, cola larga, y cabeza pequeña, que se encuentra en casi toda Norte América. Suele posarse en los cables del alumbrado público y busca semillas en el suelo; su vuelo es rápido y recto como el de un balazo. Su arrullo suave y largo suena como un lamento. Cuando van a emprender vuelo, sus alas suenan como un silbido fuerte o rechinaran. Las Palomas Huilotas son las aves mas cazadas en Norte América.",
-      IMG: "https://cdn.pixabay.com/photo/2015/09/02/13/02/pigeon-918848_960_720.jpg"
+      IMG: "https://cdn.pixabay.com/photo/2020/09/12/18/18/collared-5566393_960_720.jpg"
     }, {
       id: 17,
       nombre: "Aguila",
@@ -107630,7 +107688,7 @@ class reptiles {
       nomRuta: "tortuga",
       clase: "Reptiles",
       descripcion: "También conocidos como quelonios, las tortugas son un tipo de reptiles caracterizados por el sólido caparazón que protege sus órganos vitales del que emergen la cabeza, las patas y la cola. Son animales ovíparos que cavan sus nidos en la tierra, donde llevan a cabo la incubación de los huevos. A pesar de que carecen de dientes, cuentan con un fuerte pico que usan para alimentarse. Además de plantas, también comen insectos, caracoles y lombrices. Existen especies marinas y terrestres.  Las tortugas pueden ser animales muy longevos, viven entre 50 y 80 años y en algunos casos llegan a los 100. La tortuga más longeva jamás documentada es Harriet, una tortuga de las Galápagos que alcanzó los 175 años.",
-      IMG: "https://cdn.pixabay.com/photo/2015/07/27/19/47/turtle-863336_960_720.jpg"
+      IMG: "https://cdn.pixabay.com/photo/2016/11/29/07/15/animal-1868046_960_720.jpg"
     }, {
       id: 27,
       nombre: "Cocodrilo",
@@ -107827,6 +107885,111 @@ let DatosAnimalesService = /*#__PURE__*/(() => {
 
 /***/ }),
 
+/***/ 158:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppRoutingModule": () => (/* binding */ AppRoutingModule)
+/* harmony export */ });
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 8583);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7716);
+
+
+
+
+const rutas = [{
+  path: '',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 379).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/inicio/inicio.module */ 379)).then(m => m.InicioModule),
+  pathMatch: 'full'
+}, {
+  path: 'tipos-animales',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 656).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/tipos-animales.module */ 3656)).then(m => m.TiposAnimalesModule)
+}, {
+  path: 'tipos-animales/mamiferos',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 597).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/mamiferos/mamiferos.module */ 9597)).then(m => m.MamiferosModule)
+}, {
+  path: 'tipos-animales/mamiferos/animal/:id/:nombre',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 184).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/animal/animal.module */ 6184)).then(m => m.AnimalModule)
+}, {
+  path: 'tipos-animales/aves',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 625).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/aves/aves.module */ 4625)).then(m => m.AvesModule)
+}, {
+  path: 'tipos-animales/aves/ave/:id/:nombre',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 159).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/aves/ave/ave.module */ 159)).then(m => m.AveModule)
+}, {
+  path: 'tipos-animales/reptiles',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 760).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/reptiles/reptiles.module */ 5760)).then(m => m.ReptilesModule)
+}, {
+  path: 'tipos-animales/reptiles/reptil/:id/:nombre',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 970).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/reptiles/reptil/reptil.module */ 6970)).then(m => m.ReptilModule)
+}, {
+  path: 'tipos-animales/peces',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 463).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/peces/peces.module */ 9463)).then(m => m.PecesModule)
+}, {
+  path: 'tipos-animales/peces/pez/:id/:nombre',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 332).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/peces/pez/pez.module */ 1332)).then(m => m.PezModule)
+}, {
+  path: 'tipos-animales/insectos',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 104).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/insectos/insectos.module */ 1104)).then(m => m.InsectosModule)
+}, {
+  path: 'tipos-animales/insectos/insecto/:id/:nombre',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 139).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/insectos/insecto/insecto.module */ 1139)).then(m => m.InsectoModule)
+}, {
+  path: 'tipos-animales/anfibios',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 753).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/anfibios/anfibios.module */ 4753)).then(m => m.AnfibiosModule)
+}, {
+  path: 'tipos-animales/anfibios/anfibio/:id/:nombre',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 561).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/anfibios/anfibio/anfibio.module */ 4561)).then(m => m.AnfibioModule)
+}, {
+  path: 'tipos-animales/crustaceos',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 562).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/crustaceos/crustaceos.module */ 3562)).then(m => m.CrustaceosModule)
+}, {
+  path: 'tipos-animales/crustaceos/crustaceo/:id/:nombre',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 407).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/tipos-animales/crustaceos/crustaceo/crustaceo.module */ 4407)).then(m => m.CrustaceoModule)
+}, {
+  path: 'informacion',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 233).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/informacion/informacion.module */ 2233)).then(m => m.InformacionModule)
+}, {
+  path: 'pagina404',
+  loadChildren: () => __webpack_require__.e(/*! import() */ 108).then(__webpack_require__.bind(__webpack_require__, /*! ./Components/pagina404/pagina404.module */ 108)).then(m => m.Pagina404Module)
+}, {
+  path: '**',
+  redirectTo: 'pagina404',
+  pathMatch: 'full'
+}];
+let AppRoutingModule = /*#__PURE__*/(() => {
+  class AppRoutingModule {}
+
+  AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) {
+    return new (t || AppRoutingModule)();
+  };
+
+  AppRoutingModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
+    type: AppRoutingModule
+  });
+  AppRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
+    imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule.forRoot(rutas, {
+      scrollPositionRestoration: 'top'
+    })], _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule]
+  });
+  return AppRoutingModule;
+})();
+
+(function () {
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppRoutingModule, {
+    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule],
+    exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule]
+  });
+})();
+
+/***/ }),
+
 /***/ 5041:
 /*!**********************************!*\
   !*** ./src/app/app.component.ts ***!
@@ -107917,10 +108080,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/platform-browser */ 9075);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/router */ 9895);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/platform-browser */ 9075);
 /* harmony import */ var _Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services/datos-animales.service */ 7285);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/forms */ 3679);
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-routing.module */ 158);
 /* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/autocomplete */ 1554);
 /* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/tabs */ 5939);
 /* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/input */ 3166);
@@ -107928,35 +108091,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/card */ 3738);
 /* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/tooltip */ 1436);
 /* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/material/dialog */ 2238);
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 5041);
-/* harmony import */ var _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Components/inicio/inicio.component */ 5192);
-/* harmony import */ var _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/tipos-animales/tipos-animales.component */ 5076);
-/* harmony import */ var _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Components/informacion/informacion.component */ 246);
-/* harmony import */ var _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Components/tipos-animales/mamiferos/mamiferos.component */ 5288);
-/* harmony import */ var _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Components/tipos-animales/aves/aves.component */ 7923);
-/* harmony import */ var _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Components/tipos-animales/reptiles/reptiles.component */ 1703);
-/* harmony import */ var _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Components/tipos-animales/peces/peces.component */ 7535);
-/* harmony import */ var _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Components/tipos-animales/insectos/insectos.component */ 7367);
-/* harmony import */ var _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Components/pagina404/pagina404.component */ 3865);
-/* harmony import */ var _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Components/tipos-animales/animal/animal.component */ 9729);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ 5041);
+/* harmony import */ var _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/inicio/inicio.component */ 5192);
+/* harmony import */ var _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Components/tipos-animales/tipos-animales.component */ 5076);
+/* harmony import */ var _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Components/informacion/informacion.component */ 246);
+/* harmony import */ var _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Components/tipos-animales/mamiferos/mamiferos.component */ 5288);
+/* harmony import */ var _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Components/tipos-animales/aves/aves.component */ 7923);
+/* harmony import */ var _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Components/tipos-animales/reptiles/reptiles.component */ 1703);
+/* harmony import */ var _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Components/tipos-animales/peces/peces.component */ 7535);
+/* harmony import */ var _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Components/tipos-animales/insectos/insectos.component */ 7367);
+/* harmony import */ var _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Components/pagina404/pagina404.component */ 3865);
+/* harmony import */ var _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Components/tipos-animales/animal/animal.component */ 9729);
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/platform-browser/animations */ 5835);
-/* harmony import */ var _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Components/tipos-animales/aves/ave/ave.component */ 9647);
-/* harmony import */ var _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Components/tipos-animales/insectos/insecto/insecto.component */ 8282);
-/* harmony import */ var _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Components/tipos-animales/peces/pez/pez.component */ 2309);
-/* harmony import */ var _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Components/tipos-animales/reptiles/reptil/reptil.component */ 7814);
-/* harmony import */ var _buscar_pipe__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./buscar.pipe */ 3301);
-/* harmony import */ var _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Components/tipos-animales/anfibios/anfibios.component */ 3948);
-/* harmony import */ var _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Components/tipos-animales/anfibios/anfibio/anfibio.component */ 6390);
-/* harmony import */ var _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Components/tipos-animales/crustaceos/crustaceos.component */ 1285);
-/* harmony import */ var _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./Components/tipos-animales/crustaceos/crustaceo/crustaceo.component */ 5898);
-/* harmony import */ var _Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./Components/root/header/header.component */ 861);
-/* harmony import */ var _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./Components/root/menu-lateral/menu-lateral.component */ 1465);
-/* harmony import */ var _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./Components/root/footer/footer.component */ 9972);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/core */ 7716);
- //importado
-
+/* harmony import */ var _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Components/tipos-animales/aves/ave/ave.component */ 9647);
+/* harmony import */ var _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Components/tipos-animales/insectos/insecto/insecto.component */ 8282);
+/* harmony import */ var _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Components/tipos-animales/peces/pez/pez.component */ 2309);
+/* harmony import */ var _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Components/tipos-animales/reptiles/reptil/reptil.component */ 7814);
+/* harmony import */ var _buscar_pipe__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./buscar.pipe */ 3301);
+/* harmony import */ var _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Components/tipos-animales/anfibios/anfibios.component */ 3948);
+/* harmony import */ var _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Components/tipos-animales/anfibios/anfibio/anfibio.component */ 6390);
+/* harmony import */ var _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./Components/tipos-animales/crustaceos/crustaceos.component */ 1285);
+/* harmony import */ var _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./Components/tipos-animales/crustaceos/crustaceo/crustaceo.component */ 5898);
+/* harmony import */ var _Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./Components/root/header/header.component */ 861);
+/* harmony import */ var _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./Components/root/menu-lateral/menu-lateral.component */ 1465);
+/* harmony import */ var _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./Components/root/footer/footer.component */ 9972);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/core */ 7716);
 
  //Servicio
+
 
 
  //Angular material
@@ -107995,67 +108157,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-const rutas = [{
-  path: '',
-  component: _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__.InicioComponent,
-  pathMatch: 'full'
-}, {
-  path: 'tipos-animales',
-  component: _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__.TiposAnimalesComponent
-}, {
-  path: 'tipos-animales/mamiferos',
-  component: _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__.MamiferosComponent
-}, {
-  path: 'tipos-animales/aves',
-  component: _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__.AvesComponent
-}, {
-  path: 'tipos-animales/aves/ave/:id/:nombre',
-  component: _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__.AveComponent
-}, {
-  path: 'tipos-animales/reptiles',
-  component: _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__.ReptilesComponent
-}, {
-  path: 'tipos-animales/reptiles/reptil/:id/:nombre',
-  component: _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__.ReptilComponent
-}, {
-  path: 'tipos-animales/peces',
-  component: _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__.PecesComponent
-}, {
-  path: 'tipos-animales/peces/pez/:id/:nombre',
-  component: _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__.PezComponent
-}, {
-  path: 'tipos-animales/insectos',
-  component: _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__.InsectosComponent
-}, {
-  path: 'tipos-animales/insectos/insecto/:id/:nombre',
-  component: _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__.InsectoComponent
-}, {
-  path: 'informacion',
-  component: _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__.InformacionComponent
-}, {
-  path: 'tipos-animales/mamiferos/animal/:id/:nombre',
-  component: _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__.AnimalComponent
-}, {
-  path: 'tipos-animales/anfibios',
-  component: _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__.AnfibiosComponent
-}, {
-  path: 'tipos-animales/anfibios/anfibio/:id/:nombre',
-  component: _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__.AnfibioComponent
-}, {
-  path: 'tipos-animales/crustaceos',
-  component: _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__.CrustaceosComponent
-}, {
-  path: 'tipos-animales/crustaceos/crustaceo/:id/:nombre',
-  component: _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__.CrustaceoComponent
-}, {
-  path: 'pagina404',
-  component: _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__.Pagina404Component
-}, {
-  path: '**',
-  redirectTo: 'pagina404',
-  pathMatch: 'full'
-}];
 let AppModule = /*#__PURE__*/(() => {
   class AppModule {}
 
@@ -108063,23 +108164,21 @@ let AppModule = /*#__PURE__*/(() => {
     return new (t || AppModule)();
   };
 
-  AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdefineNgModule"]({
+  AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_25__["ɵɵdefineNgModule"]({
     type: AppModule,
-    bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent]
+    bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__.AppComponent]
   });
-  AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵdefineInjector"]({
+  AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_25__["ɵɵdefineInjector"]({
     providers: [_Services_datos_animales_service__WEBPACK_IMPORTED_MODULE_0__.DatosAnimalesService],
-    imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_25__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_26__.RouterModule.forRoot(rutas, {
-      scrollPositionRestoration: 'top'
-    }), _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_30__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_31__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_32__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.ReactiveFormsModule]]
+    imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_26__.BrowserModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_30__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_31__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_32__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.ReactiveFormsModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule]]
   });
   return AppModule;
 })();
 
 (function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵsetNgModuleScope"](AppModule, {
-    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_2__.InicioComponent, _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_3__.TiposAnimalesComponent, _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_4__.InformacionComponent, _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_5__.MamiferosComponent, _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_6__.AvesComponent, _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_7__.ReptilesComponent, _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_8__.PecesComponent, _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_9__.InsectosComponent, _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_10__.Pagina404Component, _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_11__.AnimalComponent, _buscar_pipe__WEBPACK_IMPORTED_MODULE_16__.BuscarPipe, _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_12__.AveComponent, _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_13__.InsectoComponent, _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_14__.PezComponent, _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_15__.ReptilComponent, _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_17__.AnfibiosComponent, _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_18__.AnfibioComponent, _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_19__.CrustaceosComponent, _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_20__.CrustaceoComponent, _Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_21__.HeaderComponent, _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_22__.MenuLateralComponent, _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_23__.FooterComponent],
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_25__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_26__.RouterModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_30__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_31__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_32__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.ReactiveFormsModule]
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_25__["ɵɵsetNgModuleScope"](AppModule, {
+    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__.AppComponent, _Components_inicio_inicio_component__WEBPACK_IMPORTED_MODULE_3__.InicioComponent, _Components_tipos_animales_tipos_animales_component__WEBPACK_IMPORTED_MODULE_4__.TiposAnimalesComponent, _Components_informacion_informacion_component__WEBPACK_IMPORTED_MODULE_5__.InformacionComponent, _Components_tipos_animales_mamiferos_mamiferos_component__WEBPACK_IMPORTED_MODULE_6__.MamiferosComponent, _Components_tipos_animales_aves_aves_component__WEBPACK_IMPORTED_MODULE_7__.AvesComponent, _Components_tipos_animales_reptiles_reptiles_component__WEBPACK_IMPORTED_MODULE_8__.ReptilesComponent, _Components_tipos_animales_peces_peces_component__WEBPACK_IMPORTED_MODULE_9__.PecesComponent, _Components_tipos_animales_insectos_insectos_component__WEBPACK_IMPORTED_MODULE_10__.InsectosComponent, _Components_pagina404_pagina404_component__WEBPACK_IMPORTED_MODULE_11__.Pagina404Component, _Components_tipos_animales_animal_animal_component__WEBPACK_IMPORTED_MODULE_12__.AnimalComponent, _buscar_pipe__WEBPACK_IMPORTED_MODULE_17__.BuscarPipe, _Components_tipos_animales_aves_ave_ave_component__WEBPACK_IMPORTED_MODULE_13__.AveComponent, _Components_tipos_animales_insectos_insecto_insecto_component__WEBPACK_IMPORTED_MODULE_14__.InsectoComponent, _Components_tipos_animales_peces_pez_pez_component__WEBPACK_IMPORTED_MODULE_15__.PezComponent, _Components_tipos_animales_reptiles_reptil_reptil_component__WEBPACK_IMPORTED_MODULE_16__.ReptilComponent, _Components_tipos_animales_anfibios_anfibios_component__WEBPACK_IMPORTED_MODULE_18__.AnfibiosComponent, _Components_tipos_animales_anfibios_anfibio_anfibio_component__WEBPACK_IMPORTED_MODULE_19__.AnfibioComponent, _Components_tipos_animales_crustaceos_crustaceos_component__WEBPACK_IMPORTED_MODULE_20__.CrustaceosComponent, _Components_tipos_animales_crustaceos_crustaceo_crustaceo_component__WEBPACK_IMPORTED_MODULE_21__.CrustaceoComponent, _Components_root_header_header_component__WEBPACK_IMPORTED_MODULE_22__.HeaderComponent, _Components_root_menu_lateral_menu_lateral_component__WEBPACK_IMPORTED_MODULE_23__.MenuLateralComponent, _Components_root_footer_footer_component__WEBPACK_IMPORTED_MODULE_24__.FooterComponent],
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_26__.BrowserModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_27__.BrowserAnimationsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.FormsModule, _angular_material_tabs__WEBPACK_IMPORTED_MODULE_29__.MatTabsModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_30__.MatInputModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_31__.MatButtonModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_32__.MatCardModule, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_33__.MatTooltipModule, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_34__.MatAutocompleteModule, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_35__.MatDialogModule, _angular_forms__WEBPACK_IMPORTED_MODULE_28__.ReactiveFormsModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule]
   });
 })();
 
